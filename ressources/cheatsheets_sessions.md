@@ -324,7 +324,7 @@ Fiabilité = Nombre d'IA concordantes / 3
 
 ---
 
-## 🆕 QUICK DECISION MATRIX v3
+## 🆕 QUICK DECISION MATRIX v3.1
 
 ```
 TÂCHE → OUTIL OPTIMAL
@@ -332,22 +332,26 @@ TÂCHE → OUTIL OPTIMAL
 Diagnostic rapide → ChatGPT
 Analyse approfondie → Claude  
 Vérification facts → Gemini
+Rapport automatique → Perplexity Labs
 
 Brainstorming → ChatGPT
 Rédaction longue → Claude
 Recherche récente → Gemini
+Revue biblio → Perplexity Labs
 
 Images médicales → ChatGPT
 Éthique complexe → Claude
 Guidelines update → Gemini
+Dashboard patient → Perplexity Labs
 
 Stats/Code → ChatGPT
 Synthèse docs → Claude
 Sources multiples → Gemini
+Méta-analyse → Perplexity Labs
 ```
 
-**📌 Gardez ces cheat sheets v3 à portée de main !**
+**📌 Gardez ces cheat sheets v3.1 à portée de main !**
 
-*Version 3.0 - Approche Comparative*
+*Version 3.1 - Intégration Perplexity Labs*
 *Mise à jour : Mai 2025*
 *Prochaine version : Avec GPT-5 et Claude Opus*

@@ -9,7 +9,19 @@
       "Bash(git init:*)",
       "Bash(git branch:*)",
       "Bash(git remote add:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git remote set-url:*)",
+      "Bash(ssh:*)",
+      "Bash(GIT_TRACE=1 git push -u origin main 2 >& 1)",
+      "Bash(find:*)",
+      "WebFetch(domain:medecine.ulb.be)",
+      "Bash(grep:*)",
+      "Bash(diff:*)",
+      "Bash(rm:*)",
+      "WebFetch(domain:www.perplexity.ai)",
+      "WebFetch(domain:techcrunch.com)"
     ],
     "deny": []
   },

@@ -56,12 +56,22 @@
 - Liens vers ressources Google Drive
 - Annonces des challenges hebdomadaires
 
-### 2. Groupes de Travail (A, B, C)
+### 2. Groupes de Travail (Carrés de 4)
 
-**Noms :**
-- `👥 ULB IA Med - Groupe A (ChatGPT Focus)`
-- `👥 ULB IA Med - Groupe B (Claude Focus)`
-- `👥 ULB IA Med - Groupe C (Gemini Focus)`
+**Organisation en groupes de 4 :**
+Chaque groupe contient 4 experts compémentaires :
+- 1 Expert ChatGPT (créativité & vision)
+- 1 Expert Claude (précision & éthique)
+- 1 Expert Gemini (recherche & intégration)
+- 1 Expert Perplexity (automatisation & rapports)
+
+**Noms des groupes WhatsApp :**
+- `👥 ULB IA Med - Groupe A (Carré 1)`
+- `👥 ULB IA Med - Groupe B (Carré 2)`
+- `👥 ULB IA Med - Groupe C (Carré 3)`
+- `👥 ULB IA Med - Groupe D (Carré 4)`
+- `👥 ULB IA Med - Groupe E (Carré 5)`
+[Ajuster selon nombre total de participants]
 
 **Description type :**
 ```
@@ -73,10 +83,11 @@
 
 ### 3. Groupes Spécialisés par Outil
 
-**Configuration optimale :**
-- `🤖 ULB IA - Experts ChatGPT`
-- `🧠 ULB IA - Experts Claude`
-- `🔮 ULB IA - Experts Gemini`
+**Configuration optimale (4 groupes) :**
+- `🤖 ULB IA - Experts ChatGPT` (créativité, vision, code)
+- `🧠 ULB IA - Experts Claude` (précision, éthique, rédaction)
+- `🔮 ULB IA - Experts Gemini` (recherche, intégration Google)
+- `🚀 ULB IA - Experts Perplexity` (automatisation, rapports, Labs)
 
 ## 📁 Structure Google Drive
 
@@ -382,5 +393,36 @@ Google Drive:
 
 **💡 Cette méthode simple mais efficace garantit que TOUS les étudiants peuvent participer pleinement, peu importe leur niveau technique !**
 
-*Guide créé pour ULB IA Medical v3 - Mai 2025*
+## 📱 Tutoriel : Configuration Optimale Smartphone
+
+**Sur votre smartphone :**
+1. Créer dossier "ULB IA Med v3.1"
+2. Installer apps : WhatsApp, Drive, Sheets
+3. Activer notifications pour groupes ULB
+4. Créer widgets accès rapide
+5. Configurer Google Drive offline
+
+**Raccourcis iOS/Android :**
+- Widget WhatsApp groupe principal
+- Accès direct dossier Drive
+- Lien rapide grille comparative
+- Bookmark prompts favoris
+
+## 🏆 Système de Gamification
+
+**Points attribués pour :**
+- Participation active : 1 pt/jour
+- Exercice complété : 5 pts
+- Hallucination détectée : 3 pts
+- Workflow innovant : 10 pts
+- Aide à un pair : 2 pts
+
+**Récompenses mensuelles :**
+- 🥇 1er : 1 mois abonnement gratuit (outil au choix)
+- 🥈 2ème : Accès beta features
+- 🥉 3ème : Mention LinkedIn officielle
+
+**Rejoignez l'aventure Multi-IA avec une méthode simple et efficace !**
+
+*Guide créé pour ULB IA Medical v3.1 - Mai 2025*
 *Support : formation-ia@ulb.ac.be*

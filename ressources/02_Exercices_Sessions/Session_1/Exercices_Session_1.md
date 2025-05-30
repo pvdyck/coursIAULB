@@ -1,15 +1,16 @@
 # 📚 Exercices Session 1 : Fondamentaux Multi-IA
 
 ## 🎯 Objectifs de la Session
-- Découvrir les 3 outils principaux
+- Découvrir les 4 plateformes essentielles
 - Comparer leurs styles de réponse
 - Identifier leurs forces/faiblesses
 - Créer vos premiers workflows
+- Découvrir l'automatisation avec Perplexity Labs
 
 ## 📝 Exercice 1.1 : Premier Contact Comparatif
 
 ### Instructions
-Copiez ce prompt EXACTEMENT dans les 3 IA :
+Copiez ce prompt EXACTEMENT dans les 4 IA :
 
 ```
 Un patient de 45 ans se présente avec :
@@ -45,6 +46,9 @@ Un patient de 45 ans se présente avec :
 [Même format]
 
 ### Gemini
+[Même format]
+
+### Perplexity
 [Même format]
 
 ### Analyse personnelle
@@ -126,6 +130,39 @@ Créez votre premier workflow pour une tâche simple :
 - Analyse ROI (temps avec vs sans IA)
 - Recommandations personnelles
 
+## 🚀 Exercice 1.5 : Découverte Perplexity Labs - L'Automatisation Médicale
+
+### Instructions
+Utilisez Perplexity Labs pour générer automatiquement un rapport complet.
+
+**Mission :** Générer un rapport de revue bibliographique en 10 minutes
+
+**Prompt pour Perplexity Labs :**
+```
+Crée un rapport complet sur les dernières avancées dans le traitement 
+du diabète type 2 (2024-2025). Inclus :
+- Synthèse des méta-analyses récentes
+- Tableau comparatif des nouvelles molécules
+- Graphique d'efficacité comparative
+- Recommandations evidence-based avec sources
+```
+
+### À documenter :
+1. **Temps de génération** total
+2. **Composants générés** (rapport, tableaux, graphiques)
+3. **Qualité des sources** citées
+4. **Possibilités d'export** (PDF, web, etc.)
+5. **Comparaison temps** :
+   - Manuel estimé : ___ heures
+   - ChatGPT/Claude/Gemini : ___ minutes
+   - Perplexity Labs : ___ minutes
+
+### Points d'observation spécifiques :
+- Qualité des visualisations auto-générées
+- Pertinence et actualité des sources
+- Complétude du rapport
+- Utilisabilité clinique directe
+
 ## 🏆 Challenge Session 1 : Prompt Champion
 
 ### Défi
@@ -134,7 +171,7 @@ Créez LE meilleur prompt pour obtenir un résumé de dossier patient
 ### Critères d'évaluation :
 - Clarté des instructions
 - Complétude du résultat
-- Adaptabilité aux 3 IA
+- Adaptabilité aux 4 IA
 - Réutilisabilité
 
 ### Format de soumission :
@@ -148,6 +185,7 @@ Créez LE meilleur prompt pour obtenir un résumé de dossier patient
 - ChatGPT : [score /10 et pourquoi]
 - Claude : [score /10 et pourquoi]  
 - Gemini : [score /10 et pourquoi]
+- Perplexity : [score /10 et pourquoi]
 
 ### Cas d'usage idéal
 [Description en 2-3 lignes]
@@ -156,11 +194,12 @@ Créez LE meilleur prompt pour obtenir un résumé de dossier patient
 ## 📊 Auto-Évaluation Session 1
 
 ### Checklist de compétences acquises :
-- [ ] Je peux comparer objectivement les 3 IA
+- [ ] Je peux comparer objectivement les 4 IA
 - [ ] Je détecte les hallucinations basiques
 - [ ] Je comprends les forces de chaque outil
 - [ ] J'ai créé mon premier workflow
 - [ ] Je documente mes tests systématiquement
+- [ ] Je comprends la puissance de l'automatisation avec Perplexity Labs
 
 ### Temps total investi : _____ heures
 
@@ -180,4 +219,4 @@ Uploadez votre fichier complété dans :
 
 💡 **Rappel** : Partagez vos découvertes dans votre groupe WhatsApp !
 
-*Exercices Session 1 - Formation IA Médicale ULB v3.0*
+*Exercices Session 1 - Formation IA Médicale ULB v3.1*

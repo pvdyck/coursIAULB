@@ -1,5 +1,5 @@
-# 📱 Templates IA Médicaux - Programme ULB v3.0
-## 🔄 Version Comparative Multi-IA (ChatGPT, Claude, Gemini)
+# 📱 Templates IA Médicaux - Programme ULB v3.1
+## 🔄 Version Comparative Multi-IA (ChatGPT, Claude, Gemini, Perplexity Labs)
 
 ## 📋 1. Checklist Sécurité des Données Patient
 
@@ -75,6 +75,15 @@ CONTRAINTES : [limites]"
 Compare plusieurs sources récentes.
 Synthétise en privilégiant données 2024-2025.
 Cite tes sources."
+```
+
+**Perplexity Labs - Style Automatisation**
+```
+"Crée un [rapport/dashboard/app] complet sur [sujet] incluant :
+- [Spécification 1 avec visualisations]
+- [Spécification 2 avec analyses]
+- [Spécification 3 avec recommandations]
+Génère aussi [output interactif spécifique]."
 ```
 
 ### A. DIAGNOSTIC DIFFÉRENTIEL
@@ -428,7 +437,120 @@ PROBLÈME : Désaccord IA/Clinique
 → Documentation décision
 ```
 
-## 📱 8. Cheat Sheet Mobile Urgences - Multi-IA v3
+## 🚀 7.5 Templates Perplexity Labs - Automatisation Médicale
+
+### A. RAPPORT DE RECHERCHE AUTOMATISÉ
+```
+Perplexity Labs, génère un rapport complet sur [pathologie] incluant :
+
+1. REVUE LITTÉRATURE (2023-2025)
+   - Méta-analyses récentes
+   - RCTs majeurs
+   - Guidelines internationales
+   
+2. TABLEAUX COMPARATIFS
+   - Options thérapeutiques
+   - Efficacité comparée
+   - Profils de sécurité
+   
+3. VISUALISATIONS
+   - Forest plots interactifs
+   - Timeline des avancées
+   - Infographie patient
+   
+4. RECOMMANDATIONS
+   - Synthèse evidence-based
+   - Algorithme décisionnel
+   - Points clés pour la pratique
+
+Format : Rapport PDF + Dashboard web
+Temps : 10 minutes maximum
+```
+
+### B. DASHBOARD PATIENT INTERACTIF
+```
+Crée un tableau de bord pour suivi patient [pathologie chronique] :
+
+DONNÉES PATIENT (anonymisées) :
+- Biologiques : [HbA1c, créat, etc.]
+- Cliniques : [TA, poids, symptômes]
+- Traitements : [médicaments, doses]
+- Timeline : 12 derniers mois
+
+GÉNÉRER :
+1. Graphiques évolution temporelle
+2. Alertes automatiques sur seuils
+3. Prédictions à 3-6 mois
+4. Suggestions d'optimisation
+5. Export pour dossier patient
+
+Interface : Web responsive + PDF
+```
+
+### C. MÉTA-ANALYSE EXPRESS
+```
+Effectue une méta-analyse rapide sur :
+"Efficacité de [intervention] vs [comparateur] dans [pathologie]"
+
+PARAMÈTRES :
+- Période : 2020-2025
+- Types études : RCTs seulement
+- Outcomes : [primaire], [secondaires]
+- Sous-groupes : [spécifier]
+
+OUTPUTS REQUIS :
+1. Forest plots par outcome
+2. Funnel plots (biais publication)
+3. Analyse sensibilité
+4. GRADE assessment
+5. Tableau résumé PRISMA
+
+Livrable : Rapport + Figures publiables
+```
+
+### D. APPLICATION MÉDICALE INSTANT
+```
+Développe une app web pour :
+"Calculateur de [score/risque médical]"
+
+FONCTIONNALITÉS :
+- Interface intuitive mobile
+- Formules validées (citer sources)
+- Interprétation automatique
+- Graphiques de risque
+- Export PDF résultats
+- Multi-langues (FR/EN/NL)
+
+TECHNIQUE :
+- Code source commenté
+- Déploiement automatique
+- Documentation utilisateur
+
+Délai : 10 minutes
+```
+
+### E. PROTOCOLE DE RECHERCHE CLÉ-EN-MAIN
+```
+Génère protocole complet pour étude :
+"[Question PICO complète]"
+
+SECTIONS OBLIGATOIRES :
+1. Rationnel scientifique + gap analysis
+2. Objectifs (primaire + secondaires)
+3. Méthodologie détaillée
+4. Calcul échantillon (avec hypothèses)
+5. Plan analyse statistique
+6. Considérations éthiques
+7. Budget détaillé
+8. Timeline Gantt
+9. CRF template
+10. Formulaire consentement
+
+Format : Document Word + Annexes
+Normes : ICH-GCP compliant
+```
+
+## 📱 8. Cheat Sheet Mobile Urgences - Multi-IA v3.1
 
 ```
 COMMANDES VOCALES RAPIDES PAR OUTIL
@@ -447,6 +569,11 @@ GEMINI MOBILE :
 "Assistant, recherche avec Gemini les dernières 
 guidelines sur [pathologie]"
 → Meilleur pour : Info récente, vérification
+
+PERPLEXITY MOBILE :
+"Lance Perplexity Labs pour générer rapport 
+automatique sur [urgence médicale]"
+→ Meilleur pour : Documentation rapide complète
 
 RACCOURCIS MULTI-IA À CRÉER :
 1. "DDx3" → Même question sur 3 IA

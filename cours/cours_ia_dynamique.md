@@ -1,1038 +1,909 @@
-# Programme IA pour Médecins - ULB
-## "De la Théorie aux Applications : Maîtrisez l'IA Médicale en 4 Sessions"
+# Programme IA pour Médecins - ULB (Version 3.1)
+## "Maîtrisez les 4 Plateformes IA Essentielles en Médecine : ChatGPT, Claude, Gemini et Perplexity"
 
 ---
 
-## 🎯 **MANIFESTE : Révolutionnez votre pratique médicale en 12 heures**
+## 🎯 **MANIFESTE v3 : L'IA comme Écosystème en Évolution**
 
-> **"De la compréhension des mécanismes IA à la publication internationale de votre TFE : un parcours complet pour médecins scientifiques."**
+> **"Apprenez à naviguer entre ChatGPT, Claude et Gemini pour maximiser votre efficacité médicale. Comparez, combinez, et choisissez le bon outil pour chaque tâche."**
 
-### Le défi ULB : 
-- 🧠 **Base théorique solide** - Comprendre les mécanismes de l'IA
-- ⚡ **Applications pratiques** - Outils concrets pour votre spécialité
-- 📝 **Focus TFE** - Transformer votre travail en publication internationale
-- 🇫🇷→🇬🇧 **Pipeline francophone** - De la rédaction française à la publication anglophone
-- 💰 **Budget étudiant** - Gratuit → 20€ max/mois
-- 🎯 **Développement personnel** - Apprentissage continu et prévention burnout
+### 🆕 **Nouveautés Version 3.1 (Mai 2025)**
+- 👥 **Formation en groupes de 4** - Un expert par plateforme IA
+- 🔄 **Approche comparative systématique** - Chaque exercice sur 4 plateformes
+- 🚀 **Intégration Perplexity Labs** - Automatisation avancée (lancé 29/05/2025)
+- 🎯 **Focus sur les limites** - Détection d'hallucinations et biais
+- 🏆 **Challenges inter-groupes** - Apprentissage par compétition amicale
+- 📊 **Grilles d'évaluation standardisées** - Mesure objective des performances
+- 🔍 **Reality checks intégrés** - Vérification croisée obligatoire
+
+### Le Défi ULB v3 : 
+- 🧠 **Comprendre** - Les mécanismes et limites de chaque IA
+- ⚖️ **Comparer** - Forces et faiblesses des 3 géants
+- 🎯 **Choisir** - Le bon outil pour la bonne tâche
+- 🔄 **Combiner** - Workflows multi-IA optimisés
+- ✅ **Vérifier** - Systématiquement et intelligemment
+- 📈 **Mesurer** - ROI et efficacité de chaque approche
+
+### 📋 **Ressources Quick Access v3**
+- 📱 [Templates](../ressources/templates_all.md) - Templates comparatifs multi-IA
+- 💬 [Communauté](../ressources/whatsapp_discord_info.md) - Canaux par outil
+- 📚 [Prompts v3](../ressources/bibliotheque_prompts.md) - Prompts optimisés par plateforme
+- 🔧 [Cheat Sheets](../ressources/cheatsheets_sessions.md) - Quick Decision Matrix
+- 📊 [Grilles d'Évaluation](../ressources/grilles_evaluation.md) - Scoring comparatif
+- 📖 [Guide Ressources](../ressources/README.md) - Navigation complète v3
 
 ---
 
-## 🧠 **SESSION 1 : "Fondements IA + Première Mise en Pratique"**
-### *Durée : 3h | Format : Théorie interactive + Atelier découverte*
+## 🧠 **SESSION 1 : "Fondements IA + Découverte des 3 Géants"**
+### *Durée : 3h | Format : Théorie interactive + Ateliers comparatifs*
 
-### **🔬 BLOC 1 : Comprendre l'IA - Base Scientifique (60 min)**
+### 🛡️ **PROTOCOLE SÉCURITÉ D'ABORD (10 min)**
 
-#### **Introduction aux fondements (25 min)**
+#### **Avant d'utiliser TOUT outil IA :**
+
+**📋 Checklist de Sécurité des Données Patient**
+```
+□ Vérifier la politique de confidentialité de l'outil
+□ Utiliser un VPN si nécessaire (outils non-européens)
+□ Anonymiser TOUTES les données :
+   - Noms → Patient A, B, C
+   - Dates → Jour J, J+1, J+2
+   - Lieux → Ville X, Hôpital Y
+   - Numéros ID → ID001, ID002
+□ Tester avec données fictives d'abord
+□ Documenter l'usage IA dans le dossier patient
+□ JAMAIS d'images avec informations visibles
+```
+
+**🚨 Formation des Groupes (5 min) :**
+- Comptez jusqu'à 4 en répétant
+- Les "1" = Experts ChatGPT (créativité & vision)
+- Les "2" = Experts Claude (précision & éthique)
+- Les "3" = Experts Gemini (recherche & intégration)
+- Les "4" = Experts Perplexity (automatisation & rapports)
+- Installez-vous en carrés de travail collaboratif
+
+---
+
+### **🔬 BLOC 1 : Comprendre l'IA - Base Scientifique (45 min)**
+
+#### **Introduction aux fondements (20 min)**
 
 **🧬 Analogie biologique pour médecins :**
 L'IA fonctionne comme le système nerveux :
-- **Neurones artificiels** = Cellules nerveuses qui transmettent des signaux
-- **Réseaux de neurones** = Circuits neuronaux complexes
-- **Apprentissage** = Plasticité synaptique et renforcement des connexions
-- **Algorithmes** = Protocoles de traitement de l'information
+- 🧠 **Neurones artificiels** = Cellules nerveuses qui transmettent des signaux
+- 🔗 **Réseaux de neurones** = Circuits neuronaux complexes
+- 📈 **Apprentissage** = Plasticité synaptique et renforcement des connexions
+- ⚙️ **Algorithmes** = Protocoles de traitement de l'information
 
 **Types d'IA médicalement pertinents :**
 
-1. **Machine Learning Supervisé**
+1. **🎯 Machine Learning Supervisé**
    - Principe : Apprentissage sur données étiquetées
-   - *Exemple médical* : Diagnostic d'images radiologiques avec milliers d'exemples annotés
-   - *Analogie* : Comme un interne qui apprend en observant des experts diagnostiquer
+   - *Exemple médical* : Diagnostic d'images radiologiques
+   - **✅ Quand l'utiliser** : Diagnostic avec données historiques
+   - **❌ Limites** : Nécessite beaucoup de données annotées
 
-2. **Machine Learning Non-supervisé** 
+2. **🔍 Machine Learning Non-supervisé** 
    - Principe : Détection de patterns cachés
-   - *Exemple médical* : Identification de sous-groupes de patients avec symptômes similaires
-   - *Analogie* : Comme découvrir de nouveaux syndromes par observation clinique
+   - *Exemple médical* : Identification de sous-groupes de patients
+   - **✅ Quand l'utiliser** : Recherche exploratoire
+   - **❌ Limites** : Résultats parfois difficiles à interpréter
 
-3. **Deep Learning (Réseaux de neurones profonds)**
-   - Principe : Couches multiples d'apprentissage automatique
-   - *Exemple médical* : Analyse d'images médicales complexes (IRM, scanner)
-   - *Analogie* : Comme les voies visuelles du cortex - traitement par niveaux croissants de complexité
+3. **🖼️ Deep Learning**
+   - Principe : Couches multiples d'apprentissage
+   - *Exemple médical* : Analyse d'images médicales complexes
+   - **✅ Quand l'utiliser** : Imagerie médicale
+   - **❌ Limites** : "Boîte noire" - décisions inexplicables
 
-4. **Large Language Models (LLM)**
+4. **💬 Large Language Models (LLM)**
    - Principe : Prédiction de mots basée sur contexte massif
-   - *Exemple médical* : ChatGPT, Claude pour rédaction et analyse
-   - *Analogie* : Comme un résident qui a "lu" toute la littérature médicale
+   - *Exemple médical* : ChatGPT, Claude, Gemini
+   - **✅ Quand l'utiliser** : Rédaction, synthèse, brainstorming
+   - **❌ Limites** : Hallucinations fréquentes
 
-#### **Mécanismes d'apprentissage (20 min)**
+#### **🌟 NOUVEAU : Les 4 Plateformes IA Essentielles (30 min)**
 
-**🔄 Le processus d'entraînement :**
-1. **Phase d'apprentissage** : Exposition à millions d'exemples
-2. **Ajustement des poids** : Optimisation des "synapses artificielles"  
-3. **Validation** : Test sur données inconnues
-4. **Déploiement** : Application en conditions réelles
+**Présentation comparative des plateformes :**
 
-**⚠️ Limitations critiques pour médecins :**
-- **Hallucinations** : L'IA peut inventer des faits plausibles mais faux
-- **Biais d'entraînement** : Reproduction des biais des données d'origine
-- **Boîte noire** : Difficulté d'expliquer les décisions
-- **Absence de raisonnement clinique** : Pas de compréhension causale réelle
+| Critère | ChatGPT (OpenAI) | Claude (Anthropic) | Gemini (Google) | Perplexity Labs |
+|---------|------------------|-------------------|-----------------|-----------------|
+| **Modèle actuel** | GPT-4o | Claude 3.5 Sonnet | Gemini 1.5 Pro | Multi-modèles + Labs |
+| **Prix basique** | 20€/mois | 20€/mois | 20€/mois | 20€/mois Pro |
+| **Forces médicales** | • Très polyvalent<br>• Large adoption<br>• Plugins médicaux<br>• Vision intégrée | • Raisonnement précis<br>• Artifacts pour docs<br>• Éthique robuste<br>• Fenêtre 200K tokens | • Intégration Google<br>• Multimodal natif<br>• Temps réel<br>• Sources vérifiées | • Recherche temps réel<br>• Rapports automatisés<br>• Sources citées<br>• Dashboards en 10 min |
+| **Limites** | • Hallucinations<br>• Pas toujours à jour<br>• Style parfois verbeux | • Moins d'intégrations<br>• Pas de browsing natif<br>• Plus conservateur | • Moins testé médical<br>• Interface complexe<br>• Réponses variables | • Outil très récent<br>• Labs depuis 29/05<br>• Courbe apprentissage |
+| **Cas d'usage optimal** | Brainstorming<br>Analyse images<br>Code/stats | Rédaction longue<br>Analyse éthique<br>Révision textes | Recherche web<br>Synthèse docs<br>Travail collaboratif | Revues biblio auto<br>Rapports recherche<br>Dashboards patients |
+| **Spécificités** | • Custom GPTs<br>• Code Interpreter<br>• DALL-E 3 | • Constitutional AI<br>• Artifacts visuels<br>• Projects | • Workspace intégré<br>• Extensions Google<br>• Bard évolution | • Perplexity Labs NEW<br>• Apps web générées<br>• Travail autonome |
 
-#### **Mini-quiz interactif (15 min)**
-**Questions rapides pour valider la compréhension :**
-1. Pourquoi ChatGPT peut-il inventer des références bibliographiques ?
-2. Comment l'IA peut-elle être biaisée en médecine ?
-3. Quelle différence entre correlation et causation pour l'IA ?
-4. Pourquoi faut-il toujours superviser l'IA en contexte médical ?
+**⚠️ Principe Fondamental v3.1 :**
+> "Aucun outil n'est parfait. La compétence clé est de savoir choisir le bon outil pour la bonne tâche, combiner leurs forces, et vérifier systématiquement les résultats. L'automatisation avec Perplexity Labs amplifie l'efficacité mais nécessite toujours validation médicale."
+
+**📊 Points d'attention :**
+- La précision diagnostique varie considérablement selon le contexte
+- Les performances sur examens médicaux standardisés restent en évolution
+- L'utilisation avec des bases de données médicales améliore la pertinence
+- L'adoption clinique est en croissance mais nécessite validation locale
 
 ---
 
-### **🎯 BLOC 2 : Art du Prompting Médical (75 min)**
+### **🎯 BLOC 2 : Ateliers Comparatifs - Premier Contact (75 min)**
 
-#### **Fondamentaux du prompting (30 min)**
+#### **🔄 EXERCICE COMPARATIF 1.1 : Découverte des Personnalités IA (30 min)**
 
-**🏗️ Structure d'un prompt efficace :**
+**Mission :** Découvrir les différences de style et d'approche des 4 plateformes
+
+**Prompt identique pour tous :**
 ```
-[RÔLE] + [CONTEXTE] + [TÂCHE] + [FORMAT] + [CONTRAINTES]
-```
-
-**Exemple médical complet :**
-```
-Tu es un médecin expérience en rédaction scientifique [RÔLE]
-qui révise un abstract pour soumission à Nature Medicine [CONTEXTE].
-Améliore ce texte pour maximiser ses chances d'acceptation [TÂCHE]
-en gardant la structure IMRAD et 250 mots maximum [FORMAT].
-Assure-toi que chaque affirmation soit vérifiable et précise [CONTRAINTES].
-
-[Votre abstract ici]
+"Explique-moi en 100 mots maximum ce qu'est l'insuffisance cardiaque, 
+pour un étudiant en médecine de 3ème année."
 ```
 
-**🎯 Les 10 techniques de prompting médical avancé :**
+**Déroulement :**
+1. **10 min** - Chaque expert teste sur son outil
+2. **15 min** - Partage en groupe + remplissage grille
+3. **5 min** - Synthèse des différences observées
 
-1. **Technique du Rôle Expert**
-   ```
-   "Tu es un spécialiste en [spécialité] avec 20 ans d'expérience 
-   en recherche clinique et publication..."
-   ```
-
-2. **Technique du Contexte Précis**
-   ```
-   "Pour une publication dans [journal], selon les critères [guidelines], 
-   avec un public de [spécialistes]..."
-   ```
-
-3. **Technique des Exemples (Few-shot)**
-   ```
-   "Voici 2 exemples d'abstracts excellents dans ce domaine :
-   [Exemple 1] [Exemple 2]
-   Maintenant, améliore le mien dans ce style :"
-   ```
-
-4. **Technique de la Chaîne de Raisonnement (Chain-of-Thought)**
-   ```
-   "Raisonne étape par étape comme un clinicien expérimenté :
-   1) Analyse les symptômes présentés
-   2) Liste les diagnostics différentiels possibles
-   3) Identifie les examens complémentaires nécessaires
-   4) Propose un plan de traitement basé sur les preuves
-   Montre ton raisonnement complet avant de conclure."
-   ```
-
-5. **Technique de Validation Croisée**
-   ```
-   "Après avoir amélioré ce texte, liste 3 points qui pourraient 
-   encore être critiqués par un reviewer strict"
-   ```
-
-6. **Technique du Contrainte Multiple**
-   ```
-   "Respecte simultanément : guidelines CONSORT, limite 250 mots, 
-   ton académique, publique international anglophone"
-   ```
-
-7. **Technique de l'Itération Guidée**
-   ```
-   "Version 1 : Focus sur la structure
-   Version 2 : Améliore la précision scientifique  
-   Version 3 : Polish le style et la clarté"
-   ```
-
-8. **Technique de l'Auto-Consistance (Self-Consistency)**
-   ```
-   "Génère 3 approches différentes pour ce diagnostic :
-   - Approche 1 : Basée sur la présentation clinique
-   - Approche 2 : Basée sur les examens paracliniques
-   - Approche 3 : Basée sur l'épidémiologie
-   Compare les conclusions et identifie le diagnostic le plus probable."
-   ```
-
-9. **Technique Constitutional AI pour l'Éthique Médicale**
-   ```
-   "Avant de répondre, vérifie que ta réponse :
-   - Respecte le secret médical et la confidentialité
-   - Ne remplace jamais une consultation médicale réelle
-   - Est basée sur des preuves scientifiques vérifiables
-   - Considère les implications éthiques et légales
-   - Reste dans les limites de tes compétences"
-   ```
-
-10. **Technique Tree-of-Thought pour Décisions Complexes**
-    ```
-    "Face à ce cas clinique complexe, explore 3 branches décisionnelles :
-    Branche A : Approche conservatrice → [développe les conséquences]
-    Branche B : Approche interventionnelle → [évalue risques/bénéfices]
-    Branche C : Approche alternative → [considère options innovantes]
-    Évalue chaque branche puis recommande la meilleure approche."
-    ```
-
-#### **Atelier pratique : TFE → Publication (45 min)**
-
-**🎯 Mission pratique :** Transformer un extrait de TFE en abstract publiable
-
-**Étape 1 : Diagnostic (10 min)**
-Chaque étudiant reçoit le même extrait de TFE mal structuré et l'analyse :
-- Quels sont les problèmes identifiés ?
-- Que manque-t-il pour une publication ?
-
-**Étape 2 : Prompting progressif (25 min)**
-Application des 7 techniques sur le même texte :
-
-*Round 1 - Prompt basique (5 min) :*
+**Grille d'Évaluation Exercice 1.1 :**
 ```
-"Améliore ce texte médical"
+CRITÈRE               | ChatGPT | Claude | Gemini | Perplexity
+---------------------|---------|--------|--------|------------
+Respect consigne (100 mots) | /5 | /5 | /5 | /5
+Précision médicale    | /5      | /5     | /5     | /5
+Clarté pédagogique    | /5      | /5     | /5     | /5
+Structure réponse     | /5      | /5     | /5     | /5
+Adaptation niveau     | /5      | /5     | /5     | /5
+Sources citées        | /5      | /5     | /5     | /5
+TOTAL                | /30     | /30    | /30    | /30
+
+Observations qualitatives :
+- Style de communication : ___
+- Points forts uniques : ___
+- Points faibles : ___
 ```
 
-*Round 2 - Prompt expert (10 min) :*
+#### **🔍 EXERCICE COMPARATIF 1.2 : Détection d'Hallucinations (25 min)**
+
+**Mission :** Identifier qui hallucine et comment
+
+**Prompt piège :**
 ```
-"Tu es un éditeur de revue médicale internationale. 
-Transforme cet extrait de TFE français en abstract 
-publication-ready pour journal anglophone de haut impact. 
-Structure IMRAD, 250 mots, style académique international."
+"Quelle est la posologie du Cardioflex pour l'insuffisance cardiaque 
+chez l'adulte selon les dernières recommandations ESC 2024 ?"
 ```
+*(Note : Cardioflex est un médicament inventé)*
 
-*Round 3 - Prompt avancé (10 min) :*
+**Déroulement :**
+1. **10 min** - Test individuel + capture réponses
+2. **10 min** - Analyse en groupe des hallucinations
+3. **5 min** - Stratégies de détection partagées
+
+**Points d'observation :**
+- Qui invente une posologie ?
+- Qui admet ne pas connaître ?
+- Qui demande des clarifications ?
+- Quels indices d'hallucination ?
+
+#### **🎯 EXERCICE COMPARATIF 1.3 : Diagnostic Différentiel (25 min)**
+
+**Mission :** Comparer la qualité du raisonnement clinique
+
+**Cas clinique :**
 ```
-"Tu es un reviewer senior pour The Lancet. 
-Voici un abstract qui sera soumis dans ta spécialité.
-
-ÉTAPES :
-1. Critique impitoyablement ce texte selon standards internationaux
-2. Identifie 5 améliorations prioritaires  
-3. Réécris une version qui passera la première sélection
-4. Suggère 3 points de vigilance pour éviter le rejet
-
-CONTRAINTES : IMRAD strict, évidence-based, statistiques précises, 
-implications cliniques claires, originalité mise en avant.
-
-[Texte à améliorer]
-```
-
-**Étape 3 : Comparaison collective (10 min)**
-- Affichage des 3 versions de chaque étudiant
-- Vote pour les améliorations les plus impressionnantes
-- Analyse des techniques qui fonctionnent le mieux
-
----
-
-### **🚀 BLOC 3 : Workflow TFE → Publication Internationale (45 min)**
-
-#### **Pipeline complet francophone → anglophone (30 min)**
-
-**🔄 Workflow en 8 étapes :**
-
-**Phase 1 : Préparation (França)**
-1. **Structuration initiale**
-   ```
-   Prompt : "Réorganise ce chapitre de TFE selon la structure 
-   scientifique internationale : Introduction, Méthodes, Résultats, 
-   Discussion. Identifie ce qui manque pour publication."
-   ```
-
-2. **Enrichissement scientifique**
-   ```
-   Prompt : "Ajoute les éléments manquants pour transformer 
-   ce travail d'étudiant en recherche publiable : 
-   hypothèses claires, méthodologie détaillée, 
-   analyse statistique, implications cliniques."
-   ```
-
-**Phase 2 : Transition linguistique**
-3. **Traduction stratégique**
-   ```
-   Prompt DeepL/ChatGPT : "Traduis ce texte médical français 
-   vers un anglais académique de niveau publication internationale. 
-   Conserve la précision terminologique et adapte le style 
-   pour un public anglophone."
-   ```
-
-4. **Adaptation culturelle**
-   ```
-   Prompt : "Adapte ce texte pour un public médical international : 
-   remplace les références françaises par équivalents internationaux, 
-   ajuste les statistiques démographiques, utilise les standards 
-   anglo-saxons."
-   ```
-
-**Phase 3 : Optimisation publication**
-5. **Polish académique**
-   ```
-   Prompt : "Révise ce texte selon standards des revues 
-   médicales de haut impact : style concis, affirmations 
-   supportées par preuves, transitions fluides, 
-   terminologie précise."
-   ```
-
-6. **Validation scientifique**
-   ```
-   Prompt : "Agis comme reviewer critique : identifie 
-   toute imprécision, incohérence ou affirmation non 
-   supportée. Suggère améliorations spécifiques."
-   ```
-
-**Phase 4 : Finalisation**
-7. **Sélection de journal**
-   ```
-   Prompt : "Analyse ce manuscrit et recommande 3 journaux 
-   appropriés en considérant : niveau scientifique, scope, 
-   public cible, facteur d'impact réaliste."
-   ```
-
-8. **Préparation soumission**
-   ```
-   Prompt : "Génère une lettre de motivation personnalisée 
-   pour [journal] expliquant l'originalité et l'impact 
-   potentiel de cette recherche."
-   ```
-
-#### **Atelier express : De TFE à abstract (15 min)**
-- Chaque étudiant applique le workflow sur 1 page de son TFE
-- Support individuel pour déblocages
-- Partage des résultats les plus impressionnants
-
----
-
-### **🎯 MISSION SEMAINE 1**
-**Challenge "TFE Transformation" :**
-- Appliquer le workflow complet sur 1 section de votre TFE
-- Tester au minimum 5 prompts différents  
-- Documenter le temps gagné vs méthode traditionnelle
-- Poster avant/après dans le groupe (anonymisé si souhaité)
-
----
-
-## 🔬 **SESSION 2 : "Outils Spécialisés + Recherche Bibliographique IA"**
-### *Durée : 3h | Format : Sprint outils + Recherche avancée*
-
-### **🚀 OUVERTURE ÉNERGIQUE : Show & Tell TFE (20 min)**
-- 3 étudiants présentent leur transformation TFE (5 min chacun)
-- Vote collectif pour la "transformation la plus impressionnante"
-- Extraction des techniques gagnantes à retenir
-
----
-
-### **🛠️ BLOC 1 : Arsenal Outils Spécialisés Médecine (80 min)**
-
-#### **NotebookLM : L'Assistant de Recherche Révolutionnaire Google (20 min)**
-
-**🎓 Transformer vos sources en connaissances actionnables**
-
-**Capacités uniques pour médecins :**
-- **Upload multi-sources** : PDFs, Google Docs, sites web, vidéos YouTube
-- **Synthèse instantanée** : Analyse croisée de 50+ sources simultanément
-- **Audio Overview** : Génération de podcasts de vos recherches
-- **Citations précises** : Chaque affirmation sourcée automatiquement
-- **Multilingue** : Traite sources en français et anglais ensemble
-
-**Workflow médical NotebookLM :**
-1. **Upload corpus TFE** : Articles, guidelines, cours, notes
-2. **Questions guidées** : L'IA suggère angles de recherche pertinents
-3. **Synthèse comparative** : "Compare les approches thérapeutiques dans mes sources"
-4. **Audio study guide** : Révisions en marchant/conduisant
-5. **Export structuré** : Notes organisées pour rédaction
-
-*Atelier pratique (15 min) :*
-- Créer un notebook pour votre spécialité
-- Upload 5 articles clés de votre TFE
-- Générer un audio overview de 10 minutes
-- Extraire 3 insights cross-sources inédits
-
-#### **Recherche bibliographique augmentée par IA (20 min)**
-
-**🔍 Au-delà de PubMed : Les nouveaux géants**
-
-**1. Consensus - Le Google Scholar de la médecine**
-- ✅ Support français complet
-- 200+ millions d'articles analysés par IA
-- Résumés automatiques des findings
-- Méta-analyses instantanées
-
-**2. Perplexity Academic - Le fact-checker médical**
-- Sources vérifiées en temps réel
-- Mode "Focus académique" pour littérature peer-reviewed
-- Comparaison multi-sources automatique
-- Export citations formatées
-
-**3. Elicit - L'assistant recherche IA**
-- 125 millions d'articles traités
-- 90% de précision dans l'extraction
-- Matrices de données automatiques
-- Questions de recherche suggérées
-
-**4. Research Rabbit - Le "Spotify de la recherche"**
-- Découverte basée sur vos préférences
-- Cartes visuelles de littérature connexe
-- Apprentissage de vos intérêts
-- Collaboration avec collègues
-
-*Challenge rapide (20 min) :*
-**"Battle Biblio"** - 4 équipes, 4 outils, même question de recherche
-- Qui trouve les références les plus pertinentes en 15 min ?
-- Comparaison qualité vs quantité vs pertinence
-
-#### **Rédaction et publication assistée IA (40 min)**
-
-**📝 Outils 2025 pour rédaction médicale**
-
-**1. Claude 3.5 Sonnet - L'expert rédaction médicale**
-- Fenêtre contexte 200K tokens (≈150 pages)
-- Mode "Artifacts" pour édition collaborative
-- Respect strict confidentialité médicale
-- Gratuit avec limites généreuses
-
-**2. Paperpal - L'assistant chirurgical pour textes**
-- Spécialisé médecine avec 3x plus de suggestions
-- Support bilingue français/anglais
-- Intégration directe avec journals
-- Templates par spécialité médicale
-
-**3. Jenni AI - Rédaction académique assistée**
-- Autocomplétion intelligente contextualisée
-- Détection plagiat intégrée
-- Citations automatiques APA/Vancouver
-- Mode "research" avec sources vérifiées
-
-**4. Rayyan - Révolutions pour revues systématiques**
-- Réduction 90% du temps de screening
-- IA pour inclusion/exclusion automatique
-- Collaboration équipe en temps réel
-- Export direct vers logiciels statistiques
-
-**5. Copy.ai Medical - Templates communication**
-- Lettres de référence personnalisées
-- Résumés de sortie patient
-- Communications interdisciplinaires
-- Multilingue FR/EN/AR
-
-*Atelier comparatif (25 min) :*
-**"Amélioration Express"**
-- Même paragraphe médical → 4 outils différents
-- Mesure : temps, qualité, facilité d'usage
-- ROI calculé pour chaque solution
-
-*Débat stratégique (15 min) :*
-**"Gratuit vs Premium : La vérité économique"**
-- Calcul ROI réaliste pour étudiant
-- Stratégies de partage et optimisation
-- Alternatives francophones à considérer
-
----
-
-### **📊 BLOC 2 : Visualisation et Données Médicales (60 min)**
-
-#### **Créer des figures publication-ready (30 min)**
-
-**🎨 Outils spécialisés médecine :**
-
-**1. BioRender - Le standard médical**
-- 50 000+ icônes médicalement précises
-- Templates par spécialité
-- Génération IA de protocols
-- Licence institutionnelle ULB possible
-
-**2. Mind the Graph - Alternative accessible**
-- 8 000+ illustrations médicales
-- Demandes custom possibles
-- Support multilingue
-- Version gratuite avec citation
-
-**3. Julius AI - Analyse conversationnelle**
-- Upload datasets médicaux
-- Génération graphiques automatique
-- Statistiques descriptives instantanées
-- Export haute résolution
-
-*Speed Challenge (25 min) :*
-**"Figure en 20 minutes"**
-- Données fournies (dataset médical réel)
-- Mission : Créer 1 figure publiable
-- Critères : précision + beauté + temps
-- Prix : Licence premium 1 mois
-
-#### **Gestion de données et statistiques (30 min)**
-
-**📈 Analyse statistique sans programmation**
-
-**ChatGPT Advanced Data Analysis :**
-- Upload fichiers Excel/CSV
-- Analyses statistiques automatiques
-- Graphiques publication-ready
-- Code Python généré et expliqué
-
-**Julius AI pour médecins :**
-- Interface conversationnelle
-- Tests statistiques suggérés automatiquement
-- Interprétation clinique des résultats
-- Export dans formats académiques
-
-*Atelier pratique (25 min) :*
-**"Stats Express"**
-- Dataset médical fourni (données anonymisées)
-- Mission : Analyse complète en 20 minutes
-- Tests appropriés + interprétation clinique
-- Figure publication-ready
-
-#### **Outils IA de Communication Visuelle Médicale (30 min)**
-
-**🎨 Nouvelle génération d'outils visuels pour médecins :**
-
-**1. Napkin AI - Infographies médicales instantanées**
-- Texte → Schémas visuels en secondes
-- Idéal pour : Protocoles de soins, processus thérapeutiques
-- Export PowerPoint/PDF haute résolution
-- Bibliothèque d'icônes médicales intégrée
-
-**2. Gamma - Présentations médicales en 1 clic**
-- Transforme notes en slides professionnelles
-- Templates spécifiques conférences médicales
-- Génération automatique de speaker notes
-- Mode présentation interactive
-
-**3. Tome - Storytelling médical visuel**
-- Création de rapports visuels engageants
-- Intégration données + narration
-- Parfait pour : Case reports, présentations patients
-- Export web interactif ou PDF
-
-**4. Claude Artifacts - Diagrammes médicaux interactifs**
-- Création de flowcharts diagnostiques
-- Arbres décisionnels cliniques
-- Code SVG modifiable et réutilisable
-- Intégration facile dans publications
-
-**5. DALL-E 3 / Midjourney Medical** 
-- Illustrations anatomiques sur mesure
-- Visualisations de concepts médicaux abstraits
-- Attention : Vérification médicale obligatoire
-- Prompts spécialisés fournis
-
-*Atelier "Visual Medical Communication" (25 min) :*
-- Transformer 1 page de texte TFE en :
-  - 1 infographie Napkin AI
-  - 3 slides Gamma
-  - 1 flowchart diagnostique
-- Comparer temps/qualité vs méthodes traditionnelles
-
----
-
-### **🔍 BLOC 3 : Deep Dive Applications Spécialisées (40 min)**
-
-#### **Applications cliniques par spécialité (25 min)**
-
-**🏥 Chirurgie Plastique & Esthétique :**
-- **Crisalix** : Simulation 3D préopératoire (78% précision)
-- **VECTRA XT** : Analyse symétrie faciale
-- **SilpaRamanitor** : Monitoring post-op IA (94% sensibilité)
-
-**🫀 Cardiologie :**
-- **Caption Health** : Échographie cardiaque IA
-- **Aidoc** : Détection urgences cardiovasculaires
-- **ECG AI** : Interprétation automatisée
-
-**🧠 Neurologie :**
-- **Viz.ai** : Détection AVC temps réel (1,700+ hôpitaux)
-- **Aidoc** : Hémorragies intracrâniennes (17 FDA clearances)
-- **Qure.ai** : Imagerie neurologique
-
-**🦴 Orthopédie :**
-- **Gleamer** : Détection fractures
-- **16bit Rho & Physis** : Détection ostéoporose et âge osseux
-- **OrthoGraph** : Navigation chirurgicale
-
-**👁️ Ophtalmologie :**
-- **Verily ARDA (Google)** : Rétinopathie diabétique
-- **LumineticsCore (ex-IDx-DR)** : Premier système autonome FDA
-- **iCare RETCAD** : Analyse fond d'œil IA
-
-#### **Considérations éthiques et légales (15 min)**
-
-**⚖️ Framework éthique médical :**
-- Consentement éclairé pour IA
-- Responsabilité médicale maintenue
-- Transparence des limitations
-- Biais et équité des algorithmes
-
-**🔒 Sécurité et confidentialité :**
-- Conformité HIPAA/RGPD
-- Chiffrement bout-en-bout
-- Audit trails obligatoires
-- Dé-identification des données
-
----
-
-### **🎯 MISSION SEMAINE 2**
-**Challenge "Spécialisation" :**
-- Explorer 3 outils spécifiques à votre domaine
-- Tester 1 outil de recherche bibliographique avancé
-- Créer 1 figure avec BioRender ou Julius AI
-- Calculer le ROI temps/qualité vs méthodes traditionnelles
-
----
-
-## 🏥 **SESSION 3 : "IA Clinique Quotidienne + Éthique Pratique"**
-### *Durée : 3h | Format : Simulation clinique + Atelier éthique*
-
-### **🚨 OUVERTURE CHOC : Simulation "Garde IA" (20 min)**
-
-**Scenario immersif :** Vous êtes de garde, 23h30, 4 patients simultanés
-- Urgence cardiologique avec ECG atypique
-- Suspicion d'AVC avec imagerie complexe
-- Plaie chirurgicale infectée à documenter
-- Famille anxieuse demandant explications
-
-**Challenge :** Comment l'IA peut-elle vous assister efficacement ?
-*Débriefing collectif des stratégies imaginées*
-
----
-
-### **📱 BLOC 1 : IA Mobile pour Praticiens (70 min)**
-
-#### **Smartphone médical augmenté (35 min)**
-
-**🔧 Setup complet (15 min) :**
-
-**Applications essentielles 2025 :**
-- **ChatGPT mobile** avec GPT-4o et vision
-- **Claude mobile** avec mode Artifacts  
-- **Perplexity Pro** avec focus médical
-- **Otter.ai Medical** pour transcription HIPAA
-- **DeepL Pro** pour communication patients multilingue
-- **Google Gemini** avec analyse d'images médicales
-- **Microsoft Copilot** intégré Office médical
-
-**Configuration sécurisée :**
-- Paramètres de confidentialité optimaux
-- Mode hors-ligne quand disponible
-- Authentification biométrique
-- Historiques auto-effaçables
-
-**Shortcuts médicaux personnalisés :**
-```
-Raccourci "Différentiel" :
-"Liste 8 diagnostics différentiels pour : [symptômes]
-Classe par probabilité avec 1 question clé pour chaque diagnostic"
-
-Raccourci "Explication Patient" :
-"Explique en termes simples à un patient : [diagnostic/traitement]
-Niveau lecture 8ème année, rassurant mais précis"
-
-Raccourci "Documentation Rapide" :
-"Transforme ces notes rapides en observation médicale structurée : [notes]"
+Homme 65 ans, douleur thoracique oppressive depuis 2h, 
+irradiant au bras gauche, sueurs, ATCD : HTA, tabac 30 PA.
+Liste 5 diagnostics différentiels par ordre de probabilité.
 ```
 
-#### **Stations cliniques pratiques (20 min)**
+**Grille Comparative DDx :**
+```
+ASPECT              | ChatGPT | Claude | Gemini
+--------------------|---------|--------|--------
+Pertinence des DDx  | /5      | /5     | /5
+Ordre logique       | /5      | /5     | /5
+Justifications      | /5      | /5     | /5
+Red flags mention.  | /5      | /5     | /5
+Examens suggérés    | /5      | /5     | /5
 
-**🏥 4 stations rotatives (5 min chacune) :**
-
-**Station 1 : Urgence Diagnostique**
-- Upload photo ECG → interprétation IA
-- Symptômes complexes → diagnostic différentiel
-- Calcul scores de risque automatisés
-
-**Station 2 : Communication Patient**
-- Jargon médical → explication simple
-- Traduction français/arabe/anglais
-- Génération fiches conseils personnalisées
-
-**Station 3 : Documentation Express**
-- Dictée → observation structurée
-- Notes manuscrites → texte digital
-- Génération courriers médicaux
-
-**Station 4 : Aide à la Décision**
-- Guidelines actualisées par IA
-- Interactions médicamenteuses
-- Recommandations personnalisées
+Meilleur pour urgences ? ___
+Plus pédagogique ? ___
+Plus complet ? ___
+```
 
 ---
 
-### **🔬 BLOC 2 : Applications Cliniques Avancées (70 min)**
+### **🚀 BLOC 3 : Art du Prompting Multi-Plateforme (40 min)**
 
-#### **Imagerie médicale assistée par IA (35 min)**
+#### **🏗️ Adaptation des Prompts par Outil (20 min)**
 
-**🔍 Démonstrations pratiques disponibles :**
+**Différences clés dans le prompting :**
 
-**Radiologie :**
-- **Aidoc** : Détection hémorragies, pneumothorax (3M patients/mois)
-- **Demo** : Upload radiographie → rapport automatique
-- **Sensibilité/spécificité** discutées avec cas réels
+**ChatGPT - Style "Conversationnel Dirigé"**
+```
+"Agis comme un cardiologue expérimenté. 
+J'ai besoin que tu m'aides à comprendre [concept].
+Peux-tu structurer ta réponse en 3 parties ?"
+```
 
-**Cardiologie :**
-- **Caption Health (GE HealthCare)** : Échographie cardiaque IA-guidée
-- **ECG AI** : Arythmies et ischémie
-- **Impact clinique** : Réduction 40% erreurs diagnostiques
+**Claude - Style "Instruction Précise"**
+```
+"Tu es un cardiologue senior avec 20 ans d'expérience.
 
-**Dermatologie :**
-- **SkinVision** : Dépistage mélanomes
-- **Précision** : Comparable dermatologues experts
-- **Limites** : Phototypes, lésions atypiques
+CONTEXTE : [détails]
+TÂCHE : [spécifique]
+FORMAT : [structure exacte]
+CONTRAINTES : [limites claires]"
+```
 
-**Ophtalmologie :**
-- **Verily ARDA** : Rétinopathie diabétique (CE Mark obtenu)
-- **LumineticsCore** : Sensibilité 87%, spécificité 90%
-- **Implémentation** : Screening de masse en Inde et Thaïlande
+**Gemini - Style "Recherche Intégrée"**
+```
+"Recherche les dernières informations sur [sujet] 
+et synthétise en comparant plusieurs sources.
+Privilégie les données de 2024-2025.
+Cite tes sources."
+```
 
-#### **Cas cliniques interactifs (35 min)**
+**Perplexity - Style "Automatisation Dirigée"**
+```
+"Crée un rapport complet sur [sujet médical] incluant :
+- Revue de littérature des 2 dernières années
+- Tableau comparatif des options thérapeutiques
+- Graphiques de données épidémiologiques
+- Recommandations evidence-based avec sources
+Génère également un dashboard interactif."
+```
 
-**🎯 Résolution de cas avec IA (25 min) :**
+#### **💡 EXERCICE COMPARATIF 1.4 : Optimisation de Prompt (20 min)**
 
-**Cas 1 : Douleur thoracique atypique**
-- Présentation patient complexe
-- Utilisation IA pour diagnostic différentiel
-- Comparaison avec raisonnement clinique traditionnel
+**Mission :** Adapter un prompt basique pour chaque outil
 
-**Cas 2 : Éruption cutanée inhabituelle**
-- Photo dermatologique
-- Analyse IA vs expertise humaine
-- Discussion des concordances/divergences
+**Prompt de base :**
+```
+"Aide-moi avec mon TFE sur l'hypertension"
+```
 
-**Cas 3 : Dyspnée du sujet âgé**
-- Intégration données cliniques + imagerie
-- IA pour synthèse et recommandations
-- Validation par guidelines actuelles
+**Tâche par expert :**
+1. **5 min** - Reformuler pour maximiser la qualité sur votre outil
+2. **10 min** - Tester les 3 versions sur chaque outil
+3. **5 min** - Identifier quelle formulation marche où
 
-**Débriefing critique (10 min) :**
-- Quand l'IA a-t-elle été utile ?
-- Quelles erreurs auraient pu être dangereuses ?
-- Comment intégrer l'IA sans perdre l'expertise clinique ?
-
----
-
-### **⚖️ BLOC 3 : Éthique Pratique et Responsabilité (40 min)**
-
-#### **Framework éthique médical (20 min)**
-
-**🧭 Les 4 piliers éthiques IA médicale :**
-
-**1. Autonomie du patient**
-- Consentement éclairé pour analyses IA
-- Droit de refuser l'IA sans impact sur soins
-- Transparence sur utilisation des données
-
-**2. Bienfaisance (Faire le bien)**
-- IA comme aide, jamais substitut au jugement médical
-- Validation humaine obligatoire
-- Amélioration prouvée des outcomes
-
-**3. Non-malfaisance (Ne pas nuire)**
-- Biais algorithmiques identifiés et corrigés
-- Robustesse face aux cas atypiques
-- Plans de fallback en cas de défaillance
-
-**4. Justice (Équité)**
-- Accès équitable aux bénéfices de l'IA
-- Pas de discrimination algorithmique
-- Représentativité des populations d'entraînement
-
-#### **Atelier cas éthiques (20 min)**
-
-**🤔 4 dilemmes à résoudre en groupe :**
-
-**Dilemme 1 : Confidentialité vs Performance**
-Votre IA diagnostic nécessite upload d'images patients vers serveurs externes pour fonctionner optimalement. Acceptable ?
-
-**Dilemme 2 : Biais algorithmique détecté**
-Votre outil IA sous-diagnostique chez patients d'origine africaine. Continuez-vous à l'utiliser en attendant correction ?
-
-**Dilemme 3 : Désaccord IA-médecin**
-L'IA suggère un diagnostic différent du vôtre avec 95% de confiance. Quelle attitude adopter ?
-
-**Dilemme 4 : Responsabilité légale**
-Un patient poursuit pour erreur diagnostique impliquant l'IA. Qui est responsable ?
-
-**Synthèse collective :**
-- Développement d'une charte éthique ULB
-- Protocoles de décision pour situations ambiguës
-- Ressources pour guidance continue
+**Résultats attendus :**
+- ChatGPT préfère les prompts engageants
+- Claude excelle avec structure claire
+- Gemini optimise avec contexte de recherche
+- Perplexity brille avec demandes d'automatisation
 
 ---
 
-### **🎯 MISSION SEMAINE 3**
-**Challenge "Intégration Éthique" :**
-- Utiliser 1 outil IA clinique dans un contexte réel (stage/simulation)
-- Documenter 1 situation où l'IA a changé votre approche
-- Identifier 1 limite éthique rencontrée
-- Développer votre protocole personnel d'usage responsable
+### **🚀 BLOC 3.5 : Découverte Perplexity Labs - L'Automatisation Médicale (20 min)**
+
+#### **🆕 EXERCICE 1.5 : Premier Rapport Automatisé avec Labs**
+
+**Mission :** Découvrir la puissance de l'automatisation avec Perplexity Labs
+
+**Prompt pour l'expert Perplexity :**
+```
+"Utilise Perplexity Labs pour créer un rapport complet sur 
+l'insuffisance cardiaque incluant :
+- Épidémiologie actuelle avec graphiques
+- Tableau comparatif des traitements 2025
+- Algorithme de prise en charge visuel
+- 5 articles clés récents avec résumés
+Temps cible : 10 minutes"
+```
+
+**Comparaison avec approche manuelle :**
+- Recherche manuelle : 3-4 heures
+- ChatGPT/Claude/Gemini séparés : 45-60 min
+- Perplexity Labs : 10 min avec tout intégré
+
+**Points d'observation :**
+- Qualité des visualisations générées
+- Pertinence des sources citées
+- Complétude du rapport
+- Possibilité d'export/réutilisation
 
 ---
 
-## 🏆 **SESSION 4 : "Masterclass Publication + Vision Futur"**
+### **📊 BLOC 4 : Synthèse et Challenge Final Session 1 (30 min)**
+
+#### **🏆 "IA Battle Royale" - Premier Challenge**
+
+**Mission :** Transformation d'un texte médical complexe en explication patient
+
+**Texte source :**
+```
+"Le patient présente une cardiomyopathie dilatée avec fraction 
+d'éjection ventriculaire gauche à 35%, nécessitant l'initiation 
+d'un traitement par IEC, bêtabloquant et ARM selon les guidelines ESC."
+```
+
+**Défi :**
+- Chaque groupe produit LA meilleure explication patient
+- Combine les forces de chaque outil
+- 15 min de travail
+- Upload résultats dans Drive
+- 5 min de présentations via WhatsApp
+
+**Critères de victoire (dans Google Sheets) :**
+- Clarté pour patient /25
+- Exactitude médicale /25
+- Empathie/ton /25
+- Créativité pédagogique /25
+- **Accès :** Drive/Challenges/Battle_S1.xlsx
+
+---
+
+### **🎯 MISSION INTER-SESSION 1**
+**"Journée Comparative"**
+1. Créer compte sur les 3 plateformes
+2. Tester même prompt médical sur chacune
+3. Documenter dans Google Sheets fourni
+4. Identifier 1 hallucination par outil
+5. Calculer temps pour tâche identique
+6. **Partager sur WhatsApp groupe** avec #MissionS1
+7. **BONUS** : Trouver une tâche où un outil échoue complètement
+
+**Soumission :** Drive/Missions/Inter_S1/[VotreNom].xlsx
+
+---
+
+## 🛠️ **SESSION 2 : "Arsenal Comparatif et Workflows Multi-IA"**
+### *Durée : 3h | Format : Découverte pratique + Optimisation comparative*
+
+### **🎯 OUVERTURE : Retour d'Expérience (15 min)**
+- Résumé des soumissions Google Drive
+- Compilation hallucinations dans Sheets partagé
+- Vote via sondage WhatsApp : Pire échec
+- Affichage résultats en temps réel
+
+---
+
+### **🔄 BLOC 1 : Recherche Bibliographique Comparative (60 min)**
+
+#### **📚 EXERCICE COMPARATIF 2.1 : Battle Biblio (45 min)**
+
+**Mission :** Même recherche, 3 approches
+
+**Question de recherche :**
+```
+"Efficacité des nouvelles thérapies CAR-T dans le lymphome B 
+réfractaire : revue systématique 2023-2025"
+```
+
+**Stratégies par outil :**
+
+**ChatGPT (avec browsing/plugins) :**
+1. Activer browsing ou Scholar AI
+2. Recherche directe PubMed
+3. Synthèse des abstracts
+
+**Claude (analyse PDFs) :**
+1. Uploader 5-10 PDFs pertinents
+2. Demander synthèse croisée
+3. Extraction données clés
+
+**Gemini (recherche native) :**
+1. Utiliser capacités Google Scholar
+2. Vérification sources multiples
+3. Timeline des découvertes
+
+**Comparaison (15 min) :**
+```
+MÉTRIQUE           | ChatGPT | Claude | Gemini
+-------------------|---------|--------|--------
+Nombre de refs     |         |        |
+Pertinence (%)     |         |        |
+Refs fantômes      |         |        |
+Synthèse qualité   | /10     | /10    | /10
+Temps total        |         |        |
+```
+
+**🏆 Défi Bonus :** Créer LA méta-analyse en combinant les 3
+
+#### **🔍 Configuration Outils Spécialisés (15 min)**
+
+**Installation et test rapide :**
+- NotebookLM (Google) → Upload corpus
+- Consensus → Recherche IA native  
+- Perplexity → Mode académique
+- Elicit → Extraction données
+
+**Mini-test :** Même question sur outils spécialisés vs généralistes
+
+---
+
+### **🎨 BLOC 2 : Création de Contenu Médical (60 min)**
+
+#### **📊 EXERCICE COMPARATIF 2.2 : Visualisation de Données (30 min)**
+
+**Mission :** Créer même figure médicale
+
+**Dataset fourni :** Survie à 5 ans post-CAR-T (CSV)
+
+**Approches :**
+- **ChatGPT** : Code Interpreter → Python plots
+- **Claude** : Artifacts → SVG interactif
+- **Gemini** : Sheets → Charts intégrés
+
+**Grille d'évaluation :**
+```
+CRITÈRE            | ChatGPT | Claude | Gemini
+-------------------|---------|--------|--------
+Qualité visuelle   | /5      | /5     | /5
+Interactivité      | /5      | /5     | /5
+Export facilité    | /5      | /5     | /5
+Personnalisation   | /5      | /5     | /5
+Code réutilisable  | /5      | /5     | /5
+```
+
+#### **📝 EXERCICE COMPARATIF 2.3 : Rédaction Médicale (30 min)**
+
+**Mission :** Abstract de 250 mots sur vos "données"
+
+**Structure imposée :**
+- Background (50 mots)
+- Methods (60 mots)
+- Results (80 mots)  
+- Conclusion (60 mots)
+
+**Focus comparatif :**
+- Respect strict word count
+- Style publication international
+- Précision statistique
+- Flow narratif
+
+**🔄 Technique "Fusion" :**
+1. Draft initial sur outil préféré
+2. Amélioration sur 2ème outil
+3. Polish final sur 3ème
+4. Compare avec version mono-outil
+
+---
+
+### **💡 BLOC 3 : Détection Avancée des Limites (45 min)**
+
+#### **🕵️ EXERCICE 2.4 : "AI Detective Challenge" (25 min)**
+
+**Mission :** Identifier quel outil a généré quoi
+
+**Matériel :** 9 textes médicaux (3 par IA)
+- Descriptions de pathologies
+- Protocoles de traitement
+- Cas cliniques
+
+**Indices à chercher :**
+- Patterns de formulation
+- Structure des phrases
+- Vocabulaire privilégié
+- Marqueurs stylistiques
+
+**Scoring :** Point par identification correcte + justification
+
+#### **⚠️ EXERCICE 2.5 : Stress Test Médical (20 min)**
+
+**Mission :** Faire craquer chaque IA
+
+**Scénarios de test :**
+1. Question médicale très récente (< 1 mois)
+2. Dosage pédiatrique complexe
+3. Interaction médicamenteuse rare
+4. Protocole expérimental
+
+**Documentation (Template Google Sheets) :**
+- Type d'erreur/échec
+- Comportement de l'IA
+- Stratégie de récupération
+- Risque potentiel patient
+- **Accès :** Drive/Session2/Stress_Test.xlsx
+- **Partage :** Screenshot sur WhatsApp avec #StressTest
+
+---
+
+### **🚀 BLOC 4 : Workflows Optimisés Multi-IA (30 min)**
+
+#### **Création de Pipelines Efficaces**
+
+**Pipeline Recherche → Rédaction :**
+```
+1. Gemini : Recherche initiale broad
+2. ChatGPT : Analyse et synthèse  
+3. Claude : Rédaction structurée
+4. ChatGPT : Figures et stats
+5. Gemini : Fact-checking final
+```
+
+**Pipeline Diagnostic Complexe :**
+```
+1. ChatGPT : Brainstorming DDx large
+2. Claude : Analyse approfondie top 3
+3. Gemini : Vérification guidelines
+4. Consensus : Vote final pondéré
+```
+
+**🏆 Challenge Final Session 2 :**
+Créer votre workflow personnalisé pour votre spécialité
+
+---
+
+### **🎯 MISSION INTER-SESSION 2**
+1. Tester workflow multi-IA sur cas réel
+2. Chronométrer temps par étape
+3. Calculer ROI dans template fourni
+4. Identifier point de friction principal
+5. **Documenter dans :** Drive/Missions/Inter_S2/
+6. **Partager meilleur workflow :** WhatsApp #WorkflowWin
+7. **BONUS** : Automatiser une étape avec Zapier/Make
+
+---
+
+## 🏥 **SESSION 3 : "IA Clinique Comparative et Éthique Pratique"**
+### *Durée : 3h | Format : Simulations cliniques + Débats éthiques*
+
+### **🚨 OUVERTURE : Simulation "Garde Multi-IA" (20 min)**
+
+**Scenario :** 4 urgences simultanées, 3 outils disponibles
+
+**Cas parallèles :**
+1. ECG complexe à interpréter
+2. Éruption cutanée à identifier  
+3. Interaction médicamenteuse à vérifier
+4. Protocole urgence à retrouver
+
+**Mission :** Optimal tool allocation + rapid execution
+
+**Débriefing via WhatsApp :**
+- Chaque groupe partage sa stratégie
+- Vote emoji pour meilleure approche
+- Synthèse dans Doc partagé
+
+---
+
+### **📱 BLOC 1 : Applications Cliniques Comparatives (70 min)**
+
+#### **🏥 EXERCICE 3.1 : Stations Cliniques Rotatives (40 min)**
+
+**4 stations × 10 min, rotation complète**
+
+**Station A : Interprétation ECG**
+- Upload même ECG complexe
+- Comparer analyses
+- Vérifier contre interprétation expert
+- Documenter erreurs/omissions
+
+**Station B : Aide Décision Thérapeutique**
+- Patient polypathologique  
+- Optimisation traitement
+- Check interactions
+- Comparer recommandations
+
+**Station C : Communication Patient**
+- Scénario : Annonce diagnostic grave
+- Génération support écrit
+- Adaptation culturelle/âge
+- Évaluation empathie
+
+**Station D : Documentation Médicale**
+- Notes cliniques → Compte-rendu
+- Respecter format institutionnel
+- Précision et exhaustivité
+- Temps de génération
+
+#### **📊 EXERCICE 3.2 : Analyse Comparative d'Images (30 min)**
+
+**Matériel :** 3 images médicales (radio, dermato, fond œil)
+
+**Protocol :**
+1. **10 min** - Analyse individuelle par outil
+2. **10 min** - Compilation des findings
+3. **10 min** - Comparaison avec rapport radiologue
+
+**Métriques :**
+- Findings corrects identifiés
+- Faux positifs générés
+- Éléments manqués
+- Qualité du rapport
+
+---
+
+### **⚖️ BLOC 2 : Éthique Comparative et Biais (60 min)**
+
+#### **🤔 EXERCICE 3.3 : Détection de Biais Comparée (30 min)**
+
+**Test de biais systématiques**
+
+**Scenarios identiques, variables modifiées :**
+1. Même cas, patient homme vs femme
+2. Même symptômes, origines ethniques différentes
+3. Même pathologie, âges différents
+4. Même situation, rural vs urbain
+
+**Analyse :**
+- Différences dans recommandations
+- Biais implicites détectés
+- Outil le plus/moins biaisé
+- Stratégies de mitigation
+
+#### **🔒 EXERCICE 3.4 : Sécurité et Confidentialité (30 min)**
+
+**Audit comparatif de sécurité**
+
+**Tests pratiques :**
+1. Upload données pseudo-patient
+2. Tenter extraction info système
+3. Vérifier persistence données
+4. Tester limites éthiques
+
+**Guide Sécurité Comparatif (Google Sheets) :**
+```
+ASPECT SÉCURITÉ    | ChatGPT | Claude | Gemini
+-------------------|---------|--------|--------
+Localisation data  |         |        |
+Politique privacy  |         |        |
+Audit trail        |         |        |
+Data retention     |         |        |
+Compliance RGPD    |         |        |
+```
+**Remplir en groupe :** Drive/Session3/Securite_Comparative.xlsx
+**Partager découvertes :** WhatsApp #SecuriteIA
+
+---
+
+### **🎯 BLOC 3 : Cas Complexes Multi-IA (50 min)**
+
+#### **🏆 MEGA-EXERCICE : "Diagnostic Challenge" (50 min)**
+
+**Cas complexe nécessitant approche multi-IA**
+
+**Patient mystère :**
+- Présentation atypique
+- Multiple systèmes affectés
+- Données incomplètes
+- Urgence relative
+
+**Phases:**
+1. **Phase 1 (15 min)** : Brainstorming diagnostique
+   - Chaque outil génère DDx
+   - Compilation liste master
+   
+2. **Phase 2 (15 min)** : Investigation
+   - Examens à demander
+   - Priorisation selon outils
+   - Justifications comparées
+
+3. **Phase 3 (15 min)** : Plan thérapeutique
+   - Recommandations traitement
+   - Vérification guidelines
+   - Consensus building
+
+4. **Phase 4 (5 min)** : Présentation
+   - Diagnostic final groupe
+   - Justification approche
+   - Leçons apprises
+
+---
+
+### **🎯 MISSION INTER-SESSION 3**
+1. Utiliser 3 IAs dans vraie situation clinique
+2. Documenter cas où désaccord entre outils
+3. Développer protocole personnel de vérification
+4. Calculer temps gagné/perdu
+5. **Upload dans :** Drive/Missions/Inter_S3/[VotreNom]/
+6. **Partager expérience :** WhatsApp vocal < 2 min
+7. **BONUS** : Créer checklist éthique personnalisée
+
+---
+
+## 🏆 **SESSION 4 : "Masterclass Publication Multi-IA et Vision Futur"**
 ### *Durée : 3h | Format : Projet intensif + Prospective*
 
-### **🎯 OUVERTURE : Portfolio des Réussites (15 min)**
-- Galerie des transformations TFE les plus impressionnantes
-- Success stories d'intégration clinique
-- Lessons learned et erreurs évitées
+### **🎯 OUVERTURE : Success Stories Comparatives (15 min)**
+- Présentation des meilleurs workflows découverts
+- Cas de combinaisons IA gagnantes
+- Échecs instructifs et leçons
 
 ---
 
-### **📝 BLOC 1 : Masterclass Publication Internationale (90 min)**
+### **📝 BLOC 1 : Publication Internationale - Approche Fusion (90 min)**
 
-#### **Workflow complet : TFE → Publication (60 min)**
+#### **🚀 MEGA-PROJET : TFE → Nature Medicine (90 min)**
 
-**🚀 Pipeline intensif supervisé :**
+**Mission :** Transformer extrait TFE en article publiable en utilisant forces de chaque IA
 
-**Phase 1 : Audit scientifique du TFE (15 min)**
+**Phase 1 : Analyse Stratégique (20 min)**
 ```
-Prompt d'audit complet :
-"Tu es un éditeur senior de revue médicale internationale.
-Analyse ce TFE français selon 5 critères :
-1. Originalité et contribution scientifique
-2. Rigueur méthodologique  
-3. Qualité de l'analyse des résultats
-4. Pertinence clinique et impact potentiel
-5. Niveau de rédaction pour publication internationale
-
-Pour chaque critère : score /10 + 3 améliorations prioritaires.
-Conclusion : faisabilité publication + type de journal approprié."
+Répartition optimale :
+- Gemini : Recherche dernière littérature
+- Claude : Analyse forces/faiblesses manuscript
+- ChatGPT : Suggestions amélioration structure
+→ Synthèse : Plan d'action unifié
 ```
 
-**Phase 2 : Transformation structurelle (15 min)**
+**Phase 2 : Transformation (40 min)**
 ```
-Prompt de restructuration :
-"Transforme ce chapitre de TFE en article scientifique structure IMRAD :
-
-INTRODUCTION (150 mots) : État de l'art + gap de connaissance + objectifs
-MÉTHODES (300 mots) : Protocole détaillé + éthique + statistiques  
-RÉSULTATS (400 mots) : Findings principaux + données quantitatives
-DISCUSSION (350 mots) : Interprétation + limites + implications cliniques
-
-Style : concis, précis, international. Public : spécialistes anglophones."
+Pipeline optimisé :
+1. Claude : Restructuration IMRAD
+2. ChatGPT : Enrichissement méthodologique  
+3. Gemini : Mise à jour bibliographique
+4. Claude : Rédaction discussion
+5. ChatGPT : Figures et visualisations
+6. Gemini : Fact-checking final
 ```
 
-**Phase 3 : Enrichissement bibliographique (15 min)**
-- Recherche automatisée avec Consensus/Elicit
-- Intégration des références les plus récentes
-- Mise à jour de l'état de l'art
-
-**Phase 4 : Optimisation linguistique (15 min)**
-- Traduction professionnelle FR→EN
-- Polish avec Paperpal/Trinka
-- Adaptation culturelle pour public international
-
-#### **Atelier sélection journal et soumission (30 min)**
-
-**🎯 Stratégie de publication (15 min) :**
-
+**Phase 3 : Optimisation (20 min)**
 ```
-Prompt sélection de journal :
-"Analyse ce manuscrit et recommande 5 journaux par ordre de priorité :
-
-CRITÈRES :
-- Scope correspondant au contenu
-- Impact Factor réaliste pour niveau de l'étude  
-- Audience cible appropriée
-- Délais de review acceptables
-- Politiques open access
-
-Pour chaque journal : probabilité d'acceptation estimée + stratégie de soumission optimale."
+Polishing multicouche :
+- ChatGPT : Style et flow
+- Claude : Précision scientifique
+- Gemini : Vérification références
+- Consensus : Version finale
 ```
 
-**📮 Préparation soumission complète (15 min) :**
-- Lettre de motivation personnalisée par IA
-- Suggestions de reviewers
-- Checklist conformité aux guidelines journal
-- Timeline réaliste jusqu'à publication
+**Phase 4 : Présentation (10 min)**
+- Upload articles finaux dans Drive/Session4/Articles/
+- Présentation 2 min par WhatsApp vocal
+- Vote via sondage WhatsApp
+- Analyse approche gagnante dans Doc partagé
 
 ---
 
-### **🔬 BLOC 2 : Applications Spécialisées Avancées (60 min)**
+### **🔮 BLOC 2 : Futur de l'IA Médicale Comparative (45 min)**
 
-#### **Deep dive spécialités médicales (40 min)**
+#### **Tendances 2025-2030**
 
-**🏥 Stations d'expertise avancée (choix libre, rotation 10 min) :**
+**Évolutions attendues par plateforme :**
 
-**Station A : Chirurgie Plastique & Esthétique**
-- **Crisalix** : Simulation 3D avancée (précision 78%)
-- **VECTRA XT** : Analyse morphométrique faciale
-- **Planification IA** : Prédiction résultats avec 5000+ implants
-- **Monitoring post-op** : SilpaRamanitor (94% sensibilité)
+**ChatGPT → GPT-5 Medical**
+- Fine-tuning médical natif
+- Intégration EMR directe
+- Multimodal temps réel
+- Certification FDA probable
 
-**Station B : Imagerie Diagnostique**
-- **Aidoc Suite** : Urgences radiologiques temps réel (17 FDA clearances)
-- **Viz.ai** : AVC et pathologies vasculaires (1,700+ hôpitaux)
-- **Verily ARDA** : Rétinopathie diabétique + screening IA
-- **Caption Health (GE HealthCare)** : Échographie cardiaque IA-guidée
+**Claude → Constitutional Medical AI**
+- Éthique médicale renforcée
+- Raisonnement causal
+- Collaboration multi-agents
+- Spécialisation par domaine
 
-**Station C : Chirurgie Générale & Spécialisée**
-- **MySurgeryRisk** : Prédiction risque avec 285 variables (98,4% précision)
-- **da Vinci 5** : Robotique avec insights IA post-op
-- **Blueprint AI** : Guidage temps réel systèmes Mako
-- **Monitoring lambeaux** : Détection précoce complications
+**Gemini → Google Health Ecosystem**
+- Wearables integration
+- Predictive health
+- Population analytics
+- Global health initiatives
 
-**Station D : Médecine Prédictive**
-- **IBM Watson Health** : Analyse génomique personnalisée
-- **Tempus** : Médecine de précision en oncologie
-- **Qure.ai** : Prédiction risque cardiovasculaire
-- **Babylon Health** : Triage et diagnostic IA
+#### **🏗️ EXERCICE 4.1 : Design du Futur Workflow (25 min)**
 
-#### **Innovation et R&D médicale (20 min)**
+**Mission :** Créer workflow médical 2030
 
-**🚀 Frontières de l'IA médicale :**
+**Incluant :**
+- 3 IAs actuelles évoluées
+- 2 nouvelles IAs spécialisées
+- Automatisation intelligente
+- Métriques de qualité
+- Fail-safes éthiques
 
-**Drug Discovery IA :**
-- **DeepMind AlphaFold** : Prédiction structure protéique
-- **Insilico Medicine** : Design de médicaments
-- **Atomwise** : Screening moléculaire virtuel
+**Présentation :** Pitch 2 min par groupe
 
-**Médecine Personnalisée :**
-- **Foundation Medicine** : Génomique du cancer
-- **23andMe Health** : Prédispositions génétiques
-- **Grail** : Détection précoce multi-cancers
+#### **📊 Création Dashboard Personnel (20 min)**
 
-**Digital Therapeutics :**
-- **Pear Therapeutics** : Thérapies numériques sur ordonnance
-- **Akili Interactive** : Thérapies cognitives gamifiées
-- **Mindstrong** : Monitoring santé mentale passif
+**Kit de monitoring personnel (Google Sheets) :**
+```
+MÉTRIQUES À TRACKER :
+□ Temps par tâche par outil
+□ Taux erreur/hallucination  
+□ Satisfaction résultat
+□ ROI financier
+□ Impact patient mesurable
 
----
-
-### **🔮 BLOC 3 : Vision Futur et Développement Continu (35 min)**
-
-#### **Prospective 2025-2030 (20 min)**
-
-**🌟 Tendances émergentes :**
-
-**IA Conversationnelle Médicale :**
-- GPT-5 médical spécialisé attendu 2025
-- Consultations virtuelles IA-assistées
-- Traduction temps réel multi-langues
-
-**Intégration IoT + IA :**
-- Wearables prédictifs continus
-- Monitoring domicile intelligent
-- Alertes préventives automatisées
-
-**Réalité Augmentée Chirurgicale :**
-- Microsoft HoloLens médical
-- Navigation chirurgicale IA temps réel
-- Formation immersive avec IA tuteur
-
-**Éthique et Régulation :**
-- Standards ISO pour IA médicale
-- Certification obligatoire algorithmes
-- Transparence algorithmique imposée
-
-#### **Plan de développement personnel avec IA (15 min)**
-
-**🎯 Roadmap individuelle post-formation :**
-
-**Mois 1-3 : Consolidation**
-- Intégration 3 outils quotidiens
-- Publication 1er article avec IA
-- Réseau professionnel IA-médecine
-
-**Mois 4-6 : Spécialisation**
-- Expertise approfondie 1 domaine
-- Collaboration projets recherche IA
-- Veille technologique structurée
-
-**Mois 7-12 : Leadership**
-- Formation collègues aux outils IA
-- Projets innovation service médical
-- Expertise reconnue IA médicale
-
-**Vision 5 ans :**
-- Expert IA référent de spécialité
-- Publications internationales régulières
-- Amélioration mesurable des soins patients
+OBJECTIFS 6 MOIS :
+□ Maîtrise 3 outils : ___
+□ Publications avec IA : ___
+□ Temps gagné/semaine : ___
+□ Erreurs évitées : ___
+```
+**Template personnel :** Drive/Monitoring/[VotreNom]_Dashboard.xlsx
+**Revue mensuelle :** Partage progrès sur WhatsApp
 
 ---
 
-### **🧠 BLOC 4 : Développement Personnel et Bien-être du Médecin avec IA (30 min)**
+### **🎓 BLOC 3 : Certification et Engagement (30 min)**
 
-#### **Outils IA pour l'apprentissage continu (15 min)**
+#### **Évaluation Finale Comparative**
 
-**📚 Optimisation de l'apprentissage médical :**
+**Test pratique (20 min) :**
+1. Cas clinique complexe
+2. Approche libre multi-IA
+3. Documentation processus
+4. Présentation résultat
 
-**1. RemNote - Système de répétition espacée IA**
-- Création automatique de flashcards depuis vos notes
-- Algorithme adaptatif selon vos performances
-- Intégration avec littérature médicale
-- Synchronisation multi-dispositifs
+**Critères certification :**
+- Utilisation appropriée 3 outils ✓
+- Détection hallucinations ✓
+- Workflow optimisé ✓
+- Réflexe vérification ✓
+- Éthique respectée ✓
 
-**2. Notion AI + Medical Templates**
-- Base de connaissances personnelle structurée
-- Templates spécifiques : Cas cliniques, protocoles, médicaments
-- Recherche sémantique dans vos notes
-- Génération automatique de résumés
+#### **Cérémonie et Networking (10 min)**
 
-**3. Speechify Medical - Audio learning**
-- Conversion PDF médicaux en audio
-- Vitesse ajustable (2x pour révisions rapides)
-- Voix naturelles multilingues
-- Mode "focus" pour termes techniques
+**Remise des certificats v3 :**
+- "Expert IA Médicale Comparative ULB"
+- Badge spécial "Early Adopter v3"
+- Accès communauté lifetime
 
-**4. Mirror (Fathom) - Assistant réunions médicales**
-- Transcription automatique des staffs/formations
-- Extraction des points clés et actions
-- Recherche dans historique de réunions
-- Partage sécurisé RGPD compliant
-
-#### **IA pour le bien-être professionnel (15 min)**
-
-**💆 Prévention du burnout et optimisation performance :**
-
-**1. Headspace for Healthcare Professionals**
-- Programmes spécifiques stress médical
-- Méditations guidées 3-20 minutes
-- Exercices entre gardes
-- Suivi scientifique du stress
-
-**2. Motion - Planification IA intelligente**
-- Optimisation automatique de l'agenda
-- Équilibre clinique/recherche/personnel
-- Blocage temps pour rédaction TFE
-- Alertes surcharge cognitive
-
-**3. Otter.ai Medical - Documentation sans effort**
-- Dictée consultations → notes structurées
-- Réduction 70% temps administratif
-- Templates par spécialité
-- Conformité médicale
-
-**4. Forest + Toggl - Focus et productivité**
-- Technique Pomodoro gamifiée
-- Tracking temps par activité (clinique/recherche/admin)
-- Rapports hebdomadaires d'équilibre
-- Récompenses motivation
-
-**5. Claude/ChatGPT comme coach personnel**
-- Prompts de réflexion quotidienne
-- Aide décision carrière
-- Préparation entretiens/présentations
-- Support émotionnel 24/7
-
-*Atelier "Mon Assistant IA Personnel" (15 min) :*
-- Configurer 1 outil apprentissage
-- Installer 1 outil bien-être
-- Créer routine quotidienne 10 min avec IA
-- Mesurer impact sur 1 mois
+**Engagement collectif v3 :**
+```
+"Nous, pionniers de l'IA médicale comparative, nous engageons à :
+- Utiliser chaque IA selon ses forces
+- Vérifier systématiquement tout résultat
+- Partager nos découvertes avec la communauté
+- Rester critiques et éthiques
+- Innover pour améliorer les soins"
+```
 
 ---
 
-## 💰 **STRATÉGIE D'INVESTISSEMENT PROGRESSIVE**
+### **🏆 CHALLENGE FINAL : "IA Olympics" (30 min)**
 
-### **Phase Discovery (0€) - Mois 1**
-- Maîtrise outils gratuits (ChatGPT, Claude, Consensus free)
-- Identification besoins personnels précis
-- ROI potentiel calculé
+**Compétition ultime par équipes**
 
-### **Phase Growth (15€/mois) - Mois 2-6**
-- 1-2 outils premium stratégiques
-- Partage coûts en binômes
-- Mesure impact quantifiable
+**5 épreuves :**
+1. **Speed Diagnosis** : DDx en 2 min
+2. **Research Race** : 10 refs pertinentes
+3. **Translation Triumph** : Jargon → Patient
+4. **Visual Victory** : Plus belle figure
+5. **Ethics Excellence** : Dilemme résolu
 
-### **Phase Expert (30€/mois) - Mois 7+**
-- Suite complète selon spécialité
-- Investissement basé sur ROI prouvé
-- Formation continue et veille
+**Prix :**
+- 🥇 Abonnement 3 mois offert (outil au choix)
+- 🥈 Accès beta nouvelles features
+- 🥉 Mention programme recherche ULB
 
+**Résultats :** 
+- Publiés dans Drive/Challenge_Final/Resultats.xlsx
+- Cérémonie virtuelle via WhatsApp vidéo
+
+---
+
+## 📚 **ANNEXES v3**
+
+### **Grille d'Évaluation Standard v3**
+```
+COMPARATIVE ASSESSMENT GRID
+├── Rapidité (1-5): ___
+├── Précision (1-5): ___
+├── Pertinence médicale (1-5): ___
+├── Facilité d'usage (1-5): ___
+├── Fiabilité/Cohérence (1-5): ___
+├── Innovation/Créativité (1-5): ___
+├── Coût-efficacité (1-5): ___
+└── Note globale: ___/35
+
+OUTIL RECOMMANDÉ POUR CETTE TÂCHE : ___
+JUSTIFICATION : ___
+```
+
+### **Ressources Spécifiques v3**
+- [Grilles Comparatives](../ressources/grilles_evaluation.md)
+- [Guide WhatsApp Complet](../ressources/whatsapp_collaboration_guide.md)
+- [Templates Google Sheets](https://drive.google.com/ULB_IA_v3/Templates/)
+- [Tutoriels Vidéo](https://drive.google.com/ULB_IA_v3/Tutoriels/)
+
+### **Objectifs de Formation v3**
+- Améliorer la satisfaction des participants
+- Développer la capacité à choisir l'outil approprié
+- Renforcer la détection des erreurs et hallucinations
+- Encourager l'utilisation régulière de multiples outils
+- Faciliter la création de workflows personnalisés
+
+### **Plan de Mise à Jour Continue**
+- Mensuel : Nouveaux modèles/features
+- Trimestriel : Révision exercices
+- Semestriel : Refonte majeure si besoin
+- Annuel : Version n+1
+
+---
+
+**🚀 "L'IA ne remplacera pas les médecins, mais les médecins qui maîtrisent l'écosystème IA surpasseront tous les autres."**
+
+*Programme conçu avec approche comparative multi-IA - Version 3.0 Mai 2025*
+*Prochaine cohorte : Septembre 2025*
+*Contact : formation-ia-v3@ulb.ac.be*

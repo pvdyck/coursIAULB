@@ -157,7 +157,7 @@ Pour chaque cas, documentez :
 
 ### Affirmations à Vérifier
 
-Soumettez ces affirmations aux 3 IA :
+Soumettez ces affirmations aux 4 IA :
 
 1. "L'aspirine est contre-indiquée dans la péricardite aiguë"
 2. "Le score de Wells modifié a une sensibilité de 95% pour l'embolie pulmonaire"
@@ -184,16 +184,85 @@ Comment réconcilier ces informations ?
 - Stratégie de résolution des conflits
 - Recommandations pour pratique
 
+## 🚀 Exercice 2.5 : Workflow de Recherche Augmenté avec Perplexity Labs
+
+### Mission : Revue systématique accélérée
+
+Utilisez le nouveau pipeline 4 outils pour créer une revue sur : 
+**"Efficacité des inhibiteurs de SGLT2 dans l'insuffisance cardiaque à FEVG préservée"**
+
+### NOUVEAU Pipeline 4 outils (30 min total)
+
+**Étape 1 - Perplexity Labs (10 min)**
+```
+Génère un rapport complet sur l'efficacité des inhibiteurs de SGLT2 
+dans l'IC-FEp (2023-2025). Inclus :
+- Méta-analyse des essais majeurs
+- Tableau comparatif empagli/dapa/canagli
+- Forest plots pour outcomes primaires
+- NNT pour bénéfices cliniques
+- Analyse sous-groupes (diabétiques vs non)
+```
+
+**Étape 2 - Claude (10 min)**
+```
+Révise ce rapport généré automatiquement :
+[Coller output Perplexity]
+
+Focus sur :
+- Rigueur méthodologique
+- Cohérence des données
+- Ajout nuances cliniques
+- Format publication-ready
+```
+
+**Étape 3 - ChatGPT (5 min)**
+```
+Enrichis ce rapport avec :
+- Implications pratiques pour cliniciens
+- Schéma mécanisme d'action
+- Points clés pour patients
+- Perspectives futures
+```
+
+**Étape 4 - Gemini (5 min)**
+```
+Fact-check final :
+- Vérifie toutes les statistiques
+- Confirme guidelines ESC/AHA 2025
+- Valide les références clés
+- Signale données obsolètes
+```
+
+### Livrables
+1. Rapport final consolidé
+2. Comparaison temps : ancien vs nouveau workflow
+3. Évaluation qualité (grille fournie)
+4. Dashboard Perplexity si généré
+
+### Grille d'évaluation du workflow
+```markdown
+| Critère | Score /5 | Commentaires |
+|---------|----------|---------------|
+| Complétude données | | |
+| Actualité sources | | |
+| Qualité visualisations | | |
+| Utilisabilité clinique | | |
+| Temps total | | |
+| ROI estimé | | |
+```
+
 ## 🏆 Challenge Session 2 : Diagnostic Marathon
 
 ### Le Défi
 10 cas cliniques en 60 minutes - Meilleur score diagnostic
 
 ### Règles
-1. Utiliser les 3 IA en parallèle
+1. Utiliser les 4 IA de manière optimale
 2. Maximum 6 minutes par cas
 3. Réponse = diagnostic principal + 1 examen clé
 4. Documentation du workflow utilisé
+5. Bonus : Utiliser Perplexity Labs pour rapport final (+10 points)
 
 ### Barème
 - Diagnostic correct : 5 points

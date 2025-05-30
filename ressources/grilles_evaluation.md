@@ -1,34 +1,36 @@
-# 📊 Grilles d'Évaluation Comparative v3 - IA Médicale ULB
+# 📊 Grilles d'Évaluation Comparative v3.1 - IA Médicale ULB
+## Mise à jour : Intégration Perplexity Labs (Mai 2025)
 
 ## 🎯 Grille Universelle de Comparaison
 
 ### **GRILLE MASTER - Applicable à tous exercices**
 
 ```
-CRITÈRE                    | ChatGPT | Claude | Gemini | Notes
----------------------------|---------|--------|--------|-------
+CRITÈRE                    | ChatGPT | Claude | Gemini | Perplexity | Notes
+---------------------------|---------|--------|--------|------------|-------
 **PERFORMANCE (40%)**
-Rapidité réponse          | __/5    | __/5   | __/5   |
-Précision factuelle       | __/5    | __/5   | __/5   |
-Pertinence médicale       | __/5    | __/5   | __/5   |
-Complétude réponse        | __/5    | __/5   | __/5   |
+Rapidité réponse          | __/5    | __/5   | __/5   | __/5       |
+Précision factuelle       | __/5    | __/5   | __/5   | __/5       |
+Pertinence médicale       | __/5    | __/5   | __/5   | __/5       |
+Complétude réponse        | __/5    | __/5   | __/5   | __/5       |
+Automatisation             | __/5    | __/5   | __/5   | __/5       |
 
 **FIABILITÉ (30%)**
-Cohérence outputs         | __/5    | __/5   | __/5   |
-Hallucinations détectées  | __/5    | __/5   | __/5   |
-Sources citées           | __/5    | __/5   | __/5   |
+Cohérence outputs         | __/5    | __/5   | __/5   | __/5       |
+Hallucinations détectées  | __/5    | __/5   | __/5   | __/5       |
+Sources citées           | __/5    | __/5   | __/5   | __/5       |
 
 **UTILISABILITÉ (20%)**
-Interface intuitive       | __/5    | __/5   | __/5   |
-Options personnalisation  | __/5    | __/5   | __/5   |
-Export/intégration       | __/5    | __/5   | __/5   |
+Interface intuitive       | __/5    | __/5   | __/5   | __/5       |
+Options personnalisation  | __/5    | __/5   | __/5   | __/5       |
+Export/intégration       | __/5    | __/5   | __/5   | __/5       |
 
 **VALEUR AJOUTÉE (10%)**
-Innovation approche       | __/5    | __/5   | __/5   |
-Rapport qualité/prix     | __/5    | __/5   | __/5   |
+Innovation approche       | __/5    | __/5   | __/5   | __/5       |
+Rapport qualité/prix     | __/5    | __/5   | __/5   | __/5       |
 
-**SCORE TOTAL**          | __/60   | __/60  | __/60  |
-**SCORE PONDÉRÉ**        | __/100  | __/100 | __/100 |
+**SCORE TOTAL**          | __/65   | __/65  | __/65  | __/65      |
+**SCORE PONDÉRÉ**        | __/100  | __/100 | __/100 | __/100     |
 
 OUTIL OPTIMAL POUR CETTE TÂCHE : _____________
 COMBINAISON RECOMMANDÉE : ____________________
@@ -39,14 +41,15 @@ COMBINAISON RECOMMANDÉE : ____________________
 ### **1. GRILLE DIAGNOSTIC DIFFÉRENTIEL**
 
 ```
-ASPECT ÉVALUÉ            | ChatGPT | Claude | Gemini
--------------------------|---------|--------|--------
-Nombre DDx pertinents    | __/10   | __/10  | __/10
-Ordre probabilité correct| __/10   | __/10  | __/10
-Justifications cliniques | __/10   | __/10  | __/10
-Red flags identifiés     | __/10   | __/10  | __/10
-Examens proposés         | __/10   | __/10  | __/10
-Pièges évités           | __/10   | __/10  | __/10
+ASPECT ÉVALUÉ            | ChatGPT | Claude | Gemini | Perplexity
+-------------------------|---------|--------|--------|------------
+Nombre DDx pertinents    | __/10   | __/10  | __/10  | __/10
+Ordre probabilité correct| __/10   | __/10  | __/10  | __/10
+Justifications cliniques | __/10   | __/10  | __/10  | __/10
+Red flags identifiés     | __/10   | __/10  | __/10  | __/10
+Examens proposés         | __/10   | __/10  | __/10  | __/10
+Pièges évités           | __/10   | __/10  | __/10  | __/10
+Rapport automatisé       | __/10   | __/10  | __/10  | __/10
 
 Erreurs graves : ______________________
 Omissions critiques : _________________
@@ -56,15 +59,16 @@ Meilleur raisonnement : _______________
 ### **2. GRILLE RECHERCHE BIBLIOGRAPHIQUE**
 
 ```
-MÉTRIQUE                 | ChatGPT | Claude | Gemini
--------------------------|---------|--------|--------
-Nombre références found  | ___     | ___    | ___
-Pertinence (%)          | ___%    | ___%   | ___%
-Refs fantômes           | ___     | ___    | ___
-Actualité (<2 ans)      | ___%    | ___%   | ___%
-Impact Factor moyen     | ___     | ___    | ___
-Synthèse quality (/10)  | __/10   | __/10  | __/10
-Temps recherche (min)   | ___     | ___    | ___
+MÉTRIQUE                 | ChatGPT | Claude | Gemini | Perplexity
+-------------------------|---------|--------|--------|------------
+Nombre références found  | ___     | ___    | ___    | ___
+Pertinence (%)          | ___%    | ___%   | ___%   | ___%
+Refs fantômes           | ___     | ___    | ___    | ___
+Actualité (<2 ans)      | ___%    | ___%   | ___%   | ___%
+Impact Factor moyen     | ___     | ___    | ___    | ___
+Synthèse quality (/10)  | __/10   | __/10  | __/10  | __/10
+Temps recherche (min)   | ___     | ___    | ___    | ___
+Rapport auto généré     | Non     | Non    | Non    | Oui
 
 Sources privilégiées : ________________
 Biais de sélection : _________________
@@ -157,6 +161,32 @@ Linguistique          | □ Détecté | □ Détecté | □ Détecté
 Description biais : ___________________
 Impact potentiel : ____________________
 Mitigation possible : _________________
+```
+
+### **6. GRILLE SPÉCIALE PERPLEXITY LABS**
+
+```
+CAPACITÉ LABS           | Score | Temps | Qualité | Notes
+------------------------|-------|-------|---------|-------
+Rapport auto généré     | __/10 | __min | __/10   |
+Dashboard créé          | __/10 | __min | __/10   |
+Graphiques pertinents   | __/10 | __min | __/10   |
+Sources intégrées       | __/10 | __min | __/10   |
+Export fonctionnel      | __/10 | __min | __/10   |
+App web générée         | __/10 | __min | __/10   |
+
+COMPARAISON TEMPS :
+- Tâche manuelle : ___ heures
+- Autres IA séparément : ___ min
+- Perplexity Labs : ___ min
+GAIN DE TEMPS : ___%
+
+APPLICATIONS MÉDICALES TESTÉES :
+□ Revue bibliographique automatisée
+□ Dashboard patient personnalisé
+□ Calculateur médical interactif
+□ Rapport de recherche complet
+□ Présentation avec visualisations
 ```
 
 ## 📈 Grilles de Synthèse
