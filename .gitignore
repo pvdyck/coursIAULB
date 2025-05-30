@@ -1,5 +1,4 @@
-# PDF files (to be added later)
-*.pdf
+# PDF files (now included in repo)
 
 # OS files
 .DS_Store
