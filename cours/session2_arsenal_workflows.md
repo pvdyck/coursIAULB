@@ -1,7 +1,7 @@
 # SESSION 2 : Arsenal Comparatif et Workflows Multi-IA
 ## *Durée : 3h | Format : Découverte pratique + Optimisation comparative*
 
-### **🎯 OUVERTURE : Retour d'Expérience (15 min)**
+### **🎯 OUVERTURE : Retour d'Expérience (10 min)**
 - Résumé des soumissions Google Drive
 - Compilation hallucinations dans Sheets partagé
 - Vote via sondage WhatsApp : Pire échec
@@ -9,9 +9,23 @@
 
 ---
 
-### **🔄 BLOC 1 : Recherche Bibliographique Comparative (60 min)**
+### 🧠 **Capacités de Raisonnement Étendu - Update Session 2**
 
-#### **📚 EXERCICE COMPARATIF 2.1 : Battle Biblio (45 min)**
+**Utilisation pratique du "thinking" pour la recherche :**
+
+| Tâche | Outil Standard | Avec Thinking Mode | Gain |
+|-------|----------------|-------------------|------|
+| Revue systématique | 2-3h recherche manuelle | 30 min avec Deep Research | 75% temps |
+| Méta-analyse | Compilation manuelle | Analyse automatique patterns | Insights++ |
+| Hypothèses recherche | Brainstorming limité | Exploration systématique | Créativité++ |
+
+**💡 Conseil Session 2 :** Pour recherche biblio complexe, utilisez Perplexity Deep Research en premier, puis Claude thinking mode pour l'analyse critique des articles trouvés.
+
+---
+
+### **🔄 BLOC 1 : Recherche Bibliographique Comparative (50 min)**
+
+#### **📚 EXERCICE COMPARATIF 2.1 : Battle Biblio (35 min)**
 
 **Mission :** Même recherche, 4 approches
 
@@ -43,7 +57,7 @@ réfractaire : revue systématique 2023-2025"
 2. Compilation sources avec citations
 3. Génération rapport structuré
 
-**Comparaison (15 min) :**
+**Comparaison (10 min) :**
 ```
 MÉTRIQUE           | ChatGPT | Claude | Gemini | Perplexity
 -------------------|---------|--------|--------|------------
@@ -56,7 +70,7 @@ Temps total        |         |        |        |
 
 **🏆 Défi Bonus :** Créer LA méta-analyse en combinant les 4
 
-#### **🔍 Configuration Outils Spécialisés (15 min)**
+#### **🔍 Configuration Outils Spécialisés (10 min)**
 
 **Installation et test rapide :**
 - NotebookLM (Google) → Upload corpus
@@ -68,9 +82,9 @@ Temps total        |         |        |        |
 
 ---
 
-### **🎨 BLOC 2 : Création de Contenu Médical (60 min)**
+### **🎨 BLOC 2 : Création de Contenu Médical (50 min)**
 
-#### **📊 EXERCICE COMPARATIF 2.2 : Visualisation de Données (30 min)**
+#### **📊 EXERCICE COMPARATIF 2.2 : Visualisation de Données (25 min)**
 
 **Mission :** Créer même figure médicale
 
@@ -93,7 +107,7 @@ Personnalisation   | /5      | /5     | /5     | /5
 Code réutilisable  | /5      | /5     | /5     | /5
 ```
 
-#### **📝 EXERCICE COMPARATIF 2.3 : Rédaction Médicale (30 min)**
+#### **📝 EXERCICE COMPARATIF 2.3 : Rédaction Médicale (25 min)**
 
 **Mission :** Abstract de 250 mots sur vos "données"
 
@@ -118,9 +132,9 @@ Code réutilisable  | /5      | /5     | /5     | /5
 
 ---
 
-### **💡 BLOC 3 : Détection Avancée des Limites (45 min)**
+### **💡 BLOC 3 : Détection Avancée des Limites (35 min)**
 
-#### **🕵️ EXERCICE 2.4 : "AI Detective Challenge" (25 min)**
+#### **🕵️ EXERCICE 2.4 : "AI Detective Challenge" (20 min)**
 
 **Mission :** Identifier quel outil a généré quoi
 
@@ -137,7 +151,7 @@ Code réutilisable  | /5      | /5     | /5     | /5
 
 **Scoring :** Point par identification correcte + justification
 
-#### **⚠️ EXERCICE 2.5 : Stress Test Médical (20 min)**
+#### **⚠️ EXERCICE 2.5 : Stress Test Médical (15 min)**
 
 **Mission :** Faire craquer chaque IA
 
@@ -157,7 +171,7 @@ Code réutilisable  | /5      | /5     | /5     | /5
 
 ---
 
-### **🚀 BLOC 4 : Workflows Optimisés Multi-IA (30 min)**
+### **🚀 BLOC 4 : Workflows Optimisés Multi-IA (35 min)**
 
 #### **Création de Pipelines Efficaces**
 

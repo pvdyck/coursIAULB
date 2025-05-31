@@ -1,45 +1,69 @@
 # SESSION 4 : Masterclass Publication Multi-IA et Vision Futur
 ## *Durée : 3h | Format : Projet intensif + Prospective*
 
-### **🎯 OUVERTURE : Success Stories Comparatives (15 min)**
+### **🎯 OUVERTURE : Success Stories Comparatives (10 min)**
 - Présentation des meilleurs workflows découverts
 - Cas de combinaisons IA gagnantes
 - Échecs instructifs et leçons
 
 ---
 
-### **📝 BLOC 1 : Publication Internationale - Approche Fusion (90 min)**
+### 🧠 **Thinking Avancé pour Publication Scientifique - Session 4**
 
-#### **🚀 MEGA-PROJET : TFE → Nature Medicine (90 min)**
+**Optimisation publication avec modes thinking :**
+
+| Étape Publication | Mode Standard | Mode Thinking | Recommandation |
+|-------------------|---------------|---------------|----------------|
+| Structure article | Plan basique | Architecture optimisée | Claude thinking |
+| Revue littérature | Recherche simple | Analyse gaps systématique | Perplexity Deep |
+| Discussion | Points évidents | Implications profondes | o1 ou Claude |
+| Réponse reviewers | Corrections surface | Argumentation nuancée | Claude thinking |
+
+**🚀 Stratégie "Thinking Stack" pour Nature/Science :**
+1. **Perplexity Deep Research** : État de l'art exhaustif (30 min)
+2. **Claude Thinking** : Structure et argumentation (20 min)
+3. **o1** : Vérification logique et cohérence (15 min)
+4. **Standard models** : Polish et style (10 min)
+
+**ROI :** Article de 6 mois → 2 semaines avec thinking optimisé
+
+---
+
+### **📝 BLOC 1 : Publication Internationale - Approche Fusion (75 min)**
+
+#### **🚀 MEGA-PROJET : TFE → Nature Medicine (75 min)**
 
 **Mission :** Transformer extrait TFE en article publiable en utilisant forces de chaque IA
 
-**Phase 1 : Analyse Stratégique (20 min)**
+**Phase 1 : Analyse Stratégique (15 min)**
 ```
 Répartition optimale :
-- Gemini : Recherche dernière littérature
+- Perplexity : Recherche exhaustive littérature récente
 - Claude : Analyse forces/faiblesses manuscript
 - ChatGPT : Suggestions amélioration structure
+- Gemini : Vérification cohérence globale
 → Synthèse : Plan d'action unifié
 ```
 
-**Phase 2 : Transformation (40 min)**
+**Phase 2 : Transformation (35 min)**
 ```
 Pipeline optimisé :
 1. Claude : Restructuration IMRAD
 2. ChatGPT : Enrichissement méthodologique  
-3. Gemini : Mise à jour bibliographique
+3. Perplexity : Mise à jour bibliographique avec sources
 4. Claude : Rédaction discussion
 5. ChatGPT : Figures et visualisations
-6. Gemini : Fact-checking final
+6. Perplexity Labs : Dashboard interactif des données
+7. Gemini : Fact-checking final
 ```
 
-**Phase 3 : Optimisation (20 min)**
+**Phase 3 : Optimisation (15 min)**
 ```
 Polishing multicouche :
 - ChatGPT : Style et flow
 - Claude : Précision scientifique
-- Gemini : Vérification références
+- Perplexity : Vérification et complétion références
+- Gemini : Cohérence avec guidelines journaux
 - Consensus : Version finale
 ```
 
@@ -51,7 +75,7 @@ Polishing multicouche :
 
 ---
 
-### **🔮 BLOC 2 : Futur de l'IA Médicale Comparative (45 min)**
+### **🔮 BLOC 2 : Futur de l'IA Médicale Comparative (35 min)**
 
 #### **Tendances 2025-2030**
 
@@ -75,20 +99,38 @@ Polishing multicouche :
 - Population analytics
 - Global health initiatives
 
-#### **🏗️ EXERCICE 4.1 : Design du Futur Workflow (25 min)**
+**Perplexity → Research Automation Platform**
+- Real-time literature monitoring
+- Automated systematic reviews
+- Clinical trial matching
+- Evidence synthesis dashboards
+
+#### **🏗️ EXERCICE 4.1 : Design du Futur Workflow (20 min)**
 
 **Mission :** Créer workflow médical 2030
 
 **Incluant :**
-- 3 IAs actuelles évoluées
+- 4 IAs actuelles évoluées (ChatGPT, Claude, Gemini, Perplexity)
 - 2 nouvelles IAs spécialisées
-- Automatisation intelligente
+- Automatisation intelligente via Perplexity Labs
 - Métriques de qualité
 - Fail-safes éthiques
 
+**Grille d'évaluation workflow :**
+```
+CRITÈRE            | Score (/5)
+-------------------|-----------
+Innovation         | 
+Faisabilité        | 
+Impact clinique    | 
+Sécurité          | 
+Scalabilité        | 
+TOTAL             | /25
+```
+
 **Présentation :** Pitch 2 min par groupe
 
-#### **📊 Création Dashboard Personnel (20 min)**
+#### **📊 Création Dashboard Personnel (15 min)**
 
 **Kit de monitoring personnel (Google Sheets) :**
 ```
@@ -110,11 +152,11 @@ OBJECTIFS 6 MOIS :
 
 ---
 
-### **🎓 BLOC 3 : Certification et Engagement (30 min)**
+### **🎓 BLOC 3 : Certification et Engagement (40 min)**
 
 #### **Évaluation Finale Comparative**
 
-**Test pratique (20 min) :**
+**Test pratique (25 min) :**
 1. Cas clinique complexe
 2. Approche libre multi-IA
 3. Documentation processus
@@ -127,7 +169,7 @@ OBJECTIFS 6 MOIS :
 - Réflexe vérification ✓
 - Éthique respectée ✓
 
-#### **Cérémonie et Networking (10 min)**
+#### **Cérémonie et Networking (15 min)**
 
 **Remise des certificats v3 :**
 - "Expert IA Médicale Comparative ULB"
@@ -146,16 +188,26 @@ OBJECTIFS 6 MOIS :
 
 ---
 
-### **🏆 CHALLENGE FINAL : "IA Olympics" (30 min)**
+### **🏆 CHALLENGE FINAL : "IA Olympics" (20 min)**
 
 **Compétition ultime par équipes**
 
 **5 épreuves :**
-1. **Speed Diagnosis** : DDx en 2 min
-2. **Research Race** : 10 refs pertinentes
-3. **Translation Triumph** : Jargon → Patient
-4. **Visual Victory** : Plus belle figure
-5. **Ethics Excellence** : Dilemme résolu
+1. **Speed Diagnosis** : DDx en 2 min (tous outils autorisés)
+2. **Research Race** : 10 refs pertinentes (Perplexity vs autres)
+3. **Translation Triumph** : Jargon → Patient (test 4 outils)
+4. **Visual Victory** : Plus belle figure (ChatGPT vs Perplexity Labs)
+5. **Ethics Excellence** : Dilemme résolu (approche multi-IA)
+
+**Scoring par épreuve :**
+```
+ÉQUIPE            | Ep.1 | Ep.2 | Ep.3 | Ep.4 | Ep.5 | TOTAL
+------------------|------|------|------|------|------|-------
+Groupe 1          | /20  | /20  | /20  | /20  | /20  | /100
+Groupe 2          | /20  | /20  | /20  | /20  | /20  | /100
+Groupe 3          | /20  | /20  | /20  | /20  | /20  | /100
+Groupe 4          | /20  | /20  | /20  | /20  | /20  | /100
+```
 
 **Prix :**
 - 🥇 Abonnement 3 mois offert (outil au choix)

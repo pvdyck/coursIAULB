@@ -1,7 +1,7 @@
 # SESSION 1 : Fondements IA + Découverte des 4 Géants
 ## *Durée : 3h | Format : Théorie interactive + Ateliers comparatifs*
 
-### 🛡️ **PROTOCOLE SÉCURITÉ D'ABORD (10 min)**
+### 🛡️ **PROTOCOLE SÉCURITÉ D'ABORD (5 min)**
 
 #### **Avant d'utiliser TOUT outil IA :**
 
@@ -29,9 +29,9 @@
 
 ---
 
-### **🔬 BLOC 1 : Comprendre l'IA - Base Scientifique (45 min)**
+### **🔬 BLOC 1 : Comprendre l'IA - Base Scientifique (35 min)**
 
-#### **Introduction aux fondements (20 min)**
+#### **Introduction aux fondements (15 min)**
 
 **🧬 Analogie biologique pour médecins :**
 L'IA fonctionne comme le système nerveux :
@@ -66,7 +66,7 @@ L'IA fonctionne comme le système nerveux :
    - **✅ Quand l'utiliser** : Rédaction, synthèse, brainstorming
    - **❌ Limites** : Hallucinations fréquentes
 
-#### **🌟 NOUVEAU : Les 4 Plateformes IA Essentielles (30 min)**
+#### **🌟 NOUVEAU : Les 4 Plateformes IA Essentielles (20 min)**
 
 **Présentation comparative des plateformes :**
 
@@ -139,9 +139,9 @@ L'IA fonctionne comme le système nerveux :
 
 ---
 
-### **🎯 BLOC 2 : Ateliers Comparatifs - Premier Contact (75 min)**
+### **🎯 BLOC 2 : Ateliers Comparatifs - Premier Contact (60 min)**
 
-#### **🔄 EXERCICE COMPARATIF 1.1 : Découverte des Personnalités IA (30 min)**
+#### **🔄 EXERCICE COMPARATIF 1.1 : Découverte des Personnalités IA (25 min)**
 
 **Mission :** Découvrir les différences de style et d'approche des 4 plateformes
 
@@ -153,7 +153,7 @@ pour un étudiant en médecine de 3ème année."
 
 **Déroulement :**
 1. **10 min** - Chaque expert teste sur son outil
-2. **15 min** - Partage en groupe + remplissage grille
+2. **10 min** - Partage en groupe + remplissage grille
 3. **5 min** - Synthèse des différences observées
 
 **Grille d'Évaluation Exercice 1.1 :**
@@ -174,7 +174,7 @@ Observations qualitatives :
 - Points faibles : ___
 ```
 
-#### **🔍 EXERCICE COMPARATIF 1.2 : Détection d'Hallucinations (25 min)**
+#### **🔍 EXERCICE COMPARATIF 1.2 : Détection d'Hallucinations (20 min)**
 
 **Mission :** Identifier qui hallucine et comment
 
@@ -186,9 +186,9 @@ chez l'adulte selon les dernières recommandations ESC 2024 ?"
 *(Note : Cardioflex est un médicament inventé)*
 
 **Déroulement :**
-1. **10 min** - Test individuel + capture réponses
-2. **10 min** - Analyse en groupe des hallucinations
-3. **5 min** - Stratégies de détection partagées
+1. **8 min** - Test individuel + capture réponses
+2. **8 min** - Analyse en groupe des hallucinations
+3. **4 min** - Stratégies de détection partagées
 
 **Points d'observation :**
 - Qui invente une posologie ?
@@ -196,7 +196,7 @@ chez l'adulte selon les dernières recommandations ESC 2024 ?"
 - Qui demande des clarifications ?
 - Quels indices d'hallucination ?
 
-#### **🎯 EXERCICE COMPARATIF 1.3 : Diagnostic Différentiel (25 min)**
+#### **🎯 EXERCICE COMPARATIF 1.3 : Diagnostic Différentiel (15 min)**
 
 **Mission :** Comparer la qualité du raisonnement clinique
 
@@ -224,7 +224,7 @@ Plus complet ? ___
 
 ---
 
-### **🚀 BLOC 3 : Art du Prompting Multi-Plateforme (40 min)**
+### **🚀 BLOC 3 : Art du Prompting Multi-Plateforme (35 min)**
 
 #### **🏗️ Adaptation des Prompts par Outil (20 min)**
 
@@ -287,7 +287,7 @@ Génère également un dashboard interactif."
 
 ---
 
-### **🌐 BLOC 3.5 : Maîtrise de la Recherche Web Multi-IA (15 min)**
+### **🌐 BLOC 3.5 : Maîtrise de la Recherche Web Multi-IA (10 min)**
 
 #### **Stratégies de Recherche par Plateforme**
 
@@ -325,7 +325,7 @@ et consensus des experts 2025."
 
 ---
 
-### **🚀 BLOC 4 : Découverte Perplexity Labs - L'Automatisation Médicale (20 min)**
+### **🚀 BLOC 4 : Découverte Perplexity Labs - L'Automatisation Médicale (15 min)**
 
 #### **🆕 EXERCICE 1.5 : Premier Rapport Automatisé avec Labs**
 
@@ -355,7 +355,7 @@ Temps cible : 10 minutes"
 
 ---
 
-### **📊 BLOC 4 : Synthèse et Challenge Final Session 1 (30 min)**
+### **📊 BLOC 5 : Synthèse et Challenge Final Session 1 (20 min)**
 
 #### **🏆 "IA Battle Royale" - Premier Challenge**
 
@@ -371,7 +371,7 @@ d'un traitement par IEC, bêtabloquant et ARM selon les guidelines ESC."
 **Défi :**
 - Chaque groupe produit LA meilleure explication patient
 - Combine les forces de chaque outil
-- 15 min de travail
+- 10 min de travail
 - Upload résultats dans Drive
 - 5 min de présentations via WhatsApp
 
