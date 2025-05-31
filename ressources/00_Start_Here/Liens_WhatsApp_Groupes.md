@@ -3,7 +3,7 @@
 ## 🔗 Liens Directs
 
 ### Groupe Principal - Annonces
-**🎓 ULB IA Med v3 - Annonces**
+**🎓 ULB IA Med - Annonces**
 - Lien : [À communiquer par email]
 - Code QR : [À scanner en présentiel]
 - Admin : Dr. Formation IA
@@ -153,5 +153,5 @@ Je suis [Prénom] [Nom]
 
 **⚠️ Important : Les liens réels seront communiqués uniquement par email officiel ULB**
 
-*Dernière mise à jour : Mai 2025*
+*Dernière mise à jour : Juin 2025*
 *Support : formation-ia@ulb.ac.be*

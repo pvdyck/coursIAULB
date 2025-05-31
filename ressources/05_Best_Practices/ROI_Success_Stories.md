@@ -319,4 +319,4 @@ Email : roi-stories@ulb.ac.be
 
 **🏆 Récompense :** Meilleur ROI du mois = 6 mois IA gratuits
 
-*ROI Success Stories v3.0 - Formation IA Médicale ULB*
+*ROI Success Stories - Formation IA Médicale ULB*

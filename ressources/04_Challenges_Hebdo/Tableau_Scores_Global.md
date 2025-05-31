@@ -143,4 +143,4 @@
 **📧 Contact :** challenges-ia@ulb.ac.be
 **📱 Annonces :** Groupe WhatsApp Principal
 
-*Tableau des Scores v3.0 - Formation IA Médicale ULB*
+*Tableau des Scores - Formation IA Médicale ULB*

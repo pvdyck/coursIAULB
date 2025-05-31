@@ -1,377 +1,443 @@
-# Exercices Session 4 : Masterclass Publication Multi-IA et Vision Futur
+# Exercices Session 4 : Transformation TFE → Publication
 
-## 🚀 MEGA-PROJET : TFE → Nature Medicine (75 min)
+## **📄 GUIDE PRATIQUE : VOTRE TFE EN ARTICLE PUBLIABLE**
 
-### Contexte du projet
-Transformer un extrait de TFE en article de niveau publication internationale en utilisant la synergie des 4 IAs.
+### **AVANT LA SESSION : PRÉPARATION ESSENTIELLE**
 
-### Matériel de départ :
-- Extrait TFE (4 pages) sur nouvelle approche thérapeutique
-- Données brutes de l'étude (CSV)
-- 5 références bibliographiques initiales
-- Guidelines de soumission Nature Medicine
-
----
-
-## Phase 1 : Analyse Stratégique Multi-IA (15 min)
-
-### Répartition des tâches par expertise :
-
-**Perplexity - Expert Recherche :**
-```
-Mission : Analyse complète de la littérature récente
-- Identifier 20 articles clés 2023-2025
-- Gaps dans la littérature actuelle
-- Positionnement unique de votre travail
-- Générer rapport avec citations
-```
-
-**Claude - Expert Analyse :**
-```
-Mission : Audit critique du manuscrit
-- Forces/faiblesses structure actuelle
-- Cohérence argumentaire
-- Rigueur méthodologique
-- Suggestions amélioration IMRAD
-```
-
-**ChatGPT - Expert Structure :**
-```
-Mission : Optimisation narrative
-- Flow et storytelling scientifique
-- Accroche introduction
-- Transitions entre sections
-- Impact statements
-```
-
-**Gemini - Expert Cohérence :**
-```
-Mission : Vérification globale
-- Alignement avec guidelines journal
-- Cohérence données/conclusions
-- Vérification claims vs evidence
-- Cross-checking références
-```
-
-### Livrable Phase 1 :
-**Plan d'action unifié** avec :
-- Points critiques identifiés par chaque IA
-- Stratégie de transformation
-- Timeline de travail
-- Répartition optimale des tâches
+**À apporter obligatoirement :**
+- [ ] TFE complet en format Word/PDF
+- [ ] Données brutes (Excel/CSV) anonymisées
+- [ ] Figures/tableaux existants
+- [ ] 3 journaux cibles identifiés
+- [ ] Compte sur les 4 plateformes IA
 
 ---
 
-## Phase 2 : Transformation Collaborative (35 min)
+## **EXERCICE 4.1 : Diagnostic Publication-Readiness (15 min)**
 
-### Pipeline de transformation optimisé :
+### **Grille d'auto-évaluation pré-transformation**
 
-#### Étape 1 : Restructuration IMRAD (Claude) - 5 min
 ```
-Input : Texte original TFE
-Output : Structure IMRAD Nature Medicine
-- Introduction (350 mots max)
-- Results (figures first approach)
-- Discussion (implications claires)
-- Methods (détaillé, reproductible)
-```
-
-#### Étape 2 : Enrichissement méthodologique (ChatGPT) - 5 min
-```
-Focus : Robustesse statistique
-- Power analysis
-- Contrôles appropriés
-- Limitations addressées
-- Analyses supplémentaires suggérées
+CRITÈRE                           | Score /10 | Notes amélioration
+----------------------------------|-----------|--------------------
+Nouveauté scientifique            |           |
+Méthodologie rigoureuse          |           |
+Taille échantillon suffisante    |           |
+Résultats significatifs          |           |
+Discussion approfondie           |           |
+Références actuelles (>2023)     |           |
+Figures qualité publication      |           |
+English scientifique             |           |
+TOTAL                           | /80       |
 ```
 
-#### Étape 3 : Mise à jour bibliographique (Perplexity) - 5 min
+### **Prompts diagnostic à copier-coller**
+
+**Pour Claude :**
 ```
-Mission : State-of-the-art complet
-- Intégrer 15 nouvelles refs pertinentes
-- Citation style Nature
-- Contextualisation findings
-- Tableau comparatif études similaires
+Analyse ce TFE pour transformation en publication high-impact.
+[Coller TFE complet]
+
+Fournis :
+1. Score publication-readiness (/100)
+2. Top 3 forces pour publication
+3. Top 3 faiblesses à corriger
+4. Journal recommandé (réaliste)
+5. Temps estimé transformation
 ```
 
-#### Étape 4 : Rédaction discussion (Claude) - 5 min
+**Pour Perplexity :**
 ```
-Structure discussion :
-1. Résumé findings principaux
-2. Intégration littérature
-3. Implications cliniques
-4. Limitations et forces
-5. Directions futures
-```
+Trouve les 5 articles les plus proches de mon sujet publiés 
+en 2024-2025 dans des journaux IF>5. 
 
-#### Étape 5 : Figures et visualisations (ChatGPT) - 5 min
-```
-Créer :
-- Figure 1 : Schéma mécanisme
-- Figure 2 : Résultats principaux
-- Figure 3 : Modèle proposé
-- Extended Data : Analyses supp
-```
+Mon sujet : [Résumer en 50 mots]
 
-#### Étape 6 : Dashboard interactif (Perplexity Labs) - 5 min
-```
-Générer :
-- Visualisation interactive données
-- Comparaisons avec littérature
-- Calculateurs pour cliniciens
-- Export pour supplementary
-```
-
-#### Étape 7 : Fact-checking final (Gemini) - 5 min
-```
-Vérifier :
-- Exactitude toutes claims
-- Cohérence chiffres/stats
-- Références correctes
-- Compliance guidelines
+Pour chaque article, indique :
+- Titre et journal
+- Ce qu'ils ont que je n'ai pas
+- Impact factor
+- Temps depuis soumission
 ```
 
 ---
 
-## Phase 3 : Optimisation Finale (15 min)
+## **EXERCICE 4.2 : Pipeline Transformation Section par Section (60 min)**
 
-### Polishing multicouche :
+### **A. TITRE & ABSTRACT - Template Multi-IA (15 min)**
 
-**Round 1 - Style et flow (ChatGPT) - 5 min**
-- Améliorer transitions
-- Varier structure phrases
-- Éliminer répétitions
-- Optimiser lisibilité
+**Workflow copier-coller :**
 
-**Round 2 - Précision scientifique (Claude) - 5 min**
-- Vérifier terminologie
-- Préciser ambiguïtés
-- Renforcer claims
-- Ajuster ton académique
-
-**Round 3 - Références et cohérence (Perplexity + Gemini) - 5 min**
-- Compléter citations manquantes
-- Vérifier format bibliographie
-- Cross-check avec guidelines
-- Final compliance check
-
-### Grille d'évaluation article final :
+**Étape 1 - ChatGPT :**
 ```
-CRITÈRE                | Score (/5) | Commentaires
------------------------|------------|-------------
-Innovation scientifique|            |
-Rigueur méthodologique |            |
-Clarté présentation    |            |
-Impact potentiel       |            |
-Respect guidelines     |            |
-TOTAL                 | /25        |
+Génère 10 titres d'article scientifique pour cette étude.
+Contexte : [Domaine]
+Méthode : [Type étude]
+Résultat principal : [Finding clé]
+Style : Nature Medicine / Lancet
+Max 15 mots, impactant, SEO-optimisé
 ```
 
----
-
-## Phase 4 : Présentation et Peer Review (10 min)
-
-### Format présentation :
-1. **Titre et abstract** (1 min)
-2. **Innovation clé** (30 sec)
-3. **Méthodologie** (30 sec)
-4. **Résultats principaux** (1 min)
-5. **Impact attendu** (30 sec)
-6. **Q&A peer review** (6 min 30)
-
-### Simulation peer review :
-Chaque groupe pose 2 questions critiques :
-- Méthodologie
-- Interprétation
-- Limitations
-- Généralisabilité
-
----
-
-## 🏗️ EXERCICE 4.1 : Design du Futur Workflow (20 min)
-
-### Mission : Créer LE workflow médical IA de 2030
-
-### Composants requis :
-
-#### 1. IAs actuelles évoluées (10 min conception)
-Imaginer évolution 2030 de :
-- **ChatGPT-Medical** : Capacités ajoutées ?
-- **Claude-Clinical** : Spécialisations ?
-- **Gemini-Health** : Intégrations ?
-- **Perplexity-Research** : Automatisations ?
-
-#### 2. Nouvelles IAs spécialisées (5 min conception)
-Créer 2 IAs médicales innovantes :
-- Nom, fonction principale
-- Technologie sous-jacente
-- Cas d'usage spécifique
-- Intégration workflow
-
-#### 3. Métriques et sécurité (5 min finalisation)
-Définir :
-- KPIs de performance
-- Mécanismes fail-safe
-- Audit trail IA
-- Compliance future
-
-### Template workflow 2030 :
+**Étape 2 - Claude :**
 ```
-ÉTAPE              | IA UTILISÉE        | FONCTION
--------------------|--------------------|-----------
-Admission patient  |                    |
-Anamnèse          |                    |
-Examen clinique   |                    |
-Diagnostic        |                    |
-Traitement        |                    |
-Suivi             |                    |
-Documentation     |                    |
+Écris un abstract structuré de 250 mots exactement.
+Format strict :
+- Background (50 mots)
+- Methods (60 mots) 
+- Results (80 mots)
+- Conclusions (60 mots)
+
+Basé sur : [Coller résumé TFE]
+Style : [Journal cible]
 ```
 
-### Grille d'évaluation workflow :
+**Étape 3 - Perplexity :**
 ```
-CRITÈRE            | Score (/5)
--------------------|------------
-Innovation         |
-Faisabilité        |
-Impact clinique    |
-Sécurité           |
-Scalabilité        |
-TOTAL             | /25
+Analyse ces 5 titres. Lequel est le plus unique ?
+Vérifie qu'aucun article similaire n'existe.
+Suggère 5 keywords MeSH optimaux.
+[Coller vos 5 meilleurs titres]
 ```
 
----
+### **B. INTRODUCTION - Template Impact Maximum (15 min)**
 
-## 📊 Dashboard Personnel - Template (15 min)
+**Pipeline Introduction Nature/Science :**
 
-### Création de votre système de monitoring IA
-
-#### Métriques à tracker :
 ```
-MÉTRIQUE                    | Semaine 1 | Semaine 2 | Semaine 3 | Semaine 4
-----------------------------|-----------|-----------|-----------|------------
-Temps économisé (heures)    |           |           |           |
-Tâches automatisées (n)     |           |           |           |
-Erreurs détectées (n)       |           |           |           |
-Qualité output (1-10)       |           |           |           |
-ROI estimé (€)              |           |           |           |
+STRUCTURE GAGNANTE :
+Paragraphe 1 : Le problème global (3-4 phrases)
+Paragraphe 2 : Ce qu'on sait déjà (4-5 phrases)
+Paragraphe 3 : Le gap critique (3-4 phrases)
+Paragraphe 4 : Notre solution (2-3 sentences)
 ```
 
-#### Analyse par plateforme :
+**Prompt Claude thinking mode :**
 ```
-UTILISATION        | ChatGPT % | Claude % | Gemini % | Perplexity %
--------------------|-----------|----------|----------|---------------
-Recherche biblio   |           |          |          |
-Rédaction         |           |          |          |
-Analyse données   |           |          |          |
-Aide diagnostic   |           |          |          |
-Communication     |           |          |          |
+Utilise ton mode de réflexion approfondie pour transformer 
+cette introduction de TFE en introduction Nature Medicine.
+
+Original : [Coller votre intro]
+
+Applique :
+- Hook puissant dès la 1ère phrase
+- Progression logique problème→gap→solution
+- Chiffres impacts (mortalité, coûts, prévalence)
+- Dernière phrase = contribution cristalline
+- Max 500 mots, chaque mot compte
 ```
 
-#### Plan d'amélioration continue :
-1. Workflow le plus efficient : ___
-2. Combinaison IA optimale : ___
-3. Points de friction : ___
-4. Prochaines optimisations : ___
+### **C. MÉTHODES - Précision & Reproductibilité (15 min)**
 
----
-
-## 🏆 CHALLENGE FINAL : "IA Olympics" (20 min)
-
-### Format : 5 épreuves de 4 minutes
-
-#### Épreuve 1 : Speed Diagnosis
-**Cas :** Patient complexe multi-symptômes
-**Mission :** DDx complet en 2 min + justification 2 min
-**Outils :** Tous autorisés
-**Points :** Pertinence (10) + Rapidité (10)
-
-#### Épreuve 2 : Research Race  
-**Topic :** "CAR-T cells in solid tumors 2025"
-**Mission :** 10 refs les plus pertinentes
-**Comparaison :** Perplexity vs Combinaison autres
-**Points :** Qualité refs (10) + Exhaustivité (10)
-
-#### Épreuve 3 : Translation Triumph
-**Input :** Paragraph technique complexe
-**Output :** Version patient 12 ans
-**Test :** Les 4 outils en parallèle
-**Points :** Clarté (10) + Exactitude (10)
-
-#### Épreuve 4 : Visual Victory
-**Data :** Dataset survie 5 ans
-**Mission :** Plus belle figure publication
-**Duel :** ChatGPT vs Perplexity Labs
-**Points :** Esthétique (10) + Information (10)
-
-#### Épreuve 5 : Ethics Excellence
-**Dilemme :** Cas éthique complexe fourni
-**Approche :** Solution multi-IA consensuelle
-**Évaluation :** Argumentation + Nuances
-**Points :** Profondeur (10) + Consensus (10)
-
-### Scoring final :
+**Checklist STROBE/CONSORT :**
 ```
-ÉQUIPE            | Ep.1 | Ep.2 | Ep.3 | Ep.4 | Ep.5 | TOTAL | RANG
-------------------|------|------|------|------|------|-------|------
-[Nom Groupe 1]    | /20  | /20  | /20  | /20  | /20  | /100  |
-[Nom Groupe 2]    | /20  | /20  | /20  | /20  | /20  | /100  |
-[Nom Groupe 3]    | /20  | /20  | /20  | /20  | /20  | /100  |
-[Nom Groupe 4]    | /20  | /20  | /20  | /20  | /20  | /100  |
+□ Design étude clairement stated
+□ Setting et dates précises
+□ Critères inclusion/exclusion listés
+□ Variables : définitions opérationnelles
+□ Biais : comment addressés
+□ Taille échantillon : justifiée
+□ Statistiques : logiciels et versions
+□ Éthique : comité et numéro
+```
+
+**Prompt ChatGPT pour figure :**
+```
+Crée un flow diagram CONSORT/STROBE pour mon étude.
+- Screening : n=___
+- Excluded : n=___ (raisons)
+- Included : n=___
+- Analyzed : n=___
+- Lost follow-up : n=___
+
+Style publication, export SVG haute résolution
+```
+
+### **D. RÉSULTATS & DISCUSSION - Impact Maximal (15 min)**
+
+**Template Discussion haute impact :**
+
+```
+STRUCTURE OPTIMALE :
+1. Résumé findings principaux (1 paragraphe)
+2. Comparaison littérature (2 paragraphes)
+3. Mécanismes/implications (2 paragraphes)
+4. Forces de l'étude (1 paragraphe)
+5. Limitations honnêtes (1 paragraphe)
+6. Futures directions (1 paragraphe)
+```
+
+**Prompts séquentiels :**
+
+**ChatGPT (Figures) :**
+```
+Transforme ce tableau en figure publication :
+[Coller données]
+Style : Journal [nom]
+Inclure : Error bars, p-values, légende complète
+Export : 300 DPI, TIFF
+```
+
+**Claude (Discussion) :**
+```
+Réécris cette discussion pour impact maximum.
+Connecte chaque finding à son implication clinique.
+Compare avec les 3 études majeures du domaine.
+Sois honnête sur les limites mais reste positif.
+Finis sur une note d'espoir/futur excitant.
 ```
 
 ---
 
-## 🎓 Test Final Certification (25 min)
+## **EXERCICE 4.3 : Quality Check Multi-IA (15 min)**
 
-### Cas pratique intégratif :
-Patient réel anonymisé avec :
-- Histoire clinique complexe
-- Examens multiples
-- Contexte psychosocial
-- Urgence relative
+### **Matrice de Validation Croisée**
 
-### Missions :
-1. Diagnostic différentiel raisonné
-2. Plan d'investigation
-3. Stratégie thérapeutique
-4. Note d'information patient
-5. Protocole de suivi
+```
+SECTION        | OUTIL      | CHECK-POINTS                     | OK?
+---------------|------------|----------------------------------|-----
+Titre          | Gemini     | Unique? Impactant? ≤15 mots?    | □
+Abstract       | ChatGPT    | 250 mots? IMRAD? Keywords?      | □  
+Introduction   | Claude     | Hook? Flow? Contribution claire? | □
+Methods        | Perplexity | STROBE complet? Reproductible?  | □
+Results        | ChatGPT    | Figures HD? Stats correctes?    | □
+Discussion     | Claude     | Balanced? Implications? Future? | □
+References     | Perplexity | >50% récentes? Format correct?  | □
+```
 
-### Contraintes :
-- Utiliser minimum 3 IAs
-- Documenter chaque choix d'outil
-- Justifier workflow adopté
-- Identifier/mitiger risques IA
+### **Prompt Validation Finale**
 
-### Critères certification :
-- [ ] Utilisation appropriée multi-IA
-- [ ] Détection active hallucinations
-- [ ] Workflow optimisé démontré
-- [ ] Réflexe vérification systématique
-- [ ] Respect éthique et sécurité
+**Pour chaque outil :**
+```
+Fais un quality check de cette section pour [Journal].
+Vérifie :
+1. Conformité guidelines journal
+2. Clarté et impact
+3. Erreurs ou incohérences
+4. Suggestions finales
+
+Section : [Coller section]
+```
 
 ---
 
-## 📝 Notes pour formateurs Session 4
+## **EXERCICE 4.4 : Stratégie Journal (15 min)**
 
-### Préparation matériel :
-- [ ] Extrait TFE type (4 pages)
-- [ ] Dataset CSV exemple
-- [ ] Guidelines Nature Medicine
-- [ ] Cas patient complexe final
-- [ ] Certificats personnalisés
-- [ ] Prix challenge (abonnements)
+### **Matrice Décision Journal**
 
-### Points clés pédagogiques :
-1. Focus sur synergie entre outils
-2. Automatisation via Perplexity Labs
-3. Workflow personnalisé selon spécialité
-4. Vision prospective réaliste
-5. Engagement communauté long terme
+```
+JOURNAL         | IF    | Fit  | Accept% | Review | OA Cost | SCORE
+----------------|-------|------|---------|--------|---------|-------
+Nature Med      | 82.9  | /10  | 8%      | 60d    | $11,390 |
+Lancet          | 168.9 | /10  | 5%      | 45d    | $6,530  |
+BMJ             | 93.6  | /10  | 7%      | 35d    | $4,920  |
+JAMA            | 120.7 | /10  | 6%      | 40d    | $6,000  |
+[Votre choix 1] |       | /10  |         |        |         |
+[Votre choix 2] |       | /10  |         |        |         |
+[Votre choix 3] |       | /10  |         |        |         |
+```
 
-### Timing serré :
-- Mega-projet : 75 min non-stop
-- Pauses entre blocs seulement
-- Chrono visible pour challenges
-- Rappels 5 min avant fin
+### **Prompt Perplexity pour Journal Selection**
+
+```
+Mon article : [Titre + abstract 100 mots]
+
+Trouve les 10 meilleurs journaux pour cet article.
+Critères :
+- Impact Factor 2024
+- Scope match (score /10)
+- Acceptance rate
+- Average review time
+- Open Access options et coûts
+
+Classe par probabilité réaliste d'acceptation.
+```
+
+---
+
+## **EXERCICE 4.5 : Cover Letter Parfaite (15 min)**
+
+### **Template Cover Letter High-Impact**
+
+```
+Dear Editors of [Journal],
+
+[HOOK - Pourquoi ce sujet maintenant - 1 phrase impact]
+
+[PROBLÈME - Le gap que vous addressez - 2 phrases]
+
+[SOLUTION - Votre contribution unique - 2 phrases]
+
+[RÉSULTATS - Key findings sans détails - 2 phrases]
+
+[FIT - Pourquoi parfait pour ce journal - 1 phrase]
+
+[IMPACT - Ce que ça change pour les lecteurs - 1 phrase]
+
+We confirm that this work is original, not under consideration 
+elsewhere, and all authors have approved the submission.
+
+Sincerely,
+[Corresponding author]
+```
+
+### **Pipeline Cover Letter 3 étapes**
+
+**Claude :**
+```
+Écris une cover letter pour [Journal] basée sur cet abstract :
+[Coller abstract]
+Max 250 mots, persuasif mais humble
+```
+
+**ChatGPT :**
+```
+Améliore cette cover letter pour impact maximum.
+Chaque phrase doit vendre l'article.
+Évite clichés et phrases creuses.
+[Coller draft Claude]
+```
+
+**Gemini :**
+```
+Vérifie que cette cover letter respecte les guidelines de [Journal].
+Ajuste ton et longueur si nécessaire.
+[Coller version finale]
+```
+
+---
+
+## **EXERCICE 4.6 : Anticiper les Reviewers (15 min)**
+
+### **Simulation Review Critique**
+
+**Prompt Claude (Reviewer Mode) :**
+```
+Agis comme un reviewer sévère mais juste pour [Journal].
+Lis cet article et fournis :
+
+MAJOR CONCERNS (3-5 points) :
+- Chaque concern en 2-3 phrases
+- Focus : Méthodologie, nouveauté, impact
+
+MINOR ISSUES (5-10 points) :
+- Quick fixes
+- Clarifications needed
+- Missing references
+
+VERDICT : Accept/Major revision/Reject
+```
+
+### **Template Réponses aux Reviewers**
+
+```
+We thank the reviewer for their thorough and constructive comments. 
+We have addressed all concerns as follows:
+
+MAJOR CONCERN 1: [Quote exact du reviewer]
+RESPONSE: We agree that [acknowledge]. We have now [action taken].
+Specifically, [details of changes with line numbers].
+
+[Répéter pour chaque concern]
+
+We believe these revisions significantly strengthen the manuscript 
+and hope it is now suitable for publication in [Journal].
+```
+
+---
+
+## **EXERCICE 4.7-4.9 : ACTIONS FINALES**
+
+### **Checklist Pré-Soumission**
+
+**Documents prêts :**
+- [ ] Manuscript principal (Word + PDF)
+- [ ] Figures séparées haute résolution
+- [ ] Tables éditables
+- [ ] Supplementary materials
+- [ ] Cover letter
+- [ ] Author statements
+- [ ] ORCID pour tous
+- [ ] Ethical approval docs
+- [ ] Data availability statement
+
+### **Plan Personnel Post-Formation**
+
+```
+MON ENGAGEMENT PUBLICATION IA
+
+Deadline soumission TFE : ___/___/2025
+Journal cible principal : _____________
+Backup journals (2) : ________________
+
+Routine IA hebdomadaire :
+□ Lundi : Veille Perplexity (30 min)
+□ Mercredi : Rédaction Claude (1h)
+□ Vendredi : Optimisation ChatGPT (30 min)
+
+Objectif 2025 :
+□ 2 articles soumis
+□ 1 article accepté
+□ Pipeline IA optimisé <50h/article
+
+Signature : _______________________
+```
+
+---
+
+## **RESSOURCES BONUS SESSION 4**
+
+### **Prompts Magiques à Garder**
+
+**Le "Instant Abstract" :**
+```
+Transform these bullet points into a Nature-quality abstract:
+- Background: [Your context]
+- Method: [Your approach]  
+- Results: [Your findings]
+- Impact: [Why it matters]
+Output: 250 words, high impact style
+```
+
+**Le "Figure Beautifier" :**
+```
+I have this data [paste]. Create a publication-ready figure:
+- Style: New England Journal of Medicine
+- Include: Error bars, p-values, trend lines
+- Export: Vector format, 300 DPI
+- Caption: Complete with statistical details
+```
+
+**Le "Reviewer Whisperer" :**
+```
+This reviewer comment seems hostile: [paste comment]
+Help me write a professional, diplomatic response that:
+- Acknowledges their expertise
+- Addresses the concern thoroughly  
+- Shows how we've improved the manuscript
+- Maintains scientific integrity
+```
+
+### **Métriques de Succès**
+
+**Tracker votre progression :**
+```
+AVANT IA :
+- Temps TFE→Article : ___ mois
+- Qualité perçue : ___/10
+- Stress niveau : ___/10
+
+APRÈS FORMATION :
+- Temps estimé : ___ semaines
+- Qualité espérée : ___/10
+- Confiance : ___/10
+
+GAIN NET : ___% temps, ___% qualité
+```
+
+---
+
+💡 **Remember :** 
+> "Votre TFE contient déjà une publication. 
+> L'IA est juste le révélateur qui la fait apparaître."
+
+**#TFEtoNature** **#AIPublished** **#30DayChallenge**

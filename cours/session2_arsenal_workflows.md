@@ -1,210 +1,384 @@
-# SESSION 2 : Arsenal Comparatif et Workflows Multi-IA
-## *Durée : 3h | Format : Découverte pratique + Optimisation comparative*
+⬅️ **[Retour Session 1](./session1_fondements_decouverte.md)**
 
-### **🎯 OUVERTURE : Retour d'Expérience (10 min)**
-- Résumé des soumissions Google Drive
-- Compilation hallucinations dans Sheets partagé
-- Vote via sondage WhatsApp : Pire échec
-- Affichage résultats en temps réel
+# SESSION 2 : Expansion Contrôlée et Découverte Multi-Outils
+## *Durée : 3h | Format : Maîtrise individuelle + Comparaison stratégique*
+### **🎯 Objectif : Découvrir les 3 autres outils individuellement avant de comparer**
 
 ---
 
-### **🎯 OBJECTIF SESSION 2**
-Maîtriser l'art de combiner les 4 IAs pour créer des workflows surpuissants en médecine
+### **🎯 OUVERTURE : Retour sur ChatGPT (10 min)**
 
-### 🧠 **Capacités de Raisonnement Étendu - Update Session 2**
+#### **Partage d'Expériences**
+- Tour de table rapide : meilleure découverte avec ChatGPT
+- Hallucinations les plus surprenantes
+- Application la plus utile trouvée
+- Questions émergentes
 
-**Utilisation pratique du "thinking" pour la recherche :**
-
-| Tâche | Outil Standard | Avec Thinking Mode | Gain |
-|-------|----------------|-------------------|------|
-| Revue systématique | 2-3h recherche manuelle | 30 min avec Deep Research | 75% temps |
-| Méta-analyse | Compilation manuelle | Analyse automatique patterns | Insights++ |
-| Hypothèses recherche | Brainstorming limité | Exploration systématique | Créativité++ |
-
-**💡 Conseil Session 2 :** Pour recherche biblio complexe, utilisez Perplexity Deep Research en premier, puis Claude thinking mode pour l'analyse critique des articles trouvés.
+#### **Objectif Session 2**
+```
+Aujourd'hui : Maîtrise individuelle de Claude, Gemini et Perplexity
+→ 45 minutes par outil pour vraie compréhension
+→ Comparaison uniquement après maîtrise
+→ Focus TFE : Quel outil pour quelle partie de publication ?
+```
 
 ---
 
-### **🔄 BLOC 1 : Recherche Bibliographique Comparative (50 min)**
+### **🧠 BLOC 1 : Claude - Le Précis et l'Éthique (45 min)**
 
-#### **📚 EXERCICE COMPARATIF 2.1 : Battle Biblio (35 min)**
+#### **Introduction à Claude (10 min)**
 
-**Mission :** Même recherche, 4 approches
+**Identité Claude :**
+- Créé par Anthropic
+- Focus : Sécurité et précision
+- Constitutional AI : Éthique intégrée
+- Fenêtre : 200K tokens (≈150K mots!)
 
-**Question de recherche :**
+**Forces uniques :**
+- 📝 Rédaction longue et structurée
+- 🎯 Précision et nuance
+- 🏛️ Raisonnement éthique
+- 📊 Artifacts visuels
+- 🧠 Thinking mode transparent
+
+#### **🔄 EXERCICE 2.1 : Découverte Claude (15 min)**
+
+**Test 1 : Rédaction médicale structurée**
 ```
-"Efficacité des nouvelles thérapies CAR-T dans le lymphome B 
-réfractaire : revue systématique 2023-2025"
-```
-
-**Stratégies par outil :**
-
-**ChatGPT (avec browsing/plugins) :**
-1. Activer browsing ou Scholar AI
-2. Recherche directe PubMed
-3. Synthèse des abstracts
-
-**Claude (analyse PDFs) :**
-1. Uploader 5-10 PDFs pertinents
-2. Demander synthèse croisée
-3. Extraction données clés
-
-**Gemini (recherche native) :**
-1. Utiliser capacités Google Scholar
-2. Vérification sources multiples
-3. Timeline des découvertes
-
-**Perplexity (recherche spécialisée) :**
-1. Deep Research automatique
-2. Compilation sources avec citations
-3. Génération rapport structuré
-
-**Comparaison (10 min) :**
-```
-MÉTRIQUE           | ChatGPT | Claude | Gemini | Perplexity
--------------------|---------|--------|--------|------------
-Nombre de refs     |         |        |        |
-Pertinence (%)     |         |        |        |
-Refs fantômes      |         |        |        |
-Synthèse qualité   | /10     | /10    | /10    | /10
-Temps total        |         |        |        |
+"Je dois rédiger le protocole d'une étude clinique sur [sujet].
+Aide-moi à structurer selon les standards SPIRIT 2013.
+Inclus tous les éléments essentiels."
 ```
 
-**🏆 Défi Bonus :** Créer LA méta-analyse en combinant les 4
+**Test 2 : Analyse de document long**
+- Uploader un article scientifique (PDF)
+- Prompt : "Analyse critique de cet article. Forces, faiblesses, biais potentiels."
 
-#### **🔍 Configuration Outils Spécialisés (10 min)**
+**Test 3 : Création d'Artifact**
+```
+"Crée un algorithme décisionnel visuel pour la prise en charge 
+de l'hypertension selon les dernières recommandations ESC."
+```
 
-**Installation et test rapide :**
-- NotebookLM (Google) → Upload corpus
-- Consensus → Recherche IA native  
-- Perplexity → Mode académique
-- Elicit → Extraction données
+**Points d'observation :**
+- Structure et organisation
+- Profondeur d'analyse
+- Qualité des artifacts
 
-**Mini-test :** Même question sur outils spécialisés vs généralistes
+#### **🤔 EXERCICE 2.2 : Claude Thinking Mode (10 min)**
+
+**Cas éthique complexe :**
+```
+"Un patient de 16 ans demande la contraception sans que ses parents 
+soient informés. La mère, que je connais bien, me demande directement 
+si sa fille est venue me voir. Comment gérer cette situation ?
+
+Utilise ton mode de réflexion approfondie pour explorer toutes les dimensions."
+```
+
+**Comparer :**
+- Réponse standard vs thinking mode
+- Nuances apportées
+- Temps de réflexion
+
+#### **📝 EXERCICE 2.3 : TFE avec Claude (10 min)**
+
+**Application publication :**
+```
+"Voici la section Méthodes de mon TFE [coller extrait].
+Restructure-la selon les standards du journal [nom].
+Assure-toi qu'elle répond aux critères STROBE/CONSORT."
+```
+
+**Évaluation Claude :**
+```
+CRITÈRE                | Score /5 | Notes
+-----------------------|----------|-------
+Précision restructuration |      |
+Respect des guidelines    |      |
+Clarté améliorée         |      |
+Suggestions pertinentes   |      |
+```
 
 ---
 
-### **🎨 BLOC 2 : Création de Contenu Médical (50 min)**
+### **🌍 BLOC 2 : Gemini - L'Intégré Google (45 min)**
 
-#### **📊 EXERCICE COMPARATIF 2.2 : Visualisation de Données (25 min)**
+#### **Introduction à Gemini (10 min)**
 
-**Mission :** Créer même figure médicale
+**Identité Gemini :**
+- Créé par Google DeepMind
+- Intégration écosystème Google
+- Multimodal natif
+- Version : 1.5 Pro
 
-**Dataset fourni :** Survie à 5 ans post-CAR-T (CSV)
+**Forces uniques :**
+- 🔍 Recherche Google native
+- 📚 Google Scholar intégré
+- 📊 Google Workspace
+- 🌐 Information temps réel
+- 👥 Collaboration native
 
-**Approches :**
-- **ChatGPT** : Code Interpreter → Python plots
-- **Claude** : Artifacts → SVG interactif
-- **Gemini** : Sheets → Charts intégrés
-- **Perplexity** : Labs → Dashboard interactif
+#### **🔄 EXERCICE 2.4 : Découverte Gemini (15 min)**
 
-**Grille d'évaluation :**
+**Test 1 : Recherche médicale actualisée**
 ```
-CRITÈRE            | ChatGPT | Claude | Gemini | Perplexity
--------------------|---------|--------|--------|------------
-Qualité visuelle   | /5      | /5     | /5     | /5
-Interactivité      | /5      | /5     | /5     | /5
-Export facilité    | /5      | /5     | /5     | /5
-Personnalisation   | /5      | /5     | /5     | /5
-Code réutilisable  | /5      | /5     | /5     | /5
+"Recherche les dernières études (2024-2025) sur l'efficacité 
+des inhibiteurs SGLT2 dans l'insuffisance cardiaque à FE préservée.
+Résume les findings principaux avec sources."
 ```
 
-#### **📝 EXERCICE COMPARATIF 2.3 : Rédaction Médicale (25 min)**
+**Test 2 : Intégration Workspace**
+- Créer un Google Doc
+- Utiliser Gemini dedans pour générer contenu
+- Tester la collaboration
 
-**Mission :** Abstract de 250 mots sur vos "données"
+**Test 3 : Analyse multimodale**
+- Uploader image + texte
+- Demander analyse croisée
+- Évaluer cohérence
 
-**Structure imposée :**
-- Background (50 mots)
-- Methods (60 mots)
-- Results (80 mots)  
-- Conclusion (60 mots)
+**Points d'observation :**
+- Qualité des sources trouvées
+- Actualité des informations
+- Facilité d'intégration
 
-**Focus comparatif :**
-- Respect strict word count
-- Style publication international
-- Précision statistique
-- Flow narratif
+#### **📊 EXERCICE 2.5 : Gemini pour Données (10 min)**
 
-**🔄 Technique "Fusion" :**
-1. Draft initial sur outil préféré
-2. Amélioration sur 2ème outil
-3. Polish final sur 3ème
-4. Validation des sources avec 4ème
-5. Compare avec version mono-outil
+**Avec Google Sheets :**
+1. Importer dataset médical
+2. Utiliser Gemini pour :
+   - Analyser tendances
+   - Créer visualisations
+   - Générer insights
+
+**Prompt exemple :**
+```
+"Analyse ces données de survie à 5 ans. 
+Identifie les facteurs prédictifs principaux.
+Crée les graphiques appropriés."
+```
+
+#### **📝 EXERCICE 2.6 : TFE avec Gemini (10 min)**
+
+**Recherche bibliographique avancée :**
+```
+"Mon TFE porte sur [sujet]. Trouve les 10 articles 
+les plus cités de 2023-2025 sur ce thème.
+Compare leurs méthodologies et conclusions."
+```
+
+**Évaluation Gemini :**
+```
+CRITÈRE                | Score /5 | Notes
+-----------------------|----------|-------
+Pertinence sources      |         |
+Actualité information   |         |
+Qualité synthèse        |         |
+Intégration Google      |         |
+```
 
 ---
 
-### **💡 BLOC 3 : Détection Avancée des Limites (35 min)**
+### **🔍 BLOC 3 : Perplexity - L'Automatiseur de Recherche (45 min)**
 
-#### **🕵️ EXERCICE 2.4 : "AI Detective Challenge" (20 min)**
+#### **Introduction à Perplexity (10 min)**
 
-**Mission :** Identifier quel outil a généré quoi
+**Identité Perplexity :**
+- Focus : Recherche et automatisation
+- Sources toujours citées
+- Perplexity Labs : Apps auto-générées
+- Deep Research : Rapports exhaustifs
 
-**Matériel :** 12 textes médicaux (3 par IA)
-- Descriptions de pathologies
-- Protocoles de traitement
-- Cas cliniques
+**Forces uniques :**
+- 🔬 Recherche approfondie automatique
+- 📑 Citations systématiques
+- 📊 Dashboards générés
+- 🤖 Automatisation poussée
+- 📈 Rapports professionnels
 
-**Indices à chercher :**
-- Patterns de formulation
-- Structure des phrases
-- Vocabulaire privilégié
-- Marqueurs stylistiques
+#### **🔄 EXERCICE 2.7 : Découverte Perplexity (15 min)**
 
-**Scoring :** Point par identification correcte + justification
+**Test 1 : Recherche simple avec sources**
+```
+"Quelle est l'incidence actuelle du diabète type 2 
+chez les adolescents en Europe ?"
+```
 
-#### **⚠️ EXERCICE 2.5 : Stress Test Médical (15 min)**
+**Test 2 : Deep Research**
+```
+"Utilise Deep Research pour créer un rapport complet sur 
+les nouveaux biomarqueurs du cancer du pancréas en 2025."
+```
 
-**Mission :** Faire craquer chaque IA
+**Test 3 : Comparaison avec ChatGPT**
+- Même question sur les 2 plateformes
+- Comparer sources et profondeur
 
-**Scénarios de test :**
-1. Question médicale très récente (< 1 mois)
-2. Dosage pédiatrique complexe
-3. Interaction médicamenteuse rare
-4. Protocole expérimental
+**Points d'observation :**
+- Nombre et qualité des sources
+- Structure automatique du rapport
+- Fiabilité des informations
 
-**Documentation (Template Google Sheets) :**
-- Type d'erreur/échec
-- Comportement de l'IA
-- Stratégie de récupération
-- Risque potentiel patient
-- **Accès :** Drive/Session2/Stress_Test.xlsx
-- **Partage :** Screenshot sur WhatsApp avec #StressTest
+#### **🚀 EXERCICE 2.8 : Perplexity Labs (10 min)**
+
+**Création dashboard automatique :**
+```
+"Crée un dashboard interactif pour suivre les indicateurs 
+clés de mon étude clinique : recrutement, compliance, 
+effets secondaires, endpoints."
+```
+
+**Évaluation :**
+- Temps de création
+- Fonctionnalités générées
+- Utilisabilité pratique
+
+#### **📝 EXERCICE 2.9 : TFE avec Perplexity (10 min)**
+
+**Revue de littérature automatisée :**
+```
+"Génère une revue systématique sur [sujet TFE] incluant :
+- Méthodologie de recherche
+- Tableau comparatif des études
+- Analyse des gaps
+- Recommandations futures"
+```
+
+**Évaluation Perplexity :**
+```
+CRITÈRE                | Score /5 | Notes
+-----------------------|----------|-------
+Exhaustivité recherche  |         |
+Qualité automatisation  |         |
+Citations précises      |         |
+Gain de temps          |         |
+```
 
 ---
 
-### **🚀 BLOC 4 : Workflows Optimisés Multi-IA (35 min)**
+### **🎯 BLOC 4 : Comparaison Stratégique et Sélection (45 min)**
 
-#### **Création de Pipelines Efficaces**
+#### **🔄 EXERCICE 2.10 : Le Grand Comparatif (20 min)**
 
-**Pipeline Recherche → Rédaction :**
-```
-1. Perplexity : Recherche initiale avec sources
-2. ChatGPT : Analyse et synthèse  
-3. Claude : Rédaction structurée
-4. ChatGPT : Figures et stats
-5. Gemini : Fact-checking final
-```
+**Mission :** Même tâche sur les 4 outils
 
-**Pipeline Diagnostic Complexe :**
+**Tâche TFE standardisée :**
 ```
-1. ChatGPT : Brainstorming DDx large
-2. Claude : Analyse approfondie top 3
-3. Gemini : Vérification guidelines
-4. Perplexity : Vérification littérature récente
-5. Consensus : Vote final pondéré
+"Transforme ce paragraphe de ma discussion TFE en version 
+publiable pour journal international. Améliore le style, 
+la structure et l'impact scientifique.
+
+[Insérer même paragraphe de 200 mots]"
 ```
 
-**🏆 Challenge Final Session 2 :**
-Créer votre workflow personnalisé pour votre spécialité
+**Grille comparative complète :**
+```
+CRITÈRE           | ChatGPT | Claude | Gemini | Perplexity
+------------------|---------|--------|--------|------------
+Qualité rédaction | /5      | /5     | /5     | /5
+Structure         | /5      | /5     | /5     | /5
+Impact amélioré   | /5      | /5     | /5     | /5
+Temps nécessaire  | min     | min    | min    | min
+Facilité usage    | /5      | /5     | /5     | /5
+TOTAL            | /20     | /20    | /20    | /20
+
+GAGNANT POUR CETTE TÂCHE : _____________
+```
+
+#### **📊 Matrice de Décision Personnelle (15 min)**
+
+**Créer VOTRE matrice :**
+
+```
+TÂCHE MÉDICALE              | OUTIL OPTIMAL | POURQUOI ?
+----------------------------|---------------|------------
+Diagnostic différentiel     |               |
+Rédaction compte-rendu     |               |
+Recherche bibliographique  |               |
+Analyse statistique        |               |
+Communication patient      |               |
+Révision article           |               |
+Analyse éthique           |               |
+Création de visuels       |               |
+TFE → Introduction        |               |
+TFE → Méthodes           |               |
+TFE → Discussion         |               |
+TFE → Revue littérature  |               |
+```
+
+#### **🎯 Plan Personnel TFE-Publication (10 min)**
+
+**Définir votre pipeline optimal :**
+
+```
+MON PIPELINE TFE → PUBLICATION
+
+1. Revue littérature : _____________ (outil)
+   Raison : _______________________
+
+2. Restructuration IMRAD : _________ (outil)
+   Raison : _______________________
+
+3. Amélioration style : ____________ (outil)
+   Raison : _______________________
+
+4. Création figures : ______________ (outil)
+   Raison : _______________________
+
+5. Vérification finale : ___________ (outil)
+   Raison : _______________________
+
+Temps estimé total : _____ heures
+(vs _____ heures méthode traditionnelle)
+```
 
 ---
 
 ### **🎯 MISSION INTER-SESSION 2**
-1. Tester workflow multi-IA sur cas réel
-2. Chronométrer temps par étape
-3. Calculer ROI dans template fourni
-4. Identifier point de friction principal
-5. **Documenter dans :** Drive/Missions/Inter_S2/
-6. **Partager meilleur workflow :** WhatsApp #WorkflowWin
+**"Semaine d'Exploration Comparative"**
+
+1. **Tester votre pipeline** sur 1000 mots de votre TFE
+2. **Chronométrer chaque étape** précisément
+3. **Documenter les problèmes** rencontrés
+4. **Calculer le ROI** (temps/qualité)
+5. **Identifier l'outil champion** pour votre usage
+6. **Créer 2 workflows** personnalisés
+7. **Partager sur WhatsApp** : #PipelineOptimal
+
+**Livrable :** 
+- Pipeline documenté dans Google Sheets
+- Screenshot du meilleur résultat
+- 3 learnings clés
+
+---
+
+### 📊 **POINTS CLÉS SESSION 2**
+
+✅ **Acquis :**
+- Maîtrise individuelle des 4 outils
+- Comparaison basée sur l'expérience
+- Matrice de décision personnelle
+- Pipeline TFE-Publication défini
+
+❌ **Évités :**
+- Confusion par comparaison prématurée
+- Surcharge cognitive
+- Jugements superficiels
+
+⏭️ **Prochaine étape :**
+- Session 3 : Features avancées et workflows complexes
+- Focus : Publication-ready output
+
+💡 **Remember :**
+> "Chaque outil a son génie propre. L'expertise est de choisir 
+> le bon outil pour la bonne tâche au bon moment."
+
+---
+
+*Session conçue selon les principes de charge cognitive optimale*
+*Prochaine session : [Date] - Maîtrise Avancée & Workflows Publication*
+
+---
+
+➡️ **[Continuer vers Session 3 : Maîtrise Avancée](./session3_clinique_ethique.md)**

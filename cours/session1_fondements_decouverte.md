@@ -1,5 +1,8 @@
-# SESSION 1 : Fondements IA + Découverte des 4 Géants
-## *Durée : 3h | Format : Théorie interactive + Ateliers comparatifs*
+# SESSION 1 : Fondements IA & Maîtrise Complète de ChatGPT
+## *Durée : 3h | Format : Théorie simplifiée + Pratique intensive sur ChatGPT*
+### **🎯 Objectif : Maîtriser UN outil avant d'en découvrir plusieurs**
+
+---
 
 ### 🛡️ **PROTOCOLE SÉCURITÉ D'ABORD (5 min)**
 
@@ -19,380 +22,338 @@
 □ JAMAIS d'images avec informations visibles
 ```
 
-**🚨 Formation des Groupes (5 min) :**
-- Les "1" = Experts ChatGPT (créativité & vision)
-- Les "2" = Experts Claude (précision & éthique)
-- Les "3" = Experts Gemini (recherche & intégration)
-- Les "4" = Experts Perplexity (automatisation & rapports)
-- Installez-vous en carrés de travail collaboratif
+---
+
+### **🧠 BLOC 1 : Fondements IA Simplifiés (25 min)**
+
+#### **L'IA comme Assistant Médical Augmenté (10 min)**
+
+**Analogie médicale simple :**
+```
+L'IA générative = Résident ultra-expérimenté qui :
+✅ A lu toute la littérature médicale (jusqu'à sa date limite)
+✅ Répond instantanément à vos questions
+⚠️ Peut parfois inventer des informations (hallucinations)
+⚠️ N'a pas d'expérience clinique réelle
+⚠️ Ne remplace JAMAIS votre jugement médical
+```
+
+#### **Concepts Essentiels (15 min)**
+
+**1. Les Large Language Models (LLMs)**
+- Prédisent le mot suivant basé sur des milliards de textes
+- Comme un "auto-complete" hyper sophistiqué
+- ChatGPT = Un des LLMs les plus avancés
+
+**2. Les Hallucinations**
+- L'IA peut inventer des faits qui semblent vrais
+- **Exemple :** Citer une étude qui n'existe pas
+- **Règle d'or :** Toujours vérifier les informations critiques
+
+**3. L'Art du Prompting**
+- La qualité de votre question détermine la qualité de la réponse
+- Structure claire = Réponse claire
+- Nous allons maîtriser cela aujourd'hui
 
 ---
 
-### **🔬 BLOC 1 : Comprendre l'IA - Base Scientifique (35 min)**
+### **🤖 BLOC 2 : ChatGPT - Maîtrise Complète (90 min)**
 
-#### **Introduction aux fondements (15 min)**
+#### **🎯 Introduction à ChatGPT (15 min)**
 
-**🧬 Analogie biologique pour médecins :**
-L'IA fonctionne comme le système nerveux :
-- 🧠 **Neurones artificiels** = Cellules nerveuses qui transmettent des signaux
-- 🔗 **Réseaux de neurones** = Circuits neuronaux complexes
-- 📈 **Apprentissage** = Plasticité synaptique et renforcement des connexions
-- ⚙️ **Algorithmes** = Protocoles de traitement de l'information
+**Qu'est-ce que ChatGPT ?**
+- Modèle : GPT-4o (le plus avancé)
+- Capacités : Texte, images, code, analyse
+- Fenêtre contextuelle : ~8000 mots
+- Prix : Gratuit (3.5) ou 20€/mois (Plus)
 
-**Types d'IA médicalement pertinents :**
+**Forces spécifiques pour la médecine :**
+- 🎨 Créativité et brainstorming
+- 📸 Analyse d'images médicales
+- 📊 Statistiques et code
+- 💬 Communication patient
+- 🔍 Recherche web (version Plus)
 
-1. **🎯 Machine Learning Supervisé**
-   - Principe : Apprentissage sur données étiquetées
-   - *Exemple médical* : Diagnostic d'images radiologiques
-   - **✅ Quand l'utiliser** : Diagnostic avec données historiques
-   - **❌ Limites** : Nécessite beaucoup de données annotées
+#### **🔄 EXERCICE 1.1 : Premiers Pas avec ChatGPT (20 min)**
 
-2. **🔍 Machine Learning Non-supervisé** 
-   - Principe : Détection de patterns cachés
-   - *Exemple médical* : Identification de sous-groupes de patients
-   - **✅ Quand l'utiliser** : Recherche exploratoire
-   - **❌ Limites** : Résultats parfois difficiles à interpréter
+**Phase 1 : Interaction basique (10 min)**
+Testez ces prompts progressifs :
 
-3. **🖼️ Deep Learning**
-   - Principe : Couches multiples d'apprentissage
-   - *Exemple médical* : Analyse d'images médicales complexes
-   - **✅ Quand l'utiliser** : Imagerie médicale
-   - **❌ Limites** : "Boîte noire" - décisions inexplicables
-
-4. **💬 Large Language Models (LLM)**
-   - Principe : Prédiction de mots basée sur contexte massif
-   - *Exemple médical* : ChatGPT, Claude, Gemini
-   - **✅ Quand l'utiliser** : Rédaction, synthèse, brainstorming
-   - **❌ Limites** : Hallucinations fréquentes
-
-#### **🌟 Les 4 Plateformes IA Essentielles (20 min)**
-
-**🎯 Objectif :** Comprendre les forces uniques de chaque outil pour optimiser votre choix selon la tâche
-
-**Présentation comparative des plateformes :**
-
-| Critère | ChatGPT (OpenAI) | Claude (Anthropic) | Gemini (Google) | Perplexity Labs |
-|---------|------------------|-------------------|-----------------|-----------------|
-| **Modèle actuel** | GPT-4o | Claude 3.5 Sonnet | Gemini 1.5 Pro | Multi-modèles + Labs |
-| **Prix basique** | 20€/mois | 20€/mois | 20€/mois | 20€/mois Pro |
-| **Forces médicales** | • Très polyvalent<br>• Large adoption<br>• Plugins médicaux<br>• Vision intégrée<br>• Web browsing (Plus) | • Raisonnement précis<br>• Artifacts pour docs<br>• Éthique robuste<br>• Fenêtre 200K tokens<br>• Web search (US, mars 2025) | • Intégration Google<br>• Multimodal natif<br>• Recherche web native<br>• Sources vérifiées | • Recherche temps réel<br>• Rapports automatisés<br>• Sources citées<br>• Dashboards en 10 min |
-| **Limites** | • Hallucinations<br>• Web browsing payant<br>• Style parfois verbeux | • Moins d'intégrations<br>• Web search beta (US only)<br>• Plus conservateur | • Moins testé médical<br>• Interface complexe<br>• Réponses variables | • Outil très récent<br>• Labs depuis 29/05<br>• Courbe apprentissage |
-| **Cas d'usage optimal** | Brainstorming<br>Analyse images<br>Code/stats | Rédaction longue<br>Analyse éthique<br>Révision textes | Recherche web<br>Synthèse docs<br>Travail collaboratif | Revues biblio auto<br>Rapports recherche<br>Dashboards patients |
-| **Spécificités** | • Custom GPTs<br>• Code Interpreter<br>• DALL-E 3<br>• Web browsing intégré | • Constitutional AI<br>• Artifacts visuels<br>• Projects<br>• Web search (Beta) | • Workspace intégré<br>• Extensions Google<br>• Recherche Google native | • Perplexity Labs NEW<br>• Apps web générées<br>• Conçu pour la recherche |
-
-**⚠️ Principe Fondamental :**
-> "Aucun outil n'est parfait. La compétence clé est de savoir choisir le bon outil pour la bonne tâche, combiner leurs forces, et vérifier systématiquement les résultats. L'automatisation amplifie l'efficacité mais nécessite toujours validation médicale."
-
-**📊 Points d'attention :**
-- La précision diagnostique varie considérablement selon le contexte
-- Les performances sur examens médicaux standardisés restent en évolution
-- L'utilisation avec des bases de données médicales améliore la pertinence
-- L'adoption clinique est en croissance mais nécessite validation locale
-
-**🌐 Capacités de Recherche Web (Mai 2025) :**
-| Plateforme | Recherche Web | Disponibilité | Type |
-|------------|---------------|---------------|------|
-| **ChatGPT** | ✅ Oui | Plus users (20€/mois) | Browsing natif avec Bing |
-| **Claude** | ✅ Oui | Tous les Pro users | Web search avec citations |
-| **Gemini** | ✅ Oui | Tous les users | Google Search intégré |
-| **Perplexity** | ✅ Oui | Tous (Pro pour Labs) | Conçu pour la recherche |
-
-> **💡 Conseil :** Pour recherches médicales récentes, privilégiez Perplexity (sources) ou Gemini (Google Scholar). ChatGPT pour exploration large, Claude pour analyse approfondie des résultats.
-
-### 🧠 Capacités de Raisonnement Étendu - "Extended Thinking" :
-
-**État actuel du raisonnement avancé par plateforme :**
-
-| Plateforme | Modèle | Type de Raisonnement | Disponibilité | Performance |
-|------------|--------|---------------------|---------------|-------------|
-| **OpenAI** | o1 & o1 pro | Chain-of-thought caché | • o1: ChatGPT users<br>• o1 pro: 170€/mois<br>• API: 130-520€/M tokens | • AIME 2024: 86% (pro)<br>• Codeforces: 89e percentile<br>• GPQA: Premier à battre experts |
-| **Anthropic** | Claude 3.7 Sonnet | Thinking mode visible | • Tous plans Claude<br>• API: 3€/M in, 15€/M out<br>• Budget tokens ajustable | • GPQA Physics: 96.5%<br>• Hybride: instant ou réfléchi<br>• 128K tokens output |
-| **Google** | Gemini 2.5 + Deep Think | Thinking intégré + mode avancé | • 2.5: En déploiement<br>• Deep Think: Beta testers<br>• 2.0 Flash Thinking: Dispo | • USAMO 2025: Top scores<br>• LiveCodeBench: Leader<br>• MMMU: 84% |
-| **Perplexity** | Deep Research + R1/o3-mini | Recherche itérative approfondie | • Deep Research: Gratuit limité<br>• Pro: Illimité 20€/mois<br>• R1 & o3-mini intégrés | • SimpleQA: 93.9%<br>• Humanity's Last Exam: 21.1%<br>• 2-4 min vs heures humaines |
-
-**💡 Points clés pour médecins :**
-
-1. **OpenAI o1** : Le plus mature pour raisonnement complexe
-   - Résout problèmes niveau expert en maths/sciences
-   - Processus de pensée masqué par design
-   - Idéal pour : Diagnostics complexes, recherche avancée
-
-2. **Claude 3.7 Sonnet** : Transparence du raisonnement
-   - Montre ses étapes de réflexion
-   - Mode hybride (rapide ou approfondi)
-   - Idéal pour : Comprendre le raisonnement, pédagogie
-
-3. **Gemini 2.5** : Intégration native du thinking
-   - Deep Think pour cas ultra-complexes
-   - Recherche parallèle avancée
-   - Idéal pour : Méta-analyses, synthèses complexes
-
-4. **Perplexity Deep Research** : Automatisation de recherche
-   - Effectue des dizaines de recherches automatiquement
-   - Lit des centaines de sources
-   - Idéal pour : Revues de littérature rapides, rapports complets
-
-**⚠️ Implications pratiques :**
-- Les modes thinking augmentent significativement les coûts
-- Le temps de réponse peut passer de secondes à minutes
-- La qualité sur problèmes complexes justifie l'attente
-- Toujours vérifier même avec reasoning avancé
-
----
-
-### **🎯 BLOC 2 : Ateliers Comparatifs - Premier Contact (60 min)**
-
-#### **🔄 EXERCICE COMPARATIF 1.1 : Découverte des Personnalités IA (25 min)**
-
-**Mission :** Découvrir les différences de style et d'approche des 4 plateformes
-
-**Prompt identique pour tous :**
 ```
-"Explique-moi en 100 mots maximum ce qu'est l'insuffisance cardiaque, 
-pour un étudiant en médecine de 3ème année."
+Prompt 1 (trop simple) :
+"Hypertension ?"
+
+Prompt 2 (mieux structuré) :
+"Explique l'hypertension artérielle pour un patient"
+
+Prompt 3 (optimal) :
+"Agis comme un cardiologue pédagogue. Explique l'hypertension 
+artérielle à un patient de 60 ans nouvellement diagnostiqué. 
+Utilise des analogies simples et structure ta réponse en :
+1. Qu'est-ce que c'est ?
+2. Pourquoi c'est important ?
+3. Que peut-on faire ?"
 ```
 
-**Déroulement :**
-1. **10 min** - Chaque expert teste sur son outil
-2. **10 min** - Partage en groupe + remplissage grille
-3. **5 min** - Synthèse des différences observées
+**Phase 2 : Analyse des différences (10 min)**
+- Comparer la qualité des 3 réponses
+- Identifier l'impact de la structure
+- Noter les éléments qui améliorent la réponse
 
-**Grille d'Évaluation Exercice 1.1 :**
+#### **📋 EXERCICE 1.2 : Optimisation des Prompts Médicaux (25 min)**
 
-CRITÈRE               | ChatGPT | Claude | Gemini | Perplexity
----------------------|---------|--------|--------|------------
-Respect consigne (100 mots) | /5 | /5 | /5 | /5
-Précision médicale    | /5      | /5     | /5     | /5
-Clarté pédagogique    | /5      | /5     | /5     | /5
-Structure réponse     | /5      | /5     | /5     | /5
-Adaptation niveau     | /5      | /5     | /5     | /5
-Sources citées        | /5      | /5     | /5     | /5
-TOTAL                | /30     | /30    | /30    | /30
-
-Observations qualitatives :
-- Style de communication : ___
-- Points forts uniques : ___
-- Points faibles : ___
-
-
-#### **🔍 EXERCICE COMPARATIF 1.2 : Détection d'Hallucinations (20 min)**
-
-**Mission :** Identifier qui hallucine et comment
-
-**Prompt piège :**
-```
-"Quelle est la posologie du Cardioflex pour l'insuffisance cardiaque 
-chez l'adulte selon les dernières recommandations ESC 2024 ?"
-```
-*(Note : Cardioflex est un médicament inventé)*
-
-**Déroulement :**
-1. **8 min** - Test individuel + capture réponses
-2. **8 min** - Analyse en groupe des hallucinations
-3. **4 min** - Stratégies de détection partagées
-
-**Points d'observation :**
-- Qui invente une posologie ?
-- Qui admet ne pas connaître ?
-- Qui demande des clarifications ?
-- Quels indices d'hallucination ?
-
-#### **🎯 EXERCICE COMPARATIF 1.3 : Diagnostic Différentiel (15 min)**
-
-**Mission :** Comparer la qualité du raisonnement clinique
+**Mission :** Transformer un cas clinique en diagnostic différentiel structuré
 
 **Cas clinique :**
 ```
-Homme 65 ans, douleur thoracique oppressive depuis 2h, 
-irradiant au bras gauche, sueurs, ATCD : HTA, tabac 30 PA.
-Liste 5 diagnostics différentiels par ordre de probabilité.
+Femme 45 ans, fatigue progressive 3 mois, palpitations occasionnelles,
+perte de poids 5 kg sans régime, nervosité, troubles du sommeil.
+ATCD : RAS. Pas de traitement.
 ```
 
-**Grille Comparative DDx :**
+**Progression des prompts :**
 
-ASPECT              | ChatGPT | Claude | Gemini
---------------------|---------|--------|--------
-Pertinence des DDx  | /5      | /5     | /5
-Ordre logique       | /5      | /5     | /5
-Justifications      | /5      | /5     | /5
-Red flags mention.  | /5      | /5     | /5
-Examens suggérés    | /5      | /5     | /5
+**Étape 1 - Prompt basique (5 min) :**
+```
+"Quel est le diagnostic pour cette patiente ?"
+```
 
-Meilleur pour urgences ? ___
-Plus pédagogique ? ___
-Plus complet ? ___
+**Étape 2 - Prompt amélioré (10 min) :**
+```
+"Analyse ce cas clinique et donne les diagnostics possibles :
+[Insérer le cas]"
+```
 
+**Étape 3 - Prompt expert (10 min) :**
+```
+"Tu es un interniste expérimenté. Analyse ce cas clinique :
+[Insérer le cas]
+
+Fournis :
+1. Top 5 diagnostics différentiels par ordre de probabilité
+2. Justification clinique pour chaque diagnostic
+3. Examens complémentaires essentiels
+4. Red flags à ne pas manquer
+5. Prise en charge immédiate
+
+Format ta réponse de manière structurée et claire."
+```
+
+**Grille d'évaluation :**
+```
+CRITÈRE               | Basique | Amélioré | Expert
+----------------------|---------|----------|--------
+Exhaustivité DDx      | /5      | /5       | /5
+Structure réponse     | /5      | /5       | /5
+Pertinence clinique   | /5      | /5       | /5
+Utilité pratique      | /5      | /5       | /5
+TOTAL                | /20     | /20      | /20
+```
+
+#### **🖼️ EXERCICE 1.3 : Analyse d'Images Médicales (15 min)**
+
+**Mission :** Découvrir les capacités visuelles de ChatGPT
+
+**Test 1 : ECG (5 min)**
+- Uploader un ECG anonymisé
+- Prompt : "Analyse cet ECG et identifie les anomalies"
+- Comparer avec votre interprétation
+
+**Test 2 : Radiologie (5 min)**
+- Uploader une radio thorax
+- Prompt : "Décris les findings sur cette radiographie thoracique"
+- Évaluer la précision
+
+**Test 3 : Dermatologie (5 min)**
+- Photo de lésion cutanée (anonymisée)
+- Prompt : "Quels sont les diagnostics différentiels pour cette lésion ?"
+- Vérifier la pertinence
+
+**Points d'attention :**
+- ChatGPT peut identifier des patterns évidents
+- Ne remplace pas l'expertise radiologique
+- Utile pour l'enseignement et la discussion
+
+#### **📊 EXERCICE 1.4 : Code Interpreter pour Statistiques (15 min)**
+
+**Mission :** Utiliser ChatGPT pour analyses statistiques médicales
+
+**Dataset exemple :**
+```
+Tension avant traitement : 160, 155, 162, 158, 165, 170, 156
+Tension après traitement : 135, 132, 140, 138, 142, 145, 130
+```
+
+**Prompts progressifs :**
+```
+1. "Calcule la moyenne avant et après traitement"
+2. "Fais un test t apparié pour voir si la différence est significative"
+3. "Crée un graphique montrant l'évolution avec intervalle de confiance"
+```
+
+**Découvertes attendues :**
+- Calculs automatiques précis
+- Visualisations professionnelles
+- Code Python généré (réutilisable)
 
 ---
 
-### **🚀 BLOC 3 : Art du Prompting Multi-Plateforme (35 min)**
+### **📝 BLOC 3 : ChatGPT Avancé pour la Médecine (40 min)**
 
-#### **🏗️ Adaptation des Prompts par Outil (20 min)**
+#### **🔧 Custom GPTs Médicaux (15 min)**
 
-**Différences clés dans le prompting :**
+**Découverte des GPTs spécialisés :**
+1. Accéder à "Explore GPTs"
+2. Rechercher "Medical" ou "Clinical"
+3. Tester 2-3 GPTs médicaux
+4. Comparer avec ChatGPT standard
 
-**ChatGPT - Style "Conversationnel Dirigé"**
+**Création d'un Mini-GPT Personnel :**
 ```
-"Agis comme un cardiologue expérimenté. 
-J'ai besoin que tu m'aides à comprendre [concept].
-Peux-tu structurer ta réponse en 3 parties ?"
-```
-
-**Claude - Style "Instruction Précise"**
-```
-"Tu es un cardiologue senior avec 20 ans d'expérience.
-
-CONTEXTE : [détails]
-TÂCHE : [spécifique]
-FORMAT : [structure exacte]
-CONTRAINTES : [limites claires]"
+Nom : "Assistant Diagnostic DDx"
+Instructions : "Tu es un assistant pour diagnostics différentiels.
+Pour chaque cas, tu fournis toujours :
+- 5 diagnostics possibles
+- Probabilité estimée
+- Examens à prescrire
+- Urgence (1-5)"
 ```
 
-**Gemini - Style "Recherche Intégrée"**
-```
-"Recherche les dernières informations sur [sujet] 
-et synthétise en comparant plusieurs sources.
-Privilégie les données de 2024-2025.
-Cite tes sources."
-```
+#### **🌐 Web Browsing pour Actualités Médicales (10 min)**
 
-**Perplexity - Style "Automatisation Dirigée"**
+**Test de recherche (ChatGPT Plus uniquement) :**
 ```
-"Crée un rapport complet sur [sujet médical] incluant :
-- Revue de littérature des 2 dernières années
-- Tableau comparatif des options thérapeutiques
-- Graphiques de données épidémiologiques
-- Recommandations evidence-based avec sources
-Génère également un dashboard interactif."
+"Recherche les dernières recommandations 2025 sur le traitement 
+de l'hypertension chez le diabétique. Cite tes sources."
 ```
 
-#### **💡 EXERCICE COMPARATIF 1.4 : Optimisation de Prompt (20 min)**
+**Évaluation :**
+- Sources trouvées
+- Actualité des informations
+- Fiabilité des sites consultés
 
-**Mission :** Adapter un prompt basique pour chaque outil
+#### **🎯 EXERCICE 1.5 : Application TFE - Premier Contact (15 min)**
 
-**Prompt de base :**
+**Mission :** Analyser un extrait de votre TFE avec ChatGPT
+
+**Étape 1 : Analyse de qualité (5 min)**
 ```
-"Aide-moi avec mon TFE sur l'hypertension"
+"Voici l'introduction de mon TFE sur [sujet]. 
+Évalue sa qualité pour une publication internationale.
+Quels sont les points forts et les améliorations nécessaires ?
+
+[Coller 500 mots de votre TFE]"
 ```
 
-**Tâche par expert :**
-1. **5 min** - Reformuler pour maximiser la qualité sur votre outil
-2. **10 min** - Tester les 3 versions sur chaque outil
-3. **5 min** - Identifier quelle formulation marche où
+**Étape 2 : Identification des gaps (5 min)**
+```
+"Compare cette introduction aux standards des journaux comme 
+Nature Medicine ou The Lancet. Qu'est-ce qui manque ?"
+```
 
-**Résultats attendus :**
-- ChatGPT préfère les prompts engageants
-- Claude excelle avec structure claire
-- Gemini optimise avec contexte de recherche
-- Perplexity brille avec demandes d'automatisation
+**Étape 3 : Plan d'amélioration (5 min)**
+```
+"Crée un plan étape par étape pour transformer cette introduction 
+en version publiable. Sois spécifique et actionnable."
+```
+
+**Documentation :**
+- Noter les suggestions pertinentes
+- Identifier les limites de ChatGPT
+- Créer votre roadmap personnelle
 
 ---
 
-### **🌐 BLOC 3.5 : Maîtrise de la Recherche Web Multi-IA (10 min)**
+### **🚀 BLOC 4 : Synthèse et Préparation Multi-Outils (25 min)**
 
-#### **Stratégies de Recherche par Plateforme**
+#### **Bilan de Maîtrise ChatGPT (10 min)**
 
-**ChatGPT (Browsing avec Bing) :**
+**Auto-évaluation :**
 ```
-"Recherche sur le web les dernières guidelines 2025 
-pour le traitement de [pathologie]. 
-Compare les recommandations européennes et américaines."
-```
-💡 Utilise pour : Exploration large, actualités médicales
-
-**Claude (Web Search Preview - Pro only) :**
-```
-"Utilise ta fonction de recherche web pour trouver
-les études récentes sur [traitement].
-Fournis les citations complètes avec liens."
-```
-💡 Utilise pour : Vérification avec sources, analyse critique
-
-**Gemini (Google Search Natif) :**
-```
-"Trouve les publications Google Scholar récentes
-sur [sujet médical]. Privilégie les méta-analyses
-et essais cliniques des 12 derniers mois."
-```
-💡 Utilise pour : Recherche académique, données récentes
-
-**Perplexity (Optimisé Recherche) :**
-```
-"Compile les informations les plus récentes sur [sujet]
-avec sources vérifiées. Inclus statistiques actuelles
-et consensus des experts 2025."
-```
-💡 Utilise pour : Rapports sourcés, fact-checking rapide
-
----
-
-### **🚀 BLOC 4 : Découverte Perplexity Labs - L'Automatisation Médicale (15 min)**
-
-#### **🆕 EXERCICE 1.5 : Premier Rapport Automatisé avec Labs**
-
-**Mission :** Découvrir la puissance de l'automatisation avec Perplexity Labs
-
-**Prompt pour l'expert Perplexity :**
-```
-"Utilise Perplexity Labs pour créer un rapport complet sur 
-l'insuffisance cardiaque incluant :
-- Épidémiologie actuelle avec graphiques
-- Tableau comparatif des traitements 2025
-- Algorithme de prise en charge visuel
-- 5 articles clés récents avec résumés
-Temps cible : 10 minutes"
+COMPÉTENCE                        | Acquis | À approfondir
+----------------------------------|--------|---------------
+Prompting structuré               | ✓/✗    |
+Analyse d'images                  | ✓/✗    |
+Utilisation Code Interpreter      | ✓/✗    |
+Détection des hallucinations      | ✓/✗    |
+Application médicale pratique     | ✓/✗    |
 ```
 
-**Comparaison avec approche manuelle :**
-- Recherche manuelle : 3-4 heures
-- ChatGPT/Claude/Gemini séparés : 45-60 min
-- Perplexity Labs : 10 min avec tout intégré
+#### **Aperçu des Autres Outils (10 min)**
 
-**Points d'observation :**
-- Qualité des visualisations générées
-- Pertinence des sources citées
-- Complétude du rapport
-- Possibilité d'export/réutilisation
+**Pourquoi plusieurs outils ?**
+- ChatGPT : Créativité et polyvalence
+- Claude : Précision et éthique
+- Gemini : Recherche et Google
+- Perplexity : Automatisation et sources
 
----
+**Ce que vous apprendrez en Session 2 :**
+- Maîtrise individuelle de chaque outil
+- Comparaison sur mêmes tâches
+- Stratégie de sélection optimale
 
-### **📊 BLOC 5 : Synthèse et Challenge Final Session 1 (20 min)**
+#### **Challenge Final Session 1 (5 min)**
 
-#### **🏆 "IA Battle Royale" - Premier Challenge**
+**Mission solo :** Créer votre "Prompt Parfait"
 
-**Mission :** Transformation d'un texte médical complexe en explication patient
+Créez LE prompt optimal pour votre usage médical quotidien :
+- Spécifique à votre spécialité
+- Structuré selon nos apprentissages
+- Réutilisable quotidiennement
 
-**Texte source :**
+**Template à compléter :**
 ```
-"Le patient présente une cardiomyopathie dilatée avec fraction 
-d'éjection ventriculaire gauche à 35%, nécessitant l'initiation 
-d'un traitement par IEC, bêtabloquant et ARM selon les guidelines ESC."
+"Tu es un [spécialité] expérimenté. 
+[Contexte spécifique]
+[Tâche précise]
+[Format de sortie souhaité]
+[Contraintes ou points d'attention]"
 ```
-
-**Défi :**
-- Chaque groupe produit LA meilleure explication patient
-- Combine les forces de chaque outil
-- 10 min de travail
-- Upload résultats dans Drive
-- 5 min de présentations via WhatsApp
-
-**Critères de victoire (dans Google Sheets) :**
-- Clarté pour patient /25
-- Exactitude médicale /25
-- Empathie/ton /25
-- Créativité pédagogique /25
-- **Accès :** Drive/Challenges/Battle_S1.xlsx
 
 ---
 
 ### **🎯 MISSION INTER-SESSION 1**
-**"Journée Comparative"**
-1. Créer compte sur les 3 plateformes
-2. Tester même prompt médical sur chacune
-3. Documenter dans Google Sheets fourni
-4. Identifier 1 hallucination par outil
-5. Calculer temps pour tâche identique
-6. **Partager sur WhatsApp groupe** avec #MissionS1
-7. **BONUS** : Trouver une tâche où un outil échoue complètement
+**"Semaine d'Immersion ChatGPT"**
 
-**Soumission :** Drive/Missions/Inter_S1/[VotreNom].xlsx
+1. **Utiliser ChatGPT quotidiennement** (min 30 min/jour)
+2. **Tester sur 5 cas cliniques réels** (anonymisés)
+3. **Documenter 3 hallucinations** détectées
+4. **Analyser 500 mots de votre TFE**
+5. **Créer 3 prompts optimisés** pour votre pratique
+6. **Calculer le temps gagné** sur vos tâches
+7. **Partager meilleure découverte** sur WhatsApp #ChatGPTMastery
+
+**Documentation :** Google Sheets personnel avec :
+- Prompts testés
+- Qualité des réponses (1-10)
+- Hallucinations détectées
+- Applications pratiques trouvées
+
+---
+
+### 📊 **POINTS CLÉS SESSION 1**
+
+✅ **Acquis :**
+- Compréhension des fondements IA
+- Maîtrise complète de ChatGPT
+- Techniques de prompting avancées
+- Détection des limites et hallucinations
+- Premier contact TFE-Publication
+
+⏭️ **Prochaine étape :**
+- Session 2 : Découverte individuelle Claude, Gemini, Perplexity
+- Comparaison structurée
+- Développement stratégie multi-outils
+
+💡 **Remember :**
+> "Maîtriser un outil en profondeur avant d'en explorer plusieurs. 
+> La compétence bat la connaissance superficielle."
+
+---
+
+*Session conçue selon les principes de charge cognitive optimale*
+*Prochaine session : [Date] - Expansion vers Multi-Outils*
+
+---
+
+➡️ **[Continuer vers Session 2 : Découverte Multi-Outils](./session2_arsenal_workflows.md)**

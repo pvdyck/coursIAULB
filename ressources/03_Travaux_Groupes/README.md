@@ -1,119 +1,180 @@
-# Structure des Travaux de Groupes
+# 📁 Travaux de Groupes - Organisation par Session
 
-## Organisation par Expertise IA
+## 🎯 Structure Alignée sur la Progression Pédagogique
 
-Chaque groupe se spécialise dans une plateforme IA tout en collaborant sur des projets comparatifs.
-
-### 📁 Structure des dossiers
+### 📂 Organisation des Dossiers
 
 ```
 03_Travaux_Groupes/
-├── Groupe_1_ChatGPT/
-│   ├── Session_1/
-│   ├── Session_2/
-│   ├── Session_3/
-│   └── Session_4/
-├── Groupe_2_Claude/
-│   ├── Session_1/
-│   ├── Session_2/
-│   ├── Session_3/
-│   └── Session_4/
-├── Groupe_3_Gemini/
-│   ├── Session_1/
-│   ├── Session_2/
-│   ├── Session_3/
-│   └── Session_4/
-└── Groupe_4_Perplexity/
-    ├── Session_1/
-    ├── Session_2/
-    ├── Session_3/
-    └── Session_4/
+├── Session_1_ChatGPT/      → Semaine 1 : Maîtrise ChatGPT
+├── Session_2_Discovery/     → Semaine 2 : Découverte individuelle
+├── Session_3_Publication/   → Semaine 3 : Workflows avancés
+└── Session_4_TFE_Transform/ → Semaine 4 : Transformation réelle
 ```
 
-## 🎯 Objectifs par Session
+---
 
-### Session 1 : Découverte comparative
-- Rapport de première impression
-- Exercices comparatifs documentés
-- Captures d'écran des interactions
+## 📋 UTILISATION PAR SESSION
 
-### Session 2 : Workflows optimisés
-- Documentation des pipelines créés
-- Métriques de performance
-- Cas d'usage spécifiques
+### Session 1 : ChatGPT Mastery
+**📁 Session_1_ChatGPT/**
+- Prompts optimisés partagés
+- Hallucinations détectées
+- Applications TFE testées
+- Découvertes et astuces
 
-### Session 3 : Applications cliniques
-- Résultats des stations cliniques
-- Analyses de biais documentées
-- Protocoles de sécurité
+### Session 2 : Découverte Individuelle
+**📁 Session_2_Discovery/**
+- Évaluations Claude
+- Évaluations Gemini
+- Évaluations Perplexity
+- Matrices décision personnelles
+- Pipelines TFE définis
 
-### Session 4 : Projet publication
-- Article transformé
-- Dashboard personnel
-- Vision workflow 2030
+### Session 3 : Workflows Publication
+**📁 Session_3_Publication/**
+- Workflows Introduction
+- Workflows Abstract
+- Figures générées
+- Pipelines complets testés
+- Templates réussis
 
-## 📋 Format des livrables
+### Session 4 : Transformation TFE
+**📁 Session_4_TFE_Transform/**
+- Sections transformées
+- Cover letters
+- Journaux ciblés
+- Checklists soumission
+- Success stories
 
-### Nomenclature des fichiers
-```
-[Session]_[Type]_[Description]_[Date].md
-Exemple : S1_Exercice_Hallucinations_20250601.md
-```
+---
 
-### Structure type d'un livrable
-```markdown
-# Titre du travail
-## Groupe : [Nom]
-## Plateforme experte : [ChatGPT/Claude/Gemini/Perplexity]
-## Date : [JJ/MM/AAAA]
+## 🤝 RÈGLES DE COLLABORATION
 
-### Objectif
-[Description de l'exercice]
+### Comment Partager
 
-### Méthodologie
-[Approche utilisée]
+1. **Nommage des Fichiers**
+   ```
+   [Date]_[VotreNom]_[TypeDoc]_[Description].md
+   Exemple : 2025-06-15_Martin_Pipeline_TFE_Diabete.md
+   ```
 
-### Résultats
-[Findings avec captures si pertinent]
+2. **Structure Document**
+   ```markdown
+   # Titre du Travail
+   ## Auteur : [Votre Nom]
+   ## Date : [Date]
+   ## Session : [1/2/3/4]
+   
+   ### Contexte
+   [Brève description]
+   
+   ### Méthode/Approche
+   [Ce que vous avez fait]
+   
+   ### Résultats
+   [Ce que vous avez obtenu]
+   
+   ### Apprentissages
+   [Points clés à retenir]
+   ```
 
-### Analyse comparative
-[Comparaison avec autres plateformes]
+3. **Partage WhatsApp**
+   - Screenshot ou lien Drive
+   - Hashtag session (#Session1, etc.)
+   - Tag collègues si pertinent
 
-### Conclusions
-[Insights et recommandations]
+---
 
-### Annexes
-[Données brutes, prompts utilisés, etc.]
-```
+## 📊 TYPES DE TRAVAUX ATTENDUS
 
-## 🔄 Processus de soumission
+### Session 1 (ChatGPT)
+- ✅ Collection de prompts efficaces
+- ✅ Documentation hallucinations
+- ✅ Cas d'usage innovants
+- ✅ Comparaisons avant/après
 
-1. **Créer** votre fichier dans le dossier approprié
-2. **Nommer** selon la convention
-3. **Partager** le lien sur WhatsApp groupe
-4. **Commenter** les travaux des autres groupes
+### Session 2 (Multi-Outils)
+- ✅ Grilles comparatives remplies
+- ✅ Workflows personnels
+- ✅ Choix d'outils justifiés
+- ✅ Tests chronométrés
 
-## 📊 Évaluation continue
+### Session 3 (Avancé)
+- ✅ Pipelines publication complets
+- ✅ Figures haute qualité
+- ✅ Templates réutilisables
+- ✅ Mesures ROI
 
-Les travaux sont évalués sur :
-- Qualité de la documentation
-- Pertinence des comparaisons
-- Innovation dans l'approche
-- Collaboration inter-groupes
-- Application pratique
+### Session 4 (TFE)
+- ✅ Transformations réussies
+- ✅ Stratégies journal
+- ✅ Documents soumission
+- ✅ Plans post-formation
 
-## 💡 Tips
+---
 
-- Documentez vos échecs autant que vos succès
-- Incluez toujours les prompts exacts utilisés
-- Capturez les hallucinations et erreurs
-- Proposez des améliorations
-- Partagez vos découvertes en temps réel
+## 🏆 VALORISATION DES CONTRIBUTIONS
 
-## 🏆 Meilleurs travaux
+### Critères de Qualité
+- **Clarté** : Facile à comprendre et reproduire
+- **Utilité** : Applicable par d'autres
+- **Innovation** : Approche originale
+- **Documentation** : Bien expliqué
+- **Résultats** : Impact démontré
 
-Les travaux exceptionnels seront :
-- Présentés en exemple
-- Intégrés dans les ressources permanentes
-- Partagés avec les futures cohortes
-- Potentiellement publiés (avec accord)
+### Reconnaissance
+- 🌟 Mention "Contribution Étoile" hebdomadaire
+- 📣 Partage dans newsletter groupe
+- 🏅 Badge contributeur actif
+- 🎯 Invitation co-animer session
+
+---
+
+## 💡 CONSEILS POUR CONTRIBUER
+
+### Do's ✅
+- Documenter succès ET échecs
+- Inclure contexte spécifique
+- Mesurer temps/qualité
+- Partager généralement
+- Créditer inspirations
+
+### Don'ts ❌
+- Données patient réelles
+- Prompts sans contexte
+- Résultats non vérifiés
+- Critiques non constructives
+- Monopoliser l'espace
+
+---
+
+## 📈 ÉVOLUTION DES TRAVAUX
+
+### Progression Attendue
+- **Semaine 1** : Prompts basiques → optimisés
+- **Semaine 2** : Confusion → clarté outils
+- **Semaine 3** : Sections isolées → workflow
+- **Semaine 4** : TFE brut → article soumis
+
+### Indicateurs Succès
+- Volume partages croissant
+- Qualité contributions ↗️
+- Entraide spontanée
+- Innovations émergentes
+
+---
+
+## 🔗 LIENS UTILES
+
+- 📚 [Guide Principal](../00_Start_Here/Guide_Complet_Formation.md)
+- 📝 [Exercices Sessions](../02_Exercices_Sessions/)
+- 🏆 [Best Practices](../05_Best_Practices/)
+- 💬 [WhatsApp Groupes](../00_Start_Here/Liens_WhatsApp_Groupes.md)
+
+---
+
+**💡 "Vos travaux d'aujourd'hui sont les best practices de demain"**
+
+*Organisation alignée sur progression pédagogique*
+*Dernière mise à jour : Juin 2025*

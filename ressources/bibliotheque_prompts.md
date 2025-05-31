@@ -530,7 +530,7 @@ SI DEADLINE COURT → Perplexity Labs d'abord
 **🚀 La maîtrise vient de la pratique comparative !**
 
 * - Intégration Perplexity Labs*
-*Mise à jour : Mai 2025*
+*Mise à jour : Juin 2025*
 *Prochaine version : Août 2025 avec GPT-5 et Claude Opus*
 
 *Partagez vos workflows gagnants dans votre groupe WhatsApp*

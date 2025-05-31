@@ -1,222 +1,287 @@
-# 📚 Exercices Session 1 : Fondamentaux Multi-IA
+# 📚 Exercices Session 1 : Fondements IA & Maîtrise ChatGPT
+## *Charge cognitive : 4/10 - Focus sur UN seul outil*
 
 ## 🎯 Objectifs de la Session
-- Découvrir les 4 plateformes essentielles
-- Comparer leurs styles de réponse
-- Identifier leurs forces/faiblesses
-- Créer vos premiers workflows
-- Découvrir l'automatisation avec Perplexity Labs
+- Comprendre les fondements de l'IA générative
+- Maîtriser ChatGPT en profondeur
+- Détecter et gérer les hallucinations
+- Optimiser vos prompts médicaux
+- Première application sur votre TFE
 
-## 📝 Exercice 1.1 : Premier Contact Comparatif
+## 📝 Exercice 1.1 : Premiers Pas avec ChatGPT (20 min)
 
-### Instructions
-Copiez ce prompt EXACTEMENT dans les 4 IA :
+### Phase 1 : Test de Base (5 min)
+Testez ces 3 prompts progressifs dans ChatGPT :
 
+**Prompt 1 (trop simple) :**
 ```
-Un patient de 45 ans se présente avec :
-- Douleur thoracique depuis 2 heures
-- Irradiation dans le bras gauche
-- Nausées
-- Antécédent familial d'infarctus
-
-Établis un diagnostic différentiel en listant 5 hypothèses par ordre de probabilité.
+Hypertension ?
 ```
 
-### À documenter dans votre fichier réponse :
-1. **Temps de réponse** de chaque IA
-2. **Nombre de mots** par réponse
-3. **Structure** utilisée (liste, paragraphes, tableaux)
-4. **Diagnostics proposés** (dans l'ordre)
-5. **Niveau de détail** (1-5)
-6. **Présence d'avertissements** médicaux
+**Prompt 2 (mieux) :**
+```
+Explique l'hypertension artérielle pour un patient
+```
 
-### Template de réponse
+**Prompt 3 (optimal) :**
+```
+Agis comme un cardiologue pédagogue. Explique l'hypertension 
+artérielle à un patient de 60 ans nouvellement diagnostiqué. 
+Utilise des analogies simples et structure ta réponse en :
+1. Qu'est-ce que c'est ?
+2. Pourquoi c'est important ?
+3. Que peut-on faire ?
+```
+
+### Phase 2 : Analyse (15 min)
+Documentez dans votre cahier :
+- Différence de qualité entre les 3 réponses
+- Nombre de mots approximatif
+- Utilité clinique (score /10)
+- Éléments qui améliorent la réponse
+
+### Template de Documentation
 ```markdown
 ## Exercice 1.1 - [Votre Nom]
 
-### ChatGPT
-- Temps : X secondes
-- Mots : X
-- Structure : [description]
-- DDx : 1.[...] 2.[...] etc.
-- Détail : X/5
-- Avertissements : [Oui/Non - détails]
+### Analyse des 3 Prompts
+| Prompt | Nb mots | Utilité /10 | Points clés |
+|--------|---------|-------------|-------------|
+| Simple | ~XX     | X/10        | ...         |
+| Mieux  | ~XX     | X/10        | ...         |
+| Optimal| ~XX     | X/10        | ...         |
 
-### Claude
-[Même format]
-
-### Gemini
-[Même format]
-
-### Perplexity
-[Même format]
-
-### Analyse personnelle
-[Vos observations en 3-5 lignes]
+### Ma découverte principale :
+[2-3 lignes sur ce que vous avez appris]
 ```
 
-## 🔬 Exercice 1.2 : Test des Limites
+## 🔬 Exercice 1.2 : Optimisation de Prompts Médicaux (25 min)
 
-### Instructions
-Testez la capacité de mémorisation et cohérence :
+### Mission : Transformer un cas clinique en DDx structuré
 
-**Étape 1 :** Dans une NOUVELLE conversation avec chaque IA
+**Cas clinique :**
 ```
-Je suis Dr. Martin, néphrologue à Bruxelles. 
-J'ai un patient complexe avec IRC stade 4.
-Retiens ces informations pour la suite.
-```
-
-**Étape 2 :** Message suivant
-```
-Quelles sont les options thérapeutiques pour mon patient ?
+Femme 45 ans, fatigue progressive 3 mois, palpitations occasionnelles,
+perte de poids 5 kg sans régime, nervosité, troubles du sommeil.
+ATCD : RAS. Pas de traitement.
 ```
 
-**Étape 3 :** Message suivant
+### Étape 1 : Prompt Basique (5 min)
 ```
-Rappelle-moi ma spécialité et la pathologie du patient.
+Quel est le diagnostic pour cette patiente ?
+```
+→ Copiez la réponse
+
+### Étape 2 : Prompt Amélioré (10 min)
+```
+Analyse ce cas clinique et donne les diagnostics possibles :
+[Insérer le cas]
+```
+→ Copiez la réponse
+
+### Étape 3 : Prompt Expert (10 min)
+```
+Tu es un interniste expérimenté. Analyse ce cas clinique :
+[Insérer le cas]
+
+Fournis :
+1. Top 5 diagnostics différentiels par ordre de probabilité
+2. Justification clinique pour chaque diagnostic
+3. Examens complémentaires essentiels
+4. Red flags à ne pas manquer
+5. Prise en charge immédiate
+
+Format ta réponse de manière structurée et claire.
+```
+→ Copiez la réponse
+
+### Grille d'Évaluation
+```markdown
+| Critère               | Basique | Amélioré | Expert |
+|-----------------------|---------|----------|--------|
+| Exhaustivité DDx      | /5      | /5       | /5     |
+| Structure réponse     | /5      | /5       | /5     |
+| Pertinence clinique   | /5      | /5       | /5     |
+| Utilité pratique      | /5      | /5       | /5     |
+| TOTAL                 | /20     | /20      | /20    |
 ```
 
-### À documenter :
-- Cohérence de la mémorisation
-- Qualité des réponses contextualisées
-- Différences d'approche
-- Gestion de l'implicite
+## 🎭 Exercice 1.3 : Détection d'Hallucinations (15 min)
 
-## 🎭 Exercice 1.3 : Détection d'Hallucinations
+### Mission : Apprendre à détecter les inventions de ChatGPT
 
-### Instructions
-Posez ces questions pièges à chaque IA :
-
-1. **Question médicamenteuse fictive :**
+**Test 1 : Médicament Fictif**
 ```
 Quelle est la posologie du Nexiprazole 
 en première intention pour l'ulcère gastrique ?
 ```
 
-2. **Étude inventée :**
+**Test 2 : Étude Inventée**
 ```
 Peux-tu me résumer l'étude CARDIAC-FOREVER 
 publiée dans le Lancet en 2023 ?
 ```
 
-3. **Guideline fictive :**
+**Test 3 : Guideline Fictive**
 ```
-Quelles sont les recommandations 2024 de la 
-Société Belge de Pneumologie pour le syndrome de Kovinski ?
-```
-
-### À analyser :
-- Reconnaît l'inexistence ?
-- Invente des détails ?
-- Propose des alternatives ?
-- Niveau de confiance affiché ?
-
-## 🔄 Exercice 1.4 : Premier Workflow Personnel
-
-### Instructions
-Créez votre premier workflow pour une tâche simple :
-
-**Tâche :** Rédiger un courrier de sortie d'hospitalisation
-
-### Étapes suggérées :
-1. **ChatGPT** : Générer la structure et le contenu initial
-2. **Claude** : Réviser pour précision médicale et format
-3. **Gemini** : Vérifier les informations et ajouter codes CIM-10
-
-### Livrable :
-- Workflow documenté (étapes, prompts, temps)
-- Courrier final produit
-- Analyse ROI (temps avec vs sans IA)
-- Recommandations personnelles
-
-## 🚀 Exercice 1.5 : Découverte Perplexity Labs - L'Automatisation Médicale
-
-### Instructions
-Utilisez Perplexity Labs pour générer automatiquement un rapport complet.
-
-**Mission :** Générer un rapport de revue bibliographique en 10 minutes
-
-**Prompt pour Perplexity Labs :**
-```
-Crée un rapport complet sur les dernières avancées dans le traitement 
-du diabète type 2 (2024-2025). Inclus :
-- Synthèse des méta-analyses récentes
-- Tableau comparatif des nouvelles molécules
-- Graphique d'efficacité comparative
-- Recommandations evidence-based avec sources
+Quelles sont les recommandations 2025 de la Société 
+Belge de Pneumologie pour le traitement du COVID long ?
 ```
 
 ### À documenter :
-1. **Temps de génération** total
-2. **Composants générés** (rapport, tableaux, graphiques)
-3. **Qualité des sources** citées
-4. **Possibilités d'export** (PDF, web, etc.)
-5. **Comparaison temps** :
-   - Manuel estimé : ___ heures
-   - ChatGPT/Claude/Gemini : ___ minutes
-   - Perplexity Labs : ___ minutes
+- ChatGPT avoue-t-il ne pas connaître ?
+- Invente-t-il des informations plausibles ?
+- Comment vérifier la véracité ?
 
-### Points d'observation spécifiques :
-- Qualité des visualisations auto-générées
-- Pertinence et actualité des sources
-- Complétude du rapport
-- Utilisabilité clinique directe
-
-## 🏆 Challenge Session 1 : Prompt Champion
-
-### Défi
-Créez LE meilleur prompt pour obtenir un résumé de dossier patient
-
-### Critères d'évaluation :
-- Clarté des instructions
-- Complétude du résultat
-- Adaptabilité aux 4 IA
-- Réutilisabilité
-
-### Format de soumission :
+### Stratégies Anti-Hallucination
 ```markdown
-## Mon Prompt Champion - [Votre Nom]
-
-### Le Prompt
-[Votre prompt optimisé]
-
-### Résultats comparés
-- ChatGPT : [score /10 et pourquoi]
-- Claude : [score /10 et pourquoi]  
-- Gemini : [score /10 et pourquoi]
-- Perplexity : [score /10 et pourquoi]
-
-### Cas d'usage idéal
-[Description en 2-3 lignes]
+✓ Toujours demander les sources
+✓ Vérifier les noms de médicaments
+✓ Confirmer l'existence des études citées
+✓ Croiser avec des sources fiables
+✓ En cas de doute : reformuler différemment
 ```
 
-## 📊 Auto-Évaluation Session 1
+## 🖼️ Exercice 1.4 : ChatGPT Vision (15 min)
 
-### Checklist de compétences acquises :
-- [ ] Je peux comparer objectivement les 4 IA
-- [ ] Je détecte les hallucinations basiques
-- [ ] Je comprends les forces de chaque outil
-- [ ] J'ai créé mon premier workflow
-- [ ] Je documente mes tests systématiquement
-- [ ] Je comprends la puissance de l'automatisation avec Perplexity Labs
+### Mission : Tester l'analyse d'images médicales
 
-### Temps total investi : _____ heures
+**Étape 1 : ECG**
+- Téléchargez un ECG normal (Google Images)
+- Uploadez dans ChatGPT
+- Prompt : "Analyse cet ECG et décris ce que tu vois"
 
-### Top 3 découvertes :
-1. _________________________
-2. _________________________
-3. _________________________
+**Étape 2 : Radio Thorax**
+- Téléchargez une radio thorax normale
+- Prompt : "Décris cette radiographie thoracique de manière systématique"
 
-## 📤 Soumission
+**Étape 3 : Graphique de Données**
+- Créez un simple graphique Excel (ex: courbe de poids)
+- Prompt : "Analyse cette courbe et donne-moi les tendances principales"
 
-Uploadez votre fichier complété dans :
-`03_Travaux_Groupes/Groupe_[A/B/C]/Session1/[VotreNom]_S1.md`
+### Points d'Évaluation :
+- Précision de la description
+- Identification des éléments clés
+- Limites admises par ChatGPT
+- Utilité pour l'enseignement
 
-**Deadline : Vendredi 16h00**
+## 📊 Exercice 1.5 : Code Interpreter pour Stats (15 min)
+
+### Mission : Utiliser ChatGPT pour analyses statistiques
+
+**Dataset exemple :**
+```
+Créez un fichier Excel avec :
+Tension avant traitement : 160, 155, 162, 158, 165, 170, 156
+Tension après traitement : 135, 132, 140, 138, 142, 145, 130
+```
+
+**Uploadez le fichier et demandez :**
+1. "Calcule la moyenne et l'écart-type avant/après"
+2. "Fais un test t apparié pour voir si la différence est significative"
+3. "Crée un graphique avec barres d'erreur montrant l'évolution"
+
+### Découvertes Attendues :
+- Calculs automatiques corrects
+- Code Python généré visible
+- Graphiques professionnels
+- Interprétation statistique
+
+## 📝 Exercice 1.6 : Application TFE - Premier Contact (15 min)
+
+### Mission : Tester ChatGPT sur VOTRE sujet
+
+**Étape 1 : État des Lieux (5 min)**
+```
+Mon TFE porte sur [votre sujet]. 
+Que sais-tu sur ce domaine ?
+Quelles sont les avancées récentes ?
+```
+
+**Étape 2 : Amélioration d'Extrait (10 min)**
+Copiez 200-300 mots de votre TFE, puis :
+```
+Voici un extrait de mon TFE :
+[Coller l'extrait]
+
+Peux-tu :
+1. Identifier les points forts
+2. Suggérer des améliorations de style
+3. Proposer une version plus impactante
+```
+
+### Documentation Finale
+```markdown
+## Bilan Application TFE
+
+### Points Forts de ChatGPT pour mon sujet :
+- ...
+- ...
+
+### Limites identifiées :
+- ...
+- ...
+
+### Prochaines étapes :
+- ...
+```
+
+## 🏆 Challenge Final Session 1 : Votre Prompt Parfait
+
+### Mission : Créer LE prompt optimal pour votre usage quotidien
+
+**Template à personnaliser :**
+```
+Tu es un [votre spécialité] expérimenté travaillant à [contexte].
+[Détails pertinents sur votre pratique]
+
+J'ai besoin de [tâche fréquente précise].
+
+Fournis-moi [format souhaité] incluant :
+- [Élément 1]
+- [Élément 2]
+- [Élément 3]
+
+[Contraintes spécifiques]
+```
+
+### Critères du Prompt Parfait :
+- ✓ Spécifique à votre pratique
+- ✓ Réutilisable quotidiennement
+- ✓ Format de sortie clair
+- ✓ Gain de temps évident
+
+## 📊 Auto-Évaluation Finale
+
+### Checklist de Maîtrise ChatGPT
+```markdown
+□ Je sais structurer un prompt efficace
+□ Je détecte les hallucinations potentielles
+□ J'utilise les capacités vision
+□ Je peux faire des analyses statistiques
+□ J'ai identifié 3 usages pour ma pratique
+□ J'ai créé mon prompt personnalisé
+□ Je comprends les limites de l'outil
+
+Score : ___/7
+```
+
+### Temps Total Exercices : ~2h30
+### Charge Cognitive : 4/10 ✅
 
 ---
 
-💡 **Rappel** : Partagez vos découvertes dans votre groupe WhatsApp !
+## 📌 À Retenir
 
-*Exercices Session 1 - Formation IA Médicale ULB v3.1*
+1. **La qualité du prompt détermine la qualité de la réponse**
+2. **Toujours vérifier les informations critiques**
+3. **ChatGPT excelle en créativité et brainstorming**
+4. **Commencer simple, puis complexifier**
+5. **Documenter vos prompts qui fonctionnent**
+
+## 🎯 Pour la Session 2
+
+Vous découvrirez Claude, Gemini et Perplexity individuellement.
+Préparez 2-3 questions que ChatGPT n'a pas bien traitées.
+
+**#MaîtriserUnOutilDAbord**

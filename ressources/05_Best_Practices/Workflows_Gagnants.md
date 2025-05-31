@@ -257,4 +257,4 @@ FINALISATION
 **📤 Soumission :** workflows-ia@ulb.ac.be
 **🏆 Récompense :** Meilleur workflow mensuel = 3 mois IA gratuits
 
-*Workflows Gagnants v3.0 - Formation IA Médicale ULB*
+*Workflows Gagnants - Formation IA Médicale ULB*

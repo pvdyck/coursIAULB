@@ -1,5 +1,5 @@
 # 📊 Grilles d'Évaluation Comparative  - IA Médicale ULB
-## Mise à jour : Intégration Perplexity Labs (Mai 2025)
+## Programme TFE→Publication Optimisé (Juin 2025)
 
 ## 🎯 Grille Universelle de Comparaison
 
@@ -294,4 +294,4 @@ Signature : ___________  Date : _______
 
 **💡 Ces grilles évoluent ! Partagez vos suggestions dans votre groupe WhatsApp**
 
-*Mai 2025*
+*Juin 2025*

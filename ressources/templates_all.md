@@ -641,5 +641,5 @@ WORKFLOWS GAGNANTS :
 
 **💡 Ces templates  encouragent l'usage comparatif et optimal de chaque outil !**
 
-*Mai 2025*
+*Juin 2025*
 **
