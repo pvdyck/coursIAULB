@@ -1,9 +1,9 @@
-# Programme IA pour Médecins - ULB (Version 3.1)
+# Programme IA pour Médecins - ULB 
 ## "Maîtrisez les 4 Plateformes IA Essentielles en Médecine : ChatGPT, Claude, Gemini et Perplexity"
 
 ---
 
-## 🎯 **MANIFESTE v3 : L'IA comme Écosystème en Évolution**
+## 🎯 **MANIFESTE : L'IA comme Écosystème en Évolution**
 
 > **"Apprenez à naviguer entre ChatGPT, Claude et Gemini pour maximiser votre efficacité médicale. Comparez, combinez, et choisissez le bon outil pour chaque tâche."**
 
@@ -12,11 +12,11 @@
 - 🔄 **Approche comparative systématique** - Chaque exercice sur 4 plateformes
 - 🚀 **Intégration Perplexity Labs** - Automatisation avancée (lancé 29/05/2025)
 - 🎯 **Focus sur les limites** - Détection d'hallucinations et biais
-- 🏆 **Challenges inter-groupes** - Apprentissage par compétition amicale
+- 🏆 **Challenges inter-groupes** - Apprentissage par compétition 
 - 📊 **Grilles d'évaluation standardisées** - Mesure objective des performances
 - 🔍 **Reality checks intégrés** - Vérification croisée obligatoire
 
-### Le Défi ULB v3 : 
+### Le Défi : 
 - 🧠 **Comprendre** - Les mécanismes et limites de chaque IA
 - ⚖️ **Comparer** - Forces et faiblesses des 3 géants
 - 🎯 **Choisir** - Le bon outil pour la bonne tâche
@@ -24,7 +24,7 @@
 - ✅ **Vérifier** - Systématiquement et intelligemment
 - 📈 **Mesurer** - ROI et efficacité de chaque approche
 
-### 📋 **Ressources Quick Access v3**
+### 📋 **Ressources Quick Access **
 - 📱 [Templates](../ressources/templates_all.md) - Templates comparatifs multi-IA
 - 💬 [Communauté](../ressources/whatsapp_discord_info.md) - Canaux par outil
 - 📚 [Prompts v3](../ressources/bibliotheque_prompts.md) - Prompts optimisés par plateforme
@@ -110,10 +110,10 @@ L'IA fonctionne comme le système nerveux :
 |---------|------------------|-------------------|-----------------|-----------------|
 | **Modèle actuel** | GPT-4o | Claude 3.5 Sonnet | Gemini 1.5 Pro | Multi-modèles + Labs |
 | **Prix basique** | 20€/mois | 20€/mois | 20€/mois | 20€/mois Pro |
-| **Forces médicales** | • Très polyvalent<br>• Large adoption<br>• Plugins médicaux<br>• Vision intégrée | • Raisonnement précis<br>• Artifacts pour docs<br>• Éthique robuste<br>• Fenêtre 200K tokens | • Intégration Google<br>• Multimodal natif<br>• Temps réel<br>• Sources vérifiées | • Recherche temps réel<br>• Rapports automatisés<br>• Sources citées<br>• Dashboards en 10 min |
-| **Limites** | • Hallucinations<br>• Pas toujours à jour<br>• Style parfois verbeux | • Moins d'intégrations<br>• Pas de browsing natif<br>• Plus conservateur | • Moins testé médical<br>• Interface complexe<br>• Réponses variables | • Outil très récent<br>• Labs depuis 29/05<br>• Courbe apprentissage |
+| **Forces médicales** | • Très polyvalent<br>• Large adoption<br>• Plugins médicaux<br>• Vision intégrée<br>• Web browsing (Plus) | • Raisonnement précis<br>• Artifacts pour docs<br>• Éthique robuste<br>• Fenêtre 200K tokens<br>• Web search (US, mars 2025) | • Intégration Google<br>• Multimodal natif<br>• Recherche web native<br>• Sources vérifiées | • Recherche temps réel<br>• Rapports automatisés<br>• Sources citées<br>• Dashboards en 10 min |
+| **Limites** | • Hallucinations<br>• Web browsing payant<br>• Style parfois verbeux | • Moins d'intégrations<br>• Web search beta (US only)<br>• Plus conservateur | • Moins testé médical<br>• Interface complexe<br>• Réponses variables | • Outil très récent<br>• Labs depuis 29/05<br>• Courbe apprentissage |
 | **Cas d'usage optimal** | Brainstorming<br>Analyse images<br>Code/stats | Rédaction longue<br>Analyse éthique<br>Révision textes | Recherche web<br>Synthèse docs<br>Travail collaboratif | Revues biblio auto<br>Rapports recherche<br>Dashboards patients |
-| **Spécificités** | • Custom GPTs<br>• Code Interpreter<br>• DALL-E 3 | • Constitutional AI<br>• Artifacts visuels<br>• Projects | • Workspace intégré<br>• Extensions Google<br>• Bard évolution | • Perplexity Labs NEW<br>• Apps web générées<br>• Travail autonome |
+| **Spécificités** | • Custom GPTs<br>• Code Interpreter<br>• DALL-E 3<br>• Web browsing intégré | • Constitutional AI<br>• Artifacts visuels<br>• Projects<br>• Web search (Beta) | • Workspace intégré<br>• Extensions Google<br>• Recherche Google native | • Perplexity Labs NEW<br>• Apps web générées<br>• Conçu pour la recherche |
 
 **⚠️ Principe Fondamental v3.1 :**
 > "Aucun outil n'est parfait. La compétence clé est de savoir choisir le bon outil pour la bonne tâche, combiner leurs forces, et vérifier systématiquement les résultats. L'automatisation avec Perplexity Labs amplifie l'efficacité mais nécessite toujours validation médicale."
@@ -123,6 +123,55 @@ L'IA fonctionne comme le système nerveux :
 - Les performances sur examens médicaux standardisés restent en évolution
 - L'utilisation avec des bases de données médicales améliore la pertinence
 - L'adoption clinique est en croissance mais nécessite validation locale
+
+**🌐 Capacités de Recherche Web (Mai 2025) :**
+| Plateforme | Recherche Web | Disponibilité | Type |
+|------------|---------------|---------------|------|
+| **ChatGPT** | ✅ Oui | Plus users (20€/mois) | Browsing natif avec Bing |
+| **Claude** | ✅ Oui (Preview) | Pro users US only | Web search avec citations |
+| **Gemini** | ✅ Oui | Tous les users | Google Search intégré |
+| **Perplexity** | ✅ Oui | Tous (Pro pour Labs) | Conçu pour la recherche |
+
+> **💡 Conseil :** Pour recherches médicales récentes, privilégiez Perplexity (sources) ou Gemini (Google Scholar). ChatGPT pour exploration large, Claude pour analyse approfondie des résultats.
+
+### 🧠 Capacités de Raisonnement Étendu - "Extended Thinking" (Mai 2025) :
+
+**État actuel du raisonnement avancé par plateforme :**
+
+| Plateforme | Modèle | Type de Raisonnement | Disponibilité | Performance |
+|------------|--------|---------------------|---------------|-------------|
+| **OpenAI** | o1 & o1 pro | Chain-of-thought caché | • o1: ChatGPT users<br>• o1 pro: 200$/mois<br>• API: 150-600$/M tokens | • AIME 2024: 86% (pro)<br>• Codeforces: 89e percentile<br>• GPQA: Premier à battre experts |
+| **Anthropic** | Claude 3.7 Sonnet | Thinking mode visible | • Tous plans Claude<br>• API: 3$/M in, 15$/M out<br>• Budget tokens ajustable | • GPQA Physics: 96.5%<br>• Hybride: instant ou réfléchi<br>• 128K tokens output |
+| **Google** | Gemini 2.5 + Deep Think | Thinking intégré + mode avancé | • 2.5: En déploiement<br>• Deep Think: Beta testers<br>• 2.0 Flash Thinking: Dispo | • USAMO 2025: Top scores<br>• LiveCodeBench: Leader<br>• MMMU: 84% |
+| **Perplexity** | Deep Research + R1/o3-mini | Recherche itérative approfondie | • Deep Research: Gratuit limité<br>• Pro: Illimité 20$/mois<br>• R1 & o3-mini intégrés | • SimpleQA: 93.9%<br>• Humanity's Last Exam: 21.1%<br>• 2-4 min vs heures humaines |
+
+**💡 Points clés pour médecins :**
+
+1. **OpenAI o1** : Le plus mature pour raisonnement complexe
+   - Résout problèmes niveau expert en maths/sciences
+   - Processus de pensée masqué par design
+   - Idéal pour : Diagnostics complexes, recherche avancée
+
+2. **Claude 3.7 Sonnet** : Transparence du raisonnement
+   - Montre ses étapes de réflexion
+   - Mode hybride (rapide ou approfondi)
+   - Idéal pour : Comprendre le raisonnement, pédagogie
+
+3. **Gemini 2.5** : Intégration native du thinking
+   - Deep Think pour cas ultra-complexes
+   - Recherche parallèle avancée
+   - Idéal pour : Méta-analyses, synthèses complexes
+
+4. **Perplexity Deep Research** : Automatisation de recherche
+   - Effectue des dizaines de recherches automatiquement
+   - Lit des centaines de sources
+   - Idéal pour : Revues de littérature rapides, rapports complets
+
+**⚠️ Implications pratiques :**
+- Les modes thinking augmentent significativement les coûts
+- Le temps de réponse peut passer de secondes à minutes
+- La qualité sur problèmes complexes justifie l'attente
+- Toujours vérifier même avec reasoning avancé
 
 ---
 
@@ -274,7 +323,45 @@ Génère également un dashboard interactif."
 
 ---
 
-### **🚀 BLOC 3.5 : Découverte Perplexity Labs - L'Automatisation Médicale (20 min)**
+### **🌐 BLOC 3.5 : Maîtrise de la Recherche Web Multi-IA (15 min)**
+
+#### **Stratégies de Recherche par Plateforme**
+
+**ChatGPT (Browsing avec Bing) :**
+```
+"Recherche sur le web les dernières guidelines 2025 
+pour le traitement de [pathologie]. 
+Compare les recommandations européennes et américaines."
+```
+💡 Utilise pour : Exploration large, actualités médicales
+
+**Claude (Web Search Preview - US Pro only) :**
+```
+"Utilise ta fonction de recherche web pour trouver
+les études récentes sur [traitement].
+Fournis les citations complètes avec liens."
+```
+💡 Utilise pour : Vérification avec sources, analyse critique
+
+**Gemini (Google Search Natif) :**
+```
+"Trouve les publications Google Scholar récentes
+sur [sujet médical]. Privilégie les méta-analyses
+et essais cliniques des 12 derniers mois."
+```
+💡 Utilise pour : Recherche académique, données récentes
+
+**Perplexity (Optimisé Recherche) :**
+```
+"Compile les informations les plus récentes sur [sujet]
+avec sources vérifiées. Inclus statistiques actuelles
+et consensus des experts 2025."
+```
+💡 Utilise pour : Rapports sourcés, fact-checking rapide
+
+---
+
+### **🚀 BLOC 4 : Découverte Perplexity Labs - L'Automatisation Médicale (20 min)**
 
 #### **🆕 EXERCICE 1.5 : Premier Rapport Automatisé avec Labs**
 
