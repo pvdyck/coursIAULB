@@ -8,6 +8,9 @@
 
 ---
 
+### **🎯 OBJECTIF SESSION 4**
+Transformer votre expertise multi-IA en machine de publication scientifique et vision 2030
+
 ### 🧠 **Thinking Avancé pour Publication Scientifique - Session 4**
 
 **Optimisation publication avec modes thinking :**

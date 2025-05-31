@@ -95,15 +95,8 @@ JUSTIFICATION : ___
 - Encourager l'utilisation régulière de multiples outils
 - Faciliter la création de workflows personnalisés
 
-## 📅 **PLAN DE MISE À JOUR CONTINUE**
-- Mensuel : Nouveaux modèles/features
-- Trimestriel : Révision exercices
-- Semestriel : Refonte majeure si besoin
-- Annuel : Révision complète
-
 ---
 
 **🚀 "L'IA ne remplacera pas les médecins, mais les médecins qui maîtrisent l'écosystème IA surpasseront tous les autres."**
 
 *Programme conçu avec approche comparative multi-IA - Mai 2025*
-*Prochaine cohorte : Septembre 2025*

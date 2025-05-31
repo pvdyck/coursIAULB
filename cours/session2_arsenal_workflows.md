@@ -9,6 +9,9 @@
 
 ---
 
+### **🎯 OBJECTIF SESSION 2**
+Maîtriser l'art de combiner les 4 IAs pour créer des workflows surpuissants en médecine
+
 ### 🧠 **Capacités de Raisonnement Étendu - Update Session 2**
 
 **Utilisation pratique du "thinking" pour la recherche :**
@@ -205,4 +208,3 @@ Créer votre workflow personnalisé pour votre spécialité
 4. Identifier point de friction principal
 5. **Documenter dans :** Drive/Missions/Inter_S2/
 6. **Partager meilleur workflow :** WhatsApp #WorkflowWin
-7. **BONUS** : Automatiser une étape avec Zapier/Make

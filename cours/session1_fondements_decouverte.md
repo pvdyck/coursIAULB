@@ -20,7 +20,6 @@
 ```
 
 **🚨 Formation des Groupes (5 min) :**
-- Comptez jusqu'à 4 en répétant
 - Les "1" = Experts ChatGPT (créativité & vision)
 - Les "2" = Experts Claude (précision & éthique)
 - Les "3" = Experts Gemini (recherche & intégration)
@@ -66,7 +65,9 @@ L'IA fonctionne comme le système nerveux :
    - **✅ Quand l'utiliser** : Rédaction, synthèse, brainstorming
    - **❌ Limites** : Hallucinations fréquentes
 
-#### **🌟 NOUVEAU : Les 4 Plateformes IA Essentielles (20 min)**
+#### **🌟 Les 4 Plateformes IA Essentielles (20 min)**
+
+**🎯 Objectif :** Comprendre les forces uniques de chaque outil pour optimiser votre choix selon la tâche
 
 **Présentation comparative des plateformes :**
 
@@ -79,8 +80,8 @@ L'IA fonctionne comme le système nerveux :
 | **Cas d'usage optimal** | Brainstorming<br>Analyse images<br>Code/stats | Rédaction longue<br>Analyse éthique<br>Révision textes | Recherche web<br>Synthèse docs<br>Travail collaboratif | Revues biblio auto<br>Rapports recherche<br>Dashboards patients |
 | **Spécificités** | • Custom GPTs<br>• Code Interpreter<br>• DALL-E 3<br>• Web browsing intégré | • Constitutional AI<br>• Artifacts visuels<br>• Projects<br>• Web search (Beta) | • Workspace intégré<br>• Extensions Google<br>• Recherche Google native | • Perplexity Labs NEW<br>• Apps web générées<br>• Conçu pour la recherche |
 
-**⚠️ Principe Fondamental v3.1 :**
-> "Aucun outil n'est parfait. La compétence clé est de savoir choisir le bon outil pour la bonne tâche, combiner leurs forces, et vérifier systématiquement les résultats. L'automatisation avec Perplexity Labs amplifie l'efficacité mais nécessite toujours validation médicale."
+**⚠️ Principe Fondamental :**
+> "Aucun outil n'est parfait. La compétence clé est de savoir choisir le bon outil pour la bonne tâche, combiner leurs forces, et vérifier systématiquement les résultats. L'automatisation amplifie l'efficacité mais nécessite toujours validation médicale."
 
 **📊 Points d'attention :**
 - La précision diagnostique varie considérablement selon le contexte
@@ -98,7 +99,7 @@ L'IA fonctionne comme le système nerveux :
 
 > **💡 Conseil :** Pour recherches médicales récentes, privilégiez Perplexity (sources) ou Gemini (Google Scholar). ChatGPT pour exploration large, Claude pour analyse approfondie des résultats.
 
-### 🧠 Capacités de Raisonnement Étendu - "Extended Thinking" (Mai 2025) :
+### 🧠 Capacités de Raisonnement Étendu - "Extended Thinking" :
 
 **État actuel du raisonnement avancé par plateforme :**
 
@@ -157,7 +158,7 @@ pour un étudiant en médecine de 3ème année."
 3. **5 min** - Synthèse des différences observées
 
 **Grille d'Évaluation Exercice 1.1 :**
-```
+
 CRITÈRE               | ChatGPT | Claude | Gemini | Perplexity
 ---------------------|---------|--------|--------|------------
 Respect consigne (100 mots) | /5 | /5 | /5 | /5
@@ -172,7 +173,7 @@ Observations qualitatives :
 - Style de communication : ___
 - Points forts uniques : ___
 - Points faibles : ___
-```
+
 
 #### **🔍 EXERCICE COMPARATIF 1.2 : Détection d'Hallucinations (20 min)**
 
@@ -208,7 +209,7 @@ Liste 5 diagnostics différentiels par ordre de probabilité.
 ```
 
 **Grille Comparative DDx :**
-```
+
 ASPECT              | ChatGPT | Claude | Gemini
 --------------------|---------|--------|--------
 Pertinence des DDx  | /5      | /5     | /5
@@ -220,7 +221,7 @@ Examens suggérés    | /5      | /5     | /5
 Meilleur pour urgences ? ___
 Plus pédagogique ? ___
 Plus complet ? ___
-```
+
 
 ---
 
@@ -299,7 +300,7 @@ Compare les recommandations européennes et américaines."
 ```
 💡 Utilise pour : Exploration large, actualités médicales
 
-**Claude (Web Search Preview - US Pro only) :**
+**Claude (Web Search Preview - Pro only) :**
 ```
 "Utilise ta fonction de recherche web pour trouver
 les études récentes sur [traitement].
