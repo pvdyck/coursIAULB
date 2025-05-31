@@ -1,4 +1,4 @@
-# 📊 Grilles d'Évaluation Comparative v3.1 - IA Médicale ULB
+# 📊 Grilles d'Évaluation Comparative  - IA Médicale ULB
 ## Mise à jour : Intégration Perplexity Labs (Mai 2025)
 
 ## 🎯 Grille Universelle de Comparaison
@@ -292,7 +292,6 @@ Signature : ___________  Date : _______
 
 ---
 
-**💡 Ces grilles évoluent ! Partagez vos suggestions : grilles-v3@ulb.ac.be**
+**💡 Ces grilles évoluent ! Partagez vos suggestions dans votre groupe WhatsApp**
 
-*Version 3.0 - Mai 2025*
-*Prochaine révision : Août 2025*
+*Mai 2025*

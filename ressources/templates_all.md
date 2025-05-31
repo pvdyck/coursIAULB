@@ -1,4 +1,4 @@
-# 📱 Templates IA Médicaux - Programme ULB v3.1
+# 📱 Templates IA Médicaux - Programme ULB 
 ## 🔄 Version Comparative Multi-IA (ChatGPT, Claude, Gemini, Perplexity Labs)
 
 ## 📋 1. Checklist Sécurité des Données Patient
@@ -173,10 +173,10 @@ Décris :
 IMPORTANT : Toujours mentionner les limites de l'analyse IA.
 ```
 
-## 📊 4. Template Calcul ROI Personnel - Version Comparative v3
+## 📊 4. Template Calcul ROI Personnel - Version Comparative 
 
 ```
-CALCULATEUR ROI - COMPARAISON 3 OUTILS IA
+CALCULATEUR ROI - COMPARAISON 4 OUTILS IA
 
 TÂCHE                      | Temps SANS IA | ChatGPT | Claude | Gemini | Meilleur
 ---------------------------|---------------|---------|--------|--------|----------
@@ -235,7 +235,7 @@ GAINS QUALITATIFS :
 □ Apprentissage accéléré
 ```
 
-## 🔧 5. Matrice de Sélection d'Outils IA - Comparative v3
+## 🔧 5. Matrice de Sélection d'Outils IA - Comparative 
 
 ```
 GRILLE COMPARATIVE - CHATGPT vs CLAUDE vs GEMINI
@@ -267,7 +267,7 @@ Intégrations disponibles | __/5    | __/5   | __/5   |
 DÉCISION FINALE :
 □ 1 seul outil : ____________
 □ 2 outils combo : __________
-□ Les 3 outils (power user)
+□ Les 4 outils (power user)
 
 JUSTIFICATION : _____________
 ```
@@ -298,10 +298,10 @@ SCORE TOTAL : ___/50
 DÉCISION : □ Adopter □ Tester □ Rejeter
 ```
 
-## 📋 6. Workflow Publication International - Pipeline Multi-IA v3
+## 📋 6. Workflow Publication International - Pipeline Multi-IA 
 
 ```
-PIPELINE TFE → PUBLICATION - APPROCHE FUSION 3 IA
+PIPELINE TFE → PUBLICATION - APPROCHE FUSION 4 IA
 
 PHASE 1 : ANALYSE STRATÉGIQUE (1 jour)
 ├── Gemini : Recherche littérature récente
@@ -368,7 +368,7 @@ PHASE 5 : SOUMISSION
 TEMPS TOTAL : 7 jours (vs 30 jours traditionnel)
 ```
 
-## 🚨 7. Protocole Urgence Échec IA - Guide Comparatif v3
+## 🚨 7. Protocole Urgence Échec IA - Guide Comparatif 
 
 ```
 QUE FAIRE QUAND UNE IA ÉCHOUE ?
@@ -385,7 +385,7 @@ PROBLÈME : Résultats contradictoires entre IA
 → Privilégier outil avec meilleur track record pour cette tâche
 → Documenter pour apprentissage futur
 
-PROBLÈME : Les 3 IA donnent réponses différentes
+PROBLÈME : Les 4 IA donnent réponses différentes
 → RED FLAG - Haute incertitude
 → Recherche manuelle obligatoire
 → Consultation expert humain
@@ -550,7 +550,7 @@ Format : Document Word + Annexes
 Normes : ICH-GCP compliant
 ```
 
-## 📱 8. Cheat Sheet Mobile Urgences - Multi-IA v3.1
+## 📱 8. Cheat Sheet Mobile Urgences - Multi-IA 
 
 ```
 COMMANDES VOCALES RAPIDES PAR OUTIL
@@ -582,12 +582,12 @@ RACCOURCIS MULTI-IA À CRÉER :
 4. "UrgenceIA" → Workflow critique
 5. "BiblioFusion" → Recherche combinée
 
-WORKFLOW URGENCE 3-IA :
+WORKFLOW URGENCE 4-IA :
 1. Question urgente → ChatGPT (rapide)
 2. Vérification → Claude (précis)
 3. Confirmation → Gemini (sources)
-4. Décision : Si 2/3 concordent → OK
-              Si 3/3 différents → STOP
+4. Décision : Si 3/4 concordent → OK
+              Si 4/4 différents → STOP
 
 TEMPS CIBLE : < 3 minutes total
 ```
@@ -618,7 +618,7 @@ RACCOURCIS iOS/ANDROID À CRÉER :
 ## 🆕 9. Grille de Comparaison Rapide par Tâche
 
 ```
-GUIDE DE DÉCISION RAPIDE v3
+GUIDE DE DÉCISION RAPIDE 
 
 TÂCHE                    | 1er Choix | 2e Choix | À Éviter
 -------------------------|-----------|----------|----------
@@ -639,7 +639,7 @@ WORKFLOWS GAGNANTS :
 • Urgence : ChatGPT → Vérif Claude → Confirm Gemini
 ```
 
-**💡 Ces templates v3 encouragent l'usage comparatif et optimal de chaque outil !**
+**💡 Ces templates  encouragent l'usage comparatif et optimal de chaque outil !**
 
-*Version 3.0 - Mai 2025*
-*Prochaine mise à jour : Août 2025*
+*Mai 2025*
+**

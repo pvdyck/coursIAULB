@@ -21,7 +21,8 @@
       "Bash(diff:*)",
       "Bash(rm:*)",
       "WebFetch(domain:www.perplexity.ai)",
-      "WebFetch(domain:techcrunch.com)"
+      "WebFetch(domain:techcrunch.com)",
+      "Bash(sed:*)"
     ],
     "deny": []
   },

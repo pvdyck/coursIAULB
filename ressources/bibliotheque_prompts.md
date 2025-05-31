@@ -1,4 +1,4 @@
-# 📚 Bibliothèque de Prompts IA Médicaux v3.1
+# 📚 Bibliothèque de Prompts IA Médicaux 
 ## 🔄 Optimisés pour ChatGPT, Claude, Gemini et Perplexity Labs
 
 ## 🌟 NOUVEAU : Guide d'Adaptation par Plateforme
@@ -289,7 +289,7 @@ JOUR 2:
 - Après-midi : Perplexity Labs → Supplementary materials auto-générés
 ```
 
-## 🆕 Prompts de Comparaison Directe v3.1
+## 🆕 Prompts de Comparaison Directe 
 
 ### DÉTECTION D'HALLUCINATIONS CROISÉE
 ```
@@ -424,7 +424,7 @@ RECHERCHE COMPLÈTE:
 4. Compilation : Matrice de données
 ```
 
-## 📈 Statistiques v3 - Performance Comparative
+## 📈 Statistiques  - Performance Comparative
 
 ### Taux de Succès par Tâche et Outil
 
@@ -446,7 +446,7 @@ RECHERCHE COMPLÈTE:
 | Résidents | 28% | 46% | 26% |
 | Seniors | 15% | 42% | 43% |
 
-## 🏆 Prompt du Mois v3 - FUSION MASTER
+## 🏆 Prompt du Mois  - FUSION MASTER
 
 ```
 "Je vais analyser [situation médicale] en mode expert multi-perspectives.
@@ -499,7 +499,7 @@ Besoin de validation humaine : Oui/Non car ___"
 [PUBLICATION] Qualité maximale
 ```
 
-## 🎯 Cheat Sheet Décisions Rapides v3.1
+## 🎯 Cheat Sheet Décisions Rapides 
 
 ```
 QUELLE IA POUR...
@@ -529,8 +529,8 @@ SI DEADLINE COURT → Perplexity Labs d'abord
 
 **🚀 La maîtrise vient de la pratique comparative !**
 
-*Version 3.1 - Intégration Perplexity Labs*
+* - Intégration Perplexity Labs*
 *Mise à jour : Mai 2025*
 *Prochaine version : Août 2025 avec GPT-5 et Claude Opus*
 
-*Partagez vos workflows gagnants : prompts-v3@ulb.ac.be*
+*Partagez vos workflows gagnants dans votre groupe WhatsApp*

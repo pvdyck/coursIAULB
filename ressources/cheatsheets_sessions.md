@@ -1,12 +1,12 @@
-# 🔧 Cheat Sheets - IA Médicale ULB v3.0
+# 🔧 Cheat Sheets - IA Médicale ULB 
 ## 🔄 Édition Comparative Multi-IA
 
-## 📄 SESSION 1 : Fondements IA + Les 3 Géants
+## 📄 SESSION 1 : Fondements IA + Les 4 Géants
 
-### 🌟 LES 3 GÉANTS DE L'IA - COMPÉTITEURS 2025
+### 🌟 LES 4 GÉANTS DE L'IA - COMPÉTITEURS 2025
 ```
-ChatGPT (OpenAI)     Claude (Anthropic)    Gemini (Google)
-GPT-4o               Claude 3.5 Sonnet     Gemini 1.5 Pro
+ChatGPT (OpenAI)     Claude (Anthropic)    Gemini (Google)      Perplexity
+GPT-4o               Claude 3.5 Sonnet     Gemini 1.5 Pro       Multi-modèles
 20€/mois             20€/mois              20€/mois
 
 FORCES:
@@ -57,6 +57,20 @@ GEMINI (Recherche):
 "Recherche les dernières infos sur [sujet].
 Compare sources multiples 2024-2025.
 Cite tes références."
+```
+
+### 🌐 RECHERCHE WEB PAR PLATEFORME (Mai 2025)
+```
+CHATGPT : Web browsing (Bing) - Plus users only
+CLAUDE : Web search Preview - US Pro users only  
+GEMINI : Google Search natif - Tous users
+PERPLEXITY : Recherche optimisée - Tous users
+
+MEILLEUR POUR:
+• Actualités médicales → ChatGPT ou Perplexity
+• Google Scholar → Gemini (intégration native)
+• Sources vérifiées → Perplexity ou Claude
+• Exploration large → ChatGPT browsing
 ```
 
 ### 🔒 CHECKLIST SÉCURITÉ MULTI-IA
@@ -122,7 +136,7 @@ SI 50€/MOIS:
 - 1 outil spécialisé
 ```
 
-### 🚀 WORKFLOW RAPIDE TFE v3
+### 🚀 WORKFLOW RAPIDE TFE 
 ```
 1. Gemini → Recherche littérature broad
 2. ChatGPT → Analyse + synthèse créative  
@@ -182,7 +196,7 @@ Temps total < 3 min
 Si doute → Jugement clinique prime!
 ```
 
-### 🚨 RED FLAGS MULTI-IA v3
+### 🚨 RED FLAGS MULTI-IA 
 ```
 STOP IMMDIAT SI:
 ❌ 3 IA = 3 réponses totalement différentes
@@ -198,7 +212,7 @@ RÈGLE D'OR: Consensus 2/3 minimum pour décision
 
 ## 📄 SESSION 4 : Publication Multi-IA & Futur
 
-### 📝 PIPELINE PUBLICATION 3 JOURS v3
+### 📝 PIPELINE PUBLICATION 3 JOURS 
 ```
 J1 MATIN: Gemini → Analyse littérature
 J1 APM: Claude → Restructuration IMRAD
@@ -275,7 +289,7 @@ COMING SOON:
 
 ---
 
-## 🆘 TROUBLESHOOTING EXPRESS v3
+## 🆘 TROUBLESHOOTING EXPRESS 
 
 ### PROBLÈME → SOLUTION MULTI-IA
 ```
@@ -293,17 +307,16 @@ SI CRITIQUE → 3 IA consensus
 
 ### 🎯 CONTACTS UTILES
 ```
-Support : support-ia@ulb.ac.be
+Support : support-ia
 WhatsApp : [Groupe ULB IA]
-Discord : discord.gg/ULBAI2025
-Urgence : +32 XXX XXX XXX
+Urgence : Modérateur principal WhatsApp
 ```
 
 ---
 
 ## 💎 RÈGLES D'OR
 
-### LES 7 COMMANDEMENTS v3 MULTI-IA
+### LES 7 COMMANDEMENTS  MULTI-IA
 ```
 1. "Jamais une seule IA tu ne croiras"
 2. "Toujours 2 minimum tu consulteras"  
@@ -314,7 +327,7 @@ Urgence : +32 XXX XXX XXX
 7. "Tes workflows gagnants tu partageras"
 ```
 
-### FORMULE SUCCÈS v3
+### FORMULE SUCCÈS 
 ```
 Succès = (3 Outils + Prompts Adaptés + Consensus + Vérification) × Pratique²
 
@@ -324,7 +337,7 @@ Fiabilité = Nombre d'IA concordantes / 3
 
 ---
 
-## 🆕 QUICK DECISION MATRIX v3.1
+## 🆕 QUICK DECISION MATRIX
 
 ```
 TÂCHE → OUTIL OPTIMAL
@@ -350,8 +363,7 @@ Sources multiples → Gemini
 Méta-analyse → Perplexity Labs
 ```
 
-**📌 Gardez ces cheat sheets v3.1 à portée de main !**
+**📌 Gardez ces cheat sheets à portée de main !**
 
-*Version 3.1 - Intégration Perplexity Labs*
-*Mise à jour : Mai 2025*
-*Prochaine version : Avec GPT-5 et Claude Opus*
+*Intégration Perplexity Labs*
+*Mai 2025*
