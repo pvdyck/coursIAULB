@@ -14,10 +14,10 @@
 - ✅ **Pratique immédiate** - Travail sur VOTRE vrai TFE
 
 ### Le Parcours : 
-1. **SESSION 1** : Maîtriser ChatGPT à fond (charge 4/10)
-2. **SESSION 2** : Découvrir individuellement Claude, Gemini, Perplexity (charge 6/10)
-3. **SESSION 3** : Features avancées et workflows publication (charge 7/10)
-4. **SESSION 4** : Transformer VOTRE TFE en article Nature/Science (charge 8/10)
+1. **SESSION 1** : Maîtriser ChatGPT à fond
+2. **SESSION 2** : Découvrir individuellement Claude, Gemini, Perplexity
+3. **SESSION 3** : Features avancées et workflows publication
+4. **SESSION 4** : Transformer VOTRE TFE en article Nature/Science
 
 ### 📋 **Ressources Quick Access**
 - 📱 [Templates](../ressources/templates_all.md) - Templates publication-ready
