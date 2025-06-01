@@ -11,8 +11,6 @@
 - 🧠 **Charge cognitive contrôlée** - Un outil par session, maîtrise avant expansion
 - 🎯 **Focus TFE→Publication** - Objectif concret dès le début
 - 📈 **Progression mesurée** - 4/10 → 6/10 → 7/10 → 8/10
-- 🤖 **Extended Thinking** - Modes avancés pour complexité
-- 📊 **ROI démontré** - Temps de publication divisé par 10
 - ✅ **Pratique immédiate** - Travail sur VOTRE vrai TFE
 
 ### Le Parcours : 
@@ -42,7 +40,6 @@
    - ChatGPT : 90 min de pratique intensive
    - Prompting médical avancé
    - Première application TFE
-   - **Charge cognitive : 4/10** ✅
 
 2. **[SESSION 2 : Découverte Individuelle des Outils IA](./session2_decouverte_outils.md)**
    - *Durée : 3h | Format : Maîtrise individuelle + Comparaison stratégique*
@@ -52,7 +49,6 @@
    - Perplexity : 45 min (automatisation, Deep Research)
    - Comparaison sur tâche TFE identique
    - Pipeline personnel TFE→Publication
-   - **Charge cognitive : 6/10** ✅
 
 3. **[SESSION 3 : Workflows Avancés pour Publication](./session3_workflows_publication.md)**
    - *Durée : 3h | Format : Features avancées + Intégration publication*
@@ -61,7 +57,6 @@
    - Workflows publication professionnels
    - Pipeline complet : intro→abstract→figures
    - Éthique et sécurité renforcées
-   - **Charge cognitive : 7/10** ✅
 
 4. **[SESSION 4 : Transformation Finale TFE → Publication](./session4_transformation_finale.md)**
    - *Durée : 3h | Format : Travail sur VOTRE vrai TFE*
@@ -70,7 +65,6 @@
    - Sélection journal et cover letter
    - Anticipation reviewers
    - Soumission simulation
-   - **Charge cognitive : 8/10** ✅
 
 ---
 
@@ -136,9 +130,3 @@ SESSION 4 : APPLICATION RÉELLE
 - ❌ Exercices artificiels
 - ❌ Comparaisons superficielles
 - ❌ Promesses irréalistes
-
----
-
-**🚀 "Votre TFE contient déjà une publication Nature. L'IA est le révélateur qui la fait apparaître."**
-
-*Programme conçu selon les principes de charge cognitive optimale - Juin 2025*

@@ -54,16 +54,9 @@ Inclus tous les éléments essentiels."
 - Uploader un article scientifique (PDF)
 - Prompt : "Analyse critique de cet article. Forces, faiblesses, biais potentiels."
 
-**Test 3 : Création d'Artifact**
-```
-"Crée un algorithme décisionnel visuel pour la prise en charge 
-de l'hypertension selon les dernières recommandations ESC."
-```
-
 **Points d'observation :**
 - Structure et organisation
 - Profondeur d'analyse
-- Qualité des artifacts
 
 #### **🤔 EXERCICE 2.2 : Claude Thinking Mode (10 min)**
 
@@ -329,8 +322,6 @@ MON PIPELINE TFE → PUBLICATION
 5. Vérification finale : ___________ (outil)
    Raison : _______________________
 
-Temps estimé total : _____ heures
-(vs _____ heures méthode traditionnelle)
 ```
 
 ---
@@ -363,7 +354,6 @@ Temps estimé total : _____ heures
 
 ❌ **Évités :**
 - Confusion par comparaison prématurée
-- Surcharge cognitive
 - Jugements superficiels
 
 ⏭️ **Prochaine étape :**

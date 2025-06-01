@@ -11,7 +11,6 @@
 **📋 Checklist de Sécurité des Données Patient**
 ```
 □ Vérifier la politique de confidentialité de l'outil
-□ Utiliser un VPN si nécessaire (outils non-européens)
 □ Anonymiser TOUTES les données :
    - Noms → Patient A, B, C
    - Dates → Jour J, J+1, J+2
@@ -64,7 +63,6 @@ L'IA générative = Résident ultra-expérimenté qui :
 **Qu'est-ce que ChatGPT ?**
 - Modèle : GPT-4o (le plus avancé)
 - Capacités : Texte, images, code, analyse
-- Fenêtre contextuelle : ~8000 mots
 - Prix : Gratuit (3.5) ou 20€/mois (Plus)
 
 **Forces spécifiques pour la médecine :**
@@ -194,7 +192,6 @@ Tension après traitement : 135, 132, 140, 138, 142, 145, 130
 **Découvertes attendues :**
 - Calculs automatiques précis
 - Visualisations professionnelles
-- Code Python généré (réutilisable)
 
 ---
 
@@ -351,7 +348,6 @@ Créez LE prompt optimal pour votre usage médical quotidien :
 
 ---
 
-*Session conçue selon les principes de charge cognitive optimale*
 *Prochaine session : [Date] - Expansion vers Multi-Outils*
 
 ---

@@ -367,11 +367,6 @@ Date : _________________
 **Accès permanent :**
 - Templates tous journaux
 - Prompts bibliothèque publication
-- Groupe WhatsApp alumni
-- Updates mensuels outils IA
-
-**Challenge 30 jours :**
-Première soumission = Badge "AI-Published MD 2025"
 
 ---
 
