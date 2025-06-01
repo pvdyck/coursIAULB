@@ -51,19 +51,20 @@ Quand utiliser le thinking :
 
 **Mission :** Transformer la discussion de votre TFE avec thinking mode
 
-**Test comparatif :**
+**Test comparatif plastie :**
 ```
 Prompt standard (5 min) :
-"Aide-moi à améliorer cette conclusion de mon TFE sur [sujet].
+"Aide-moi à améliorer cette discussion de mon TFE sur [rhinoplastie/DIEP].
 [Coller 300 mots de votre discussion]"
 
 Prompt thinking (10 min) :
-"Utilise ton mode de réflexion approfondie pour analyser et transformer 
-cette discussion de TFE. Explore :
-- Les implications cliniques profondes
-- Les limites méthodologiques non mentionnées
-- Les perspectives de recherche innovantes
-- Les connections avec d'autres domaines
+"Utilise ton mode thinking pour analyser et transformer cette discussion 
+de chirurgie plastique. Explore :
+- Impact sur qualité de vie (PROM non mesurés)
+- Biais de sélection patients esthétiques
+- Évolution techniques futures (préservation, régénération)
+- Applications reconstructives des techniques esthétiques
+- Aspects médico-légaux spécifiques
 [Coller même extrait]"
 ```
 
@@ -81,11 +82,12 @@ Publication-ready ?       | Oui/Non  | Oui/Non
 
 **Mission :** Améliorer votre méthodologie avec raisonnement avancé
 
-**Cas TFE :**
+**Cas TFE plastie complexe :**
 ```
-"Mon étude compare deux traitements avec n=50 par groupe.
-J'ai des données manquantes (15%), des perdus de vue (20%),
-et une différence baseline entre groupes. Comment gérer ?"
+"Mon étude compare rhinoplastie ouverte vs fermée, n=40 par groupe.
+Données manquantes : photos 3 mois (15%), ROE score 1 an (25%).
+Différence baseline : âge moyen et sévérité déformation.
+Comment gérer pour publication PRS ?"
 ```
 
 **Test o1 (si disponible) ou ChatGPT-4 :**
@@ -107,15 +109,16 @@ Propose des solutions statistiques robustes pour :
 
 **Mission :** Générer revue littérature complète pour votre TFE
 
-**Prompt Deep Research :**
+**Prompt Deep Research plastie :**
 ```
-"Utilise Deep Research pour créer une revue systématique 
-exhaustive sur [votre sujet TFE]. Inclus :
-- Stratégie de recherche détaillée
-- PRISMA flow diagram
-- Tableau synthèse des études (n>20)
-- Analyse des gaps identifiés
-- Méta-analyse si données disponibles"
+"Utilise Deep Research pour revue systématique sur 
+[lipostructure sein/préservation rhinoplastie/DIEP vs TMG].
+Inclus :
+- Recherche PubMed, Embase, Cochrane
+- PRISMA spécifique chirurgie plastique
+- Tableau : technique, n patients, complications, PROM utilisés
+- Focus taux révision et satisfaction patient
+- Niveaux evidence selon ASPS guidelines"
 ```
 
 **Comparaison temps :**
@@ -156,20 +159,20 @@ exhaustive sur [votre sujet TFE]. Inclus :
 
 **Mission :** Transformer l'intro de votre TFE en version Nature/Science
 
-**Pipeline multi-IA :**
+**Pipeline multi-IA plastie :**
 ```
 Étape 1 - Perplexity (5 min) :
-"Analyse les 10 meilleures intros d'articles sur [sujet]
-publiés dans Nature/Science. Identifie patterns gagnants."
+"Analyse les 10 meilleures intros sur [rhinoplastie/reconstruction] 
+dans PRS/ASJ 2023-2025. Identifie structure et hooks."
 
 Étape 2 - Claude (10 min) :
-"Restructure mon intro selon ces patterns identifiés.
-Assure impact dès la première phrase.
-[Coller votre intro actuelle]"
+"Restructure mon intro TFE plastie selon standards PRS.
+Hook : problème clinique, gap technique, innovation.
+[Coller intro actuelle]"
 
 Étape 3 - ChatGPT (5 min) :
-"Affine le style pour maximum d'impact.
-Vérifie fluidité et clarté."
+"Optimise pour chirurgiens plasticiens. Ajoute statistiques 
+ASPS récentes. Vérifie terminologie standardisée."
 ```
 
 **Mesure d'impact :**
@@ -186,19 +189,20 @@ Flow narratif      | /10   | /10
 
 **Mission :** Créer figures publication-quality pour votre TFE
 
-**Workflow figures :**
+**Workflow figures plastie :**
 ```
 1. ChatGPT + Code Interpreter (10 min) :
-   "Voici mes données [CSV]. Crée :
-   - Figure 1 : Résultats principaux (forest plot)
-   - Figure 2 : Flowchart patients (CONSORT)
-   - Style : Publication Nature"
+   "Données [CSV scores FACE-Q/BREAST-Q]. Crée :
+   - Figure 1 : Évolution scores pré/post avec IC 95%
+   - Figure 2 : Montage photos standardisé (grille 3x3)
+   - Figure 3 : Flowchart patients selon guidelines
+   - Style PRS : police Arial, couleurs sobres"
 
 2. Perplexity Labs (5 min) :
-   "Crée dashboard interactif pour données supplémentaires"
+   "Dashboard complications par technique avec timeline"
 
 3. Claude Artifacts (5 min) :
-   "Génère schéma mécanisme d'action en SVG"
+   "Schéma anatomique technique opératoire (vue 3D)"
 ```
 
 **Checklist qualité :**
@@ -211,19 +215,24 @@ Flow narratif      | /10   | /10
 
 **Mission :** Créer abstract 250 mots impact maximum
 
-**Pipeline abstract :**
+**Pipeline abstract PRS/ASJ :**
 ```
-1. Claude - Structure (5 min) :
-   "Analyse mon TFE et crée structure abstract IMRAD 250 mots"
+1. Claude - Structure spécifique (5 min) :
+   "Abstract structuré 250 mots pour PRS. Background, 
+   Methods (technique, patients, outcomes mesurés), 
+   Results (chiffres clés, p-values), Conclusions."
 
-2. ChatGPT - Impact (5 min) :
-   "Maximise l'impact de chaque phrase. Chaque mot compte."
+2. ChatGPT - Précision chirurgicale (5 min) :
+   "Affine terminologie anatomique. Vérifie cohérence 
+   statistique. Ajoute taux satisfaction %."
 
-3. Perplexity - Contexte (5 min) :
-   "Vérifie que le contexte reflète l'état de l'art 2025"
+3. Perplexity - Actualisation (5 min) :
+   "Compare aux abstracts PRS 2025 similaires. 
+   Manque-t-il des éléments standards ?"
 
-4. Gemini - Keywords (5 min) :
-   "Génère keywords optimaux pour indexation et SEO académique"
+4. Gemini - Keywords MeSH (5 min) :
+   "Keywords : technique + anatomie + outcomes + 
+   'Plastic Surgery' + Patient Satisfaction"
 ```
 
 **Grille qualité abstract :**
@@ -246,36 +255,46 @@ TOTAL             | /25      |
 
 **Audit sécurité pour données sensibles TFE :**
 
-**Checklist par plateforme :**
+**Checklist sécurité plastie :**
 ```
-SÉCURITÉ DONNÉES    | ChatGPT | Claude | Gemini | Perplexity
+SÉCURITÉ PLASTIE     | ChatGPT | Claude | Gemini | Perplexity
 --------------------|---------|--------|--------|------------
-Chiffrement         | ✓/✗     | ✓/✗    | ✓/✗    | ✓/✗
+Chiffrement photos  | ✓/✗     | ✓/✗    | ✓/✗    | ✓/✗
 Anonymisation auto  | ✓/✗     | ✓/✗    | ✓/✗    | ✓/✗
-Effacement données  | ✓/✗     | ✓/✗    | ✓/✗    | ✓/✗
-RGPD compliant      | ✓/✗     | ✓/✗    | ✓/✗    | ✓/✗
+Métadata EXIF strip | ✓/✗     | ✓/✗    | ✓/✗    | ✓/✗
+Stockage temporaire | ✓/✗     | ✓/✗    | ✓/✗    | ✓/✗
+RGPD/HIPAA         | ✓/✗     | ✓/✗    | ✓/✗    | ✓/✗
 ```
 
-**Bonnes pratiques :**
-1. Toujours anonymiser avant upload
-2. Utiliser données synthétiques pour tests
-3. Vérifier politique conservation
-4. Documenter usage pour éthique
+**Bonnes pratiques chirurgie plastique :**
+1. JAMAIS photos visage identifiable dans IA
+2. Flouter tatouages/marques distinctives
+3. Créer banque photos standardisées anonymes
+4. Double consentement pour mineurs
+5. Watermark "AI Analysis - Not for diagnosis"
+6. Backup local avant upload IA
 
 #### **⚖️ EXERCICE 3.9 : Éthique de Publication IA-Assistée (15 min)**
 
 **Débats éthiques critiques :**
 
-**Cas 1 : Attribution IA**
+**Cas 1 : Photos IA-analysées**
 ```
-"30% de mon article a été généré/amélioré par IA.
-Comment le déclarer ? Co-auteur ? Remerciements ?"
+"J'ai utilisé ChatGPT Vision pour analyser symétrie 
+faciale sur 50 photos post-rhinoplastie. 
+Dois-je le mentionner ? Impact médico-légal ?"
 ```
 
-**Cas 2 : Vérification des sources**
+**Cas 2 : Simulation morphing**
 ```
-"Perplexity a trouvé 20 références. Dois-je toutes les lire ?
-Comment garantir leur validité ?"
+"IA a généré simulations résultats pour consultations.
+Responsabilité si résultat différent ? Consentement spécial ?"
+```
+
+**Cas 3 : Biais algorithmes beauté**
+```
+"L'IA suggère systématiquement traits européens 
+comme 'idéaux'. Comment gérer biais ethniques ?"
 ```
 
 **Guidelines éthiques :**
@@ -286,20 +305,21 @@ Comment garantir leur validité ?"
 
 #### **✓ EXERCICE 3.10 : Validation Croisée Finale (10 min)**
 
-**Quality check multi-IA :**
+**Quality check plastie multi-IA :**
 ```
-1. Soumettre même section à tous les outils :
-   "Vérifie cette section pour erreurs, incohérences, améliorations"
+1. Soumettre section Methods + photos à tous les outils :
+   "Vérifie cohérence technique décrite vs résultats visuels.
+   Standards PRS ? Erreurs anatomiques ? Stats correctes ?"
 
-2. Compiler feedback dans matrice :
-   OUTIL     | ERREURS | SUGGESTIONS | IMPLEMENTÉ
-   ----------|---------|-------------|------------
-   ChatGPT   |         |             |
-   Claude    |         |             |
-   Gemini    |         |             |
-   Perplexity|         |             |
+2. Matrice validation chirurgie :
+   OUTIL     | TECHNIQUE | ANATOMIE | STATS | ÉTHIQUE
+   ----------|-----------|----------|-------|----------
+   ChatGPT   |    /5     |    /5    |  /5   |    /5
+   Claude    |    /5     |    /5    |  /5   |    /5
+   Gemini    |    /5     |    /5    |  /5   |    /5
+   Perplexity|    /5     |    /5    |  /5   |    /5
 
-3. Score de confiance final : ___/10
+3. Publication-ready score : ___/10
 ```
 
 ---
@@ -307,29 +327,31 @@ Comment garantir leur validité ?"
 ### **🎯 MISSION INTER-SESSION 3**
 **"Semaine Publication Intensive"**
 
-1. **Appliquer workflows complets** sur 2 sections TFE
-2. **Générer toutes les figures** pour votre article
-3. **Tester thinking modes** sur vos limitations
-4. **Calculer temps total** transformé vs traditionnel
-5. **Identifier section** la plus difficile à transformer
-6. **Partager sur WhatsApp** : Avant/Après + stats
-7. **BONUS** : Soumettre à journal test pour feedback
+1. **Transformer 2 sections** : Technique op + Résultats visuels
+2. **Générer figures PRS** : Photos grid + graphiques PROM
+3. **Tester thinking** sur complications non prévues
+4. **Créer tableau** comparatif votre technique vs littérature
+5. **Mesurer temps** : transformation complète article
+6. **Partager WhatsApp** : Montage avant/après + abstract
+7. **BONUS** : Mock submission PRS/ASJ online
 
-**Livrables :**
-- 2 sections transformées (avant/après)
-- Toutes figures en haute résolution
-- Rapport temps et difficultés
-- Plan pour Session 4
+**Livrables plastie :**
+- Section Methods + Results transformées PRS-ready
+- Grille photos standardisée (6-9 vues)
+- Graphiques scores PROM avec stats
+- Abstract 250 mots validé
+- Checklist éthique photos remplie
 
 ---
 
 ### **📖 CLÔTURE SESSION 3**
 
 ✅ **Acquis Session 3 :**
-- Features avancées maîtrisées
-- Workflows publication opérationnels
-- Sécurité et éthique intégrées
-- TFE significativement amélioré
+- Thinking modes pour cas complexes plastie
+- Workflows PRS/ASJ opérationnels
+- Sécurité photos et éthique mineurs
+- Figures publication-quality maîtrisées
+- Abstract et keywords optimisés
 
 ⏭️ **Prochaine étape :**
 - Session 4 : TRANSFORMATION COMPLÈTE

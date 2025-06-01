@@ -1,5 +1,6 @@
-# 🔧 Cheat Sheets - IA Médicale ULB 
-## 🎯 Édition TFE→Publication Optimisée
+# 🔧 Cheat Sheets - IA Chirurgie Plastique ULB 
+## 🎯 Édition TFE→Publication PRS/ASJ Optimisée
+### 🎨 Focus Esthétique & 🏥 Reconstructive
 
 ## 📄 SESSION 1 : Fondements IA + Maîtrise ChatGPT
 
@@ -50,40 +51,42 @@ J'ai besoin de [tâche spécifique].
 [Format souhaité]
 [Contraintes éventuelles]"
 
-EXEMPLE MÉDICAL:
-"Agis comme un cardiologue expérimenté.
-Patient de 65 ans, HTA, diabète type 2.
-J'ai besoin d'un plan de prise en charge.
-Format: 1) Bilan 2) Traitement 3) Suivi
-Maximum 300 mots, focus prévention."
+EXEMPLE PLASTIE:
+"Agis comme un chirurgien plasticien expérimenté.
+Patiente 28 ans, demande rhinoplastie esthétique.
+J'ai besoin d'une consultation structurée.
+Format: 1) Analyse 2) Options 3) Risques
+Maximum 300 mots, focus attentes réalistes."
 ```
 
-### 📝 APPLICATIONS TFE SESSION 1
+### 📝 APPLICATIONS TFE PLASTIE SESSION 1
 ```
-ANALYSE QUALITÉ:
-"Évalue cette introduction de TFE.
-Quels sont les points forts/faibles?
-Compare aux standards Nature Medicine."
+ANALYSE PHOTOS:
+"Analyse ces photos pré/post rhinoplastie.
+Mesure angles et ratios anatomiques.
+Compare aux standards ASPS 2024."
 
-AMÉLIORATION STYLE:
-"Réécris ce paragraphe pour plus d'impact.
-Style: Publication internationale.
-Garde le sens, améliore le flow."
+AMÉLIORATION TECHNIQUE:
+"Réécris cette description opératoire DIEP.
+Style: Publication PRS.
+Garde précision, améliore clarté."
 
-GÉNÉRATION IDÉES:
-"Brainstorme 10 angles innovants
-pour présenter mes résultats sur [sujet].
-Focus: Originalité et impact clinique."
+GÉNÉRATION INNOVATION:
+"Brainstorme 10 angles pour présenter
+ma série [augmentation mammaire/fente].
+Focus: Innovation technique + PROM."
 ```
 
-### 🔒 SÉCURITÉ SESSION 1
+### 🔒 SÉCURITÉ PLASTIE SESSION 1
 ```
-RÈGLES D'OR CHATGPT:
-□ Jamais de données patient réelles
-□ Anonymiser TOUT (noms, dates, lieux)
-□ Tester avec données fictives d'abord
-□ Pas d'images avec infos identifiables
-□ Documenter usage pour traçabilité
+RÈGLES D'OR PHOTOS CHIRURGIE:
+□ JAMAIS photos visage identifiable
+□ Flouter/masquer obligatoirement
+□ Retirer metadata EXIF
+□ Watermark "AI Analysis Only"
+□ Double consentement photos mineurs
+□ Backup local avant upload
+□ Anonymiser cicatrices distinctives
 ```
 
 ---
@@ -109,11 +112,11 @@ FORCES UNIQUES:
 • Thinking mode transparent
 • Artifacts (visuels/code)
 
-À TESTER:
-- Analyse éthique complexe
-- Rédaction structurée IMRAD
-- Révision minutieuse
-- Cas cliniques nuancés
+À TESTER PLASTIE:
+- Consultations esthétiques nuancées
+- Comptes-rendus DIEP détaillés
+- Éthique photo mineurs
+- Articles PRS structurés
 ```
 
 ### 🌍 GEMINI - L'INTÉGRÉ GOOGLE
@@ -125,11 +128,11 @@ FORCES UNIQUES:
 • Suite Google (Docs, Sheets)
 • Multimodal natif
 
-À TESTER:
-- Recherche biblio actualisée
-- Vérification facts
-- Intégration workflow Google
-- Analyse données Sheets
+À TESTER PLASTIE:
+- Innovations techniques récentes
+- Vérification réfs PRS/ASJ
+- Analyse PROM Google Sheets
+- Recherche auteurs leaders
 ```
 
 ### 🔍 PERPLEXITY - L'AUTOMATISEUR
@@ -141,25 +144,25 @@ FORCES UNIQUES:
 • Recherche exhaustive
 • Synthèse automatique
 
-À TESTER:
-- Revue littérature express
-- Fact-checking avec sources
-- Dashboard automatique
-- Rapport complet généré
+À TESTER PLASTIE:
+- Méta-analyse techniques rapide
+- Dashboard complications auto
+- Rapport PROM complet
+- Tableau comparatif chirurgies
 ```
 
 ### 🎯 MATRICE DE DÉCISION PERSONNELLE
 ```
-MA TÂCHE                | MON OUTIL PRÉFÉRÉ | POURQUOI?
+TÂCHE PLASTIE           | MON OUTIL PRÉFÉRÉ | POURQUOI?
 ------------------------|-------------------|----------
-Brainstorming          |                   |
-Rédaction longue       |                   |
-Recherche biblio       |                   |
-Analyse éthique        |                   |
-Vérification facts     |                   |
-Création figures       |                   |
-TFE Introduction       |                   |
-TFE Discussion         |                   |
+Analyse photos pré/post |                   |
+Compte-rendu DIEP      |                   |
+Recherche PRS/ASJ      |                   |
+Consultation esthétique |                   |
+Analyse PROM scores    |                   |
+Grilles photos         |                   |
+TFE technique op       |                   |
+TFE résultats PROM     |                   |
 
 À compléter APRÈS avoir testé chaque outil!
 ```
@@ -195,10 +198,10 @@ Perplexity Deep Research:
 
 ### 📝 WORKFLOWS PUBLICATION PRO
 ```
-PIPELINE INTRODUCTION NATURE:
-1. Perplexity: "Top 10 intros similaires Nature"
-2. Claude: "Restructure selon patterns identifiés"
-3. ChatGPT: "Maximise impact première phrase"
+PIPELINE INTRODUCTION PRS:
+1. Perplexity: "Top 10 intros rhinoplastie PRS"
+2. Claude: "Restructure selon standards plastie"
+3. ChatGPT: "Hook innovation technique"
 
 PIPELINE ABSTRACT PARFAIT:
 1. Claude: Structure IMRAD 250 mots
@@ -206,10 +209,11 @@ PIPELINE ABSTRACT PARFAIT:
 3. Perplexity: Keywords MeSH optimaux
 4. Gemini: Vérification cohérence
 
-PIPELINE FIGURES PRO:
-1. ChatGPT: Génération avec Code Interpreter
-2. Perplexity Labs: Dashboard interactif
-3. Claude: Légendes complètes
+PIPELINE FIGURES PLASTIE:
+1. ChatGPT: Grilles photos standardisées
+2. ChatGPT Code: Graphiques FACE-Q/BREAST-Q
+3. Perplexity Labs: Dashboard complications
+4. Claude: Légendes anatomiques précises
 ```
 
 ### 🔒 ÉTHIQUE PUBLICATION IA
@@ -246,27 +250,31 @@ RÉSULTAT: TFE → Article soumis en 3h
 
 ### 📊 PIPELINE TRANSFORMATION TFE
 ```
-PHASE 1 - DIAGNOSTIC (15 min):
-• Claude: Analyse publication-readiness
-• Perplexity: Articles similaires 2024-2025
+PHASE 1 - DIAGNOSTIC PLASTIE (15 min):
+• Claude: Analyse innovation technique
+• Perplexity: Articles PRS/ASJ similaires
+• ChatGPT: Qualité photos standardisation
 
 PHASE 2 - TRANSFORMATION (60 min):
-A. Titre/Abstract (15 min)
-   - ChatGPT: 10 titres
-   - Claude: Abstract IMRAD
-   - Perplexity: Keywords
+A. Titre/Abstract PLASTIE (15 min)
+   - ChatGPT: 10 titres avec technique
+   - Claude: Abstract avec PROM scores
+   - Perplexity: Keywords MeSH plastie
 
 B. Introduction (15 min)
    - Perplexity: Gap analysis
    - Claude thinking: Restructuration
 
-C. Methods (15 min)
-   - Claude: STROBE/CONSORT
-   - ChatGPT: Flow diagram
+C. Methods PLASTIE (15 min)
+   - Claude: STROBE/CONSORT plastie
+   - ChatGPT: Protocole photos ASPS
+   - ChatGPT: Flow diagram patients
 
-D. Results/Discussion (15 min)
-   - ChatGPT: Figures HD
-   - Claude: Discussion impact
+D. Results/Discussion PLASTIE (15 min)
+   - ChatGPT: Grilles photos HD
+   - ChatGPT Code: Graphiques PROM
+   - Claude: Discussion complications
+   - Claude: Impact pour chirurgiens
 
 PHASE 3 - VALIDATION (15 min):
 • Rotation check: Chaque section par outil différent
@@ -274,18 +282,20 @@ PHASE 3 - VALIDATION (15 min):
 
 ### 🎯 SÉLECTION JOURNAL STRATÉGIQUE
 ```
-AVEC PERPLEXITY:
-"Trouve 10 journaux pour [mon sujet].
-Critères: IF, taux accept, review time, OA"
+AVEC PERPLEXITY PLASTIE:
+"Trouve journaux chirurgie plastique pour [rhinoplastie/DIEP].
+Critères: IF, scope, taux accept, review time"
 
-MATRICE DÉCISION:
-Journal    | IF  | Fit | Accept% | Délai
------------|-----|-----|---------|-------
-Nature Med | 82  | ?/10| 8%      | 60j
-Lancet     | 168 | ?/10| 5%      | 45j
-[Vos choix]|     |     |         |
+MATRICE PLASTIE:
+Journal    | IF  | Scope    | Accept% | Délai
+-----------|-----|----------|---------|-------
+PRS        | 5.2 | Both     | 35%     | 45j
+ASJ        | 4.5 | Aesthetic| 30%     | 30j
+JPRAS      | 3.0 | Both     | 40%     | 35j
+APS        | 2.8 | Aesthetic| 45%     | 25j
+[Vos choix]|     |          |         |
 
-STRATÉGIE: 1 ambitieux + 2 réalistes
+STRATÉGIE PLASTIE: PRS (technique) + ASJ (esthétique)
 ```
 
 ### ✉️ COVER LETTER GAGNANTE
@@ -337,30 +347,30 @@ vs 6 mois approche dispersée
 
 ### SESSION 1 - CHATGPT
 ```
-Win rapide: Améliorer 1 paragraphe TFE
-Challenge: Détecter 3 hallucinations
-Livrable: 5 prompts optimisés
+Win rapide: Analyser 1 série photos
+Challenge: Détecter angles incorrects
+Livrable: 5 prompts photos optimisés
 ```
 
 ### SESSION 2 - MULTI-OUTILS
 ```
-Win rapide: Identifier outil préféré
-Challenge: Même tâche sur 4 outils
-Livrable: Matrice décision perso
+Win rapide: Outil champion pour photos
+Challenge: Analyse PROM sur 4 outils
+Livrable: Workflow plastie personnel
 ```
 
 ### SESSION 3 - AVANCÉ
 ```
-Win rapide: Générer 1 figure pro
-Challenge: Abstract 250 mots parfait
-Livrable: Pipeline publication
+Win rapide: Grille photos standardisée
+Challenge: Abstract PRS avec PROM
+Livrable: Pipeline plastie complet
 ```
 
 ### SESSION 4 - TRANSFORMATION
 ```
-Win rapide: Titre article final
-Challenge: Cover letter convaincante
-Livrable: Article prêt à soumettre
+Win rapide: Titre technique innovant
+Challenge: Cover letter PRS
+Livrable: Article plastie prêt soumission
 ```
 
 ---
@@ -386,6 +396,6 @@ Session 4: 8/10 (application réelle)
 Jamais plus de +2 points entre sessions!
 ```
 
-**📚 "Votre TFE est déjà une publication. L'IA la révèle."**
+**📚 "Votre TFE rhinoplastie/DIEP contient déjà une publication PRS. L'IA la révèle."**
 
 *Cheat Sheets - Programme optimisé Juin 2025*

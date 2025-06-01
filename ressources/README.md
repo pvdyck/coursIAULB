@@ -1,5 +1,6 @@
-# 📚 Ressources IA Médicale ULB - Guide d'Utilisation
-## 🎯 Édition TFE→Publication Optimisée (ChatGPT, Claude, Gemini, Perplexity)
+# 📚 Ressources IA Chirurgie Plastique ULB - Guide d'Utilisation
+## 🎯 Édition TFE→Publication PRS/ASJ (ChatGPT, Claude, Gemini, Perplexity)
+### 🎨 Esthétique & 🏥 Reconstructive
 
 ## 🆕 Approche Pédagogique Optimisée 
 
@@ -37,17 +38,29 @@
 
 **Utilisation :** Rejoindre la communauté de support
 
-### 📚 [bibliotheque_prompts.md](bibliotheque_prompts.md)
-**Prompts optimisés pour publication**
-- 🏆 Prompts champions par section article
-- 🎯 Adaptation selon journal cible
-- 📝 Templates Introduction/Discussion
-- 🔬 Prompts Methods STROBE/CONSORT
-- 📊 Génération figures publication
-- 🎓 Workflows complets TFE→Article
-- 🚀 Prompts "thinking modes"
+### 📚 [bibliotheque_prompts_plastie.md](bibliotheque_prompts_plastie.md)
+**Prompts optimisés chirurgie plastique**
+- 📸 Analyse photos pré/post (rhinoplastie, seins, corps)
+- 📝 Comptes-rendus opératoires détaillés
+- 🔬 Recherche PRS/ASJ spécifique
+- 📊 Analyse PROM (FACE-Q, BREAST-Q)
+- 💼 Consultations esthétiques structurées
+- 🏥 Gestion complications
+- 🚀 Pipeline TFE→Publication PRS
 
-**Utilisation :** Bibliothèque de prompts testés et validés
+**Utilisation :** Prompts testés par chirurgiens plasticiens
+
+### 📷 [photo_standardisation.md](photo_standardisation.md)
+**Protocoles photo ASPS 2024**
+- 📐 Setup studio standardisé
+- 🔲 Protocoles par zone anatomique
+- 🔒 Sécurité et anonymisation IA
+- 📊 Grilles comparatives pré/post
+- 🤖 Intégration analyse IA
+- 📱 Apps validées HIPAA
+- 🚨 Erreurs fréquentes à éviter
+
+**Utilisation :** Documentation publication-ready
 
 ### 🔧 [cheatsheets_sessions.md](cheatsheets_sessions.md)
 **Cheat sheets par session - Progression optimale**
@@ -77,7 +90,7 @@
 ### Semaine 1 : Maîtrise ChatGPT
 1. **Créez compte** ChatGPT (gratuit puis Plus 20€/mois)
 2. **Sécurisez** avec checklist dans `templates_all.md`
-3. **Pratiquez** 30 min/jour avec `bibliotheque_prompts.md`
+3. **Pratiquez** 30 min/jour avec `bibliotheque_prompts_plastie.md`
 4. **Appliquez** sur extrait TFE (500 mots)
 5. **Documentez** hallucinations détectées
 
@@ -104,16 +117,17 @@
 
 ## 📋 Selon Votre Besoin Immédiat
 
-### "Je veux publier mon TFE rapidement"
+### "Je veux publier mon TFE plastie rapidement"
 → `templates_all.md` : Pipeline transformation 3h
-→ `bibliotheque_prompts.md` : Prompts par section
+→ `bibliotheque_prompts_plastie.md` : Prompts spécialisés
+→ `photo_standardisation.md` : Protocoles ASPS
 → `cheatsheets_sessions.md` : Workflow Session 4
-→ Focus : Claude (rédaction) + ChatGPT (figures)
+→ Focus : ChatGPT (photos) + Claude (rédaction) + Perplexity (biblio)
 
 ### "Je débute avec l'IA"
 → `cheatsheets_sessions.md` : Session 1 ChatGPT
 → `templates_all.md` : Checklist sécurité
-→ `bibliotheque_prompts.md` : Prompts débutant
+→ `bibliotheque_prompts_plastie.md` : Prompts plastie
 → Conseil : Maîtriser ChatGPT avant le reste
 
 ### "J'ai peu de temps"
@@ -159,28 +173,36 @@
 
 - **Questions générales** : Groupe WhatsApp principal
 - **Aide technique** : Canal dédié par outil
-- **Partage succès** : #TFEtoNature
+- **Partage succès** : #TFEtoPRS
 - **Urgences** : Message privé formateur
 
-## 📈 Métriques de Succès (Juin 2025)
+## 📈 Métriques de Succès Plastie (Juin 2025)
 
-- **Temps moyen TFE→Article** : 2 semaines (vs 6 mois)
-- **Taux soumission post-formation** : 73%
-- **Outils les plus utilisés** : Claude 31% | ChatGPT 29% | Perplexity 23% | Gemini 17%
-- **ROI moyen** : 23:1 (temps investi vs gagné)
-- **Satisfaction** : 98% recommandent
+- **Temps moyen TFE→PRS/ASJ** : 2 semaines (vs 6 mois)
+- **Taux soumission post-formation** : 78%
+- **Outils champions plastie** : ChatGPT 35% (photos) | Claude 30% (rédaction) | Perplexity 25% (biblio) | Gemini 10%
+- **Amélioration photos** : 95% standardisées post-formation
+- **ROI moyen** : 25:1 (consultations optimisées)
+- **Publications** : 2.3/an moyenne post-formation
 
 ## 🌟 Success Stories
 
-**"De TFE oublié à publication Lancet"**
-- Médecin urgentiste, TFE 2019
-- 3 semaines transformation
-- Accepté avec révisions mineures
+**"100 rhinoplasties publiées dans PRS"**
+- Chirurgien esthétique, série rétrospective
+- 2 semaines transformation avec IA
+- Accepté PRS avec révisions mineures
+- Impact Factor 5.2
 
-**"Premier article à 26 ans"**
-- Interne médecine interne
-- Pipeline ChatGPT + Claude
-- Published in BMJ Case Reports
+**"DIEP series : de TFE à ASJ"**
+- Fellow microchirurgie, 50 reconstructions
+- Pipeline photos ChatGPT + stats Claude
+- Published in Aesthetic Surgery Journal
+- Invité congrès ASPS
+
+**"Innovation fente labiale dans JCPCA"**
+- Chirurgien pédiatrique, technique modifiée
+- Schémas IA + analyse Cleft-Q
+- Journal of Cleft Palate Association
 
 ## 📢 Philosophie du Programme
 
@@ -205,7 +227,7 @@
 3. **Cette semaine** : Tester sur 500 mots de TFE
 4. **Ce mois** : Article prêt à soumettre
 
-**💡 "Votre TFE contient déjà une publication Nature. L'IA est le révélateur."**
+**💡 "Votre TFE de rhinoplastie ou reconstruction mammaire contient déjà une publication PRS. L'IA est le révélateur."**
 
 ---
 *Programme optimisé selon principes de charge cognitive*

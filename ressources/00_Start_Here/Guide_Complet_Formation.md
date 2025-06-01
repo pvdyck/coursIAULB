@@ -11,7 +11,7 @@
 ✅ Semaine 1 : Maîtriser ChatGPT complètement  
 ✅ Semaine 2 : Découvrir Claude, Gemini, Perplexity  
 ✅ Semaine 3 : Features avancées et workflows  
-✅ Semaine 4 : Votre TFE → Article Nature/Science  
+✅ Semaine 4 : Votre TFE → Article PRS/ASJ  
 
 ### Principe Pédagogique
 **Charge cognitive contrôlée : 4/10 → 6/10 → 7/10 → 8/10**
@@ -138,14 +138,14 @@ OBLIGATOIRE avant tout usage IA :
 
 #### Programme
 - **Lundi** : Extended thinking (o1, Claude thinking)
-- **Mardi-Mercredi** : Workflows Nature/Science
+- **Mardi-Mercredi** : Workflows PRS/ASJ
 - **Jeudi** : Éthique et sécurité
 - **Vendredi** : Test complet 2 sections
 
 #### Resources
 - 📖 [Session 3 - Cours](../../cours/session3_workflows_publication.md)
 - 📝 [Exercices Session 3](../02_Exercices_Sessions/Session_3/Exercices_Session_3.md)
-- 📊 [Templates Publication](../bibliotheque_prompts.md#publication)
+- 📊 [Templates Publication](../bibliotheque_prompts_plastie.md#publication)
 
 #### Livrable
 ✅ 2 sections TFE niveau publication
@@ -300,7 +300,7 @@ R: Rattrapez avec enregistrements + exercices
 
 ## 💭 PHILOSOPHIE DU PROGRAMME
 
-> "Votre TFE contient déjà une publication Nature.  
+> "Votre TFE de rhinoplastie ou reconstruction contient déjà une publication PRS.  
 > L'IA est simplement le révélateur qui la fait apparaître."
 
 ### Nos Valeurs

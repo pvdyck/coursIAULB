@@ -43,16 +43,17 @@ Aujourd'hui : Maîtrise individuelle de Claude, Gemini et Perplexity
 
 #### **🔄 EXERCICE 2.1 : Découverte Claude (15 min)**
 
-**Test 1 : Rédaction médicale structurée**
+**Test 1 : Rédaction compte-rendu opératoire**
 ```
-"Je dois rédiger le protocole d'une étude clinique sur [sujet].
-Aide-moi à structurer selon les standards SPIRIT 2013.
-Inclus tous les éléments essentiels."
+"Je dois rédiger le compte-rendu opératoire d'une reconstruction 
+mammaire par DIEP. Patiente 45 ans, mastectomie droite.
+2 perforantes identifiées. Temps op : 6h30. 
+Structure selon standards hospitaliers avec tous les détails techniques."
 ```
 
-**Test 2 : Analyse de document long**
-- Uploader un article scientifique (PDF)
-- Prompt : "Analyse critique de cet article. Forces, faiblesses, biais potentiels."
+**Test 2 : Analyse article PRS**
+- Uploader un article récent de PRS sur reconstruction
+- Prompt : "Analyse critique pour publication similaire. Méthodologie, résultats BREAST-Q, limites."
 
 **Points d'observation :**
 - Structure et organisation
@@ -60,13 +61,14 @@ Inclus tous les éléments essentiels."
 
 #### **🤔 EXERCICE 2.2 : Claude Thinking Mode (10 min)**
 
-**Cas éthique complexe :**
+**Cas éthique chirurgie plastique :**
 ```
-"Un patient de 16 ans demande la contraception sans que ses parents 
-soient informés. La mère, que je connais bien, me demande directement 
-si sa fille est venue me voir. Comment gérer cette situation ?
+"Patiente 18 ans demande rhinoplastie pour 'nez ethnique' qu'elle 
+veut 'européanisé'. Parents poussent pour l'opération.
+Signes possibles de dysmorphophobie. Instagram influence ++.
 
-Utilise ton mode de réflexion approfondie pour explorer toutes les dimensions."
+Utilise ton mode thinking pour explorer les dimensions éthiques, 
+psychologiques et professionnelles."
 ```
 
 **Comparer :**
@@ -76,11 +78,11 @@ Utilise ton mode de réflexion approfondie pour explorer toutes les dimensions."
 
 #### **📝 EXERCICE 2.3 : TFE avec Claude (10 min)**
 
-**Application publication :**
+**Application publication plastie :**
 ```
-"Voici la section Méthodes de mon TFE [coller extrait].
-Restructure-la selon les standards du journal [nom].
-Assure-toi qu'elle répond aux critères STROBE/CONSORT."
+"Voici la section Méthodes de mon TFE sur [rhinoplastie/DIEP/fente].
+Restructure-la selon les standards de Plastic and Reconstructive Surgery.
+Inclus : flowchart patients, technique détaillée, mesures outcomes (ROE/BREAST-Q)."
 ```
 
 **Évaluation Claude :**
@@ -114,11 +116,11 @@ Suggestions pertinentes   |      |
 
 #### **🔄 EXERCICE 2.4 : Découverte Gemini (15 min)**
 
-**Test 1 : Recherche médicale actualisée**
+**Test 1 : Recherche chirurgie plastique actualisée**
 ```
-"Recherche les dernières études (2024-2025) sur l'efficacité 
-des inhibiteurs SGLT2 dans l'insuffisance cardiaque à FE préservée.
-Résume les findings principaux avec sources."
+"Recherche les dernières études (2024-2025) sur la rhinoplastie 
+de préservation vs structurelle. Taux satisfaction, complications, 
+révisions. Cite sources PubMed et PRS."
 ```
 
 **Test 2 : Intégration Workspace**
@@ -126,10 +128,10 @@ Résume les findings principaux avec sources."
 - Utiliser Gemini dedans pour générer contenu
 - Tester la collaboration
 
-**Test 3 : Analyse multimodale**
-- Uploader image + texte
-- Demander analyse croisée
-- Évaluer cohérence
+**Test 3 : Analyse avant/après multimodale**
+- Uploader photos pré/post-op + compte-rendu
+- "Analyse cohérence entre résultats visuels et description opératoire"
+- Évaluer pertinence clinique
 
 **Points d'observation :**
 - Qualité des sources trouvées
@@ -145,20 +147,20 @@ Résume les findings principaux avec sources."
    - Créer visualisations
    - Générer insights
 
-**Prompt exemple :**
+**Prompt exemple plastie :**
 ```
-"Analyse ces données de survie à 5 ans. 
-Identifie les facteurs prédictifs principaux.
-Crée les graphiques appropriés."
+"Analyse ces scores FACE-Q pré/post lifting facial (n=50). 
+Identifie facteurs prédictifs satisfaction. Crée graphiques 
+pour publication avec p-values et intervalles confiance."
 ```
 
 #### **📝 EXERCICE 2.6 : TFE avec Gemini (10 min)**
 
-**Recherche bibliographique avancée :**
+**Recherche biblio plastie avancée :**
 ```
-"Mon TFE porte sur [sujet]. Trouve les 10 articles 
-les plus cités de 2023-2025 sur ce thème.
-Compare leurs méthodologies et conclusions."
+"Mon TFE porte sur [lipostructure mammaire/rhinoplastie ethnique/DIEP]. 
+Trouve via Google Scholar les 10 articles PRS/ASJ les plus cités 2023-2025.
+Focus : techniques, complications, patient-reported outcomes."
 ```
 
 **Évaluation Gemini :**
@@ -194,14 +196,15 @@ Intégration Google      |         |
 
 **Test 1 : Recherche simple avec sources**
 ```
-"Quelle est l'incidence actuelle du diabète type 2 
-chez les adolescents en Europe ?"
+"Quelle est l'incidence des complications majeures 
+en Brazilian Butt Lift selon les études récentes 2024 ?"
 ```
 
-**Test 2 : Deep Research**
+**Test 2 : Deep Research plastie**
 ```
-"Utilise Deep Research pour créer un rapport complet sur 
-les nouveaux biomarqueurs du cancer du pancréas en 2025."
+"Utilise Deep Research pour rapport exhaustif sur l'évolution 
+de la lipostructure mammaire 2020-2025 : taux résorption, 
+imagerie, oncological safety."
 ```
 
 **Test 3 : Comparaison avec ChatGPT**
@@ -215,11 +218,11 @@ les nouveaux biomarqueurs du cancer du pancréas en 2025."
 
 #### **🚀 EXERCICE 2.8 : Perplexity Labs (10 min)**
 
-**Création dashboard automatique :**
+**Création dashboard chirurgie :**
 ```
-"Crée un dashboard interactif pour suivre les indicateurs 
-clés de mon étude clinique : recrutement, compliance, 
-effets secondaires, endpoints."
+"Crée dashboard interactif pour suivre mes résultats 
+chirurgicaux : taux complications par procédure, scores 
+PROM (FACE-Q/BREAST-Q), taux révision, photos timeline."
 ```
 
 **Évaluation :**
@@ -229,13 +232,14 @@ effets secondaires, endpoints."
 
 #### **📝 EXERCICE 2.9 : TFE avec Perplexity (10 min)**
 
-**Revue de littérature automatisée :**
+**Revue littérature plastie automatisée :**
 ```
-"Génère une revue systématique sur [sujet TFE] incluant :
-- Méthodologie de recherche
-- Tableau comparatif des études
-- Analyse des gaps
-- Recommandations futures"
+"Génère revue systématique sur [technique SMAS lifting/préservation 
+rhinoplastie/DIEP vs TMG] incluant :
+- Stratégie recherche PubMed/Embase
+- Tableau comparatif outcomes et complications
+- Analyse niveaux evidence
+- Gaps pour mon TFE"
 ```
 
 **Évaluation Perplexity :**
@@ -256,13 +260,13 @@ Gain de temps          |         |
 
 **Mission :** Même tâche sur les 4 outils
 
-**Tâche TFE standardisée :**
+**Tâche TFE plastie standardisée :**
 ```
-"Transforme ce paragraphe de ma discussion TFE en version 
-publiable pour journal international. Améliore le style, 
-la structure et l'impact scientifique.
+"Transforme ce paragraphe de ma discussion TFE [rhinoplastie/reconstruction] 
+en version publiable pour PRS/ASJ. Améliore style, ajoute références 
+récentes, intègre patient-reported outcomes.
 
-[Insérer même paragraphe de 200 mots]"
+[Insérer même paragraphe de 200 mots sur technique/résultats]"
 ```
 
 **Grille comparative complète :**
@@ -284,20 +288,20 @@ GAGNANT POUR CETTE TÂCHE : _____________
 **Créer VOTRE matrice :**
 
 ```
-TÂCHE MÉDICALE              | OUTIL OPTIMAL | POURQUOI ?
+TÂCHE CHIRURGIE PLASTIQUE    | OUTIL OPTIMAL | POURQUOI ?
 ----------------------------|---------------|------------
-Diagnostic différentiel     |               |
-Rédaction compte-rendu     |               |
-Recherche bibliographique  |               |
-Analyse statistique        |               |
-Communication patient      |               |
-Révision article           |               |
-Analyse éthique           |               |
-Création de visuels       |               |
-TFE → Introduction        |               |
-TFE → Méthodes           |               |
-TFE → Discussion         |               |
-TFE → Revue littérature  |               |
+Analyse photos pré/post    |               |
+Compte-rendu opératoire    |               |
+Recherche PRS/ASJ          |               |
+Analyse PROM (FACE-Q)      |               |
+Consultation esthétique    |               |
+Plan reconstruction        |               |
+Analyse éthique mineure    |               |
+Création schémas op       |               |
+TFE → Introduction PRS     |               |
+TFE → Technique op        |               |
+TFE → Résultats visuels   |               |
+TFE → Complications       |               |
 ```
 
 #### **🎯 Plan Personnel TFE-Publication (10 min)**
@@ -307,19 +311,22 @@ TFE → Revue littérature  |               |
 ```
 MON PIPELINE TFE → PUBLICATION
 
-1. Revue littérature : _____________ (outil)
+1. Revue littérature plastie : _____________ (outil)
    Raison : _______________________
 
-2. Restructuration IMRAD : _________ (outil)
+2. Rédaction technique op : _________ (outil)
    Raison : _______________________
 
-3. Amélioration style : ____________ (outil)
+3. Analyse photos/résultats : ____________ (outil)
    Raison : _______________________
 
-4. Création figures : ______________ (outil)
+4. Statistiques PROM : ______________ (outil)
    Raison : _______________________
 
-5. Vérification finale : ___________ (outil)
+5. Mise en forme PRS : ___________ (outil)
+   Raison : _______________________
+
+6. Vérification éthique : ___________ (outil)
    Raison : _______________________
 
 ```
@@ -329,18 +336,19 @@ MON PIPELINE TFE → PUBLICATION
 ### **🎯 MISSION INTER-SESSION 2**
 **"Semaine d'Exploration Comparative"**
 
-1. **Tester votre pipeline** sur 1000 mots de votre TFE
-2. **Chronométrer chaque étape** précisément
-3. **Documenter les problèmes** rencontrés
-4. **Calculer le ROI** (temps/qualité)
-5. **Identifier l'outil champion** pour votre usage
-6. **Créer 2 workflows** personnalisés
-7. **Partager sur WhatsApp** : #PipelineOptimal
+1. **Tester pipeline** sur cas chirurgical réel (anonymisé)
+2. **Analyser 10 photos** avant/après avec chaque outil
+3. **Chronométrer** rédaction compte-rendu opératoire
+4. **Comparer** recherche biblio plastie sur même sujet
+5. **Identifier champion** pour photos vs texte vs recherche
+6. **Créer workflow** consultation→opération→publication
+7. **Partager sur WhatsApp** : #PlastiePipeline
 
-**Livrable :** 
-- Pipeline documenté dans Google Sheets
-- Screenshot du meilleur résultat
-- 3 learnings clés
+**Livrables :** 
+- Pipeline chirurgie documenté (Google Sheets)
+- Comparaison analyse photo par outil
+- Template compte-rendu opératoire optimal
+- 3 insights spécifiques plastie
 
 ---
 

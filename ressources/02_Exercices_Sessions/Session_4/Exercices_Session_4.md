@@ -437,7 +437,7 @@ GAIN NET : ___% temps, ___% qualité
 ---
 
 💡 **Remember :** 
-> "Votre TFE contient déjà une publication. 
-> L'IA est juste le révélateur qui la fait apparaître."
+> "Votre TFE de rhinoplastie ou reconstruction mammaire contient déjà une publication PRS. 
+> L'IA est le révélateur qui la fait apparaître."
 
-**#TFEtoNature** **#AIPublished** **#30DayChallenge**
+**#TFEtoPRS** **#AIPublished** **#30DayChallenge**

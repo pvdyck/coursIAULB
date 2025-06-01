@@ -1,5 +1,6 @@
-# 📊 Grilles d'Évaluation Comparative  - IA Médicale ULB
-## Programme TFE→Publication Optimisé (Juin 2025)
+# 📊 Grilles d'Évaluation Comparative - IA Chirurgie Plastique ULB
+## Programme TFE→Publication PRS/ASJ Optimisé (Juin 2025)
+### 🎨 Focus Esthétique & 🏥 Reconstructive
 
 ## 🎯 Grille Universelle de Comparaison
 
@@ -38,91 +39,91 @@ COMBINAISON RECOMMANDÉE : ____________________
 
 ## 📝 Grilles Spécifiques par Type de Tâche
 
-### **1. GRILLE DIAGNOSTIC DIFFÉRENTIEL**
+### **1. GRILLE ANALYSE PHOTOS CHIRURGIE PLASTIQUE**
 
 ```
 ASPECT ÉVALUÉ            | ChatGPT | Claude | Gemini | Perplexity
 -------------------------|---------|--------|--------|------------
-Nombre DDx pertinents    | __/10   | __/10  | __/10  | __/10
-Ordre probabilité correct| __/10   | __/10  | __/10  | __/10
-Justifications cliniques | __/10   | __/10  | __/10  | __/10
-Red flags identifiés     | __/10   | __/10  | __/10  | __/10
-Examens proposés         | __/10   | __/10  | __/10  | __/10
-Pièges évités           | __/10   | __/10  | __/10  | __/10
-Rapport automatisé       | __/10   | __/10  | __/10  | __/10
+Détection standardisation| __/10   | __/10  | __/10  | __/10
+Mesures angles/ratios    | __/10   | __/10  | __/10  | __/10
+Analyse symétrie        | __/10   | __/10  | __/10  | __/10
+Qualité résultat global| __/10   | __/10  | __/10  | __/10
+Détection complications  | __/10   | __/10  | __/10  | __/10
+Cohérence pré/post-op   | __/10   | __/10  | __/10  | __/10
+Grille photos générée  | __/10   | __/10  | __/10  | __/10
 
-Erreurs graves : ______________________
-Omissions critiques : _________________
-Meilleur raisonnement : _______________
+Erreurs anatomiques : _________________
+Mesures incorrectes : _________________
+Meilleure analyse visuelle : __________
 ```
 
-### **2. GRILLE RECHERCHE BIBLIOGRAPHIQUE**
+### **2. GRILLE RECHERCHE PLASTIQUE SPÉCIALISÉE**
 
 ```
-MÉTRIQUE                 | ChatGPT | Claude | Gemini | Perplexity
+MÉTRIQUE PLASTIE         | ChatGPT | Claude | Gemini | Perplexity
 -------------------------|---------|--------|--------|------------
-Nombre références found  | ___     | ___    | ___    | ___
-Pertinence (%)          | ___%    | ___%   | ___%   | ___%
-Refs fantômes           | ___     | ___    | ___    | ___
-Actualité (<2 ans)      | ___%    | ___%   | ___%   | ___%
-Impact Factor moyen     | ___     | ___    | ___    | ___
-Synthèse quality (/10)  | __/10   | __/10  | __/10  | __/10
-Temps recherche (min)   | ___     | ___    | ___    | ___
-Rapport auto généré     | Non     | Non    | Non    | Oui
+Articles PRS/ASJ/JPRAS   | ___     | ___    | ___    | ___
+Pertinence technique (%) | ___%    | ___%   | ___%   | ___%
+Réfs fantômes détectées | ___     | ___    | ___    | ___
+Études PROM incluses     | ___%    | ___%   | ___%   | ___%
+IF moyen journaux        | ___     | ___    | ___    | ___
+Synthèse innovations     | __/10   | __/10  | __/10  | __/10
+Temps recherche spécia   | ___min  | ___min | ___min | ___min
+Tableau comparatif auto  | Non     | Non    | Partiel| Oui
 
-Sources privilégiées : ________________
-Biais de sélection : _________________
+Journaux identifiés : PRS, ASJ, JPRAS, APS
+Techniques couvertes : _________________
 ```
 
-### **3. GRILLE RÉDACTION MÉDICALE**
+### **3. GRILLE RÉDACTION TECHNIQUE OPÉRATOIRE**
 
 ```
-CRITÈRE RÉDACTION       | ChatGPT | Claude | Gemini
+CRITÈRE RÉDACTION PLASTIE| ChatGPT | Claude | Gemini
+--------------------------|---------|--------|--------
+Structure IMRAD plastie  | __/5    | __/5   | __/5
+Précision technique      | __/5    | __/5   | __/5
+Style PRS/ASJ           | __/5    | __/5   | __/5
+Intégration PROM scores  | __/5    | __/5   | __/5
+Description opératoire   | __/5    | __/5   | __/5
+Innovation mise en avant | __/5    | __/5   | __/5
+
+Meilleur pour plastie : 
+- Technique op : _______
+- Résultats PROM : _____
+- Discussion complications : ______
+- Photos légendes : ____
+```
+
+### **4. GRILLE CONSULTATION ESTHÉTIQUE**
+
+```
+ASPECT CONSULTATION     | ChatGPT | Claude | Gemini
 ------------------------|---------|--------|--------
-Structure IMRAD         | __/5    | __/5   | __/5
-Précision scientifique  | __/5    | __/5   | __/5
-Style publication       | __/5    | __/5   | __/5
-Respect word count      | __/5    | __/5   | __/5
-Flow narratif          | __/5    | __/5   | __/5
-Originalité            | __/5    | __/5   | __/5
+Clarté procédure       | __/5    | __/5   | __/5
+Attentes réalistes      | __/5    | __/5   | __/5
+Empathie/écoute         | __/5    | __/5   | __/5
+Risques bien expliqués  | __/5    | __/5   | __/5
+Alternatives évoquées   | __/5    | __/5   | __/5
+Considérations ethniques| __/5    | __/5   | __/5
 
-Meilleur pour : 
-- Introduction : _____
-- Méthodologie : _____
-- Discussion : _______
-- Conclusion : _______
+Qualité simulation : ___/10
+Risque promesses irréalistes : Faible/Moyen/Élevé
 ```
 
-### **4. GRILLE COMMUNICATION PATIENT**
+### **5. GRILLE ANALYSE PROM (FACE-Q/BREAST-Q)**
 
 ```
-ASPECT COMMUNICATION    | ChatGPT | Claude | Gemini
-------------------------|---------|--------|--------
-Clarté message         | __/5    | __/5   | __/5
-Niveau adapté          | __/5    | __/5   | __/5
-Empathie/ton          | __/5    | __/5   | __/5
-Complétude info       | __/5    | __/5   | __/5
-Absence jargon        | __/5    | __/5   | __/5
-Culturellement adapté | __/5    | __/5   | __/5
-
-Patient satisfaction estimée : ___%
-Risque malentendu : Faible/Moyen/Élevé
-```
-
-### **5. GRILLE ANALYSE D'IMAGES**
-
-```
-CAPACITÉ VISUELLE      | ChatGPT | Claude | Gemini
+CAPACITÉ ANALYSE PROM  | ChatGPT | Claude | Gemini
 -----------------------|---------|--------|--------
-Upload facilité        | __/5    | __/5   | __/5
-Findings corrects      | __/10   | __/10  | __/10
-Faux positifs         | ___     | ___    | ___
-Éléments manqués      | ___     | ___    | ___
-Description qualité    | __/5    | __/5   | __/5
-Diagnostic suggestions | __/5    | __/5   | __/5
+Upload données CSV     | __/5    | __/5   | __/5
+Calculs scores corrects| __/10   | __/10  | __/10
+Graphiques générés    | __/10   | __/10  | __/10
+Interprétation clinique| __/5    | __/5   | __/5
+Comparaisons normatives| __/5    | __/5   | __/5
+Stats appropriées      | __/5    | __/5   | __/5
 
-Type image optimal : __________________
-Limitations notées : __________________
+PROM optimal supporté : FACE-Q/BREAST-Q/DASH
+Format export : PDF/Excel/R/Python
 ```
 
 ## 🔍 Grilles de Détection des Problèmes
@@ -130,13 +131,13 @@ Limitations notées : __________________
 ### **GRILLE HALLUCINATIONS**
 
 ```
-TYPE HALLUCINATION      | ChatGPT | Claude | Gemini
-------------------------|---------|--------|--------
-Faits inventés         | □ Oui □ Non | □ Oui □ Non | □ Oui □ Non
-Références fantômes    | □ Oui □ Non | □ Oui □ Non | □ Oui □ Non
-Données incorrectes    | □ Oui □ Non | □ Oui □ Non | □ Oui □ Non
-Confusions concepts    | □ Oui □ Non | □ Oui □ Non | □ Oui □ Non
-Sur-confiance         | □ Oui □ Non | □ Oui □ Non | □ Oui □ Non
+TYPE HALLUCINATION PLASTIE| ChatGPT | Claude | Gemini
+---------------------------|---------|--------|--------
+Techniques op inventées   | □ Oui □ Non | □ Oui □ Non | □ Oui □ Non
+Réfs PRS/ASJ fantômes     | □ Oui □ Non | □ Oui □ Non | □ Oui □ Non
+Mesures/angles faux      | □ Oui □ Non | □ Oui □ Non | □ Oui □ Non
+Confusion anatomique     | □ Oui □ Non | □ Oui □ Non | □ Oui □ Non
+Promesses résultats      | □ Oui □ Non | □ Oui □ Non | □ Oui □ Non
 
 Gravité hallucination : 
 □ Mineure (cosmétique)
@@ -149,14 +150,14 @@ Pattern détecté : _____________________
 ### **GRILLE BIAIS**
 
 ```
-TYPE DE BIAIS          | ChatGPT | Claude | Gemini
------------------------|---------|--------|--------
-Genre                  | □ Détecté | □ Détecté | □ Détecté
-Âge                   | □ Détecté | □ Détecté | □ Détecté
-Ethnicité             | □ Détecté | □ Détecté | □ Détecté
-Socio-économique      | □ Détecté | □ Détecté | □ Détecté
-Géographique          | □ Détecté | □ Détecté | □ Détecté
-Linguistique          | □ Détecté | □ Détecté | □ Détecté
+BIAIS CHIRURGIE PLASTIQUE| ChatGPT | Claude | Gemini
+--------------------------|---------|--------|--------
+Beauté occidentale seule | □ Détecté | □ Détecté | □ Détecté
+Standards âge jeune     | □ Détecté | □ Détecté | □ Détecté
+Traits ethniques ignorés | □ Détecté | □ Détecté | □ Détecté
+Techniques coûteuses    | □ Détecté | □ Détecté | □ Détecté
+Centres urbains        | □ Détecté | □ Détecté | □ Détecté
+Biais masculin/féminin  | □ Détecté | □ Détecté | □ Détecté
 
 Description biais : ___________________
 Impact potentiel : ____________________
@@ -194,14 +195,14 @@ APPLICATIONS MÉDICALES TESTÉES :
 ### **TABLEAU RÉCAPITULATIF SESSION**
 
 ```
-EXERCICE              | Gagnant | Score | Raison Principale
+EXERCICE PLASTIE      | Gagnant | Score | Raison Principale
 ----------------------|---------|-------|------------------
-Diagnostic DDx        |         |       |
-Recherche biblio      |         |       |
-Rédaction abstract    |         |       |
-Communication patient |         |       |
-Analyse images        |         |       |
-Détection erreurs     |         |       |
+Analyse photos pré/post|         |       |
+Recherche PRS/ASJ     |         |       |
+Rédaction opératoire  |         |       |
+Consultation esthétique|         |       |
+Analyse PROM scores   |         |       |
+Gestion complications |         |       |
 
 CHAMPION GLOBAL SESSION : _____________
 MEILLEUR RAPPORT QUALITÉ/PRIX : _______
@@ -211,27 +212,27 @@ PLUS FIABLE MÉDICALEMENT : ____________
 ### **MATRICE DE DÉCISION**
 
 ```
-                    | Utiliser Quand...
---------------------|------------------
-**ChatGPT**         | • Brainstorming initial
-                    | • Analyse images/données
-                    | • Code et statistiques
-                    | • Créativité nécessaire
+                    | Utiliser Quand en Plastie...
+--------------------|---------------------------
+**ChatGPT**         | • Analyse photos pré/post-op
+                    | • Mesures angles/volumes
+                    | • PROM scores et graphiques
+                    | • Simulations résultats
 
-**Claude**          | • Rédaction longue forme
-                    | • Analyse éthique/nuancée
-                    | • Documents structurés
-                    | • Révision critique
+**Claude**          | • Comptes-rendus DIEP détaillés
+                    | • Cas éthiques complexes
+                    | • Articles PRS structurés
+                    | • Consultations nuancées
 
-**Gemini**          | • Recherche temps réel
-                    | • Vérification facts
-                    | • Intégration Google
-                    | • Sources multiples
+**Gemini**          | • Innovations techniques récentes
+                    | • Vérification réfs PRS/ASJ
+                    | • Recherche auteurs leaders
+                    | • Actualités congrès ASPS
 
-**COMBINAISON**     | • Projets complexes
-                    | • Publication internationale
-                    | • Décisions critiques
-                    | • Maximum de fiabilité
+**COMBINAISON**     | • Publications PRS majeures
+                    | • Présentations congrès
+                    | • Cas complications graves
+                    | • Innovations techniques
 ```
 
 ## 🎯 Guide d'Utilisation des Grilles
@@ -268,24 +269,25 @@ PLUS FIABLE MÉDICALEMENT : ____________
 ```
 RAPPORT COMPARATIF PERSONNEL - SESSION ___
 
-Mes forces par outil :
-- ChatGPT : ___________
-- Claude : ____________
-- Gemini : ____________
+Mes forces par outil plastie :
+- ChatGPT : Photos/Vision + PROM
+- Claude : Rédaction technique
+- Gemini : Recherche spécialisée
 
-Mes workflows préférés :
-1. ___________________
-2. ___________________
-3. ___________________
+Mes workflows plastie préférés :
+1. Photos → ChatGPT → Claude structure
+2. Recherche → Perplexity → Claude rédaction
+3. PROM → ChatGPT stats → Claude interprétation
 
-Erreurs à éviter :
-- ___________________
-- ___________________
+Erreurs plastie à éviter :
+- Photos identifiables dans IA
+- Promesses résultats irréalistes
+- Biais beauté occidentale
 
-Plan d'amélioration :
-□ _____________________
-□ _____________________
-□ _____________________
+Plan amélioration plastie :
+□ Maîtriser analyse photos standardisées
+□ Intégrer PROM dans tous articles
+□ Éthique consultation IA-assistée
 
 Signature : ___________  Date : _______
 ```

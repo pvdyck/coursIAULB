@@ -8,11 +8,11 @@
 
 ### **🎯 OUVERTURE : État des Lieux Personnel (15 min)**
 
-#### **Check-in TFE**
-- Tour de table : Titre et état d'avancement de votre TFE
-- Plus grand obstacle identifié pour publication
-- Outil champion identifié en Sessions 1-3
-- Attentes concrètes pour aujourd'hui
+#### **Check-in TFE Chirurgie Plastique**
+- Tour de table : Type (esthétique/reconstructif) et titre TFE
+- Problème principal : photos, stats PROM, ou rédaction ?
+- Outil champion pour votre spécificité
+- Journal cible : PRS, ASJ, JPRAS, JHS ?
 
 #### **Objectif Session 4**
 ```
@@ -31,24 +31,25 @@ Aujourd'hui : Pas de théorie, 100% pratique sur VOTRE TFE
 
 **EXERCICE 4.1 : Audit complet de votre TFE**
 
-**Upload votre TFE complet dans Claude :**
+**Upload votre TFE plastie dans Claude :**
 ```
-"Analyse mon TFE pour publication dans [journal cible].
-Évalue selon ces critères :
-1. Nouveauté/contribution scientifique (/10)
-2. Rigueur méthodologique (/10)
-3. Clarté de présentation (/10)
-4. Impact potentiel (/10)
-5. Conformité format journal (/10)
+"Analyse mon TFE [rhinoplastie/DIEP/lipostructure] pour publication 
+dans [PRS/ASJ/JPRAS]. Évalue :
+1. Innovation technique ou résultats (/10)
+2. Méthodologie et stats PROM (/10)
+3. Qualité documentation photographique (/10)
+4. Impact pour la spécialité (/10)
+5. Conformité guidelines journal (/10)
 
-Identifie les 3 gaps critiques à combler."
+Identifie 3 gaps critiques pour acceptance."
 ```
 
-**Parallel check avec Perplexity :**
+**Parallel check Perplexity plastie :**
 ```
-"Trouve les 5 articles les plus similaires à mon TFE 
-publiés en 2024-2025 dans des journaux high-impact.
-Quels éléments ont-ils que mon TFE n'a pas ?"
+"Trouve 5 articles similaires à mon TFE [technique/pathologie]
+publiés dans PRS/ASJ 2024-2025.
+Compare : sample size, follow-up, complications reportées,
+PROM utilisés, qualité photos. Qu'est-ce qui manque ?"
 ```
 
 **Documentation immédiate :**
@@ -60,77 +61,94 @@ GAP 3 : _____________________________
 JOURNAL CIBLE : _____________________
 ```
 
+**Exemples TFE Plastie Courants :**
+- Aesthetic: "Rhinoplastie ultrasonique : 100 cas"
+- Aesthetic: "Lipostructure mammaire : résultats à 5 ans"
+- Reconstructive: "DIEP vs TMG : étude comparative"
+- Reconstructive: "Reconstruction pouce : série de 25 cas"
+- Pédiatrique: "Fentes labiales : protocole NAM"
+- Brûlés: "Substituts dermiques : notre expérience"
+
 #### **🔄 Phase 2 : Transformation Section par Section (60 min)**
 
 **EXERCICE 4.2 : Pipeline de transformation personnalisé**
 
 **A. TITRE & ABSTRACT (15 min)**
 
-**Workflow optimisé :**
+**Workflow titre/abstract plastie :**
 ```
 1. ChatGPT (5 min) :
-   "Génère 10 variantes de titre pour cet article.
-   Focus : Impact, clarté, SEO académique."
+   "10 titres pour article [rhinoplastie preservation/DIEP single vs double].
+   Include : technique, outcome measure, population."
 
 2. Claude (5 min) :
-   "Crée abstract structuré 250 mots format [journal].
-   IMRAD strict. Chaque phrase = valeur ajoutée."
+   "Abstract 250 mots PRS : Background (gap), Methods (n patients,
+   technique, PROM), Results (complications %, satisfaction %),
+   Conclusions (clinical relevance)."
 
 3. Perplexity (5 min) :
-   "Vérifie unicité du titre. Trouve keywords optimaux
-   basés sur trending topics 2025 dans ce domaine."
+   "Vérifie titre unique. Keywords MeSH : [technique] AND
+   Reconstructive Surgical Procedures AND Patient Satisfaction."
 ```
 
 **B. INTRODUCTION (15 min)**
 
-**Pipeline spécial Nature/Science :**
+**Pipeline intro PRS/ASJ :**
 ```
 1. Perplexity Deep Research :
-   "Quel est LE problème non résolu majeur dans [domaine] ?
-   Comment mon étude y répond spécifiquement ?"
+   "Problème majeur non résolu en [lipostructure mammaire/
+   rhinoplastie ethnique] ? Taux échec/insatisfaction actuels ?"
 
-2. Claude thinking mode :
-   "Réécris mon introduction avec :
-   - Hook puissant première phrase
-   - Problème → Gap → Solution en 3 paragraphes
-   - Dernière phrase = contribution claire"
+2. Claude thinking :
+   "Introduction PRS 500 mots :
+   - Hook : statistique ASPS ou problème clinique
+   - Current techniques limitations (paragraphe 1)
+   - Gap in literature (paragraphe 2)
+   - Our innovation/approach (paragraphe 3)
+   - Study aim + hypothesis"
 ```
 
 **C. MÉTHODES (15 min)**
 
-**Transformation précision maximale :**
+**Méthodes chirurgie plastique :**
 ```
 1. Claude :
-   "Restructure selon STROBE/CONSORT.
-   Chaque étape reproductible.
-   Ajoute flow diagram patients."
+   "Methods section PRS : Study design, patients (inclusion/
+   exclusion), surgical technique (step-by-step), outcome
+   measures (PROM + complications), follow-up protocol,
+   statistical analysis. Add CONSORT diagram."
 
-2. ChatGPT Code Interpreter :
-   "Crée figures méthodologiques :
-   - Study design
-   - Patient flow
-   - Timeline"
+2. ChatGPT Vision + Code :
+   "Crée :
+   - Figure 1: Surgical technique illustrated
+   - Figure 2: CONSORT flow diagram
+   - Figure 3: Photo grid standardized views
+   - Table 1: Demographics and baseline"
 ```
 
 **D. RÉSULTATS & DISCUSSION (15 min)**
 
-**Impact maximal :**
+**Résultats/Discussion plastie :**
 ```
 1. ChatGPT + Code :
-   "Transforme tableaux en figures publication.
-   Style journal [nom]. Export 300 DPI."
+   "Transforme data en :
+   - Figure complications timeline
+   - Graphiques FACE-Q/BREAST-Q pré vs post (p-values)
+   - Photo montage standardisé (3x3 grid)
+   - Table complications selon Clavien-Dindo"
 
 2. Claude thinking :
-   "Réorganise discussion :
-   - Findings principaux liés à hypothèse
-   - Comparaison littérature existante
-   - Implications cliniques concrètes
-   - Limites honnêtes mais positionnées
-   - Future research excitante"
+   "Discussion PRS :
+   - Key findings vs hypothesis
+   - Compare nos résultats vs lit (tableau)
+   - Innovations techniques apportées
+   - Limites : follow-up, bias sélection
+   - Clinical implications pour chirurgiens
+   - Future : RCT ? Multicentric ?"
 
-3. Gemini :
-   "Vérifie cohérence résultats-discussion.
-   Signale toute incohérence."
+3. Gemini Scholar :
+   "Vérifie citations récentes 2024-2025.
+   Ajoute études manquées haute importance."
 ```
 
 #### **✅ Phase 3 : Quality Check Multi-IA (15 min)**
@@ -163,39 +181,48 @@ References   | Perplexity  |        | ✓/✗
 
 #### **🎯 EXERCICE 4.4 : Sélection Journal Optimale (15 min)**
 
-**Analyse stratégique avec Perplexity :**
+**Sélection journal plastie avec Perplexity :**
 ```
-"Mon article porte sur [résumé 50 mots].
-Trouve les 10 meilleurs journaux possibles avec :
-- Impact factor
-- Taux acceptation
-- Temps review médian
-- Open access options
-- Fit thématique score (/10)"
+"Article sur [technique rhinoplastie/reconstruction DIEP/fente].
+Liste 10 journaux plastie appropriés :
+- Impact factor 2024
+- Scope (aesthetic vs reconstructive)
+- Acceptance rate
+- Time to first decision
+- OA fees
+- Recent similar papers published"
 ```
 
-**Matrice décision :**
+**Matrice journaux plastie :**
 ```
-JOURNAL         | IF   | Accept% | Review | OA  | Fit | TOTAL
-----------------|------|---------|--------|-----|-----|-------
-Nature Med      | 82.9 | 8%      | 60d    | Yes | 9   | 
-Lancet          | 168  | 5%      | 45d    | Yes | 7   |
-[Votre liste]   |      |         |        |     |     |
+JOURNAL         | IF   | Accept% | Review | OA  | Scope | RANK
+----------------|------|---------|--------|-----|-------|------
+PRS             | 5.2  | 35%     | 45d    | No  | Both  |
+ASJ             | 4.5  | 30%     | 30d    | Yes | Aesth |
+JPRAS           | 3.0  | 40%     | 35d    | Yes | Both  |
+APS             | 2.8  | 45%     | 25d    | Yes | Aesth |
+JRM             | 2.4  | 38%     | 40d    | No  | Recon |
+[Your targets]  |      |         |        |     |       |
 ```
 
 #### **📝 EXERCICE 4.5 : Cover Letter Parfaite (15 min)**
 
-**Génération multi-IA :**
+**Cover letter plastie multi-IA :**
 ```
-1. Claude - Structure :
-   "Cover letter pour [journal] suivant leur template.
-   Emphasize : nouveauté, fit journal, impact."
+1. Claude - Structure PRS/ASJ :
+   "Cover letter pour [PRS/ASJ]. Emphasize :
+   - Innovation technique OU large series
+   - Patient-reported outcomes inclus
+   - Implications for plastic surgeons
+   - Why this journal specifically"
 
-2. ChatGPT - Impact :
-   "Maximise persuasion. Chaque phrase vend l'article."
+2. ChatGPT - Persuasion :
+   "Renforce impact clinique. Mentionne expertise
+   centre/auteurs. Chiffres clés marquants."
 
-3. Gemini - Check :
-   "Vérifie ton, longueur, requirements journal."
+3. Perplexity - Editors check :
+   "Qui est l'editor de [journal] ? Ses publications
+   récentes ? Adapter ton si nécessaire."
 ```
 
 **Template gagnant :**
@@ -215,20 +242,28 @@ Looking forward...
 
 **Anticiper les critiques - Simulation :**
 
-**Claude (mode reviewer sévère) :**
+**Claude (reviewer PRS exigeant) :**
 ```
-"Agis comme reviewer exigeant de [journal].
-Trouve 5 critiques majeures de cet article.
-Sois dur mais constructif."
+"Agis comme reviewer senior PRS spécialisé [aesthetic/reconstructive].
+Critique mon article sur :
+1. Methodology (sample size, bias, follow-up)
+2. Innovation réelle vs incremental
+3. Documentation photo (standardisation, qualité)
+4. Statistical analysis et PROM validity
+5. Conclusions vs results overstatement"
 ```
 
-**Préparer réponses :**
+**Template réponses plastie :**
 ```
-CRITIQUE 1 : ________________
-RÉPONSE : Nous remercions le reviewer... [Claude]
-ACTION : Figure X ajoutée montrant... [ChatGPT]
+CRITIQUE 1 : "Sample size insufficient for subgroup analysis"
+RÉPONSE : "We appreciate the reviewer's insight. While our 
+n=80 limits subgroup analysis, it represents the largest 
+single-center series of [technique] to date..."
+ACTION : Added post-hoc power calculation (Table S1)
 
-[Répéter pour chaque critique]
+CRITIQUE 2 : "Photos lack standardization"
+RÉPONSE : "We acknowledge this limitation and have now..."
+ACTION : Re-shot available patients avec protocole ASPS
 ```
 
 ---
@@ -263,16 +298,18 @@ ACTION : Figure X ajoutée montrant... [ChatGPT]
 4. **Vérifier formatting final**
 5. **NE PAS soumettre** (sauf si prêt !)
 
-**Checklist soumission :**
+**Checklist soumission plastie :**
 ```
-□ Manuscript (Word + PDF)
-□ Figures séparées (TIFF/EPS)
-□ Tables (éditables)
-□ Cover letter
-□ Supplementary materials
-□ Author statements
-□ Ethical approvals
-□ Data availability statement
+□ Manuscript format journal (Word + PDF)
+□ Photos haute résolution (TIFF 300 DPI)
+□ Consent photos publication signé
+□ Tables outcomes + complications
+□ Cover letter personnalisée
+□ Video technique (si innovative)
+□ CONSORT/STROBE checklist
+□ Ethical approval + trial registration
+□ Patient consent forms statement
+□ Conflict of interest (implants? lasers?)
 □ ORCID tous auteurs
 ```
 
@@ -282,15 +319,16 @@ ACTION : Figure X ajoutée montrant... [ChatGPT]
 ```
 MON PLAN DE PUBLICATION avec IA
 
-Article 1 (TFE) :
-- Journal cible : ___________
+Article 1 (TFE plastie) :
+- Type : □ Aesthetic □ Reconstructive
+- Journal cible : □ PRS □ ASJ □ JPRAS
 - Deadline soumission : _____
-- Outils IA principaux : ____
+- Outils IA : Photos___ / Stats___ / Writing___
 
-Article 2 (Follow-up) :
-- Sujet : __________________
-- Timeline : _______________
-- Collaboration : __________
+Article 2 (Series expansion) :
+- Technique améliorée : ________________
+- Target n patients : ____
+- PROM à intégrer : □ FACE-Q □ BREAST-Q
 
 Routine hebdo IA :
 - Lundi : _________________
@@ -310,11 +348,12 @@ Objectif 6 mois :
 
 #### **Présentation Flash : Transformation Réussie**
 
-**Chaque participant (1 min) :**
-- Titre article finalisé
-- Journal cible
-- Transformation la plus impressionnante
-- Prochain step concret
+**Flash presentation plastie (1 min) :**
+- Titre final : "[Technique] in [n] patients: A [duration] outcomes study"
+- Journal : PRS/ASJ/JPRAS + rationale
+- Meilleure transformation : □ Photos □ Stats □ Writing
+- Submission prévue : _____ 2025
+- Innovation clé pour la spécialité
 
 #### **Metrics de Succès Collectif**
 ```
@@ -342,31 +381,33 @@ Date : _________________
 
 ### **📊 RÉSULTATS ATTENDUS SESSION 4**
 
-✅ **Livrables concrets :**
-- TFE transformé en article publiable
-- Journal cible identifié
-- Cover letter prête
-- Plan de soumission clair
-- Réponses reviewers anticipées
+✅ **Livrables concrets plastie :**
+- TFE transformé pour PRS/ASJ/JPRAS
+- Photos standardisées haute résolution
+- Abstract optimisé avec PROM intégrés
+- Cover letter spécifique journal
+- Anticipation critiques méthodo
 
-🚀 **Compétences acquises :**
-- Transformation complète TFE→Publication
-- Sélection stratégique journal
-- Anticipation critiques
-- Workflow personnel optimisé
-- Confiance pour soumettre
+🚀 **Compétences acquises plastie :**
+- Maîtrise pipeline photo-texte-stats
+- Sélection journal selon scope
+- Gestion reviewers techniques op
+- Intégration PROM standards
+- Confiance soumission internationale
 
 💡 **Remember :**
-> "La différence entre un TFE et une publication Nature 
-> n'est plus que quelques prompts bien placés."
+> "La différence entre un TFE de rhinoplastie et une publication PRS 
+> n'est plus que quelques prompts bien placés et des photos standardisées."
 
 ---
 
 ### **RESSOURCES POST-FORMATION**
 
 **Accès permanent :**
-- Templates tous journaux
-- Prompts bibliothèque publication
+- Templates PRS/ASJ/JPRAS
+- Prompts bibliothèque plastie
+- Protocoles photo ASPS
+- Calculateurs PROM
 
 ---
 

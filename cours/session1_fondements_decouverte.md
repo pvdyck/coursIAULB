@@ -65,12 +65,13 @@ L'IA générative = Résident ultra-expérimenté qui :
 - Capacités : Texte, images, code, analyse
 - Prix : Gratuit (3.5) ou 20€/mois (Plus)
 
-**Forces spécifiques pour la médecine :**
-- 🎨 Créativité et brainstorming
-- 📸 Analyse d'images médicales
-- 📊 Statistiques et code
-- 💬 Communication patient
-- 🔍 Recherche web (version Plus)
+**Forces spécifiques pour la chirurgie plastique :**
+- 📸 Analyse photos avant/après (face, profil, 3/4)
+- 🎨 Planning esthétique et simulation
+- 📊 Mesures céphalométriques automatisées
+- 💬 Communication attentes patient
+- 🔬 Analyse doppler et perfusion (avec plugins)
+- 📋 Documentation opératoire détaillée
 
 #### **🔄 EXERCICE 1.1 : Premiers Pas avec ChatGPT (20 min)**
 
@@ -79,18 +80,19 @@ Testez ces prompts progressifs :
 
 ```
 Prompt 1 (trop simple) :
-"Hypertension ?"
+"Rhinoplastie ?"
 
 Prompt 2 (mieux structuré) :
-"Explique l'hypertension artérielle pour un patient"
+"Explique la rhinoplastie à un patient"
 
 Prompt 3 (optimal) :
-"Agis comme un cardiologue pédagogue. Explique l'hypertension 
-artérielle à un patient de 60 ans nouvellement diagnostiqué. 
-Utilise des analogies simples et structure ta réponse en :
-1. Qu'est-ce que c'est ?
-2. Pourquoi c'est important ?
-3. Que peut-on faire ?"
+"Agis comme un chirurgien plasticien expérimenté. Explique 
+la rhinoplastie à une patiente de 25 ans consultant pour 
+une bosse nasale. Structure ta réponse en :
+1. En quoi consiste l'intervention ?
+2. Quels sont les résultats attendus ?
+3. Quelles sont les suites opératoires ?
+4. Quels sont les risques ?"
 ```
 
 **Phase 2 : Analyse des différences (10 min)**
@@ -98,74 +100,86 @@ Utilise des analogies simples et structure ta réponse en :
 - Identifier l'impact de la structure
 - Noter les éléments qui améliorent la réponse
 
-#### **📋 EXERCICE 1.2 : Optimisation des Prompts Médicaux (25 min)**
+#### **📋 EXERCICE 1.2 : Optimisation des Prompts Chirurgie Plastique (25 min)**
 
-**Mission :** Transformer un cas clinique en diagnostic différentiel structuré
+**Mission :** Transformer un cas clinique en plan chirurgical structuré
 
-**Cas clinique :**
+**Cas clinique - Chirurgie Esthétique :**
 ```
-Femme 45 ans, fatigue progressive 3 mois, palpitations occasionnelles,
-perte de poids 5 kg sans régime, nervosité, troubles du sommeil.
-ATCD : RAS. Pas de traitement.
+Femme 35 ans consulte pour ptose mammaire post-grossesse.
+2 enfants (dernier il y a 2 ans), allaitement 6 mois chaque.
+Taille bonnet : C avant grossesse, B actuellement.
+PTG grade II selon Regnault. IMC 22. Non fumeuse.
+Souhaite retrouver volume et projection sans implants.
+```
+
+**OU Cas clinique - Chirurgie Reconstructive :**
+```
+Femme 42 ans, mastectomie droite il y a 8 mois pour carcinome.
+Chimiothérapie terminée il y a 3 mois. IMC 26.
+Candidate reconstruction DIEP. Scanner abdominal montre
+2 perforantes dominantes côté droit, 1 côté gauche.
+Souhaite symétrisation controlatérale simultanée.
 ```
 
 **Progression des prompts :**
 
 **Étape 1 - Prompt basique (5 min) :**
 ```
-"Quel est le diagnostic pour cette patiente ?"
+"Quelle chirurgie pour cette patiente ?"
 ```
 
 **Étape 2 - Prompt amélioré (10 min) :**
 ```
-"Analyse ce cas clinique et donne les diagnostics possibles :
+"Analyse ce cas de chirurgie plastique et propose les options chirurgicales :
 [Insérer le cas]"
 ```
 
 **Étape 3 - Prompt expert (10 min) :**
 ```
-"Tu es un interniste expérimenté. Analyse ce cas clinique :
+"Tu es un chirurgien plasticien senior. Analyse ce cas :
 [Insérer le cas]
 
 Fournis :
-1. Top 5 diagnostics différentiels par ordre de probabilité
-2. Justification clinique pour chaque diagnostic
-3. Examens complémentaires essentiels
-4. Red flags à ne pas manquer
-5. Prise en charge immédiate
+1. Options chirurgicales possibles (avec pour/contre)
+2. Technique recommandée et justification
+3. Examens préopératoires nécessaires
+4. Points clés à discuter en consultation
+5. Résultats attendus et limites
+6. Complications spécifiques à mentionner
 
-Format ta réponse de manière structurée et claire."
+Structure ta réponse pour un consentement éclairé."
 ```
 
 **Grille d'évaluation :**
 ```
-CRITÈRE               | Basique | Amélioré | Expert
-----------------------|---------|----------|--------
-Exhaustivité DDx      | /5      | /5       | /5
-Structure réponse     | /5      | /5       | /5
-Pertinence clinique   | /5      | /5       | /5
-Utilité pratique      | /5      | /5       | /5
-TOTAL                | /20     | /20      | /20
+CRITÈRE                    | Basique | Amélioré | Expert
+---------------------------|---------|----------|--------
+Options chirurgicales      | /5      | /5       | /5
+Structure plan opératoire  | /5      | /5       | /5
+Gestion des attentes       | /5      | /5       | /5
+Sécurité et complications  | /5      | /5       | /5
+TOTAL                     | /20     | /20      | /20
 ```
 
 #### **🖼️ EXERCICE 1.3 : Analyse d'Images Médicales (15 min)**
 
 **Mission :** Découvrir les capacités visuelles de ChatGPT
 
-**Test 1 : ECG (5 min)**
-- Uploader un ECG anonymisé
-- Prompt : "Analyse cet ECG et identifie les anomalies"
-- Comparer avec votre interprétation
+**Test 1 : Analyse Rhinoplastie (5 min)**
+- Uploader photo profil préop (anonymisée)
+- Prompt : "Analyse cette vue de profil. Identifie : angle naso-frontal, projection pointe, bosse nasale"
+- Comparer avec vos mesures
 
-**Test 2 : Radiologie (5 min)**
-- Uploader une radio thorax
-- Prompt : "Décris les findings sur cette radiographie thoracique"
-- Évaluer la précision
+**Test 2 : Classification Ptose (5 min)**
+- Uploader photo face ptose mammaire
+- Prompt : "Classifie cette ptose mammaire selon Regnault. Mesure la distance mamelon-SIM"
+- Vérifier classification
 
-**Test 3 : Dermatologie (5 min)**
-- Photo de lésion cutanée (anonymisée)
-- Prompt : "Quels sont les diagnostics différentiels pour cette lésion ?"
-- Vérifier la pertinence
+**Test 3 : Analyse Reconstruction (5 min)**
+- Photo lambeau DIEP post-op J1
+- Prompt : "Analyse la viabilité de ce lambeau : couleur, turgescence, capillary refill"
+- Évaluer pertinence clinique
 
 **Points d'attention :**
 - ChatGPT peut identifier des patterns évidents
@@ -176,17 +190,21 @@ TOTAL                | /20     | /20      | /20
 
 **Mission :** Utiliser ChatGPT pour analyses statistiques médicales
 
-**Dataset exemple :**
+**Dataset exemple - Volumetrie Liposuccion :**
 ```
-Tension avant traitement : 160, 155, 162, 158, 165, 170, 156
-Tension après traitement : 135, 132, 140, 138, 142, 145, 130
+Volumes aspirés (ml) par zone :
+Abdomen : 850, 920, 780, 890, 950, 870, 900
+Flancs D : 340, 380, 320, 350, 390, 360, 370
+Flancs G : 360, 390, 330, 340, 400, 380, 385
+IMC patients : 28, 29, 27, 28.5, 30, 28, 29
 ```
 
 **Prompts progressifs :**
 ```
-1. "Calcule la moyenne avant et après traitement"
-2. "Fais un test t apparié pour voir si la différence est significative"
-3. "Crée un graphique montrant l'évolution avec intervalle de confiance"
+1. "Calcule le volume total moyen aspiré et l'écart-type"
+2. "Analyse la corrélation entre IMC et volume total aspiré"
+3. "Crée un graphique montrant la distribution des volumes par zone avec safety limits (5L max)"
+4. "Vérifie le ratio volume/IMC pour la sécurité"
 ```
 
 **Découvertes attendues :**
@@ -291,20 +309,31 @@ Application médicale pratique     | ✓/✗    |
 
 #### **Challenge Final Session 1 (5 min)**
 
-**Mission solo :** Créer votre "Prompt Parfait"
+**Mission solo :** Créer votre "Prompt Parfait Plastie"
 
-Créez LE prompt optimal pour votre usage médical quotidien :
-- Spécifique à votre spécialité
-- Structuré selon nos apprentissages
-- Réutilisable quotidiennement
+Créez LE prompt optimal pour votre pratique :
+- Spécifique esthétique OU reconstructif
+- Intégrant analyse visuelle
+- Réutilisable en consultation
 
-**Template à compléter :**
+**Templates Chirurgie Plastique :**
+
+**Esthétique :**
 ```
-"Tu es un [spécialité] expérimenté. 
-[Contexte spécifique]
-[Tâche précise]
-[Format de sortie souhaité]
-[Contraintes ou points d'attention]"
+"Tu es un chirurgien esthétique senior spécialisé en [rhinoplastie/seins/corps].
+[Patient : âge, demande, attentes]
+[Analyse morphologique et recommandations]
+[Format : plan opératoire + devis]
+[Inclure risques spécifiques et alternatives]"
+```
+
+**Reconstructif :**
+```
+"Tu es un chirurgien reconstructeur expert en [microchirurgie/brûlés/congénital].
+[Contexte : défect, étiologie, patient]
+[Options reconstructives hiérarchisées]
+[Format : algorithme décisionnel]
+[Contraintes : comorbidités, souhaits patient]"
 ```
 
 ---
@@ -313,10 +342,10 @@ Créez LE prompt optimal pour votre usage médical quotidien :
 **"Semaine d'Immersion ChatGPT"**
 
 1. **Utiliser ChatGPT quotidiennement** (min 30 min/jour)
-2. **Tester sur 5 cas cliniques réels** (anonymisés)
+2. **Tester 5 cas plastie** (rhinoplastie, ptose, reconstruction)
 3. **Documenter 3 hallucinations** détectées
-4. **Analyser 500 mots de votre TFE**
-5. **Créer 3 prompts optimisés** pour votre pratique
+4. **Analyser 500 mots de votre TFE** esthétique/reconstructif
+5. **Créer 3 prompts optimisés** (consultation, planning, post-op)
 6. **Calculer le temps gagné** sur vos tâches
 7. **Partager meilleure découverte** sur WhatsApp #ChatGPTMastery
 
@@ -335,7 +364,7 @@ Créez LE prompt optimal pour votre usage médical quotidien :
 - Maîtrise complète de ChatGPT
 - Techniques de prompting avancées
 - Détection des limites et hallucinations
-- Premier contact TFE-Publication
+- Premier contact TFE-Publication PRS/ASJ
 
 ⏭️ **Prochaine étape :**
 - Session 2 : Découverte individuelle Claude, Gemini, Perplexity
