@@ -1,6 +1,6 @@
-⬅️ **[Retour Session 3](./session3_clinique_ethique.md)**
+⬅️ **[Retour Session 3](./session3_workflows_publication.md)**
 
-# SESSION 4 : Transformation TFE → Publication Nature/Science
+# SESSION 4 : Transformation Finale TFE → Publication
 ## *Durée : 3h | Format : Travail sur VOTRE vrai TFE*
 ### **🎯 Objectif : Transformer concrètement votre TFE en article publiable**
 

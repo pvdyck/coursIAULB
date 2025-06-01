@@ -1,8 +1,8 @@
-⬅️ **[Retour Session 2](./session2_arsenal_workflows.md)**
+⬅️ **[Retour Session 2](./session2_decouverte_outils.md)**
 
-# SESSION 3 : Maîtrise Avancée et Workflows Publication
+# SESSION 3 : Workflows Avancés pour Publication
 ## *Durée : 3h | Format : Features avancées + Intégration publication*
-### **🎯 Objectif : Maîtriser les fonctions avancées pour transformer votre TFE**
+### **🎯 Objectif : Maîtriser les workflows avancés pour publier votre TFE**
 
 ---
 
@@ -347,4 +347,4 @@ Comment garantir leur validité ?"
 
 ---
 
-➡️ **[Continuer vers Session 4 : Transformation TFE](./session4_publication_futur.md)**
+➡️ **[Continuer vers Session 4 : Transformation TFE](./session4_transformation_finale.md)**

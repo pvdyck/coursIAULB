@@ -44,7 +44,7 @@
    - Première application TFE
    - **Charge cognitive : 4/10** ✅
 
-2. **[SESSION 2 : Expansion Contrôlée et Découverte Multi-Outils](./session2_arsenal_workflows.md)**
+2. **[SESSION 2 : Découverte Individuelle des Outils IA](./session2_decouverte_outils.md)**
    - *Durée : 3h | Format : Maîtrise individuelle + Comparaison stratégique*
    - 🎯 **Objectif : Découvrir les 3 autres outils individuellement avant de comparer**
    - Claude : 45 min (précision, éthique, thinking)
@@ -54,7 +54,7 @@
    - Pipeline personnel TFE→Publication
    - **Charge cognitive : 6/10** ✅
 
-3. **[SESSION 3 : Maîtrise Avancée et Workflows Publication](./session3_clinique_ethique.md)**
+3. **[SESSION 3 : Workflows Avancés pour Publication](./session3_workflows_publication.md)**
    - *Durée : 3h | Format : Features avancées + Intégration publication*
    - 🎯 **Objectif : Maîtriser les fonctions avancées pour transformer votre TFE**
    - Extended thinking modes (o1, Claude thinking, Deep Research)
@@ -63,7 +63,7 @@
    - Éthique et sécurité renforcées
    - **Charge cognitive : 7/10** ✅
 
-4. **[SESSION 4 : Transformation TFE → Publication Nature/Science](./session4_publication_futur.md)**
+4. **[SESSION 4 : Transformation Finale TFE → Publication](./session4_transformation_finale.md)**
    - *Durée : 3h | Format : Travail sur VOTRE vrai TFE*
    - 🎯 **Objectif : Transformer concrètement votre TFE en article publiable**
    - 90 min transformation intensive VOTRE TFE

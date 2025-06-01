@@ -1,6 +1,6 @@
 ⬅️ **[Retour Session 1](./session1_fondements_decouverte.md)**
 
-# SESSION 2 : Expansion Contrôlée et Découverte Multi-Outils
+# SESSION 2 : Découverte Individuelle des Outils IA
 ## *Durée : 3h | Format : Maîtrise individuelle + Comparaison stratégique*
 ### **🎯 Objectif : Découvrir les 3 autres outils individuellement avant de comparer**
 
@@ -381,4 +381,4 @@ Temps estimé total : _____ heures
 
 ---
 
-➡️ **[Continuer vers Session 3 : Maîtrise Avancée](./session3_clinique_ethique.md)**
+➡️ **[Continuer vers Session 3 : Workflows Avancés](./session3_workflows_publication.md)**

@@ -356,4 +356,4 @@ Créez LE prompt optimal pour votre usage médical quotidien :
 
 ---
 
-➡️ **[Continuer vers Session 2 : Découverte Multi-Outils](./session2_arsenal_workflows.md)**
+➡️ **[Continuer vers Session 2 : Découverte Multi-Outils](./session2_decouverte_outils.md)**

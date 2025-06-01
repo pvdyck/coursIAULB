@@ -29,9 +29,9 @@
 ```
 📂 /cours/
 ├── 📄 session1_fondements_decouverte.md ← ChatGPT uniquement
-├── 📄 session2_arsenal_workflows.md ← Découverte individuelle
-├── 📄 session3_clinique_ethique.md ← Workflows publication
-└── 📄 session4_publication_futur.md ← Transformation TFE
+├── 📄 session2_decouverte_outils.md ← Découverte individuelle
+├── 📄 session3_workflows_publication.md ← Workflows publication
+└── 📄 session4_transformation_finale.md ← Transformation TFE
 
 📂 /ressources/
 ├── 📁 00_Start_Here/ ← VOUS ÊTES ICI
@@ -118,7 +118,7 @@ OBLIGATOIRE avant tout usage IA :
 - **Vendredi** : Comparaison et sélection
 
 #### Resources
-- 📖 [Session 2 - Cours](../../cours/session2_arsenal_workflows.md)
+- 📖 [Session 2 - Cours](../../cours/session2_decouverte_outils.md)
 - 📝 [Exercices Session 2](../02_Exercices_Sessions/Session_2/Exercices_Session_2.md)
 - 🔧 [Matrice de Décision](../templates_all.md#matrice-decision)
 
@@ -143,7 +143,7 @@ OBLIGATOIRE avant tout usage IA :
 - **Vendredi** : Test complet 2 sections
 
 #### Resources
-- 📖 [Session 3 - Cours](../../cours/session3_clinique_ethique.md)
+- 📖 [Session 3 - Cours](../../cours/session3_workflows_publication.md)
 - 📝 [Exercices Session 3](../02_Exercices_Sessions/Session_3/Exercices_Session_3.md)
 - 📊 [Templates Publication](../bibliotheque_prompts.md#publication)
 
@@ -168,7 +168,7 @@ OBLIGATOIRE avant tout usage IA :
 - **Vendredi** : Peer review et célébration
 
 #### Resources
-- 📖 [Session 4 - Cours](../../cours/session4_publication_futur.md)
+- 📖 [Session 4 - Cours](../../cours/session4_transformation_finale.md)
 - 📝 [Exercices Session 4](../02_Exercices_Sessions/Session_4/Exercices_Session_4.md)
 - ✅ [Checklist Soumission](../templates_all.md#soumission)
 
