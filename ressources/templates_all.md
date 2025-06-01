@@ -1,10 +1,11 @@
-# 📱 Templates IA Médicaux - Programme ULB 
+# 📱 Templates IA Chirurgie Plastique - Programme ULB 
 ## 🔄 Version Comparative Multi-IA (ChatGPT, Claude, Gemini, Perplexity Labs)
+### 🎨 Focus Esthétique & 🏥 Reconstructive
 
-## 📋 1. Checklist Sécurité des Données Patient
+## 📋 1. Checklist Sécurité des Données - Spéciale Chirurgie Plastique
 
 ```
-AVANT UTILISATION DE TOUT OUTIL IA :
+AVANT UTILISATION DE TOUT OUTIL IA - PLASTIE :
 □ Politique de confidentialité vérifiée
 □ Localisation serveurs identifiée (EU de préférence)
 □ VPN activé si serveurs hors-EU
@@ -14,36 +15,51 @@ AVANT UTILISATION DE TOUT OUTIL IA :
    □ Lieux → Ville X, Hôpital Y
    □ ID → ID001, ID002
    □ Ages précis → Tranches d'âge
-□ Test avec données fictives effectué
-□ Documentation dans dossier patient
-□ Pas d'images avec infos identifiables
-□ Consentement patient si nécessaire
-□ Sauvegarde locale des résultats
+
+SPÉCIFIQUE PHOTOS CHIRURGIE :
+□ Visage flouté/masqué obligatoirement
+□ Tatouages/marques distinctives effacés
+□ Metadata EXIF supprimés
+□ Watermark "AI Analysis Only"
+□ Jamais de photos mineurs identifiables
+□ Compression minimale pour analyse
+□ Background standardisé (bleu medical)
+□ Double consentement photo signé
+□ Backup local avant upload
+□ Pas de stockage cloud public
 ```
 
-## 📝 2. Template Consentement IA Patient
+## 📝 2. Template Consentement IA - Chirurgie Plastique
 
 ```
-FORMULAIRE DE CONSENTEMENT - UTILISATION D'OUTILS IA
+FORMULAIRE DE CONSENTEMENT - UTILISATION IA EN CHIRURGIE PLASTIQUE
 
 Je soussigné(e) ________________________________
 
 □ J'accepte que des outils d'intelligence artificielle soient utilisés pour :
-   □ Aide au diagnostic
-   □ Analyse d'imagerie médicale
-   □ Recherche de traitements optimaux
-   □ Documentation médicale
+   □ Analyse photographique pré/post-opératoire
+   □ Simulation de résultats (informatif uniquement)
+   □ Mesures objectives (angles, volumes, symétrie)
+   □ Documentation chirurgicale
+   □ Recherche de techniques optimales
+   □ Analyse de satisfaction (FACE-Q, BREAST-Q)
+
+□ SPÉCIFIQUE PHOTOS :
+   □ J'autorise l'analyse IA de mes photos anonymisées
+   □ Je comprends que les simulations ne garantissent pas le résultat
+   □ Mes photos seront défigurées avant analyse IA
+   □ Aucun stockage permanent sur serveurs IA
 
 □ Je comprends que :
-   - L'IA est un outil d'aide à la décision
-   - Le médecin reste responsable des décisions finales
-   - Mes données seront anonymisées avant traitement
+   - L'IA aide mais ne remplace pas l'expertise chirurgicale
+   - Les résultats dépendent de nombreux facteurs
+   - Le chirurgien reste seul responsable
    - Je peux refuser sans impact sur mes soins
 
 □ J'ai été informé(e) sur :
-   - Les bénéfices potentiels
-   - Les limitations de l'IA
-   - La protection de mes données
+   - Les bénéfices (précision, planification)
+   - Les limitations (simulations vs réalité)
+   - La protection totale de mon identité
 
 Date : ___________  Signature : _______________
 ```
@@ -86,114 +102,138 @@ Cite tes sources."
 Génère aussi [output interactif spécifique]."
 ```
 
-### A. DIAGNOSTIC DIFFÉRENTIEL
+### A. CONSULTATION RHINOPLASTIE COMPLÈTE
 ```
-Tu es un médecin interniste expérimenté avec 20 ans de pratique clinique.
+Tu es un chirurgien plasticien spécialisé en rhinoplastie avec 15 ans d'expérience.
 
-PATIENT : [âge][sexe] présente [symptômes principaux]
-ANTÉCÉDENTS : [liste]
-EXAMEN CLINIQUE : [findings]
+PATIENT : [âge][sexe][ethnicité] consulte pour rhinoplastie
+DOLÉANCES : [esthétiques/fonctionnelles]
+ANTÉCÉDENTS : [trauma nasal, chirurgies, allergies]
+EXAMEN : [type peau, anatomie nasale]
 
-Fournis 8 diagnostics différentiels classés par probabilité décroissante.
-Pour chaque diagnostic :
-- Probabilité estimée (%)
-- Arguments pour
-- Arguments contre
-- 1 examen clé pour confirmer/infirmer
+Analyse :
+1. Classification déformation (Rohrich classification)
+2. Analyse photographique standardisée
+3. Angles mesurés vs idéaux ethniques
+4. Composantes à modifier
+5. Technique recommandée (ouverte/fermée)
+6. Simulations réalistes
+7. Risques spécifiques patient
+8. Pronostic satisfaction
 
-Format tableau pour clarté maximale.
-```
-
-### B. TRANSFORMATION TFE → PUBLICATION
-```
-Agis comme éditeur senior du [nom journal cible].
-
-Transforme ce texte de TFE en article publiable :
-1. Structure IMRAD stricte
-2. Style [journal] : concis, factuel, evidence-based
-3. 3000 mots maximum
-4. Anglais britannique/américain selon journal
-5. Références Vancouver
-
-D'abord, identifie 5 faiblesses majeures.
-Ensuite, propose version améliorée complète.
-
-[TEXTE TFE]
+Inclure considérations ethniques et attentes réalistes.
 ```
 
-### C. EXPLICATION PATIENT SIMPLE
+### B. TRANSFORMATION TFE → PUBLICATION PRS/ASJ
 ```
-Explique en termes simples pour un patient de [âge] ans :
-- Niveau lecture 8ème année
-- Pas de jargon médical
-- Ton rassurant mais honnête
-- Analogies de la vie quotidienne
-- Maximum 200 mots
+Agis comme éditeur senior de [PRS/ASJ/JPRAS].
 
-Condition à expliquer : [diagnostic/procédure]
+Transforme ce TFE chirurgie plastique en article publiable :
+1. Structure IMRAD pour chirurgie plastique
+2. Style journal plastie : technique précise, outcomes PROM
+3. 3500 mots max (PRS permet plus long)
+4. Focus innovation technique OU large série
+5. Photos standardisées obligatoires
+6. PROM scores (FACE-Q, BREAST-Q, DASH)
+7. Complications selon Clavien-Dindo
 
-Inclus :
-- Ce que c'est
-- Pourquoi c'est important
-- Que va-t-il se passer
-- Questions fréquentes
+Identifie :
+- Innovation technique réelle ?
+- Sample size suffisant ?
+- Follow-up adéquat (min 1 an) ?
+- Documentation photo complète ?
+- Stats appropriées ?
+
+[TEXTE TFE PLASTIE]
 ```
 
-### D. RECHERCHE BIBLIOGRAPHIQUE CIBLÉE
+### C. EXPLICATION PROCÉDURE ESTHÉTIQUE
 ```
-Recherche systematic review récente sur :
-PATHOLOGIE : [nom]
-TRAITEMENT : [spécifique]
-PÉRIODE : 2020-2025
-CRITÈRES : RCT ou méta-analyses uniquement
+Explique [augmentation mammaire/rhinoplastie/liposuccion] pour patient(e) :
+- Langage accessible sans jargon
+- Ton professionnel mais empathique
+- Focus résultats réalistes
+- Maximum 300 mots
+
+Procédure : [détails spécifiques]
+
+Inclure :
+1. En quoi consiste l'intervention
+2. Anesthésie et durée
+3. Suites opératoires typiques
+4. Timeline récupération (travail, sport)
+5. Résultats attendus et durabilité
+6. Risques principaux (honnêteté)
+7. Signes d'alerte post-op
+8. Coût approximatif
+
+Éviter promesses irréalistes et "miracle".
+```
+
+### D. RECHERCHE TECHNIQUE PLASTIQUE
+```
+Recherche littérature spécialisée sur :
+TECHNIQUE : [preservation rhinoplasty/DIEP/fat grafting]
+INDICATION : [esthétique/reconstructive]
+PÉRIODE : 2022-2025
+JOURNAUX : PRS, ASJ, JPRAS, APS prioritaires
 
 Fournis :
-1. 5 références les plus pertinentes
-2. Résumé des findings principaux
-3. Niveau de preuve pour chaque
-4. Contradictions entre études
-5. Gaps identifiés dans la littérature
+1. 10 références majeures avec IF
+2. Tableau comparatif : technique, n patients, complications %, PROM scores
+3. Evolution technique (qui fait quoi maintenant)
+4. Taux satisfaction patients
+5. Courbe apprentissage reportée
+6. Innovations en cours
+7. Auteurs leaders mondiaux
+
+Focus résultats à long terme (>2 ans).
 ```
 
-### E. ANALYSE D'IMAGE MÉDICALE
+### E. ANALYSE PHOTOS CHIRURGIE PLASTIQUE
 ```
-Analyse cette image médicale de façon systématique :
+Analyse ces photos standardisées pré/post-op :
 
-TYPE : [Radio/IRM/Scanner/Echo]
-RÉGION : [anatomique]
-INDICATION : [symptômes/suspicion]
+TYPE : [Rhinoplastie/Seins/Corps/Face]
+VUES : [Face, Profil, 3/4, Base, etc.]
+DÉLAI POST-OP : [3 mois, 6 mois, 1 an]
 
-Décris :
-1. Qualité technique de l'image
-2. Structures anatomiques visibles
-3. Anomalies détectées (localisation précise)
-4. Diagnostics différentiels possibles
-5. Examens complémentaires suggérés
+Évalue :
+1. Standardisation photos (angles, éclairage)
+2. Mesures objectives :
+   - Angles (naso-frontal, naso-labial)
+   - Ratios (Goode, largeur alaire)
+   - Symétrie (score %)
+   - Volumes estimés (si seins)
+3. Qualité résultat esthétique
+4. Naturalité (1-10)
+5. Complications visibles
+6. Cohérence avec plan préop
 
-IMPORTANT : Toujours mentionner les limites de l'analyse IA.
+LIMITES : Analyse 2D seulement, subjectivité beauté.
 ```
 
-## 📊 4. Template Calcul ROI Personnel - Version Comparative 
+## 📊 4. Template Calcul ROI Chirurgie Plastique - Multi-IA 
 
 ```
-CALCULATEUR ROI - COMPARAISON 4 OUTILS IA
+CALCULATEUR ROI - CHIRURGIE PLASTIQUE 4 OUTILS
 
-TÂCHE                      | Temps SANS IA | ChatGPT | Claude | Gemini | Meilleur
+TÂCHE PLASTIE              | Temps SANS IA | ChatGPT | Claude | Gemini | Meilleur
 ---------------------------|---------------|---------|--------|--------|----------
-Recherche biblio TFE       | ___h         | ___h    | ___h   | ___h   | ___
-Rédaction articles         | ___h         | ___h    | ___h   | ___h   | ___
-Traduction médicale        | ___h         | ___h    | ___h   | ___h   | ___
-Création présentations     | ___h         | ___h    | ___h   | ___h   | ___
-Analyse données/stats      | ___h         | ___h    | ___h   | ___h   | ___
-Documentation patients     | ___h         | ___h    | ___h   | ___h   | ___
-Diagnostic différentiel    | ___h         | ___h    | ___h   | ___h   | ___
-Revue de littérature       | ___h         | ___h    | ___h   | ___h   | ___
+Analyse photos pré/post    | ___h         | ___h    | ___h   | ___h   | ___
+Rédaction articles PRS     | ___h         | ___h    | ___h   | ___h   | ___
+Comptes-rendus op détaillés| ___h         | ___h    | ___h   | ___h   | ___
+Analyse PROM (FACE-Q)      | ___h         | ___h    | ___h   | ___h   | ___
+Recherche techniques       | ___h         | ___h    | ___h   | ___h   | ___
+Consultations structurées  | ___h         | ___h    | ___h   | ___h   | ___
+Simulations résultats      | ___h         | ___h    | ___h   | ___h   | ___
+Présentations congrès      | ___h         | ___h    | ___h   | ___h   | ___
 
-MEILLEUR OUTIL PAR TÂCHE :
-- Recherche : _________
-- Rédaction : _________
-- Analyse : ___________
-- Créativité : ________
+MEILLEUR OUTIL PAR TÂCHE PLASTIE :
+- Photos/Vision : ChatGPT (35%)
+- Rédaction PRS : Claude (30%)
+- Recherche : Perplexity (25%)
+- PROM/Stats : ChatGPT Code (10%)
 
 WORKFLOW OPTIMAL PERSONNEL :
 1. ___________________
@@ -209,18 +249,18 @@ Votre choix : _________
 ROI CALCULÉ : _________
 
 ```
-CALCULATEUR ROI - OUTILS IA MÉDICAUX
+CALCULATEUR ROI - CHIRURGIE PLASTIQUE IA
 
-TÂCHE                      | Temps SANS IA | Temps AVEC IA | Gain | Freq/mois
+TÂCHE SPÉCIFIQUE           | Temps SANS IA | Temps AVEC IA | Gain | Freq/mois
 ---------------------------|---------------|---------------|------|----------
-Recherche biblio TFE       | ___h         | ___h         | __% | ___
-Rédaction articles         | ___h         | ___h         | __% | ___
-Traduction médicale        | ___h         | ___h         | __% | ___
-Création présentations     | ___h         | ___h         | __% | ___
-Analyse données/stats      | ___h         | ___h         | __% | ___
-Documentation patients     | ___h         | ___h         | __% | ___
-Lettres/courriers          | ___h         | ___h         | __% | ___
-Formation continue         | ___h         | ___h         | __% | ___
+Analyse photos série       | ___h         | ___h         | __% | ___
+Rédaction article PRS      | ___h         | ___h         | __% | ___
+Comptes-rendus op DIEP     | ___h         | ___h         | __% | ___
+Analyse FACE-Q patients    | ___h         | ___h         | __% | ___
+Recherche innovations      | ___h         | ___h         | __% | ___
+Consultations esthétiques  | ___h         | ___h         | __% | ___
+Préparation congrès ASPS   | ___h         | ___h         | __% | ___
+Gestion complications      | ___h         | ___h         | __% | ___
 
 TOTAL HEURES ÉCONOMISÉES/MOIS : ___h
 VALEUR TEMPS (30€/h étudiant) : ___€
@@ -247,14 +287,14 @@ Données en Europe        | □       | □      | □      |
 Politique confid. claire | □       | □      | □      |
 Adapté usage médical     | □       | □      | □      |
 
-PERFORMANCE MÉDICALE     | /10     | /10    | /10    |
+PERFORMANCE PLASTIE      | /10     | /10    | /10    |
 -------------------------|---------|--------|--------|-------
-Diagnostic différentiel  | __      | __     | __     |
-Recherche bibliographique| __      | __     | __     |
-Rédaction médicale       | __      | __     | __     |
-Analyse d'images         | __      | __     | __     |
-Communication patient    | __      | __     | __     |
-Analyse de données       | __      | __     | __     |
+Analyse photos pré/post  | __      | __     | __     |
+Recherche PRS/ASJ        | __      | __     | __     |
+Rédaction chirurgicale   | __      | __     | __     |
+Analyse PROM (FACE-Q)    | __      | __     | __     |
+Consultation esthétique  | __      | __     | __     |
+Gestion complications    | __      | __     | __     |
 
 CRITÈRES PRATIQUES       | Note    | Note   | Note   |
 -------------------------|---------|--------|--------|-------
@@ -335,18 +375,21 @@ QUALITÉ : Optimisée par forces combinées
 ```
 
 ```
-PIPELINE TFE → PUBLICATION NATURE/SCIENCE/LANCET
+PIPELINE TFE → PUBLICATION PRS/ASJ/JPRAS
 
-PHASE 1 : AUDIT (1 jour)
-□ Analyse forces/faiblesses avec IA
-□ Identification contribution unique
-□ Choix 5 journaux cibles
+PHASE 1 : AUDIT PLASTIE (1 jour)
+□ Analyse innovation technique avec IA
+□ Vérification sample size pour journal
+□ Qualité documentation photo
+□ Choix : PRS (technique) vs ASJ (esthétique)
 
-PHASE 2 : RESTRUCTURATION (3 jours)
-□ IMRAD strict
-□ Abstract 250 mots
-□ Enrichissement biblio (50+ refs récentes)
-□ Figures publication-ready
+PHASE 2 : RESTRUCTURATION PLASTIE (3 jours)
+□ IMRAD spécifique chirurgie
+□ Abstract avec PROM scores
+□ Biblio plastie récente (focus 2023-2025)
+□ Photos grilles standardisées
+□ Graphiques FACE-Q/BREAST-Q
+□ Tableau complications Clavien
 
 PHASE 3 : TRADUCTION (1 jour)
 □ DeepL première passe
@@ -368,7 +411,67 @@ PHASE 5 : SOUMISSION
 TEMPS TOTAL : 7 jours (vs 30 jours traditionnel)
 ```
 
-## 🚨 7. Protocole Urgence Échec IA - Guide Comparatif 
+## 📋 7. Checklist Soumission Journal - Chirurgie Plastique
+
+### **CHECKLIST SOUMISSION COMPLÈTE PRS/ASJ/JPRAS**
+
+```
+DOCUMENTS OBLIGATOIRES :
+□ Manuscript principal (Word format journal)
+□ Abstract structuré 250 mots max
+□ Figures haute résolution (TIFF 300 DPI)
+□ Tables outcomes et complications
+□ Cover letter personnalisée
+□ Copyright transfer agreement signé
+
+DOCUMENTATION PHOTOS PLASTIE :
+□ Consent publication photos signé
+□ Photos standardisées selon ASPS
+□ Grilles pré/post minimales requises
+□ Anonymisation complète visages
+□ Légendes détaillées par vue
+□ Video technique si innovation
+
+ASPECTS ÉTHIQUES :
+□ Ethical approval comité local
+□ Declaration Helsinki compliance
+□ Patient consent forms archivés
+□ Conflict of interest déclaré
+□ Financial disclosures (implants, lasers)
+□ Trial registration si prospectif
+
+ASPECTS TECHNIQUES :
+□ CONSORT/STROBE checklist complétée
+□ ORCID tous auteurs vérifié
+□ Guidelines journal respectées
+□ Word count dans limites
+□ References format correct
+□ Supplementary materials préparés
+
+VÉRIFICATIONS FINALES :
+□ Pas de données patient identifiables
+□ Stats vérifiées par biostatisticien
+□ Relecture native speaker anglais
+□ Backup complet avant soumission
+□ Contact details correspondant author
+□ Suggested reviewers préparés (3-5)
+```
+
+### **TIMELINE SOUMISSION OPTIMALE**
+
+```
+J-7 : Manuscript finalisé
+J-5 : Photos finales et légendes
+J-3 : Cover letter et checklist
+J-1 : Relecture finale équipe
+J0  : SOUMISSION
+J+1 : Confirmation réception
+J+30: Premier feedback éditorial
+J+60: Reviewers assignés
+J+90: Reviews reçues
+```
+
+## 🚨 8. Protocole Urgence Échec IA - Guide Comparatif 
 
 ```
 QUE FAIRE QUAND UNE IA ÉCHOUE ?
@@ -439,9 +542,9 @@ PROBLÈME : Désaccord IA/Clinique
 
 ## 🚀 7.5 Templates Perplexity Labs - Automatisation Médicale
 
-### A. RAPPORT DE RECHERCHE AUTOMATISÉ
+### A. RAPPORT TECHNIQUE PLASTIQUE AUTOMATISÉ
 ```
-Perplexity Labs, génère un rapport complet sur [pathologie] incluant :
+Perplexity Labs, génère rapport complet sur [rhinoplastie preservation/DIEP innovations/fat grafting face] incluant :
 
 1. REVUE LITTÉRATURE (2023-2025)
    - Méta-analyses récentes
@@ -467,15 +570,16 @@ Format : Rapport PDF + Dashboard web
 Temps : 10 minutes maximum
 ```
 
-### B. DASHBOARD PATIENT INTERACTIF
+### B. DASHBOARD SUIVI POST-OP PLASTIE
 ```
-Crée un tableau de bord pour suivi patient [pathologie chronique] :
+Crée tableau de bord pour suivi [rhinoplastie/augmentation mammaire/DIEP] :
 
-DONNÉES PATIENT (anonymisées) :
-- Biologiques : [HbA1c, créat, etc.]
-- Cliniques : [TA, poids, symptômes]
-- Traitements : [médicaments, doses]
-- Timeline : 12 derniers mois
+DONNÉES POST-OP (anonymisées) :
+- Photos standardisées : J0, M1, M3, M6, M12
+- PROM scores : FACE-Q/BREAST-Q évolution
+- Complications : œdème, asymétrie, révisions
+- Satisfaction : scores et commentaires
+- Mesures : angles, volumes, symétrie
 
 GÉNÉRER :
 1. Graphiques évolution temporelle
@@ -487,10 +591,10 @@ GÉNÉRER :
 Interface : Web responsive + PDF
 ```
 
-### C. MÉTA-ANALYSE EXPRESS
+### C. MÉTA-ANALYSE TECHNIQUE PLASTIQUE
 ```
-Effectue une méta-analyse rapide sur :
-"Efficacité de [intervention] vs [comparateur] dans [pathologie]"
+Effectue méta-analyse rapide sur :
+"[Preservation vs structural rhinoplasty / DIEP vs implants / Fat grafting vs fillers]"
 
 PARAMÈTRES :
 - Période : 2020-2025
@@ -508,10 +612,10 @@ OUTPUTS REQUIS :
 Livrable : Rapport + Figures publiables
 ```
 
-### D. APPLICATION MÉDICALE INSTANT
+### D. APP CHIRURGIE PLASTIQUE INSTANT
 ```
-Développe une app web pour :
-"Calculateur de [score/risque médical]"
+Développe app web pour :
+"Calculateur [angles rhinoplastie / volumes mammaires / score FACE-Q]"
 
 FONCTIONNALITÉS :
 - Interface intuitive mobile
@@ -529,10 +633,10 @@ TECHNIQUE :
 Délai : 10 minutes
 ```
 
-### E. PROTOCOLE DE RECHERCHE CLÉ-EN-MAIN
+### E. PROTOCOLE ÉTUDE PLASTIQUE CLÉ-EN-MAIN
 ```
-Génère protocole complet pour étude :
-"[Question PICO complète]"
+Génère protocole complet pour :
+"Comparer [technique A vs B] en chirurgie [esthétique/reconstructive]"
 
 SECTIONS OBLIGATOIRES :
 1. Rationnel scientifique + gap analysis
@@ -556,24 +660,24 @@ Normes : ICH-GCP compliant
 COMMANDES VOCALES RAPIDES PAR OUTIL
 
 CHATGPT MOBILE :
-"Hey Siri, demande à ChatGPT le diagnostic 
-différentiel pour [symptômes]"
-→ Meilleur pour : DDx rapide, images
+"Hey Siri, demande à ChatGPT d'analyser 
+ces photos de rhinoplastie"
+→ Meilleur pour : Photos, mesures, vision
 
 CLAUDE MOBILE :
-"Ok Google, ouvre Claude et analyse ce 
-cas clinique complexe"
-→ Meilleur pour : Cas nuancés, éthique
+"Ok Google, ouvre Claude pour rédiger 
+compte-rendu DIEP complexe"
+→ Meilleur pour : Rédaction technique, cas complexes
 
 GEMINI MOBILE :
-"Assistant, recherche avec Gemini les dernières 
-guidelines sur [pathologie]"
-→ Meilleur pour : Info récente, vérification
+"Assistant, recherche avec Gemini dernières 
+innovations en rhinoplastie preservation"
+→ Meilleur pour : Littérature récente plastie
 
 PERPLEXITY MOBILE :
-"Lance Perplexity Labs pour générer rapport 
-automatique sur [urgence médicale]"
-→ Meilleur pour : Documentation rapide complète
+"Lance Perplexity Labs pour analyser 
+complications post-augmentation mammaire"
+→ Meilleur pour : Revues systématiques plastie
 
 RACCOURCIS MULTI-IA À CRÉER :
 1. "DDx3" → Même question sur 3 IA
@@ -595,22 +699,21 @@ TEMPS CIBLE : < 3 minutes total
 ```
 COMMANDES VOCALES RAPIDES (Siri/Google)
 
-"Hey Siri, demande à ChatGPT le diagnostic 
-différentiel pour douleur thoracique atypique 
-chez homme 65 ans diabétique"
+"Hey Siri, demande à ChatGPT d'analyser 
+symétrie faciale sur ces photos post-rhinoplastie"
 
 "OK Google, ouvre Perplexity et recherche 
-dernières guidelines ESC insuffisance cardiaque 2024"
+dernières publications PRS sur preservation rhinoplasty"
 
 "Siri, lance Claude et transforme ces notes 
-en observation médicale structurée"
+en compte-rendu opératoire DIEP structuré"
 
 RACCOURCIS iOS/ANDROID À CRÉER :
-1. "DDx" → Diagnostic différentiel
-2. "Trad Patient" → Simplification jargon
-3. "Biblio Express" → Recherche rapide
-4. "Stats Medical" → Analyse données
-5. "Image IA" → Analyse imagerie
+1. "PhotoPlastie" → Analyse photos pré/post
+2. "PROM Score" → Calcul FACE-Q/BREAST-Q
+3. "Biblio PRS" → Recherche plastie
+4. "Stats Plastie" → Analyse outcomes
+5. "Consult Esth" → Template consultation
 ```
 
 ---
@@ -620,26 +723,27 @@ RACCOURCIS iOS/ANDROID À CRÉER :
 ```
 GUIDE DE DÉCISION RAPIDE 
 
-TÂCHE                    | 1er Choix | 2e Choix | À Éviter
+TÂCHE PLASTIE            | 1er Choix | 2e Choix | À Éviter
 -------------------------|-----------|----------|----------
-Diagnostic différentiel  | ChatGPT   | Claude   | -
-Recherche biblio récente | Gemini    | ChatGPT  | Claude
-Rédaction longue         | Claude    | ChatGPT  | Gemini
-Analyse d'images         | ChatGPT   | Gemini   | Claude
-Communication patient    | Claude    | ChatGPT  | -
-Analyse statistiques     | ChatGPT   | Claude   | Gemini
-Vérification facts       | Gemini    | -        | -
-Créativité/Brainstorm    | ChatGPT   | Claude   | Gemini
-Éthique médicale        | Claude    | ChatGPT  | Gemini
-Traduction médicale     | Claude    | ChatGPT  | Gemini
+Analyse photos pré/post  | ChatGPT   | Gemini   | Claude
+Recherche PRS/ASJ        | Perplexity| Gemini   | -
+Rédaction technique op   | Claude    | ChatGPT  | Gemini
+Analyse PROM scores      | ChatGPT   | Claude   | -
+Consultation esthétique  | Claude    | ChatGPT  | -
+Complications analyse    | Claude    | ChatGPT  | -
+Mesures angles/volumes   | ChatGPT   | -        | -
+Simulation résultats     | ChatGPT   | Gemini   | Claude
+Éthique photo/mineurs    | Claude    | ChatGPT  | -
+Biblio innovations       | Perplexity| Gemini   | Claude
 
-WORKFLOWS GAGNANTS :
-• Recherche : Gemini → ChatGPT → Claude
-• Publication : Claude → ChatGPT → Gemini
-• Urgence : ChatGPT → Vérif Claude → Confirm Gemini
+WORKFLOWS GAGNANTS PLASTIE :
+• Photos : ChatGPT → Validation Claude → Stats
+• Publication PRS : Claude → ChatGPT figures → Perplexity refs
+• Consultation : Claude structure → ChatGPT simulation
+• Complications : Claude analyse → ChatGPT visual → Perplexity evidence
 ```
 
-**💡 Ces templates  encouragent l'usage comparatif et optimal de chaque outil !**
+**💡 Ces templates optimisent votre pratique en chirurgie plastique avec l'IA !**
 
-*Juin 2025*
+*Spécial Chirurgie Plastique - Juin 2025*
 **
