@@ -1,4 +1,5 @@
-# Guide de Collaboration WhatsApp - Formation IA Médicale ULB
+# Guide de Collaboration WhatsApp - Formation IA Chirurgie Plastique ULB
+## 🎨 Focus Esthétique & 🏥 Reconstructive
 
 ## 📱 Vue d'Ensemble
 
@@ -6,7 +7,7 @@ La formation utilise exclusivement WhatsApp et Google Drive pour faciliter la co
 
 ## 🔧 Structure des Groupes WhatsApp
 
-### 1. **Groupe Principal - "IA Médecine ULB 2025"**
+### 1. **Groupe Principal - "IA Chirurgie Plastique ULB 2025"**
 - Annonces générales
 - Questions transversales
 - Partage de ressources
@@ -26,19 +27,20 @@ La formation utilise exclusivement WhatsApp et Google Drive pour faciliter la co
 
 ## 📋 Règles d'Usage
 
-### ✅ À FAIRE
-- Partager découvertes et astuces
-- Poser questions spécifiques
-- Utiliser hashtags pour organisation (#MissionS1, #WorkflowWin, etc.)
-- Partager screenshots avec annotations
-- Messages vocaux < 2 min pour témoignages
+### ✅ À FAIRE PLASTIE
+- Partager workflows photos réussis
+- Poser questions techniques spécifiques
+- Utiliser hashtags (#PhotosIA, #PROMWin, etc.)
+- Screenshots ANONYMISÉS avec annotations
+- Témoignages transformations TFE→PRS
 
-### ❌ À ÉVITER
-- Données patients réelles
-- Messages hors-sujet
-- Spam ou publicité
-- Débats non-constructifs
+### ❌ À ÉVITER PLASTIE
+- JAMAIS photos patients identifiables
+- Données personnelles patients
+- Screenshots avec visages non floutés
+- Débats éthiques non constructifs
 - Messages après 22h
+- Promesses résultats irréalistes
 
 ## 🏷️ Hashtags Officiels
 
@@ -48,6 +50,11 @@ La formation utilise exclusivement WhatsApp et Google Drive pour faciliter la co
 - `#StressTest` : Résultats tests limites
 - `#SecuriteIA` : Découvertes sécurité
 - `#ChallengeFinal` : Compétitions
+- `#PhotosIA` : Analyses photos réussies
+- `#PROMWin` : Analyses FACE-Q/BREAST-Q
+- `#TechniquePlastie` : Innovations opératoires
+- `#EthiquePhoto` : Bonnes pratiques photos
+- `#TFEtoPRS` : Transformations réussies
 
 ## 🔄 Workflow de Partage
 

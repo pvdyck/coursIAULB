@@ -2,7 +2,7 @@
 
 ## 🌟 Top 5 Workflows Multi-IA
 
-### 1. 📚 Revue de Littérature Systématique (ROI: 5:1)
+### 1. 📚 Revue de Littérature Systématique (Gain: 80% du temps)
 
 **Champion :** Dr. Marie L. (Groupe B)
 **Temps :** 2h (vs 10h traditionnel)
@@ -245,7 +245,7 @@ FINALISATION
 ### Résultats
 - Temps total : [X] min
 - Qualité : [Métrique]
-- ROI : [X:1]
+- Gain de temps : [X heures/semaine]
 
 ### Améliorations Futures
 [Vos idées]
@@ -257,4 +257,4 @@ FINALISATION
 **📤 Soumission :** workflows-ia@ulb.ac.be
 **🏆 Récompense :** Meilleur workflow mensuel = 3 mois IA gratuits
 
-*Workflows Gagnants v3.0 - Formation IA Médicale ULB*
+*Workflows Gagnants - Formation IA Médicale ULB*

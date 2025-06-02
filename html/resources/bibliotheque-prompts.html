@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bibliothèque de Prompts - Chirurgie Plastique Esthétique & Reconstructive">
+    <title>Bibliothèque Prompts - Formation IA ULB Médecine</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/css/ulb-medical.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <link rel="stylesheet" href="../assets/css/print.css" media="print">
+</head>
+<body>
+    <!-- Skip to main content -->
+    <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo-container">
+                <div class="logo-text">
+                    <div class="logo-main">Université Libre de Bruxelles</div>
+                    <div class="logo-sub">Faculté de Médecine - Formation Continue</div>
+                </div>
+            </div>
+            <nav class="nav-main" role="navigation" aria-label="Navigation principale">
+                <a href="../index.html" class="nav-link">Accueil</a>
+                <a href="../programme.html" class="nav-link">Programme</a>
+                <a href="../sessions/session1.html" class="nav-link">Sessions</a>
+                <a href="glossaire.html" class="nav-link active">Ressources</a>
+                <a href="../evaluation/grilles.html" class="nav-link">Évaluation</a>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Main Content -->
+    <main id="main-content" class="container">
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Fil d'Ariane">
+            <a href="../index.html" class="breadcrumb-item">Accueil</a>
+            <span class="breadcrumb-separator">›</span>
+            <a href="../resources/glossaire.html" class="breadcrumb-item">Ressources</a>
+            <span class="breadcrumb-separator">›</span>
+            <span class="breadcrumb-item active">Bibliothèque de Prompts</span>
+        </nav>
+        
+        <div class="content-wrapper">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <button class="mobile-nav-toggle" aria-expanded="false">
+                    Ouvrir le menu
+                </button>
+                <nav class="sidebar-nav">
+                    <h3 class="sidebar-title">Catégories de Prompts</h3>
+                    <ul>
+                        <li><a href="#analyse-photos">📸 Analyse Photos</a></li>
+                        <li><a href="#compte-rendu">📝 Compte-rendu Opératoire</a></li>
+                        <li><a href="#recherche-biblio">🔬 Recherche Bibliographique</a></li>
+                        <li><a href="#analyse-prom">📊 Analyse PROM</a></li>
+                        <li><a href="#tfe-publication">📑 TFE → Publication</a></li>
+                        <li><a href="#consultation">💼 Consultation & Consentement</a></li>
+                        <li><a href="#complications">🏥 Gestion Complications</a></li>
+                        <li><a href="#business">📈 Business & Communication</a></li>
+                        <li><a href="#innovation">🔬 Innovation & Recherche</a></li>
+                    </ul>
+                    
+                    <h3 class="sidebar-title mt-3">Autres Ressources</h3>
+                    <ul>
+                        <li><a href="glossaire.html">Glossaire</a></li>
+                        <li><a href="bibliotheque-prompts.html" class="active">Bibliothèque Prompts</a></li>
+                        <li><a href="../groupes/whatsapp.html">Guide WhatsApp</a></li>
+                        <li><a href="../exercises/index.html">Exercices</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            
+            <!-- Main Content Area -->
+            <div class="main-content">
+                <h1>📚 Bibliothèque de Prompts - Chirurgie Plastique</h1>
+                <h2 class="subtitle">Prompts Optimisés pour ChatGPT, Claude, Gemini et Perplexity</h2>
+                
+                <div class="card mb-4">
+                    <div class="card-content">
+                        <p class="lead">Collection de prompts testés et optimisés pour la chirurgie plastique esthétique et reconstructive. Chaque prompt est conçu pour maximiser la qualité des réponses de l'IA.</p>
+                        <div class="alert alert-info">
+                            <strong>Best Practices :</strong>
+                            <ol>
+                                <li>Toujours vérifier avec jugement clinique</li>
+                                <li>Jamais de photos identifiables dans IA publique</li>
+                                <li>Citer l'usage IA dans publications</li>
+                                <li>Valider statistiques indépendamment</li>
+                                <li>Adapter au contexte local/culturel</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Analyse Photos -->
+                <section id="analyse-photos" class="mb-4">
+                    <h2>📸 Analyse Photos Pré/Post-Opératoires</h2>
+                    
+                    <div class="prompt-card">
+                        <h3>ChatGPT Vision - Analyse Rhinoplastie</h3>
+                        <div class="prompt-content">
+                            <pre><code>Analyse cette série de photos de rhinoplastie (face, profil, 3/4, base).
+Mesure et reporte :
+1. Angle naso-frontal (normal : 115-130°)
+2. Angle naso-labial (H: 90-95°, F: 95-110°)
+3. Projection de la pointe (ratio de Goode)
+4. Largeur alaire vs canthi internes
+5. Symétrie narines et columelle
+
+Compare pré vs post-op et identifie les modifications.</code></pre>
+                        </div>
+                        <button class="copy-btn" onclick="copyPrompt(this)">📋 Copier</button>
+                    </div>
+                    
+                    <div class="prompt-card">
+                        <h3>Claude - Évaluation BREAST-Q Visuelle</h3>
+                        <div class="prompt-content">
+                            <pre><code>Analyse ces photos mammaires standardisées (face, profil, 3/4).
+Évalue selon critères BREAST-Q appearance :
+- Symétrie volumétrique
+- Position complexe aréolo-mamelonnaire
+- Forme et projection
+- Qualité cicatricielle
+- Naturalness score estimé
+
+Suggère points d'amélioration pour révision si nécessaire.</code></pre>
+                        </div>
+                        <button class="copy-btn" onclick="copyPrompt(this)">📋 Copier</button>
+                    </div>
+                </section>
+                
+                <!-- Compte-rendu Opératoire -->
+                <section id="compte-rendu" class="mb-4">
+                    <h2>📝 Rédaction Compte-Rendu Opératoire</h2>
+                    
+                    <div class="prompt-card">
+                        <h3>Claude - Compte-rendu DIEP Détaillé</h3>
+                        <div class="prompt-content">
+                            <pre><code>Rédige un compte-rendu opératoire complet pour reconstruction mammaire par DIEP :
+
+Patient : [âge, IMC, antécédents]
+Indication : [mastectomie date, côté, délai]
+Technique :
+- Repérage perforantes : [nombre, localisation]
+- Dissection : [intramusculaire/périmusculaire]
+- Anastomoses : [artère/veine receveuses]
+- Temps ischémie : [durée]
+- Modelage et symétrisation
+- Fermetures : [abdomen, sein]
+
+Inclus complications peropératoires et décisions techniques.</code></pre>
+                        </div>
+                        <button class="copy-btn" onclick="copyPrompt(this)">📋 Copier</button>
+                    </div>
+                    
+                    <div class="prompt-card">
+                        <h3>ChatGPT - Rhinoplastie Structurelle</h3>
+                        <div class="prompt-content">
+                            <pre><code>Génère compte-rendu rhinoplastie complète incluant :
+
+1. Voie d'abord : [ouverte/fermée]
+2. Temps septaux : [résection, greffes, sutures]
+3. Réduction bosse : [ostéotomies type]
+4. Pointe : [techniques utilisées, greffes]
+5. Ostéotomies : [latérales, médiales, percutanées]
+6. Greffes : [origine, placement, fixation]
+7. Fermeture et méchage
+
+Durée : [temps]. Pertes : [ml]. Incidents : [aucun/décrire].</code></pre>
+                        </div>
+                        <button class="copy-btn" onclick="copyPrompt(this)">📋 Copier</button>
+                    </div>
+                </section>
+                
+                <!-- Recherche Bibliographique -->
+                <section id="recherche-biblio" class="mb-4">
+                    <h2>🔬 Recherche Bibliographique Spécialisée</h2>
+                    
+                    <div class="prompt-card">
+                        <h3>Perplexity - Revue Systématique Techniques</h3>
+                        <div class="prompt-content">
+                            <pre><code>Effectue une revue systématique sur [preservation rhinoplasty/DIEP vs TMG/fat grafting breast] 
+pour les 5 dernières années.
+
+Inclus :
+- Stratégie recherche (MeSH terms)
+- Nombre études et total patients
+- Tableau comparatif : technique, n, follow-up, complications %, satisfaction
+- Analyse niveaux evidence (Oxford)
+- Gaps identifiés pour futures recherches
+- Recommandations basées sur evidence
+
+Focus journaux : PRS, ASJ, JPRAS, APS</code></pre>
+                        </div>
+                        <button class="copy-btn" onclick="copyPrompt(this)">📋 Copier</button>
+                    </div>
+                    
+                    <div class="prompt-card">
+                        <h3>Gemini Scholar - Innovation Tracking</h3>
+                        <div class="prompt-content">
+                            <pre><code>Via Google Scholar, trouve toutes les innovations en [liposuction/breast reconstruction/facial rejuvenation] 
+publiées en 2024-2025.
+
+Classe par :
+- Type innovation (technique, technologie, approche)
+- Niveau adoption (experimental, early adoption, mainstream)
+- Evidence level
+- Auteurs leaders dans le domaine
+- Brevets associés
+
+Crée timeline d'évolution de la technique.</code></pre>
+                        </div>
+                        <button class="copy-btn" onclick="copyPrompt(this)">📋 Copier</button>
+                    </div>
+                </section>
+                
+                <!-- Analyse PROM -->
+                <section id="analyse-prom" class="mb-4">
+                    <h2>📊 Analyse Statistique PROM</h2>
+                    
+                    <div class="prompt-card">
+                        <h3>ChatGPT Code - FACE-Q Analysis</h3>
+                        <div class="prompt-content">
+                            <pre><code>Voici données FACE-Q Rhinoplasty (CSV) pré/post-op 6 mois.
+Réalise :
+
+1. Statistiques descriptives par domaine
+2. Tests paired t-test ou Wilcoxon selon distribution
+3. Calcul effect size (Cohen's d)
+4. Graphiques violin plots avec p-values
+5. Analyse facteurs prédictifs satisfaction (régression)
+6. Tableau résumé publication-ready
+
+Interprète résultats pour discussion article.</code></pre>
+                        </div>
+                        <button class="copy-btn" onclick="copyPrompt(this)">📋 Copier</button>
+                    </div>
+                    
+                    <div class="prompt-card">
+                        <h3>Claude - BREAST-Q Interpretation</h3>
+                        <div class="prompt-content">
+                            <pre><code>Analyse ces scores BREAST-Q reconstruction (n=80) :
+- Satisfaction with Breasts
+- Psychosocial Well-being
+- Physical Well-being
+- Sexual Well-being
+
+Compare :
+1. Implant vs autologous
+2. Immediate vs delayed
+3. Unilateral vs bilateral
+
+Génère insights cliniques et recommandations pratiques.
+Format pour abstract PRS.</code></pre>
+                        </div>
+                        <button class="copy-btn" onclick="copyPrompt(this)">📋 Copier</button>
+                    </div>
+                </section>
+                
+                <!-- TFE vers Publication -->
+                <section id="tfe-publication" class="mb-4">
+                    <h2>📑 Transformation TFE → Publication</h2>
+                    
+                    <div class="prompt-card">
+                        <h3>Pipeline Multi-IA Introduction PRS</h3>
+                        <div class="prompt-content">
+                            <pre><code>ÉTAPE 1 - Perplexity :
+"Analyse les 10 meilleures introductions sur [votre technique] dans PRS/ASJ 2023-2025. 
+Identifie structure commune et hooks efficaces."
+
+ÉTAPE 2 - Claude :
+"Transforme mon introduction TFE en version PRS :
+[Coller intro actuelle]
+Structure : problème clinique → limites techniques actuelles → notre innovation → objectif étude"
+
+ÉTAPE 3 - ChatGPT :
+"Optimise l'impact. Ajoute statistiques ASPS récentes. 
+Première phrase doit accrocher. Dernière phrase doit promettre."</code></pre>
+                        </div>
+                        <button class="copy-btn" onclick="copyPrompt(this)">📋 Copier</button>
+                    </div>
+                    
+                    <div class="prompt-card">
+                        <h3>Abstract Structuré 250 mots</h3>
+                        <div class="prompt-content">
+                            <pre><code>Claude + ChatGPT Combo :
+
+"Crée abstract structuré 250 mots exactement :
+
+BACKGROUND : [Problème et gap - 60 mots]
+METHODS : [Design, patients, technique, outcomes mesurés - 80 mots]
+RESULTS : [Données clés avec p-values, complications - 70 mots]  
+CONCLUSIONS : [Impact clinique, niveau evidence - 40 mots]
+
+Inclus : n patients, follow-up moyen, complication rate %, satisfaction score"</code></pre>
+                        </div>
+                        <button class="copy-btn" onclick="copyPrompt(this)">📋 Copier</button>
+                    </div>
+                </section>
+                
+                <!-- Consultation et Consentement -->
+                <section id="consultation" class="mb-4">
+                    <h2>💼 Consultation et Consentement</h2>
+                    
+                    <div class="prompt-card">
+                        <h3>ChatGPT - Consultation Esthétique Structurée</h3>
+                        <div class="prompt-content">
+                            <pre><code>Patient [âge, sexe] consulte pour [rhinoplastie/augmentation mammaire/abdominoplastie].
+Motivations : [esthétique pure/fonctionnel/psychologique]
+Attentes : [réalistes/à modérer]
+
+Génère consultation complète :
+1. Écoute demande et motivations
+2. Examen clinique pertinent
+3. Options techniques (pour/contre)
+4. Simulation résultats réalistes
+5. Risques spécifiques patient
+6. Alternatives non chirurgicales
+7. Processus et suites
+8. Questions à poser au patient</code></pre>
+                        </div>
+                        <button class="copy-btn" onclick="copyPrompt(this)">📋 Copier</button>
+                    </div>
+                    
+                    <div class="prompt-card">
+                        <h3>Claude - Consentement Éclairé Détaillé</h3>
+                        <div class="prompt-content">
+                            <pre><code>Rédige consentement éclairé pour [procédure] incluant :
+
+TECHNIQUE : Description accessible patient
+BÉNÉFICES ATTENDUS : Réalistes et mesurés
+RISQUES GÉNÉRAUX : Infection, saignement, cicatrices
+RISQUES SPÉCIFIQUES : [Selon procédure]
+ALTERNATIVES : Chirurgicales et non chirurgicales
+SUITES OPÉRATOIRES : Timeline détaillée
+RÉSULTATS : Délai, durabilité, limitations
+RÉVISIONS : Taux et causes possibles
+
+Ton : informatif mais pas anxiogène</code></pre>
+                        </div>
+                        <button class="copy-btn" onclick="copyPrompt(this)">📋 Copier</button>
+                    </div>
+                </section>
+                
+                <!-- Gestion Complications -->
+                <section id="complications" class="mb-4">
+                    <h2>🏥 Gestion Complications</h2>
+                    
+                    <div class="prompt-card">
+                        <h3>Claude Thinking - Analyse Complication</h3>
+                        <div class="prompt-content">
+                            <pre><code>Patient J+[X] post [procédure] présente [symptômes].
+Données : [vitaux, labo, images si disponibles]
+
+Utilise ton mode de réflexion approfondie pour :
+1. Diagnostics différentiels par probabilité
+2. Examens urgents nécessaires
+3. CAT immédiate
+4. Critères hospitalisation
+5. Information patient/famille
+6. Documentation médico-légale
+7. Prévention récidive
+
+Explore toutes les possibilités avant conclusion.</code></pre>
+                        </div>
+                        <button class="copy-btn" onclick="copyPrompt(this)">📋 Copier</button>
+                    </div>
+                </section>
+                
+                <!-- Business & Communication -->
+                <section id="business" class="mb-4">
+                    <h2>📈 Business & Communication</h2>
+                    
+                    <div class="prompt-card">
+                        <h3>Perplexity - Veille Concurrentielle</h3>
+                        <div class="prompt-content">
+                            <pre><code>Analyse l'offre en [rhinoplastie/breast surgery/facial rejuvenation] dans [ville/région].
+Identifie :
+- Principaux acteurs et positionnement
+- Gammes de prix pratiqués
+- Techniques promues
+- Présence digitale et SEO
+- Avis patients et réputation
+- Innovations marketing
+
+Suggère positionnement différenciant.</code></pre>
+                        </div>
+                        <button class="copy-btn" onclick="copyPrompt(this)">📋 Copier</button>
+                    </div>
+                    
+                    <div class="prompt-card">
+                        <h3>ChatGPT - Posts Réseaux Sociaux Éthiques</h3>
+                        <div class="prompt-content">
+                            <pre><code>Crée 5 posts Instagram éducatifs sur [procédure] :
+- Informatifs sans être promotionnels
+- Respectant guidelines médicales
+- Sans promesses irréalistes
+- Avec call-to-action consultation
+- Hashtags pertinents #plasticsurgery
+
+Format : caption + idée visuel (sans patient réel)</code></pre>
+                        </div>
+                        <button class="copy-btn" onclick="copyPrompt(this)">📋 Copier</button>
+                    </div>
+                </section>
+                
+                <!-- Innovation et Recherche -->
+                <section id="innovation" class="mb-4">
+                    <h2>🔬 Innovation et Recherche</h2>
+                    
+                    <div class="prompt-card">
+                        <h3>Claude - Protocole Étude Prospective</h3>
+                        <div class="prompt-content">
+                            <pre><code>Conçois protocole pour étude prospective :
+"[Titre de votre innovation/comparaison]"
+
+Inclus :
+- Design étude (RCT, cohorte, case-control)
+- Calcul échantillon (puissance 80%, α=0.05)
+- Critères inclusion/exclusion
+- Outcomes primaires et secondaires
+- Timeline follow-up
+- Analyse statistique planifiée
+- Considérations éthiques
+- Budget estimé
+
+Format pour soumission comité éthique.</code></pre>
+                        </div>
+                        <button class="copy-btn" onclick="copyPrompt(this)">📋 Copier</button>
+                    </div>
+                </section>
+                
+                <!-- Templates Situations Spécifiques -->
+                <section class="mb-4">
+                    <h2>🎯 Templates Situations Spécifiques</h2>
+                    
+                    <div class="prompt-card">
+                        <h3>Révision de Cas Complexe</h3>
+                        <div class="prompt-content">
+                            <pre><code>[Outil au choix]
+Patient avec [complication/résultat suboptimal] après [procédure initiale].
+Photos et données disponibles : [lister]
+
+Analyse :
+1. Identification problèmes actuels
+2. Étiologies possibles
+3. Options révision (timing, techniques)
+4. Pronostic réaliste
+5. Discussion avec patient
+6. Planning opératoire détaillé</code></pre>
+                        </div>
+                        <button class="copy-btn" onclick="copyPrompt(this)">📋 Copier</button>
+                    </div>
+                    
+                    <div class="prompt-card">
+                        <h3>Médico-Légal</h3>
+                        <div class="prompt-content">
+                            <pre><code>Claude (mode thinking) :
+Expertise cas litige [procédure].
+Documents : [CR op, photos, courriers]
+
+Analyse selon standards :
+1. Information préopératoire adéquate ?
+2. Indication justifiée ?
+3. Technique conforme standards ?
+4. Gestion complications appropriée ?
+5. Documentation suffisante ?
+
+Conclusion nuancée sur responsabilité.</code></pre>
+                        </div>
+                        <button class="copy-btn" onclick="copyPrompt(this)">📋 Copier</button>
+                    </div>
+                </section>
+                
+                <!-- Note de mise à jour -->
+                <div class="update-note">
+                    <p><em>Bibliothèque mise à jour mensuellement avec retours communauté</em></p>
+                    <p><em>Partagez vos prompts efficaces sur #PromptsPlastie</em></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Formation IA Médicale</h4>
+                <p>Optimisé pour la chirurgie plastique, esthétique et reconstructive</p>
+            </div>
+            <div class="footer-section">
+                <h4>Liens Utiles</h4>
+                <ul>
+                    <li><a href="../programme.html">Programme Complet</a></li>
+                    <li><a href="../exercises/index.html">Exercices</a></li>
+                    <li><a href="../groupes/whatsapp.html">Groupes WhatsApp</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>formation.ia@ulb.be</p>
+                <p>Faculté de Médecine - ULB</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Université Libre de Bruxelles - Tous droits réservés</p>
+        </div>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script src="../assets/js/navigation.js"></script>
+    <script>
+        function copyPrompt(button) {
+            const promptContent = button.previousElementSibling.querySelector('code').textContent;
+            navigator.clipboard.writeText(promptContent).then(() => {
+                const originalText = button.textContent;
+                button.textContent = '✅ Copié !';
+                setTimeout(() => {
+                    button.textContent = originalText;
+                }, 2000);
+            });
+        }
+    </script>
+    
+    <style>
+        /* Additional styles for prompt library */
+        .subtitle {
+            color: #6c757d;
+            font-size: 1.1rem;
+            margin-top: -0.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .prompt-card {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 0.375rem;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            position: relative;
+        }
+        
+        .prompt-card h3 {
+            color: var(--ulb-blue);
+            margin-bottom: 1rem;
+            font-size: 1.15rem;
+        }
+        
+        .prompt-content {
+            background: white;
+            border: 1px solid #e9ecef;
+            border-radius: 0.25rem;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            overflow-x: auto;
+        }
+        
+        .prompt-content pre {
+            margin: 0;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        
+        .prompt-content code {
+            font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+            font-size: 0.875rem;
+            color: #212529;
+            background: none;
+            padding: 0;
+        }
+        
+        .copy-btn {
+            background: var(--ulb-blue);
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 0.25rem;
+            cursor: pointer;
+            font-size: 0.875rem;
+            transition: background-color 0.2s;
+        }
+        
+        .copy-btn:hover {
+            background: #002855;
+        }
+        
+        .update-note {
+            background: #e7f3ff;
+            border-left: 4px solid var(--ulb-blue);
+            padding: 1rem;
+            margin-top: 3rem;
+            border-radius: 0.25rem;
+        }
+        
+        .update-note p {
+            margin: 0;
+            font-style: italic;
+            color: #495057;
+        }
+        
+        @media (max-width: 768px) {
+            .prompt-content {
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</body>
+</html>

@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Glossaire IA Médical - Termes essentiels pour la formation IA en chirurgie plastique ULB">
+    <title>Glossaire IA Médical - Formation IA ULB Médecine</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/css/ulb-medical.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <link rel="stylesheet" href="../assets/css/print.css" media="print">
+</head>
+<body>
+    <!-- Skip to main content -->
+    <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo-container">
+                <div class="logo-text">
+                    <div class="logo-main">Université Libre de Bruxelles</div>
+                    <div class="logo-sub">Faculté de Médecine - Formation Continue</div>
+                </div>
+            </div>
+            <nav class="nav-main" role="navigation" aria-label="Navigation principale">
+                <a href="../index.html" class="nav-link">Accueil</a>
+                <a href="../programme.html" class="nav-link">Programme</a>
+                <a href="../sessions/session1.html" class="nav-link">Sessions</a>
+                <a href="glossaire.html" class="nav-link active">Ressources</a>
+                <a href="../evaluation/grilles.html" class="nav-link">Évaluation</a>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Main Content -->
+    <main id="main-content" class="container">
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Fil d'Ariane">
+            <a href="../index.html" class="breadcrumb-item">Accueil</a>
+            <span class="breadcrumb-separator">›</span>
+            <a href="../resources/glossaire.html" class="breadcrumb-item">Ressources</a>
+            <span class="breadcrumb-separator">›</span>
+            <span class="breadcrumb-item active">Glossaire IA Médical</span>
+        </nav>
+        
+        <div class="content-wrapper">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <button class="mobile-nav-toggle" aria-expanded="false">
+                    Ouvrir le menu
+                </button>
+                <nav class="sidebar-nav">
+                    <h3 class="sidebar-title">Navigation Glossaire</h3>
+                    <ul>
+                        <li><a href="#ia-generale">🤖 Intelligence Artificielle</a></li>
+                        <li><a href="#fonctionnalites">🔧 Fonctionnalités Clés</a></li>
+                        <li><a href="#publication">📊 Concepts Publication</a></li>
+                        <li><a href="#securite">🔒 Sécurité & Éthique</a></li>
+                        <li><a href="#economie">💰 Modèles Économiques</a></li>
+                        <li><a href="#acronymes">🎯 Acronymes Fréquents</a></li>
+                        <li><a href="#confusions">💡 Termes à Ne Pas Confondre</a></li>
+                    </ul>
+                    
+                    <h3 class="sidebar-title mt-3">Autres Ressources</h3>
+                    <ul>
+                        <li><a href="glossaire.html" class="active">Glossaire</a></li>
+                        <li><a href="bibliotheque-prompts.html">Bibliothèque Prompts</a></li>
+                        <li><a href="../groupes/whatsapp.html">Guide WhatsApp</a></li>
+                        <li><a href="../exercises/index.html">Exercices</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            
+            <!-- Main Content Area -->
+            <div class="main-content">
+                <h1>📖 Glossaire IA Médical - Termes Essentiels</h1>
+                
+                <div class="card mb-4">
+                    <div class="card-content">
+                        <p class="lead">Ce glossaire couvre 95% des termes que vous rencontrerez pendant la formation et dans votre pratique quotidienne de l'IA médicale.</p>
+                        <p><em>Dernière mise à jour : Juin 2025</em></p>
+                    </div>
+                </div>
+                
+                <!-- Intelligence Artificielle -->
+                <section id="ia-generale" class="mb-4">
+                    <h2>🤖 Intelligence Artificielle (IA)</h2>
+                    
+                    <div class="term-card">
+                        <h3>LLM (Large Language Model)</h3>
+                        <dl>
+                            <dt>Définition :</dt>
+                            <dd>Modèle d'IA qui prédit le mot suivant basé sur le contexte</dd>
+                            <dt>Exemple médical :</dt>
+                            <dd>Comme un résident qui a lu toute la littérature médicale</dd>
+                            <dt>À retenir :</dt>
+                            <dd>Base de ChatGPT, Claude, Gemini</dd>
+                        </dl>
+                    </div>
+                    
+                    <div class="term-card">
+                        <h3>Prompt</h3>
+                        <dl>
+                            <dt>Définition :</dt>
+                            <dd>Votre question ou instruction à l'IA</dd>
+                            <dt>Exemple médical :</dt>
+                            <dd>"Diagnostic différentiel pour douleur thoracique aiguë"</dd>
+                            <dt>À retenir :</dt>
+                            <dd>Qualité prompt = Qualité réponse</dd>
+                        </dl>
+                    </div>
+                    
+                    <div class="term-card">
+                        <h3>Hallucination</h3>
+                        <dl>
+                            <dt>Définition :</dt>
+                            <dd>Quand l'IA invente des informations plausibles mais fausses</dd>
+                            <dt>Exemple médical :</dt>
+                            <dd>Citer une étude qui n'existe pas</dd>
+                            <dt>À retenir :</dt>
+                            <dd class="text-danger">TOUJOURS vérifier les faits critiques</dd>
+                        </dl>
+                    </div>
+                    
+                    <div class="term-card">
+                        <h3>Token</h3>
+                        <dl>
+                            <dt>Définition :</dt>
+                            <dd>Unité de texte (≈ 0.75 mot)</dd>
+                            <dt>Exemple médical :</dt>
+                            <dd>Limite de contexte = combien l'IA peut "retenir"</dd>
+                            <dt>À retenir :</dt>
+                            <dd>Plus de tokens = plus cher et plus lent</dd>
+                        </dl>
+                    </div>
+                    
+                    <div class="term-card">
+                        <h3>Fine-tuning</h3>
+                        <dl>
+                            <dt>Définition :</dt>
+                            <dd>Entraînement spécialisé d'un modèle</dd>
+                            <dt>Exemple médical :</dt>
+                            <dd>IA spécialisée en radiologie</dd>
+                            <dt>À retenir :</dt>
+                            <dd>Pas encore disponible pour usage individuel</dd>
+                        </dl>
+                    </div>
+                </section>
+                
+                <!-- Fonctionnalités Clés -->
+                <section id="fonctionnalites" class="mb-4">
+                    <h2>🔧 Fonctionnalités Clés</h2>
+                    
+                    <div class="term-card">
+                        <h3>Thinking Mode / Extended Thinking</h3>
+                        <dl>
+                            <dt>Définition :</dt>
+                            <dd>Mode où l'IA "réfléchit" avant de répondre</dd>
+                            <dt>Disponible sur :</dt>
+                            <dd>Claude (visible), ChatGPT o1 (caché)</dd>
+                            <dt>Usage médical :</dt>
+                            <dd>Cas complexes, éthique, analyse approfondie</dd>
+                        </dl>
+                    </div>
+                    
+                    <div class="term-card">
+                        <h3>Code Interpreter</h3>
+                        <dl>
+                            <dt>Définition :</dt>
+                            <dd>Capacité d'exécuter du code Python</dd>
+                            <dt>Disponible sur :</dt>
+                            <dd>ChatGPT Plus</dd>
+                            <dt>Usage médical :</dt>
+                            <dd>Statistiques, graphiques, analyse données</dd>
+                        </dl>
+                    </div>
+                    
+                    <div class="term-card">
+                        <h3>Vision / Multimodal</h3>
+                        <dl>
+                            <dt>Définition :</dt>
+                            <dd>Analyse d'images et texte ensemble</dd>
+                            <dt>Disponible sur :</dt>
+                            <dd>Tous les outils majeurs</dd>
+                            <dt>Usage médical :</dt>
+                            <dd>ECG, radio, graphiques cliniques</dd>
+                        </dl>
+                    </div>
+                    
+                    <div class="term-card">
+                        <h3>Web Browsing</h3>
+                        <dl>
+                            <dt>Définition :</dt>
+                            <dd>Recherche internet en temps réel</dd>
+                            <dt>Disponible sur :</dt>
+                            <dd>ChatGPT Plus, Gemini, Perplexity</dd>
+                            <dt>Usage médical :</dt>
+                            <dd>Guidelines récentes, actualités médicales</dd>
+                        </dl>
+                    </div>
+                    
+                    <div class="term-card">
+                        <h3>Artifacts</h3>
+                        <dl>
+                            <dt>Définition :</dt>
+                            <dd>Création de documents/code réutilisables</dd>
+                            <dt>Disponible sur :</dt>
+                            <dd>Claude</dd>
+                            <dt>Usage médical :</dt>
+                            <dd>Protocoles, algorithmes, formulaires</dd>
+                        </dl>
+                    </div>
+                </section>
+                
+                <!-- Concepts Publication -->
+                <section id="publication" class="mb-4">
+                    <h2>📊 Concepts Publication</h2>
+                    
+                    <div class="term-card">
+                        <h3>IMRAD</h3>
+                        <dl>
+                            <dt>Définition :</dt>
+                            <dd>Introduction, Methods, Results, And Discussion</dd>
+                            <dt>Usage :</dt>
+                            <dd>Structure standard articles scientifiques</dd>
+                            <dt>IA utile pour :</dt>
+                            <dd>Restructuration automatique</dd>
+                        </dl>
+                    </div>
+                    
+                    <div class="term-card">
+                        <h3>STROBE/CONSORT</h3>
+                        <dl>
+                            <dt>Définition :</dt>
+                            <dd>Guidelines reporting études observationnelles/essais</dd>
+                            <dt>Usage :</dt>
+                            <dd>Standards qualité publication</dd>
+                            <dt>IA utile pour :</dt>
+                            <dd>Vérification exhaustivité</dd>
+                        </dl>
+                    </div>
+                    
+                    <div class="term-card">
+                        <h3>Peer Review</h3>
+                        <dl>
+                            <dt>Définition :</dt>
+                            <dd>Évaluation par pairs avant publication</dd>
+                            <dt>Usage :</dt>
+                            <dd>Validation qualité scientifique</dd>
+                            <dt>IA utile pour :</dt>
+                            <dd>Anticiper critiques, préparer réponses</dd>
+                        </dl>
+                    </div>
+                </section>
+                
+                <!-- Sécurité & Éthique -->
+                <section id="securite" class="mb-4">
+                    <h2>🔒 Sécurité & Éthique</h2>
+                    
+                    <div class="term-card">
+                        <h3>RGPD (GDPR)</h3>
+                        <dl>
+                            <dt>Définition :</dt>
+                            <dd>Règlement protection données européen</dd>
+                            <dt>Impact IA :</dt>
+                            <dd>Anonymisation obligatoire avant usage</dd>
+                            <dt>À retenir :</dt>
+                            <dd class="text-danger">Jamais de données patient identifiables</dd>
+                        </dl>
+                    </div>
+                    
+                    <div class="term-card">
+                        <h3>Biais algorithmique</h3>
+                        <dl>
+                            <dt>Définition :</dt>
+                            <dd>Préjugés dans les réponses IA</dd>
+                            <dt>Exemple médical :</dt>
+                            <dd>Sous-représentation certaines populations</dd>
+                            <dt>À retenir :</dt>
+                            <dd>Toujours questionner la représentativité</dd>
+                        </dl>
+                    </div>
+                    
+                    <div class="term-card">
+                        <h3>Confidentialité</h3>
+                        <dl>
+                            <dt>Définition :</dt>
+                            <dd>Protection des informations sensibles</dd>
+                            <dt>Impact IA :</dt>
+                            <dd>Vérifier politique de l'outil</dd>
+                            <dt>À retenir :</dt>
+                            <dd>Données peuvent être utilisées pour entraînement</dd>
+                        </dl>
+                    </div>
+                </section>
+                
+                <!-- Modèles Économiques -->
+                <section id="economie" class="mb-4">
+                    <h2>💰 Modèles Économiques</h2>
+                    
+                    <div class="term-card">
+                        <h3>Freemium</h3>
+                        <dl>
+                            <dt>Définition :</dt>
+                            <dd>Gratuit limité + Payant illimité</dd>
+                            <dt>Exemples :</dt>
+                            <dd>ChatGPT (3.5 gratuit, 4 payant)</dd>
+                            <dt>Coût moyen :</dt>
+                            <dd>20€/mois par outil</dd>
+                        </dl>
+                    </div>
+                    
+                    <div class="term-card">
+                        <h3>API</h3>
+                        <dl>
+                            <dt>Définition :</dt>
+                            <dd>Interface pour intégrer l'IA dans vos apps</dd>
+                            <dt>Usage médical :</dt>
+                            <dd>Automatisation, intégration dossiers</dd>
+                            <dt>Coût :</dt>
+                            <dd>À l'usage (tokens consommés)</dd>
+                        </dl>
+                    </div>
+                    
+                    <div class="term-card">
+                        <h3>Open Source</h3>
+                        <dl>
+                            <dt>Définition :</dt>
+                            <dd>Code source accessible et modifiable</dd>
+                            <dt>Exemples :</dt>
+                            <dd>LLaMA, Mistral</dd>
+                            <dt>Avantage :</dt>
+                            <dd>Contrôle total, pas de coût licence</dd>
+                        </dl>
+                    </div>
+                </section>
+                
+                <!-- Acronymes -->
+                <section id="acronymes" class="mb-4">
+                    <h2>🎯 Acronymes Fréquents</h2>
+                    
+                    <div class="card">
+                        <div class="card-content">
+                            <ul class="acronym-list">
+                                <li><strong>GPT</strong> : Generative Pre-trained Transformer</li>
+                                <li><strong>AI/IA</strong> : Artificial Intelligence / Intelligence Artificielle</li>
+                                <li><strong>ML</strong> : Machine Learning</li>
+                                <li><strong>NLP</strong> : Natural Language Processing</li>
+                                <li><strong>ETP</strong> : Équivalent Temps Plein</li>
+                                <li><strong>TFE</strong> : Travail de Fin d'Études</li>
+                                <li><strong>DDx</strong> : Diagnostic Différentiel</li>
+                                <li><strong>EBM</strong> : Evidence-Based Medicine</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Termes à ne pas confondre -->
+                <section id="confusions" class="mb-4">
+                    <h2>💡 Termes à NE PAS Confondre</h2>
+                    
+                    <div class="comparison-card">
+                        <h3>ChatGPT vs GPT</h3>
+                        <div class="comparison-content">
+                            <div class="comparison-item">
+                                <strong>ChatGPT</strong> = Le produit/chat interface
+                            </div>
+                            <div class="comparison-item">
+                                <strong>GPT</strong> = Le modèle sous-jacent
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="comparison-card">
+                        <h3>Prompt vs Query</h3>
+                        <div class="comparison-content">
+                            <div class="comparison-item">
+                                <strong>Prompt</strong> = Instruction complète structurée
+                            </div>
+                            <div class="comparison-item">
+                                <strong>Query</strong> = Simple question
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="comparison-card">
+                        <h3>Training vs Fine-tuning</h3>
+                        <div class="comparison-content">
+                            <div class="comparison-item">
+                                <strong>Training</strong> = Création initiale du modèle
+                            </div>
+                            <div class="comparison-item">
+                                <strong>Fine-tuning</strong> = Spécialisation ultérieure
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Formation IA Médicale</h4>
+                <p>Optimisé pour la chirurgie plastique, esthétique et reconstructive</p>
+            </div>
+            <div class="footer-section">
+                <h4>Liens Utiles</h4>
+                <ul>
+                    <li><a href="../programme.html">Programme Complet</a></li>
+                    <li><a href="../exercises/index.html">Exercices</a></li>
+                    <li><a href="../groupes/whatsapp.html">Groupes WhatsApp</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>formation.ia@ulb.be</p>
+                <p>Faculté de Médecine - ULB</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Université Libre de Bruxelles - Tous droits réservés</p>
+        </div>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script src="../assets/js/navigation.js"></script>
+    
+    <style>
+        /* Additional styles for glossary */
+        .term-card {
+            background: #f8f9fa;
+            border-left: 4px solid var(--ulb-blue);
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-radius: 0.375rem;
+        }
+        
+        .term-card h3 {
+            color: var(--ulb-blue);
+            margin-bottom: 1rem;
+            font-size: 1.25rem;
+        }
+        
+        .term-card dl {
+            margin: 0;
+        }
+        
+        .term-card dt {
+            font-weight: 600;
+            color: #495057;
+            margin-top: 0.5rem;
+        }
+        
+        .term-card dd {
+            margin-left: 0;
+            margin-bottom: 0.5rem;
+            color: #6c757d;
+        }
+        
+        .acronym-list {
+            columns: 2;
+            column-gap: 2rem;
+            list-style: none;
+            padding: 0;
+        }
+        
+        .acronym-list li {
+            margin-bottom: 0.5rem;
+            break-inside: avoid;
+        }
+        
+        .comparison-card {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 0.375rem;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .comparison-card h3 {
+            color: var(--ulb-blue);
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+        
+        .comparison-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+        
+        .comparison-item {
+            padding: 0.75rem;
+            background: white;
+            border-radius: 0.25rem;
+            border: 1px solid #e9ecef;
+        }
+        
+        @media (max-width: 768px) {
+            .acronym-list {
+                columns: 1;
+            }
+            
+            .comparison-content {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</body>
+</html>

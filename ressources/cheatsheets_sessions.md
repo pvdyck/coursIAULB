@@ -1,369 +1,401 @@
-# 🔧 Cheat Sheets - IA Médicale ULB 
-## 🔄 Édition Comparative Multi-IA
+# 🔧 Cheat Sheets - IA Chirurgie Plastique ULB 
+## 🎯 Édition TFE→Publication PRS/ASJ Optimisée
+### 🎨 Focus Esthétique & 🏥 Reconstructive
 
-## 📄 SESSION 1 : Fondements IA + Les 4 Géants
+## 📄 SESSION 1 : Fondements IA + Maîtrise ChatGPT
 
-### 🌟 LES 4 GÉANTS DE L'IA - COMPÉTITEURS 2025
+### 🤖 FOCUS : CHATGPT UNIQUEMENT
 ```
-ChatGPT (OpenAI)     Claude (Anthropic)    Gemini (Google)      Perplexity
-GPT-4o               Claude 3.5 Sonnet     Gemini 1.5 Pro       Multi-modèles
-20€/mois             20€/mois              20€/mois
+ChatGPT (OpenAI) - L'outil à maîtriser d'abord
+GPT-4o - 20€/mois
 
 FORCES:
-• Polyvalent         • Précision          • Recherche
-• Créatif           • Éthique           • Intégration
-• Vision            • Long texte        • Temps réel
+• Polyvalent et intuitif
+• Créatif et conversationnel
+• Vision (analyse images)
+• Code Interpreter
+• Web browsing (Plus)
 
 FAIBLESSES:  
-• Hallucine         • Conservateur      • Inconsistant
-• Verbeux           • Pas browsing      • Interface
+• Hallucinations possibles
+• Parfois verbeux
+• Context window limité
+
+RÈGLE SESSION 1: Maîtriser ChatGPT avant de voir les autres!
 ```
 
-### 🧠 TYPES D'IA - AIDE-MÉMOIRE
+### 🧠 FONDEMENTS IA - L'ESSENTIEL
 ```
-ML SUPERVISÉ = Diagnostic sur exemples étiquetés
-   Ex: Radio → Cancer OUI/NON
+LLM = Large Language Model
+→ Prédit le mot suivant basé sur contexte
+→ Entraîné sur milliards de textes
+→ Pas de "compréhension" réelle
 
-ML NON-SUPERVISÉ = Découverte de patterns
-   Ex: Groupes de patients similaires
+HALLUCINATIONS = Inventions plausibles
+→ TOUJOURS vérifier infos critiques
+→ Plus probable si question très spécifique
+→ Solution: Demander les sources
 
-DEEP LEARNING = Analyse complexe multi-couches  
-   Ex: IRM cérébrale → Détection tumeur
-
-LLM = Prédiction de texte sur contexte
-   Ex: ChatGPT, Claude → Rédaction
-```
-
-### ⚠️ LIMITATIONS IA À RETENIR
-1. **Hallucinations** → Vérifier TOUJOURS
-2. **Biais** → Diversifier sources
-3. **Boîte noire** → Demander raisonnement
-4. **Pas de causalité** → Corrélation ≠ Causation
-
-### 🎯 STRUCTURE PROMPT PAR OUTIL
-```
-CHATGPT (Conversationnel):
-"Agis comme [rôle]. J'ai besoin de [tâche].
-Peux-tu [action] en gardant à l'esprit [contexte]?"
-
-CLAUDE (Structuré):
-"RÔLE : [Expertise]
-CONTEXTE : [Détails]
-TÂCHE : [Spécifique]
-FORMAT : [Structure]
-CONTRAINTES : [Limites]"
-
-GEMINI (Recherche):
-"Recherche les dernières infos sur [sujet].
-Compare sources multiples 2024-2025.
-Cite tes références."
+PROMPT = Votre question/instruction
+→ Qualité prompt = Qualité réponse
+→ Structure > Longueur
+→ Contexte aide beaucoup
 ```
 
-### 🌐 RECHERCHE WEB PAR PLATEFORME (Mai 2025)
+### 🎯 STRUCTURE PROMPT CHATGPT
 ```
-CHATGPT : Web browsing (Bing) - Plus users only
-CLAUDE : Web search Preview - US Pro users only  
-GEMINI : Google Search natif - Tous users
-PERPLEXITY : Recherche optimisée - Tous users
+FORMULE GAGNANTE:
+"Agis comme [rôle expert].
+[Contexte de la situation]
+J'ai besoin de [tâche spécifique].
+[Format souhaité]
+[Contraintes éventuelles]"
 
-MEILLEUR POUR:
-• Actualités médicales → ChatGPT ou Perplexity
-• Google Scholar → Gemini (intégration native)
-• Sources vérifiées → Perplexity ou Claude
-• Exploration large → ChatGPT browsing
-```
-
-### 🔒 CHECKLIST SÉCURITÉ MULTI-IA
-```
-□ Anonymiser données (3 outils)
-□ Vérifier localisation serveurs:
-  - ChatGPT : USA ⚠️
-  - Claude : USA/EU ✅
-  - Gemini : Global ⚠️
-□ Test données fictives d'abord
-□ Documenter quel outil utilisé
-□ Pas de data sensibles si hors-EU
+EXEMPLE PLASTIE:
+"Agis comme un chirurgien plasticien expérimenté.
+Patiente 28 ans, demande rhinoplastie esthétique.
+J'ai besoin d'une consultation structurée.
+Format: 1) Analyse 2) Options 3) Risques
+Maximum 300 mots, focus attentes réalistes."
 ```
 
----
-
-## 📄 SESSION 2 : Arsenal Comparatif Multi-IA
-
-### 🛠️ OUTILS ESSENTIELS 2025 + QUI FAIT QUOI
+### 📝 APPLICATIONS TFE PLASTIE SESSION 1
 ```
-RECHERCHE:
-- Consensus → Synthèse IA papers [🏆Gemini]
-- Perplexity → Fact-checking [🏆Gemini]  
-- Elicit → Extraction données [🏆Claude]
-- Scite.ai → Vérif citations [🏆Tous]
+ANALYSE PHOTOS:
+"Analyse ces photos pré/post rhinoplastie.
+Mesure angles et ratios anatomiques.
+Compare aux standards ASPS 2024."
 
-RÉDACTION:
-- Claude → Textes longs [🏆Structure]
-- ChatGPT → Polyvalent [🏆Créativité]
-- Gemini → Vérification [🏆Facts]
-- DeepL → Traduction pro
-- Grammarly Medical → Correction
+AMÉLIORATION TECHNIQUE:
+"Réécris cette description opératoire DIEP.
+Style: Publication PRS.
+Garde précision, améliore clarté."
 
-DONNÉES:
-- Julius AI → Stats no-code [🏆ChatGPT]
-- ChatGPT → Code Python [🏆Analyses]
-- Claude → Interprétation [🏆Clinique]
-- Gemini → Validation [🏆Sources]
-
-ORGANISATION:
-- NotebookLM → Synthèse sources
-- Zotero+IA → Gestion refs
-- Notion AI → Knowledge base
-- RemNote → Mémorisation
+GÉNÉRATION INNOVATION:
+"Brainstorme 10 angles pour présenter
+ma série [augmentation mammaire/fente].
+Focus: Innovation technique + PROM."
 ```
 
-### 💰 BUDGET OPTIMISÉ ÉTUDIANT
+### 🔒 SÉCURITÉ PLASTIE SESSION 1
 ```
-GRATUIT SUFFISANT:
-- Claude.ai (limité)
-- ChatGPT (GPT-3.5)
-- Consensus (20 req/mois)
-- Zotero + plugins
-- DeepL (5000 chars)
-
-SI 20€/MOIS:
-- ChatGPT Plus OU Claude Pro
-- Reste en gratuit
-
-SI 50€/MOIS:
-- ChatGPT Plus + Perplexity
-- Grammarly étudiant
-- 1 outil spécialisé
-```
-
-### 🚀 WORKFLOW RAPIDE TFE 
-```
-1. Gemini → Recherche littérature broad
-2. ChatGPT → Analyse + synthèse créative  
-3. Claude → Rédaction structurée IMRAD
-4. ChatGPT → Figures et visualisations
-5. Gemini → Fact-check + références
-6. Claude → Polish scientifique final
-
-TEMPS: 3 jours (vs 7 mono-outil)
+RÈGLES D'OR PHOTOS CHIRURGIE:
+□ JAMAIS photos visage identifiable
+□ Flouter/masquer obligatoirement
+□ Retirer metadata EXIF
+□ Watermark "AI Analysis Only"
+□ Double consentement photos mineurs
+□ Backup local avant upload
+□ Anonymiser cicatrices distinctives
 ```
 
 ---
 
-## 📄 SESSION 3 : Clinique Comparative & Éthique
+## 📄 SESSION 2 : Découverte Individuelle des 3 Autres
 
-### 📱 APPS MOBILES - QUI POUR QUOI
+### 🌟 DÉCOUVERTE PROGRESSIVE (45 min chacun)
 ```
-DIAGNOSTIC:
-- ChatGPT app → DDx rapide + images
-- Claude app → Cas complexes nuancés
-- Gemini app → Guidelines récentes
+CLAUDE (Anthropic)     GEMINI (Google)      PERPLEXITY
+Claude 3.5             Gemini 1.5 Pro       Multi-modèles
+20€/mois              20€/mois              20€/mois
 
-RÈGLE: Si urgence → ChatGPT
-       Si complexe → Claude  
-       Si vérif → Gemini
-
-IMAGERIE:
-- Aidoc → Urgences radio
-- SkinVision → Dermato
-- ECG Reader → Cardio
-
-COMMUNICATION:
-- DeepL → Multilingue
-- Otter.ai → Transcription
+SESSION 2 = Découvrir chaque outil INDIVIDUELLEMENT
+Pas de comparaison avant de maîtriser chacun!
 ```
 
-### ⚡ RACCOURCIS URGENCES MULTI-IA
+### 🧩 CLAUDE - LE PRÉCIS
 ```
-CHATGPT: "DDx rapide [symptômes]"
-CLAUDE: "Analyse ce cas complexe [détails]"
-GEMINI: "Guidelines 2025 pour [pathologie]"
+FORCES UNIQUES:
+• Ultra-précis et nuancé
+• Éthique intégrée
+• Excellent pour textes longs
+• Thinking mode transparent
+• Artifacts (visuels/code)
 
-WORKFLOW URGENCE:
-1. Question → ChatGPT (vitesse)
-2. Doute → Claude (profondeur)
-3. Confirmation → Gemini (sources)
-Temps total < 3 min
-```
-
-### ⚖️ DÉCISION ÉTHIQUE RAPIDE
-```
-1. AUTONOMIE → Patient consent?
-2. BIENFAISANCE → Aide vraiment?
-3. NON-MALFAISANCE → Risques?
-4. JUSTICE → Équitable?
-
-Si doute → Jugement clinique prime!
+À TESTER PLASTIE:
+- Consultations esthétiques nuancées
+- Comptes-rendus DIEP détaillés
+- Éthique photo mineurs
+- Articles PRS structurés
 ```
 
-### 🚨 RED FLAGS MULTI-IA 
+### 🌍 GEMINI - L'INTÉGRÉ GOOGLE
 ```
-STOP IMMDIAT SI:
-❌ 3 IA = 3 réponses totalement différentes
-❌ Diagnostic avec 100% confiance (1 seule IA)
-❌ Traitement risqué sans consensus 2/3
-❌ Guidelines contredites sans justification
-❌ Hallucination détectée non corrigée
+FORCES UNIQUES:
+• Recherche Google native
+• Google Scholar intégré
+• Actualité temps réel
+• Suite Google (Docs, Sheets)
+• Multimodal natif
 
-RÈGLE D'OR: Consensus 2/3 minimum pour décision
-```
-
----
-
-## 📄 SESSION 4 : Publication Multi-IA & Futur
-
-### 📝 PIPELINE PUBLICATION 3 JOURS 
-```
-J1 MATIN: Gemini → Analyse littérature
-J1 APM: Claude → Restructuration IMRAD
-
-J2 MATIN: ChatGPT → Enrichissement créatif
-J2 APM: Claude → Rigueur scientifique
-
-J3 MATIN: ChatGPT → Figures + viz
-J3 APM: Gemini → Fact-check final
-J3 SOIR: Fusion des 3 versions
-
-GAIN: -57% temps, +20% qualité
+À TESTER PLASTIE:
+- Innovations techniques récentes
+- Vérification réfs PRS/ASJ
+- Analyse PROM Google Sheets
+- Recherche auteurs leaders
 ```
 
-### 🎯 CHOIX JOURNAL STRATÉGIQUE
+### 🔍 PERPLEXITY - L'AUTOMATISEUR
 ```
-IMPACT ÉLEVÉ (IF>10):
-- Innovation majeure
-- Méthodologie parfaite
-- N grand, multicentric
+FORCES UNIQUES:
+• Sources toujours citées
+• Deep Research (rapports auto)
+• Perplexity Labs (apps)
+• Recherche exhaustive
+• Synthèse automatique
 
-IMPACT MOYEN (IF 5-10):
-- Confirmation importante
-- Mono-centrique OK
-- Bonne méthodologie
-
-SPÉCIALISÉ (IF 2-5):
-- Niche précise
-- Série de cas OK
-- Message clinique clair
+À TESTER PLASTIE:
+- Méta-analyse techniques rapide
+- Dashboard complications auto
+- Rapport PROM complet
+- Tableau comparatif chirurgies
 ```
 
-### 🔮 TENDANCES 2025-2026 PAR PLATEFORME
+### 🎯 MATRICE DE DÉCISION PERSONNELLE
 ```
-CHATGPT → GPT-5:
-• Fine-tuning médical natif
-• Intégration EMR directe
-• Certification FDA coming
+TÂCHE PLASTIE           | MON OUTIL PRÉFÉRÉ | POURQUOI?
+------------------------|-------------------|----------
+Analyse photos pré/post |                   |
+Compte-rendu DIEP      |                   |
+Recherche PRS/ASJ      |                   |
+Consultation esthétique |                   |
+Analyse PROM scores    |                   |
+Grilles photos         |                   |
+TFE technique op       |                   |
+TFE résultats PROM     |                   |
 
-CLAUDE → OPUS:
-• Éthique médicale renforcée
-• Raisonnement causal
-• Spécialisation domaines
-
-GEMINI → ULTRA:
-• Wearables integration
-• Predictive health
-• Global health OS
-
-COMING SOON:
-→ GPT-5 médical
-→ IA temps réel bloc op
-→ Consultations 100% IA
-→ Formation VR + IA
-```
-
-### 📈 KPIs SUCCÈS PERSONNEL
-```
-3 MOIS:
-□ 3 outils maîtrisés
-□ 1 article soumis
-□ ROI documenté >10:1
-
-6 MOIS:
-□ 1 publication acceptée
-□ Formation 5 collègues
-□ Projet innovation lancé
-
-1 AN:
-□ Expert reconnu service
-□ 2+ publications IA
-□ Speaker conférence
+À compléter APRÈS avoir testé chaque outil!
 ```
 
 ---
 
-## 🆘 TROUBLESHOOTING EXPRESS 
+## 📄 SESSION 3 : Features Avancées & Publication
 
-### PROBLÈME → SOLUTION MULTI-IA
+### 🧠 THINKING MODES - GAME CHANGERS
 ```
-"Hallucination" → Vérif 2 autres IA
-"Résultats contradictoires" → Consensus 2/3
-"3 réponses différentes" → STOP + Expert
-"IA en panne" → Workflow backup prêt
-"Prompt échoue" → Adapter par outil
-"Budget limité" → Rotation mensuelle
-"Sécurité doute" → Claude (+ éthique)
+EXTENDED THINKING PAR PLATEFORME:
 
-SI DOUTE → 2 IA minimum
-SI CRITIQUE → 3 IA consensus
+ChatGPT o1:
+• Raisonnement caché
+• Problèmes complexes
+• Payant séparé
+
+Claude Thinking:
+• Process visible
+• Réflexion éthique
+• Inclus dans Pro
+
+Gemini Deep Think:
+• Beta test 2025
+• Analyse profonde
+• Coming soon
+
+Perplexity Deep Research:
+• Recherche itérative
+• Rapport exhaustif
+• Inclus dans Pro
 ```
 
-### 🎯 CONTACTS UTILES
+### 📝 WORKFLOWS PUBLICATION PRO
 ```
-Support : support-ia
-WhatsApp : [Groupe ULB IA]
-Urgence : Modérateur principal WhatsApp
+PIPELINE INTRODUCTION PRS:
+1. Perplexity: "Top 10 intros rhinoplastie PRS"
+2. Claude: "Restructure selon standards du journal"
+3. ChatGPT: "Hook innovation technique"
+
+PIPELINE ABSTRACT PARFAIT:
+1. Claude: Structure IMRAD 250 mots
+2. ChatGPT: Polish chaque phrase
+3. Perplexity: Keywords MeSH optimaux
+4. Gemini: Vérification cohérence
+
+PIPELINE FIGURES PLASTIE:
+1. ChatGPT: Grilles photos standardisées
+2. ChatGPT Code: Graphiques FACE-Q/BREAST-Q
+3. Perplexity Labs: Dashboard complications
+4. Claude: Légendes anatomiques précises
+```
+
+### 🔒 ÉTHIQUE PUBLICATION IA
+```
+DÉCLARATION OBLIGATOIRE:
+"AI tools (ChatGPT, Claude, Gemini, Perplexity) 
+were used for literature search, writing assistance,
+and figure generation. All content was verified
+and validated by the authors."
+
+RÈGLES ÉTHIQUES:
+✓ Déclarer TOUT usage IA
+✓ Vérifier TOUTES les sources
+✓ Valider TOUS les contenus
+✓ Responsabilité = Auteurs
 ```
 
 ---
 
-## 💎 RÈGLES D'OR
+## 📄 SESSION 4 : Transformation Réelle TFE
 
-### LES 7 COMMANDEMENTS  MULTI-IA
+### 🚀 FOCUS : VOTRE VRAI TFE
 ```
-1. "Jamais une seule IA tu ne croiras"
-2. "Toujours 2 minimum tu consulteras"  
-3. "Les données patient tu anonymiseras"
-4. "Le consensus 2/3 tu rechercheras"
-5. "Ton jugement clinique primera toujours"
-6. "Les forces de chaque outil tu exploiteras"
-7. "Tes workflows gagnants tu partageras"
+SESSION 4 = Pas de théorie, 100% pratique
+
+APPORTER:
+□ TFE complet (Word/PDF)
+□ Données brutes anonymisées
+□ 3 journaux cibles identifiés
+□ Compte sur les 4 plateformes
+
+RÉSULTAT: TFE → Article soumis en 3h
 ```
 
-### FORMULE SUCCÈS 
+### 📊 PIPELINE TRANSFORMATION TFE
 ```
-Succès = (3 Outils + Prompts Adaptés + Consensus + Vérification) × Pratique²
+PHASE 1 - DIAGNOSTIC PLASTIE (15 min):
+• Claude: Analyse innovation technique
+• Perplexity: Articles PRS/ASJ similaires
+• ChatGPT: Qualité photos standardisation
 
-Ou plus simple:
-Fiabilité = Nombre d'IA concordantes / 3
+PHASE 2 - TRANSFORMATION (60 min):
+A. Titre/Abstract PLASTIE (15 min)
+   - ChatGPT: 10 titres avec technique
+   - Claude: Abstract avec PROM scores
+   - Perplexity: Keywords MeSH spécialisés
+
+B. Introduction (15 min)
+   - Perplexity: Gap analysis
+   - Claude thinking: Restructuration
+
+C. Methods PLASTIE (15 min)
+   - Claude: STROBE/CONSORT adapté
+   - ChatGPT: Protocole photos ASPS
+   - ChatGPT: Flow diagram patients
+
+D. Results/Discussion PLASTIE (15 min)
+   - ChatGPT: Grilles photos HD
+   - ChatGPT Code: Graphiques PROM
+   - Claude: Discussion complications
+   - Claude: Impact pour chirurgiens
+
+PHASE 3 - VALIDATION (15 min):
+• Rotation check: Chaque section par outil différent
+```
+
+### 🎯 SÉLECTION JOURNAL STRATÉGIQUE
+```
+AVEC PERPLEXITY PLASTIE:
+"Trouve journaux chirurgie plastique pour [rhinoplastie/DIEP].
+Critères: IF, scope, taux accept, review time"
+
+MATRICE PLASTIE:
+Journal    | IF  | Scope    | Accept% | Délai
+-----------|-----|----------|---------|-------
+PRS        | 5.2 | Both     | 35%     | 45j
+ASJ        | 4.5 | Aesthetic| 30%     | 30j
+JPRAS      | 3.0 | Both     | 40%     | 35j
+APS        | 2.8 | Aesthetic| 45%     | 25j
+[Vos choix]|     |          |         |
+
+STRATÉGIE PLASTIE: PRS (technique) + ASJ (esthétique)
+```
+
+### ✉️ COVER LETTER GAGNANTE
+```
+STRUCTURE (Max 250 mots):
+1. Hook - Pourquoi maintenant? (1 phrase)
+2. Problème addressé (2 phrases)
+3. Notre solution unique (2 phrases)
+4. Résultats clés (2 phrases)
+5. Fit avec journal (1 phrase)
+6. Impact pour lecteurs (1 phrase)
+
+GÉNÉRATION:
+Claude → Structure
+ChatGPT → Impact
+Gemini → Vérification
 ```
 
 ---
 
-## 🆕 QUICK DECISION MATRIX
+## 🆘 TROUBLESHOOTING EXPRESS
 
+### PROBLÈME → SOLUTION
 ```
-TÂCHE → OUTIL OPTIMAL
+"Hallucination détectée" → Vérifier autre source
+"Trop générique" → Ajouter contexte spécifique
+"Pas assez académique" → Préciser style journal
+"Manque de structure" → Donner plan explicite
+"Sources douteuses" → Demander références
+"Trop long/court" → Spécifier nombre mots
 
-Diagnostic rapide → ChatGPT
-Analyse approfondie → Claude  
-Vérification facts → Gemini
-Rapport automatique → Perplexity Labs
-
-Brainstorming → ChatGPT
-Rédaction longue → Claude
-Recherche récente → Gemini
-Revue biblio → Perplexity Labs
-
-Images médicales → ChatGPT
-Éthique complexe → Claude
-Guidelines update → Gemini
-Dashboard patient → Perplexity Labs
-
-Stats/Code → ChatGPT
-Synthèse docs → Claude
-Sources multiples → Gemini
-Méta-analyse → Perplexity Labs
+RÈGLE D'OR: Si doute → Reformuler plus précis
 ```
 
-**📌 Gardez ces cheat sheets à portée de main !**
+### 💎 PROGRESSION OPTIMALE
+```
+SEMAINE 1: Maîtriser ChatGPT fond
+SEMAINE 2: Explorer 3 autres outils
+SEMAINE 3: Combiner pour publication
+SEMAINE 4: Transformer votre TFE
 
-*Intégration Perplexity Labs*
-*Mai 2025*
+TEMPS TOTAL: 1 mois → Expert
+vs 6 mois approche dispersée
+```
+
+---
+
+## 🎯 QUICK WINS PAR SESSION
+
+### SESSION 1 - CHATGPT
+```
+Win rapide: Analyser 1 série photos
+Challenge: Détecter angles incorrects
+Livrable: 5 prompts photos optimisés
+```
+
+### SESSION 2 - MULTI-OUTILS
+```
+Win rapide: Outil champion pour photos
+Challenge: Analyse PROM sur 4 outils
+Livrable: Workflow personnel optimisé
+```
+
+### SESSION 3 - AVANCÉ
+```
+Win rapide: Grille photos standardisée
+Challenge: Abstract PRS avec PROM
+Livrable: Pipeline complet de publication
+```
+
+### SESSION 4 - TRANSFORMATION
+```
+Win rapide: Titre technique innovant
+Challenge: Cover letter PRS
+Livrable: Article prêt pour soumission
+```
+
+---
+
+## 📌 À RETENIR
+
+### PHILOSOPHIE GAGNANTE
+```
+1. Un outil à la fois (pas de confusion)
+2. Maîtrise avant comparaison
+3. Objectif concret: TFE → Publication
+4. Pratique sur cas réels
+5. Mesurer pour progresser
+```
+
+### CHARGE COGNITIVE CONTRÔLÉE
+```
+Session 1: 4/10 (ChatGPT seul)
+Session 2: 6/10 (3 nouveaux outils)
+Session 3: 7/10 (features avancées)
+Session 4: 8/10 (application réelle)
+
+Jamais plus de +2 points entre sessions!
+```
+
+**📚 "Votre TFE rhinoplastie/DIEP contient déjà une publication PRS. L'IA la révèle."**
+
+*Cheat Sheets - Programme optimisé Juin 2025*

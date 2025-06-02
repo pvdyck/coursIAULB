@@ -42,7 +42,7 @@
 **Participants :** 0
 **Gagnant :** -
 
-| Participant | Groupe | ROI Démontré | Originalité | Réplicabilité | Vote Pairs |
+| Participant | Groupe | Efficacité | Originalité | Réplicabilité | Vote Pairs |
 |-------------|--------|--------------|-------------|---------------|------------|
 | - | - | 0x | 0/10 | 0/10 | 0 votes |
 
@@ -110,7 +110,7 @@
 
 ### Critères d'Évaluation
 - **Innovation** (25%) : Originalité approche
-- **Efficacité** (25%) : ROI démontré
+- **Efficacité** (25%) : Gains de temps démontrés
 - **Qualité** (25%) : Précision et rigueur
 - **Partage** (25%) : Documentation et aide
 
@@ -143,4 +143,4 @@
 **📧 Contact :** challenges-ia@ulb.ac.be
 **📱 Annonces :** Groupe WhatsApp Principal
 
-*Tableau des Scores v3.0 - Formation IA Médicale ULB*
+*Tableau des Scores - Formation IA Médicale ULB*

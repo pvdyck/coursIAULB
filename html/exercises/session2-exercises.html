@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Exercices Session 2 : Découverte Multi-Outils IA - Formation IA Chirurgie Plastique ULB">
+    <title>Exercices Session 2 - Formation IA ULB Médecine</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/css/ulb-medical.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <link rel="stylesheet" href="../assets/css/print.css" media="print">
+</head>
+<body>
+    <!-- Skip to main content -->
+    <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo-container">
+                <div class="logo-text">
+                    <div class="logo-main">Université Libre de Bruxelles</div>
+                    <div class="logo-sub">Faculté de Médecine - Formation Continue</div>
+                </div>
+            </div>
+            <nav class="nav-main" role="navigation" aria-label="Navigation principale">
+                <a href="../index.html" class="nav-link">Accueil</a>
+                <a href="../programme.html" class="nav-link">Programme</a>
+                <a href="../sessions/session2.html" class="nav-link">Sessions</a>
+                <a href="../resources/glossaire.html" class="nav-link">Ressources</a>
+                <a href="../evaluation/grilles.html" class="nav-link">Évaluation</a>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Main Content -->
+    <main id="main-content" class="container">
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Fil d'Ariane">
+            <a href="../index.html" class="breadcrumb-item">Accueil</a>
+            <span class="breadcrumb-separator">›</span>
+            <a href="index.html" class="breadcrumb-item">Exercices</a>
+            <span class="breadcrumb-separator">›</span>
+            <span class="breadcrumb-item active">Session 2</span>
+        </nav>
+        
+        <div class="content-wrapper">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <button class="mobile-nav-toggle" aria-expanded="false">
+                    Ouvrir le menu
+                </button>
+                <nav class="sidebar-nav">
+                    <h3 class="sidebar-title">Navigation</h3>
+                    <ul>
+                        <li><a href="#ex2-1">Ex 2.1 : Claude vs ChatGPT</a></li>
+                        <li><a href="#ex2-2">Ex 2.2 : Perplexity Recherche</a></li>
+                        <li><a href="#ex2-3">Ex 2.3 : Analyse d'Images</a></li>
+                        <li><a href="#ex2-4">Ex 2.4 : NotebookLM</a></li>
+                        <li><a href="#ex2-5">Ex 2.5 : Automatisation</a></li>
+                    </ul>
+                    
+                    <h3 class="sidebar-title mt-3">Autres Sessions</h3>
+                    <ul>
+                        <li><a href="session1-exercises.html">Session 1</a></li>
+                        <li><a href="session3-exercises.html">Session 3</a></li>
+                        <li><a href="session4-exercises.html">Session 4</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            
+            <!-- Main Content Area -->
+            <div class="main-content">
+                <h1>🚀 Exercices Session 2 : Découverte Multi-Outils IA</h1>
+                <p class="subtitle">Niveau : 6/10 - Introduction à la diversité</p>
+                
+                <div class="intro-card mb-4">
+                    <div class="card-content">
+                        <h2>🎯 Objectifs de la Session</h2>
+                        <ul>
+                            <li>Découvrir Claude, Perplexity, Gemini</li>
+                            <li>Maîtriser l'analyse d'images médicales par IA</li>
+                            <li>Exploiter NotebookLM pour la littérature</li>
+                            <li>Comprendre les forces de chaque outil</li>
+                            <li>Commencer à combiner les outils</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Exercice 2.1 -->
+                <section id="ex2-1" class="exercise-section">
+                    <h2>⚔️ Exercice 2.1 : Comparatif Claude vs ChatGPT (25 min)</h2>
+                    
+                    <div class="comparison-card">
+                        <h3>Test Comparatif sur Cas Complexe</h3>
+                        
+                        <div class="case-box">
+                            <h4>Cas clinique complexe :</h4>
+                            <p>Reconstruction mammaire post-mastectomie chez patiente de 45 ans,
+diabétique type 2, BMI 32, fumeuse (10 PA), BRCA1+.
+Souhaite reconstruction immédiate. Budget limité.</p>
+                        </div>
+                        
+                        <div class="test-protocol">
+                            <h4>Protocole de Test :</h4>
+                            <ol>
+                                <li>Copier ce prompt IDENTIQUE dans ChatGPT et Claude</li>
+                                <li>Demander un plan de traitement complet</li>
+                                <li>Comparer les réponses sur 5 critères</li>
+                            </ol>
+                        </div>
+                        
+                        <div class="prompt-example">
+                            <h4>Prompt à utiliser :</h4>
+                            <code>Tu es un chirurgien plasticien senior. Analyse ce cas :
+[Insérer le cas]
+
+Propose :
+1. Options de reconstruction (avantages/inconvénients)
+2. Timing optimal
+3. Gestion des facteurs de risque
+4. Considérations BRCA1
+5. Options budget-conscientes
+6. Plan de suivi
+
+Sois précis et evidence-based.</code>
+                        </div>
+                    </div>
+                    
+                    <div class="evaluation-grid">
+                        <h3>Grille de Comparaison</h3>
+                        <table class="comparison-table">
+                            <thead>
+                                <tr>
+                                    <th>Critère</th>
+                                    <th>ChatGPT</th>
+                                    <th>Claude</th>
+                                    <th>Gagnant</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Exhaustivité</td>
+                                    <td>/10</td>
+                                    <td>/10</td>
+                                    <td>...</td>
+                                </tr>
+                                <tr>
+                                    <td>Précision médicale</td>
+                                    <td>/10</td>
+                                    <td>/10</td>
+                                    <td>...</td>
+                                </tr>
+                                <tr>
+                                    <td>Structure</td>
+                                    <td>/10</td>
+                                    <td>/10</td>
+                                    <td>...</td>
+                                </tr>
+                                <tr>
+                                    <td>Pertinence pratique</td>
+                                    <td>/10</td>
+                                    <td>/10</td>
+                                    <td>...</td>
+                                </tr>
+                                <tr>
+                                    <td>Sources/Références</td>
+                                    <td>/10</td>
+                                    <td>/10</td>
+                                    <td>...</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+                
+                <!-- Exercice 2.2 -->
+                <section id="ex2-2" class="exercise-section">
+                    <h2>🔍 Exercice 2.2 : Maîtrise de Perplexity (20 min)</h2>
+                    
+                    <div class="research-card">
+                        <h3>Mission : Recherche Evidence-Based</h3>
+                        
+                        <div class="research-topics">
+                            <h4>Choisissez UN sujet :</h4>
+                            <ul>
+                                <li>PRP en chirurgie esthétique : efficacité 2024</li>
+                                <li>Toxine botulique : nouvelles indications</li>
+                                <li>Fat grafting : taux de survie optimisés</li>
+                                <li>Votre sujet de TFE</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="search-strategy">
+                            <h4>Stratégie de Recherche :</h4>
+                            <ol>
+                                <li><strong>Recherche 1 :</strong> Question simple
+                                    <code>Efficacité du PRP en chirurgie esthétique</code>
+                                </li>
+                                <li><strong>Recherche 2 :</strong> Question ciblée
+                                    <code>PRP facial rejuvenation clinical trials 2023-2024 results</code>
+                                </li>
+                                <li><strong>Recherche 3 :</strong> Focus académique (Pro)
+                                    <code>site:pubmed.ncbi.nlm.nih.gov PRP aesthetic surgery RCT</code>
+                                </li>
+                            </ol>
+                        </div>
+                        
+                        <div class="analysis-template">
+                            <h4>Documentation :</h4>
+                            <ul>
+                                <li>Nombre de sources par recherche</li>
+                                <li>Qualité des sources (score /10)</li>
+                                <li>Pertinence clinique</li>
+                                <li>Sources les plus utiles (top 3)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Exercice 2.3 -->
+                <section id="ex2-3" class="exercise-section">
+                    <h2>📸 Exercice 2.3 : Analyse d'Images Médicales (25 min)</h2>
+                    
+                    <div class="image-analysis-card">
+                        <h3>Test Multi-Modal avec ChatGPT-4 Vision</h3>
+                        
+                        <div class="warning-box">
+                            <p><strong>⚠️ Important :</strong> Utilisez des images anonymisées ou des cas d'enseignement publics</p>
+                        </div>
+                        
+                        <div class="test-cases">
+                            <h4>Options de Test :</h4>
+                            <div class="option-grid">
+                                <div class="option-card">
+                                    <h5>Option A : Photo Clinique</h5>
+                                    <p>Photo pré/post-op de cas publié</p>
+                                    <ul>
+                                        <li>Demander analyse morphologique</li>
+                                        <li>Identification des techniques possibles</li>
+                                        <li>Points d'amélioration</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="option-card">
+                                    <h5>Option B : Schéma Anatomique</h5>
+                                    <p>Dessin ou schéma technique</p>
+                                    <ul>
+                                        <li>Demander explication détaillée</li>
+                                        <li>Identification des structures</li>
+                                        <li>Création de légendes</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="option-card">
+                                    <h5>Option C : Planification</h5>
+                                    <p>Markings pré-opératoires</p>
+                                    <ul>
+                                        <li>Analyse de la planification</li>
+                                        <li>Suggestions d'amélioration</li>
+                                        <li>Identification des repères</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="prompt-example">
+                            <h4>Prompts Suggérés :</h4>
+                            <code>Analyse cette image clinique en détail :
+1. Que vois-tu ?
+2. Quelles techniques chirurgicales sont probables ?
+3. Évalue le résultat (si post-op)
+4. Suggestions d'amélioration ?
+5. Complications potentielles à surveiller ?</code>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Exercice 2.4 -->
+                <section id="ex2-4" class="exercise-section">
+                    <h2>📚 Exercice 2.4 : NotebookLM pour la Littérature (30 min)</h2>
+                    
+                    <div class="notebook-card">
+                        <h3>Création d'un Assistant de Recherche Personnel</h3>
+                        
+                        <div class="setup-steps">
+                            <h4>Configuration :</h4>
+                            <ol>
+                                <li><strong>Créer un notebook</strong> sur votre thème de TFE</li>
+                                <li><strong>Uploader 3-5 articles</strong> pertinents</li>
+                                <li><strong>Tester les capacités</strong> suivantes :</li>
+                            </ol>
+                        </div>
+                        
+                        <div class="test-queries">
+                            <h4>Questions à Tester :</h4>
+                            <div class="query-list">
+                                <div class="query-item">
+                                    <h5>1. Synthèse Croisée</h5>
+                                    <code>Compare les résultats des différentes études sur [votre sujet]</code>
+                                </div>
+                                
+                                <div class="query-item">
+                                    <h5>2. Extraction de Protocoles</h5>
+                                    <code>Quels sont les protocoles chirurgicaux décrits ?</code>
+                                </div>
+                                
+                                <div class="query-item">
+                                    <h5>3. Analyse Statistique</h5>
+                                    <code>Résume les taux de complications rapportés</code>
+                                </div>
+                                
+                                <div class="query-item">
+                                    <h5>4. Génération Audio</h5>
+                                    <p>Créer un podcast de synthèse (bouton Audio Overview)</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="evaluation-checklist">
+                            <h4>Points d'Évaluation :</h4>
+                            <ul class="checklist">
+                                <li>Précision des citations</li>
+                                <li>Capacité de synthèse</li>
+                                <li>Identification des contradictions</li>
+                                <li>Qualité du résumé audio</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Exercice 2.5 -->
+                <section id="ex2-5" class="exercise-section">
+                    <h2>⚡ Exercice 2.5 : Première Automatisation (20 min)</h2>
+                    
+                    <div class="automation-card">
+                        <h3>Créer une Chaîne Simple avec Zapier/Make</h3>
+                        
+                        <div class="scenario-options">
+                            <h4>Choisissez UN scénario :</h4>
+                            
+                            <div class="scenario-grid">
+                                <div class="scenario-item">
+                                    <h5>A. Veille Automatique</h5>
+                                    <p>RSS PubMed → ChatGPT → Email résumé</p>
+                                    <ul>
+                                        <li>Surveiller mots-clés</li>
+                                        <li>Résumer nouveaux articles</li>
+                                        <li>Recevoir digest hebdo</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="scenario-item">
+                                    <h5>B. Assistant Consultation</h5>
+                                    <p>Formulaire → IA → Document structuré</p>
+                                    <ul>
+                                        <li>Questionnaire patient</li>
+                                        <li>Génération compte-rendu</li>
+                                        <li>Sauvegarde automatique</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="scenario-item">
+                                    <h5>C. Génération Consentements</h5>
+                                    <p>Template → Personnalisation IA → Export</p>
+                                    <ul>
+                                        <li>Base de consentements</li>
+                                        <li>Adaptation au cas</li>
+                                        <li>Export professionnel</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="implementation-guide">
+                            <h4>Étapes d'Implémentation :</h4>
+                            <ol>
+                                <li>Créer compte gratuit (Zapier ou Make)</li>
+                                <li>Connecter 2 services maximum</li>
+                                <li>Tester avec données fictives</li>
+                                <li>Documenter le workflow</li>
+                            </ol>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Récapitulatif -->
+                <section class="session-recap">
+                    <h2>📊 Bilan des Outils Découverts</h2>
+                    <div class="tools-summary">
+                        <table class="tools-table">
+                            <thead>
+                                <tr>
+                                    <th>Outil</th>
+                                    <th>Force Principale</th>
+                                    <th>Cas d'Usage Idéal</th>
+                                    <th>Limite</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Claude</strong></td>
+                                    <td>Analyse nuancée</td>
+                                    <td>Cas complexes, éthique</td>
+                                    <td>Pas d'images</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>ChatGPT</strong></td>
+                                    <td>Polyvalence</td>
+                                    <td>Tout usage, images</td>
+                                    <td>Peut halluciner</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Perplexity</strong></td>
+                                    <td>Sources fiables</td>
+                                    <td>Recherche evidence-based</td>
+                                    <td>Moins créatif</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>NotebookLM</strong></td>
+                                    <td>Analyse documents</td>
+                                    <td>Revue littérature</td>
+                                    <td>Limité aux uploads</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Gemini</strong></td>
+                                    <td>Intégration Google</td>
+                                    <td>Workflow Google</td>
+                                    <td>Moins spécialisé</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+                
+                <!-- Navigation -->
+                <div class="exercise-nav">
+                    <a href="session1-exercises.html" class="btn btn-secondary">← Session 1</a>
+                    <a href="session3-exercises.html" class="btn btn-primary">Session 3 →</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Université Libre de Bruxelles - Formation IA Médicale</p>
+            <p>Contact : <a href="mailto:ai.medical@ulb.be">ai.medical@ulb.be</a></p>
+        </div>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script src="../assets/js/navigation.js"></script>
+</body>
+</html>

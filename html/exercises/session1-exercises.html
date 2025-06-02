@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Exercices Session 1 : Fondements IA & Maîtrise ChatGPT - Formation IA Chirurgie Plastique ULB">
+    <title>Exercices Session 1 - Formation IA ULB Médecine</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/css/ulb-medical.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <link rel="stylesheet" href="../assets/css/print.css" media="print">
+</head>
+<body>
+    <!-- Skip to main content -->
+    <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo-container">
+                <div class="logo-text">
+                    <div class="logo-main">Université Libre de Bruxelles</div>
+                    <div class="logo-sub">Faculté de Médecine - Formation Continue</div>
+                </div>
+            </div>
+            <nav class="nav-main" role="navigation" aria-label="Navigation principale">
+                <a href="../index.html" class="nav-link">Accueil</a>
+                <a href="../programme.html" class="nav-link">Programme</a>
+                <a href="../sessions/session1.html" class="nav-link">Sessions</a>
+                <a href="../resources/glossaire.html" class="nav-link">Ressources</a>
+                <a href="../evaluation/grilles.html" class="nav-link">Évaluation</a>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Main Content -->
+    <main id="main-content" class="container">
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Fil d'Ariane">
+            <a href="../index.html" class="breadcrumb-item">Accueil</a>
+            <span class="breadcrumb-separator">›</span>
+            <a href="index.html" class="breadcrumb-item">Exercices</a>
+            <span class="breadcrumb-separator">›</span>
+            <span class="breadcrumb-item active">Session 1</span>
+        </nav>
+        
+        <div class="content-wrapper">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <button class="mobile-nav-toggle" aria-expanded="false">
+                    Ouvrir le menu
+                </button>
+                <nav class="sidebar-nav">
+                    <h3 class="sidebar-title">Navigation</h3>
+                    <ul>
+                        <li><a href="#ex1-1">Ex 1.1 : Premiers Pas</a></li>
+                        <li><a href="#ex1-2">Ex 1.2 : Optimisation</a></li>
+                        <li><a href="#ex1-3">Ex 1.3 : Hallucinations</a></li>
+                        <li><a href="#ex1-4">Ex 1.4 : Application TFE</a></li>
+                        <li><a href="#ex1-5">Ex 1.5 : Structuration</a></li>
+                    </ul>
+                    
+                    <h3 class="sidebar-title mt-3">Autres Sessions</h3>
+                    <ul>
+                        <li><a href="session2-exercises.html">Session 2</a></li>
+                        <li><a href="session3-exercises.html">Session 3</a></li>
+                        <li><a href="session4-exercises.html">Session 4</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            
+            <!-- Main Content Area -->
+            <div class="main-content">
+                <h1>📚 Exercices Session 1 : Fondements IA & Maîtrise ChatGPT</h1>
+                <p class="subtitle">Niveau : 4/10 - Focus sur UN seul outil</p>
+                
+                <div class="intro-card mb-4">
+                    <div class="card-content">
+                        <h2>🎯 Objectifs de la Session</h2>
+                        <ul>
+                            <li>Comprendre les fondements de l'IA générative</li>
+                            <li>Maîtriser ChatGPT en profondeur</li>
+                            <li>Détecter et gérer les hallucinations</li>
+                            <li>Optimiser vos prompts médicaux</li>
+                            <li>Première application sur votre TFE</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Exercice 1.1 -->
+                <section id="ex1-1" class="exercise-section">
+                    <h2>📝 Exercice 1.1 : Premiers Pas avec ChatGPT (20 min)</h2>
+                    
+                    <div class="phase-card">
+                        <h3>Phase 1 : Test de Base (5 min)</h3>
+                        <p>Testez ces 3 prompts progressifs dans ChatGPT :</p>
+                        
+                        <div class="prompt-example">
+                            <h4>Prompt 1 (trop simple) :</h4>
+                            <code>Hypertension ?</code>
+                        </div>
+                        
+                        <div class="prompt-example">
+                            <h4>Prompt 2 (mieux) :</h4>
+                            <code>Explique l'hypertension artérielle pour un patient</code>
+                        </div>
+                        
+                        <div class="prompt-example">
+                            <h4>Prompt 3 (optimal) :</h4>
+                            <code>Agis comme un cardiologue pédagogue. Explique l'hypertension 
+artérielle à un patient de 60 ans nouvellement diagnostiqué. 
+Utilise des analogies simples et structure ta réponse en :
+1. Qu'est-ce que c'est ?
+2. Pourquoi c'est important ?
+3. Que peut-on faire ?</code>
+                        </div>
+                    </div>
+                    
+                    <div class="phase-card">
+                        <h3>Phase 2 : Analyse (15 min)</h3>
+                        <p>Documentez dans votre cahier :</p>
+                        <ul>
+                            <li>Différence de qualité entre les 3 réponses</li>
+                            <li>Nombre de mots approximatif</li>
+                            <li>Utilité clinique (score /10)</li>
+                            <li>Éléments qui améliorent la réponse</li>
+                        </ul>
+                        
+                        <div class="template-box">
+                            <h4>Template de Documentation</h4>
+                            <pre>## Exercice 1.1 - [Votre Nom]
+
+### Analyse des 3 Prompts
+| Prompt | Nb mots | Utilité /10 | Points clés |
+|--------|---------|-------------|-------------|
+| Simple | ~XX     | X/10        | ...         |
+| Mieux  | ~XX     | X/10        | ...         |
+| Optimal| ~XX     | X/10        | ...         |
+
+### Ma découverte principale :
+[2-3 lignes sur ce que vous avez appris]</pre>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Exercice 1.2 -->
+                <section id="ex1-2" class="exercise-section">
+                    <h2>🔬 Exercice 1.2 : Optimisation de Prompts Médicaux (25 min)</h2>
+                    
+                    <div class="mission-card">
+                        <h3>Mission : Transformer un cas clinique en DDx structuré</h3>
+                        
+                        <div class="case-box">
+                            <h4>Cas clinique :</h4>
+                            <p>Femme 45 ans, fatigue progressive 3 mois, palpitations occasionnelles,
+perte de poids 5 kg sans régime, nervosité, troubles du sommeil.
+ATCD : RAS. Pas de traitement.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="step-card">
+                        <h3>Étape 1 : Prompt Basique (5 min)</h3>
+                        <code>Quel est le diagnostic pour cette patiente ?</code>
+                        <p class="instruction">→ Copiez la réponse</p>
+                    </div>
+                    
+                    <div class="step-card">
+                        <h3>Étape 2 : Prompt Amélioré (10 min)</h3>
+                        <code>Analyse ce cas clinique et donne les diagnostics possibles :
+[Insérer le cas]</code>
+                        <p class="instruction">→ Copiez la réponse</p>
+                    </div>
+                    
+                    <div class="step-card">
+                        <h3>Étape 3 : Prompt Expert (10 min)</h3>
+                        <code>Tu es un interniste expérimenté. Analyse ce cas clinique :
+[Insérer le cas]
+
+Fournis :
+1. Top 5 diagnostics différentiels par ordre de probabilité
+2. Justification clinique pour chaque diagnostic
+3. Examens complémentaires essentiels
+4. Red flags à ne pas manquer
+5. Prise en charge immédiate
+
+Format ta réponse de manière structurée et claire.</code>
+                        <p class="instruction">→ Copiez la réponse</p>
+                    </div>
+                </section>
+                
+                <!-- Exercice 1.3 -->
+                <section id="ex1-3" class="exercise-section">
+                    <h2>🚨 Exercice 1.3 : Détection d'Hallucinations (20 min)</h2>
+                    
+                    <div class="warning-card">
+                        <h3>⚠️ Test de Fiabilité</h3>
+                        <p>Testez ces prompts PIÈGES dans ChatGPT et analysez les réponses :</p>
+                        
+                        <div class="prompt-example">
+                            <h4>Piège 1 :</h4>
+                            <code>Quelle est la dose recommandée de Nexiprox pour traiter l'hypertension résistante ?</code>
+                            <p class="note">Note : Nexiprox n'existe pas</p>
+                        </div>
+                        
+                        <div class="prompt-example">
+                            <h4>Piège 2 :</h4>
+                            <code>Explique-moi le syndrome de Vanderbilt-Morrison en cardiologie</code>
+                            <p class="note">Note : Syndrome inventé</p>
+                        </div>
+                    </div>
+                    
+                    <div class="analysis-card">
+                        <h3>Questions d'Analyse</h3>
+                        <ul>
+                            <li>ChatGPT a-t-il reconnu ne pas connaître ces éléments ?</li>
+                            <li>A-t-il inventé des informations plausibles ?</li>
+                            <li>Comment pourriez-vous reformuler pour obtenir une réponse plus fiable ?</li>
+                        </ul>
+                    </div>
+                </section>
+                
+                <!-- Exercice 1.4 -->
+                <section id="ex1-4" class="exercise-section">
+                    <h2>🎯 Exercice 1.4 : Application sur votre TFE (30 min)</h2>
+                    
+                    <div class="tfe-card">
+                        <h3>Création d'un Prompt Expert pour votre TFE</h3>
+                        
+                        <div class="step-by-step">
+                            <h4>Étape 1 : Contexte (5 min)</h4>
+                            <p>Rédigez un paragraphe décrivant votre sujet de TFE pour ChatGPT</p>
+                            
+                            <h4>Étape 2 : Objectifs (5 min)</h4>
+                            <p>Listez 3-5 objectifs spécifiques que vous voulez atteindre</p>
+                            
+                            <h4>Étape 3 : Prompt Structuré (10 min)</h4>
+                            <p>Créez un prompt suivant ce template :</p>
+                            <pre>Tu es un expert en chirurgie plastique avec 20 ans d'expérience, 
+spécialisé en [votre domaine].
+
+Mon TFE porte sur : [description]
+
+J'ai besoin de ton aide pour :
+1. [Objectif 1]
+2. [Objectif 2]
+3. [Objectif 3]
+
+Contraintes importantes :
+- Basé sur des guidelines récentes
+- Adapté au contexte belge/européen
+- Niveau de détail : approfondi mais accessible
+
+Format souhaité :
+[Précisez comment vous voulez la réponse]</pre>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Exercice 1.5 -->
+                <section id="ex1-5" class="exercise-section">
+                    <h2>📊 Exercice 1.5 : Structuration de l'Information (20 min)</h2>
+                    
+                    <div class="structure-card">
+                        <h3>Mission : Transformer un texte médical dense</h3>
+                        
+                        <div class="task-steps">
+                            <h4>Étape 1 : Demander un Résumé</h4>
+                            <code>Résume ce texte en 5 points clés :
+[Collez un abstract d'article médical de votre choix]</code>
+                            
+                            <h4>Étape 2 : Créer un Tableau</h4>
+                            <code>Transforme ces informations en tableau comparatif avec colonnes :
+Technique | Avantages | Inconvénients | Indications</code>
+                            
+                            <h4>Étape 3 : Générer un Protocole</h4>
+                            <code>Crée un protocole step-by-step pour la mise en pratique clinique</code>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Points Clés -->
+                <section class="key-points">
+                    <h2>🔑 Points Clés à Retenir</h2>
+                    <div class="points-grid">
+                        <div class="point-card">
+                            <h3>Structure</h3>
+                            <p>Un prompt bien structuré = réponse de qualité</p>
+                        </div>
+                        <div class="point-card">
+                            <h3>Contexte</h3>
+                            <p>Plus de contexte = meilleure pertinence</p>
+                        </div>
+                        <div class="point-card">
+                            <h3>Vérification</h3>
+                            <p>Toujours vérifier les informations critiques</p>
+                        </div>
+                        <div class="point-card">
+                            <h3>Itération</h3>
+                            <p>Affiner progressivement vos prompts</p>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Navigation -->
+                <div class="exercise-nav">
+                    <a href="index.html" class="btn btn-secondary">← Retour aux exercices</a>
+                    <a href="session2-exercises.html" class="btn btn-primary">Session 2 →</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Université Libre de Bruxelles - Formation IA Médicale</p>
+            <p>Contact : <a href="mailto:ai.medical@ulb.be">ai.medical@ulb.be</a></p>
+        </div>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script src="../assets/js/navigation.js"></script>
+</body>
+</html>
