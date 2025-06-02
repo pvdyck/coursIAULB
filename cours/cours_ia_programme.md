@@ -1,12 +1,12 @@
 # Programme IA pour Chirurgiens Plasticiens - ULB 
 ## "De ChatGPT à PRS/ASJ : Transformez votre TFE en Publication avec l'IA"
-### 🎨 Chirurgie Esthétique & 🏥 Reconstructive
+### 🎨 Chirurgie Esthétique & 🏥 Reconstructrice
 
 ---
 
 ## 🎯 **MANIFESTE : L'IA comme Accélérateur de Publication Scientifique**
 
-> **"Maîtrisez progressivement ChatGPT, Claude, Gemini et Perplexity pour transformer votre TFE en publication dans Plastic and Reconstructive Surgery. De la rhinoplastie à la microchirurgie reconstructive, optimisez avec l'IA."**
+> **"Maîtrisez progressivement ChatGPT, Claude, Gemini et Perplexity pour transformer votre TFE en publication dans Plastic and Reconstructive Surgery. De la rhinoplastie à la microchirurgie reconstructrice, optimisez avec l'IA."**
 
 ### 🆕 **Approche Pédagogique Optimisée (Juin 2025)**
 - 🧠 **Progression maîtrisée** - Un outil par session, maîtrise avant expansion
@@ -137,4 +137,4 @@ SESSION 4 : APPLICATION RÉELLE
 **🚀 "Votre TFE de rhinoplastie, reconstruction mammaire ou microchirurgie contient déjà une publication PRS. L'IA est le révélateur qui la fait apparaître."**
 
 *Programme conçu pour un apprentissage progressif optimal - Juin 2025*
-*Adapté pour la chirurgie plastique esthétique et reconstructive*
+*Adapté pour la chirurgie plastique esthétique et reconstructrice*

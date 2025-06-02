@@ -186,7 +186,7 @@ References   | Perplexity  |        | ✓/✗
 "Article sur [technique rhinoplastie/reconstruction DIEP/fente].
 Liste 10 journaux appropriés :
 - Impact factor 2024
-- Scope (aesthetic vs reconstructive)
+- Scope (aesthetic vs reconstructrice)
 - Acceptance rate
 - Time to first decision
 - OA fees
@@ -244,7 +244,7 @@ Looking forward...
 
 **Claude (reviewer PRS exigeant) :**
 ```
-"Agis comme reviewer senior PRS spécialisé [aesthetic/reconstructive].
+"Agis comme reviewer senior PRS spécialisé [aesthetic/reconstructrice].
 Critique mon article sur :
 1. Methodology (sample size, bias, follow-up)
 2. Innovation réelle vs incremental

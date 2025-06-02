@@ -1,6 +1,6 @@
 # 🔧 Cheat Sheets - IA Chirurgie Plastique ULB 
 ## 🎯 Édition TFE→Publication PRS/ASJ Optimisée
-### 🎨 Focus Esthétique & 🏥 Reconstructive
+### 🎨 Focus Esthétique & 🏥 Reconstructrice
 
 ## 📄 SESSION 1 : Fondements IA + Maîtrise ChatGPT
 

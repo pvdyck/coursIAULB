@@ -113,7 +113,7 @@ PTG grade II selon Regnault. IMC 22. Non fumeuse.
 Souhaite retrouver volume et projection sans implants.
 ```
 
-**OU Cas clinique - Chirurgie Reconstructive :**
+**OU Cas clinique - Chirurgie Reconstructrice :**
 ```
 Femme 42 ans, mastectomie droite il y a 8 mois pour carcinome.
 Chimiothérapie terminée il y a 3 mois. IMC 26.
@@ -331,7 +331,7 @@ Créez LE prompt optimal pour votre pratique :
 ```
 "Tu es un chirurgien reconstructeur expert en [microchirurgie/brûlés/congénital].
 [Contexte : défect, étiologie, patient]
-[Options reconstructives hiérarchisées]
+[Options reconstructrices hiérarchisées]
 [Format : algorithme décisionnel]
 [Contraintes : comorbidités, souhaits patient]"
 ```

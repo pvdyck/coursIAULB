@@ -1,6 +1,6 @@
 # 📊 Grilles d'Évaluation Comparative - IA Chirurgie Plastique ULB
 ## Programme TFE→Publication PRS/ASJ Optimisé (Juin 2025)
-### 🎨 Focus Esthétique & 🏥 Reconstructive
+### 🎨 Focus Esthétique & 🏥 Reconstructrice
 
 ## 🎯 Grille Universelle de Comparaison
 

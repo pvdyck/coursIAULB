@@ -52,7 +52,7 @@ Structure selon standards hospitaliers avec tous les détails techniques."
 ```
 
 **Test 2 : Analyse article PRS**
-- Uploader un article récent de PRS sur reconstruction
+- Uploader un article récent de PRS sur chirurgie reconstructrice
 - Prompt : "Analyse critique pour publication similaire. Méthodologie, résultats BREAST-Q, limites."
 
 **Points d'observation :**

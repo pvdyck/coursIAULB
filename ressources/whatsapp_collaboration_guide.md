@@ -1,5 +1,5 @@
 # Guide de Collaboration WhatsApp - Formation IA Chirurgie Plastique ULB
-## 🎨 Focus Esthétique & 🏥 Reconstructive
+## 🎨 Focus Esthétique & 🏥 Reconstructrice
 
 ## 📱 Vue d'Ensemble
 
