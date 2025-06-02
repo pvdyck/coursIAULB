@@ -27,9 +27,9 @@
 **Utilisation :** Templates prêts à l'emploi pour publier
 
 ### 💬 [whatsapp_collaboration_guide.md](whatsapp_collaboration_guide.md)
-**Organisation WhatsApp + Google Drive**
+**Organisation WhatsApp**
 - 📱 Structure groupes WhatsApp par session
-- 📁 Organisation Drive collaboratif
+- 📁 Organisation des ressources partagées
 - 📊 Tableaux de progression TFE
 - 🌟 Partage de succès publication
 - 🎯 Support entre pairs
@@ -155,7 +155,7 @@
 - **Desktop** : 2 outils ouverts max (pour rester focusé)
 - **Mobile** : 1 app IA + Google Docs
 - **Workflow** : Timer 25 min par section
-- **Sauvegarde** : Google Drive après chaque session
+- **Sauvegarde** : Local après chaque session
 
 ### Routine Quotidienne TFE
 - **Lundi** : Revue littérature (Perplexity)

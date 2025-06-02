@@ -3,7 +3,7 @@
 
 ## 📱 Vue d'Ensemble
 
-La formation utilise un canal WhatsApp unique et Google Drive pour faciliter la collaboration et l'apprentissage entre participants. Cette approche simplifiée permet une communication centralisée et efficace.
+La formation utilise un canal WhatsApp unique pour faciliter la collaboration et l'apprentissage entre participants. Cette approche simplifiée permet une communication centralisée et efficace.
 
 ## 🔧 Canal WhatsApp Unique
 
@@ -59,7 +59,7 @@ Un seul canal pour simplifier la communication et centraliser tous les échanges
 4. **Hashtag** : Taguer correctement
 5. **Partage** : Sur le canal WhatsApp
 
-## 📊 Google Drive - Structure
+## 📊 Partage de Documents
 
 ```
 Formation_IA_ULB_2025/
@@ -113,7 +113,7 @@ Formation_IA_ULB_2025/
 
 ## 🆘 Support
 
-Pour toute question technique sur WhatsApp ou Drive :
+Pour toute question technique sur WhatsApp ou le partage de documents :
 - Poster sur le canal avec `#Help`
 - Mentionner les modérateurs
 - Consulter ce guide

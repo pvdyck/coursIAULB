@@ -13,12 +13,12 @@
 ### Lundi - Lancement
 - **9h00** : Nouvel exercice posté (WhatsApp)
 - **9h30** : Ouverture discussions
-- **10h00** : Resources disponibles (Google Drive)
+- **10h00** : Resources disponibles en ligne
 
 ### Mardi-Jeudi - Pratique
 - **Flexible** : Exercices individuels
 - **Partage continu** : Résultats WhatsApp
-- **Documentation** : Google Drive
+- **Documentation** : Plateforme en ligne
 
 ### Vendredi - Synthèse
 - **16h00** : Deadline exercices
@@ -270,7 +270,7 @@
 
 - **WhatsApp Principal** : Questions générales
 - **Groupes Session** : Support spécifique
-- **Google Drive** : Resources partagées
+- **Ressources** : Documents partagés
 - **Office Hours** : Vendredis 17h
 
 ---

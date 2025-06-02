@@ -53,7 +53,7 @@
 
 ### 2. Rejoignez la Communauté
 - [ ] WhatsApp groupe principal : [Lien dans email]
-- [ ] Google Drive partagé : [Lien dans email]
+- [ ] Accès aux ressources : [Lien dans email]
 - [ ] Calendrier sessions : [Planning_Sessions.md](./Planning_Sessions.md)
 
 ### 3. Préparez votre TFE
@@ -262,7 +262,7 @@ OBLIGATOIRE avant tout usage IA :
 ### Canaux de Support
 1. **WhatsApp Principal** : Questions générales
 2. **WhatsApp Session** : Support spécifique
-3. **Google Drive** : Partage documents
+3. **Ressources** : Partage documents
 4. **Email Formateur** : Cas complexes
 
 ### FAQ Rapide

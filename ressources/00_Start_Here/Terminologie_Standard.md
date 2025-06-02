@@ -31,11 +31,11 @@
 - **Critères** (pas "Points d'évaluation")
 
 ### Documents et Livrables
-- **Google Drive** structure:
-  - Drive/Sessions/[Numéro]/
-  - Drive/Challenges/
-  - Drive/Missions/
-  - Drive/Monitoring/
+- **Structure des ressources**:
+  - Ressources/Sessions/[Numéro]/
+  - Ressources/Challenges/
+  - Ressources/Missions/
+  - Ressources/Monitoring/
 
 ### Concepts Techniques
 - **Hallucination** (pas "Invention" ou "Erreur")
@@ -64,14 +64,14 @@
 
 ### Clôture
 "Mission Inter-session [X] : [Description]"
-"Soumission via : Drive/Missions/Inter_S[X]/"
+"Soumission via : Ressources/Missions/Inter_S[X]/"
 
 ## 🔄 Processus Standard
 
 1. **Formation groupes** : Toujours compter jusqu'à 4
 2. **Attribution expertise** : 1=ChatGPT, 2=Claude, 3=Gemini, 4=Perplexity
 3. **Rotation stations** : Sens horaire
-4. **Partage résultats** : WhatsApp + Google Drive
+4. **Partage résultats** : WhatsApp + Plateforme
 5. **Évaluation** : Grilles standardisées
 
 ## ✅ Checklist Formateur
@@ -79,7 +79,7 @@
 Avant chaque session :
 - [ ] Vérifier timing = 180 min total
 - [ ] Préparer grilles évaluation
-- [ ] Créer dossiers Google Drive
+- [ ] Organiser les dossiers de ressources
 - [ ] Tester hashtags WhatsApp
 - [ ] Vérifier accès 4 plateformes
 - [ ] Préparer matériel exercices
