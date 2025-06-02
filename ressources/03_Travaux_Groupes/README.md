@@ -104,7 +104,7 @@
 - ✅ Pipelines publication complets
 - ✅ Figures haute qualité
 - ✅ Templates réutilisables
-- ✅ Mesures ROI
+- ✅ Mesures d'efficacité
 
 ### Session 4 (TFE)
 - ✅ Transformations réussies

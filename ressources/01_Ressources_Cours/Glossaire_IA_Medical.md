@@ -121,7 +121,7 @@
 - **AI/IA** : Artificial Intelligence / Intelligence Artificielle  
 - **ML** : Machine Learning
 - **NLP** : Natural Language Processing
-- **ROI** : Return On Investment
+- **Efficacité** : Mesure des gains de temps et de qualité
 - **TFE** : Travail de Fin d'Études
 - **DDx** : Diagnostic Différentiel
 - **EBM** : Evidence-Based Medicine

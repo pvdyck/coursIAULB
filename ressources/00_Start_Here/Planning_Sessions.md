@@ -234,7 +234,7 @@
 ### Temps Investi vs Gagné
 - **Formation** : ~12-15h total
 - **Gain futur** : 200-300h/an
-- **ROI** : >20:1
+- **Efficacité** : >40h économisées/mois
 
 ### Indicateurs Qualité
 - Détection hallucinations : >80%

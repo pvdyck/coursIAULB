@@ -9,7 +9,7 @@
 - **Charge cognitive gérée** : 4/10 → 6/10 → 7/10 → 8/10
 - **Extended thinking** : Modes avancés pour complexité
 - **Pratique sur cas réels** : Travail sur VOTRE TFE
-- **ROI démontré** : Temps publication divisé par 10
+- **Efficacité démontrée** : Temps de publication divisé par 10
 
 ## 🗂️ Organisation des Ressources 
 
@@ -18,7 +18,7 @@
 - ✅ Checklist sécurité données
 - 📝 Template consentement IA
 - 🎯 Prompts optimisés TFE (adaptés par outil)
-- 📊 Calculateur ROI publication
+- 📊 Calculateur de gains de temps
 - 📋 Pipeline transformation TFE complet
 - 🔧 Workflows publication multi-IA
 - 📱 Commandes vocales par outil
@@ -182,7 +182,7 @@
 - **Taux soumission post-formation** : 78%
 - **Outils champions plastie** : ChatGPT 35% (photos) | Claude 30% (rédaction) | Perplexity 25% (biblio) | Gemini 10%
 - **Amélioration photos** : 95% standardisées post-formation
-- **ROI moyen** : 25:1 (consultations optimisées)
+- **Gain de temps moyen** : 25 heures économisées par mois
 - **Publications** : 2.3/an moyenne post-formation
 
 ## 🌟 Success Stories
@@ -210,7 +210,7 @@
 1. **Progression contrôlée** - Pas de surcharge cognitive
 2. **Objectif concret** - TFE→Publication, pas de théorie inutile
 3. **Pratique immédiate** - Votre vrai TFE, pas d'exercices artificiels
-4. **Mesure constante** - ROI et progression trackés
+4. **Mesure constante** - Progression et bénéfices trackés
 5. **Support communautaire** - Jamais seul face aux difficultés
 
 **Ce que nous évitons :**

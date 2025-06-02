@@ -324,7 +324,7 @@ R: Rattrapez avec enregistrements + exercices
 - [ ] 1 publication acceptée
 - [ ] 2ème article en préparation
 - [ ] Expert IA reconnu service
-- [ ] ROI documenté >20:1
+- [ ] Efficacité documentée (>40h économisées/mois)
 
 ---
 

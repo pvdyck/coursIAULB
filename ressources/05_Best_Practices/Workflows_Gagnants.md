@@ -2,7 +2,7 @@
 
 ## 🌟 Top 5 Workflows Multi-IA
 
-### 1. 📚 Revue de Littérature Systématique (ROI: 5:1)
+### 1. 📚 Revue de Littérature Systématique (Gain: 80% du temps)
 
 **Champion :** Dr. Marie L. (Groupe B)
 **Temps :** 2h (vs 10h traditionnel)
@@ -245,7 +245,7 @@ FINALISATION
 ### Résultats
 - Temps total : [X] min
 - Qualité : [Métrique]
-- ROI : [X:1]
+- Gain de temps : [X heures/semaine]
 
 ### Améliorations Futures
 [Vos idées]

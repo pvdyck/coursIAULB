@@ -213,10 +213,10 @@ DÉLAI POST-OP : [3 mois, 6 mois, 1 an]
 LIMITES : Analyse 2D seulement, subjectivité beauté.
 ```
 
-## 📊 4. Template Calcul ROI Chirurgie Plastique - Multi-IA 
+## 📊 4. Template Évaluation des Gains de Temps - Multi-IA 
 
 ```
-CALCULATEUR ROI - CHIRURGIE PLASTIQUE 4 OUTILS
+ÉVALUATION GAINS DE TEMPS - CHIRURGIE PLASTIQUE 4 OUTILS
 
 TÂCHE PLASTIE              | Temps SANS IA | ChatGPT | Claude | Gemini | Meilleur
 ---------------------------|---------------|---------|--------|--------|----------
@@ -246,10 +246,10 @@ COÛT MENSUEL :
 - Si 3 outils : 60€
 Votre choix : _________
 
-ROI CALCULÉ : _________
+GAIN DE TEMPS TOTAL : _________ heures/mois
 
 ```
-CALCULATEUR ROI - CHIRURGIE PLASTIQUE IA
+ÉVALUATION EFFICACITÉ - CHIRURGIE PLASTIQUE IA
 
 TÂCHE SPÉCIFIQUE           | Temps SANS IA | Temps AVEC IA | Gain | Freq/mois
 ---------------------------|---------------|---------------|------|----------
@@ -265,7 +265,7 @@ Gestion complications      | ___h         | ___h         | __% | ___
 TOTAL HEURES ÉCONOMISÉES/MOIS : ___h
 VALEUR TEMPS (30€/h étudiant) : ___€
 COÛT OUTILS IA/MOIS : ___€
-ROI = (Gain - Coût) / Coût = ___:1
+BILAN EFFICACITÉ : ___ heures économisées pour ___ € investis
 
 GAINS QUALITATIFS :
 □ Moins de stress/fatigue
@@ -331,7 +331,7 @@ CRITÈRES PERFORMANCE (Score /10)
 CRITÈRES ÉCONOMIQUES
 □ Version gratuite suffisante ? O/N
 □ Prix mensuel : ___€
-□ ROI estimé : ___:1
+□ Gain de temps estimé : ___ heures/mois
 □ Partage licence possible ? O/N
 
 SCORE TOTAL : ___/50

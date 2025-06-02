@@ -123,7 +123,7 @@ SESSION 4 : APPLICATION RÉELLE
 2. **Pratique immédiate** : Chaque concept appliqué sur cas réels
 3. **Objectif concret** : TFE→Publication comme fil rouge
 4. **Comparaison tardive** : Maîtriser avant de comparer
-5. **ROI démontrable** : Temps et qualité mesurés
+5. **Bénéfices mesurables** : Gains de temps et qualité démontrés
 
 ### Ce que nous évitons :
 - ❌ Surcharge par multi-outils prématurée

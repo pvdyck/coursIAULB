@@ -1,12 +1,12 @@
-# 💰 ROI Success Stories - Cas Réels Documentés
+# 🏆 Success Stories - Cas Réels d'Efficacité Documentés
 
-## 🏆 Hall of Fame du ROI
+## 🏆 Hall of Fame de l'Efficacité
 
 ### 🥇 Record Absolu : Service Urgences CHU Bruxelles
-**ROI Global :** 47:1
+**Gain de temps :** 94 heures/mois
 **Période :** 3 mois
 **Investissement :** 60€ (3 IA × 20€)
-**Gains :** 2,820€ équivalent temps médical
+**Bénéfices :** Réduction drastique du temps d'attente
 
 **Histoire Complète :**
 Le Dr. Sarah M. a implémenté un système de pré-triage IA aux urgences. En utilisant ChatGPT pour l'interrogatoire initial, Claude pour la structuration des données et Gemini pour les alertes basées sur guidelines, le temps moyen de triage est passé de 15 à 3 minutes par patient.
@@ -34,12 +34,12 @@ Jour 8-10 : Multi-IA → Méta-analyse
 Jour 11-14 : Claude → Rédaction finale
 ```
 
-**ROI Calculé :**
+**Bénéfices mesurés :**
 - Temps chercheurs économisé : 320h
 - Coût horaire chercheur : 75€
 - Économie totale : 24,000€
 - Coût IA : 60€
-- **ROI : 400:1**
+- **Efficacité : Publication en 2 semaines au lieu de 3 mois**
 
 ### 2. 🏥 Médecine Générale - Cabinet Groupé
 
@@ -56,7 +56,7 @@ Jour 11-14 : Claude → Rédaction finale
 - Temps administratif : -73%
 - Consultations supplémentaires : +4/jour/médecin
 - Revenus additionnels : 48,000€
-- **ROI : 133:1**
+- **Efficacité démontrée**
 
 ### 3. 🔬 Laboratoire Analyses - Biologie Médicale
 
@@ -76,8 +76,8 @@ def analyse_antibiogramme(resultats):
 - Temps biologiste/analyse : 5min → 1min
 - Erreurs d'interprétation : -89%
 - Alertes resistance rare : +156%
-- **ROI temps : 5:1**
-- **ROI qualité : inestimable**
+- **efficacité temps : 5:1**
+- **efficacité qualité : inestimable**
 
 ### 4. 📝 Rédaction Médicale - Agence Communication
 
@@ -99,7 +99,7 @@ def analyse_antibiogramme(resultats):
 - Qualité maintenue (score 9.2/10)
 - Nouveaux clients : +12
 - CA additionnel : 186,000€/an
-- **ROI : 1,033:1**
+- **Efficacité démontrée**
 
 ### 5. 🎓 Formation Médicale - Faculté Médecine
 
@@ -123,7 +123,7 @@ Produit : 50 cas cliniques complets
 - Notes étudiants : +18% moyenne
 - Engagement : +67% participation
 - Temps création/cas : 2h vs 8h
-- **ROI pédagogique : 4:1**
+- **efficacité pédagogique : 4:1**
 
 ### 6. 💊 Pharmacie Hospitalière - Conciliation
 
@@ -141,7 +141,7 @@ Produit : 50 cas cliniques complets
 - Erreurs détectées : +34%
 - Interactions graves évitées : 12/mois
 - ETP libérés : 2.5
-- **ROI : 15:1 + vies sauvées**
+- **Efficacité démontrée**
 
 ### 7. 🧠 Psychiatrie - Notes Évolutives
 
@@ -159,7 +159,7 @@ Produit : 50 cas cliniques complets
 - Qualité notes : scores SOAP +89%
 - Burnout praticien : -60%
 - Satisfaction patients : +44%
-- **ROI global : 8:1**
+- **efficacité global : 8:1**
 
 ### 8. 🚑 SAMU - Régulation Médicale
 
@@ -183,7 +183,7 @@ Aide décision régulateur
 - Sur-triage : -45%
 - Sous-triage : -72% (!!)
 - Satisfaction appelants : +29%
-- **ROI sécurité : inestimable**
+- **efficacité sécurité : inestimable**
 
 ### 9. 📊 Épidémiologie - Surveillance Sanitaire
 
@@ -202,7 +202,7 @@ Aide décision régulateur
 **Valeur Économique :**
 - Coûts évités (1 épidémie) : 2.3M€
 - Investissement IA annuel : 720€
-- **ROI sociétal : 3,194:1**
+- **efficacité sociétal : 3,194:1**
 
 ### 10. 🏃 Médecine du Sport - Analyse Performance
 
@@ -219,7 +219,7 @@ Aide décision régulateur
 - Performances améliorées : +8.3%
 - Médailles supplémentaires : 4
 - Valeur médailles : ~800k€
-- **ROI : 1,111:1**
+- **Efficacité démontrée**
 
 ## 💡 Facteurs Clés de Succès
 
@@ -251,7 +251,7 @@ Aide décision régulateur
 ❌ **NE PAS :** Remplacer le jugement clinique
 ✅ **FAIRE :** Augmenter les capacités humaines
 
-## 📈 Calcul de VOTRE ROI Potentiel
+## 📈 Calcul de VOTRE efficacité Potentiel
 
 ### Calculateur Rapide
 
@@ -263,18 +263,18 @@ Coût horaire (vous/équipe) : _____ €
 Temps avec IA (estimé -70%) : _____ min
 Coût IA mensuel : 60€
 
-ROI mensuel = (Temps gagné × Coût horaire) / 60€
+efficacité mensuel = (Temps gagné × Coût horaire) / 60€
 ```
 
-### Zones à Fort Potentiel ROI
+### Zones à Fort Potentiel efficacité
 
-1. **Documentation** (ROI moyen : 8:1)
-2. **Recherche biblio** (ROI moyen : 12:1)
-3. **Formation/Pédagogie** (ROI moyen : 6:1)
-4. **Communication patient** (ROI moyen : 5:1)
-5. **Analyse données** (ROI moyen : 15:1)
+1. **Documentation** (efficacité moyen : 8:1)
+2. **Recherche biblio** (efficacité moyen : 12:1)
+3. **Formation/Pédagogie** (efficacité moyen : 6:1)
+4. **Communication patient** (efficacité moyen : 5:1)
+5. **Analyse données** (efficacité moyen : 15:1)
 
-## 🎯 Votre Plan d'Action ROI
+## 🎯 Votre Plan d'Action efficacité
 
 ### Semaine 1 : Identification
 - [ ] Lister vos 10 tâches plus chronophages
@@ -284,23 +284,23 @@ ROI mensuel = (Temps gagné × Coût horaire) / 60€
 ### Semaine 2 : Expérimentation
 - [ ] Tester workflow IA sur tâche #1
 - [ ] Documenter temps et qualité
-- [ ] Calculer ROI projeté
+- [ ] Calculer efficacité projeté
 
 ### Semaine 3 : Optimisation
 - [ ] Affiner prompts et workflow
 - [ ] Tester sur volume réel
-- [ ] Mesurer ROI réel
+- [ ] Mesurer efficacité réel
 
 ### Semaine 4 : Déploiement
 - [ ] Former collègues si succès
 - [ ] Documenter process
 - [ ] Planifier extension
 
-## 📊 Tableau de Bord ROI
+## 📊 Tableau de Bord efficacité
 
 ### Template de Suivi
 
-| Tâche | Avant | Après | Gain | ROI | Statut |
+| Tâche | Avant | Après | Gain | efficacité | Statut |
 |-------|-------|-------|------|-----|--------|
 | Ex: Courriers | 20min | 5min | 15min | 5:1 | ✅ Déployé |
 | | | | | | |
@@ -315,8 +315,8 @@ ROI mensuel = (Temps gagné × Coût horaire) / 60€
 ---
 
 **💬 Partagez VOS Success Stories !**
-Email : roi-stories@ulb.ac.be
+Email : success-stories-ia@ulb.ac.be
 
-**🏆 Récompense :** Meilleur ROI du mois = 6 mois IA gratuits
+**🏆 Récompense :** Meilleur efficacité du mois = 6 mois IA gratuits
 
-*ROI Success Stories - Formation IA Médicale ULB*
+*efficacité Success Stories - Formation IA Médicale ULB*
