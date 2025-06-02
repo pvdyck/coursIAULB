@@ -51,7 +51,7 @@ Quand utiliser le thinking :
 
 **Mission :** Transformer la discussion de votre TFE avec thinking mode
 
-**Test comparatif plastie :**
+**Test comparatif :**
 ```
 Prompt standard (5 min) :
 "Aide-moi à améliorer cette discussion de mon TFE sur [rhinoplastie/DIEP].
@@ -82,7 +82,7 @@ Publication-ready ?       | Oui/Non  | Oui/Non
 
 **Mission :** Améliorer votre méthodologie avec raisonnement avancé
 
-**Cas TFE plastie complexe :**
+**Cas TFE complexe :**
 ```
 "Mon étude compare rhinoplastie ouverte vs fermée, n=40 par groupe.
 Données manquantes : photos 3 mois (15%), ROE score 1 an (25%).
@@ -109,7 +109,7 @@ Propose des solutions statistiques robustes pour :
 
 **Mission :** Générer revue littérature complète pour votre TFE
 
-**Prompt Deep Research plastie :**
+**Prompt Deep Research :**
 ```
 "Utilise Deep Research pour revue systématique sur 
 [lipostructure sein/préservation rhinoplastie/DIEP vs TMG].
@@ -159,14 +159,14 @@ Inclus :
 
 **Mission :** Transformer l'intro de votre TFE en version Nature/Science
 
-**Pipeline multi-IA plastie :**
+**Pipeline multi-IA :**
 ```
 Étape 1 - Perplexity (5 min) :
 "Analyse les 10 meilleures intros sur [rhinoplastie/reconstruction] 
 dans PRS/ASJ 2023-2025. Identifie structure et hooks."
 
 Étape 2 - Claude (10 min) :
-"Restructure mon intro TFE plastie selon standards PRS.
+"Restructure mon intro TFE selon standards PRS.
 Hook : problème clinique, gap technique, innovation.
 [Coller intro actuelle]"
 
@@ -189,7 +189,7 @@ Flow narratif      | /10   | /10
 
 **Mission :** Créer figures publication-quality pour votre TFE
 
-**Workflow figures plastie :**
+**Workflow figures :**
 ```
 1. ChatGPT + Code Interpreter (10 min) :
    "Données [CSV scores FACE-Q/BREAST-Q]. Crée :
@@ -255,9 +255,9 @@ TOTAL             | /25      |
 
 **Audit sécurité pour données sensibles TFE :**
 
-**Checklist sécurité plastie :**
+**Checklist sécurité :**
 ```
-SÉCURITÉ PLASTIE     | ChatGPT | Claude | Gemini | Perplexity
+SÉCURITÉ DONNÉES     | ChatGPT | Claude | Gemini | Perplexity
 --------------------|---------|--------|--------|------------
 Chiffrement photos  | ✓/✗     | ✓/✗    | ✓/✗    | ✓/✗
 Anonymisation auto  | ✓/✗     | ✓/✗    | ✓/✗    | ✓/✗
@@ -305,7 +305,7 @@ comme 'idéaux'. Comment gérer biais ethniques ?"
 
 #### **✓ EXERCICE 3.10 : Validation Croisée Finale (10 min)**
 
-**Quality check plastie multi-IA :**
+**Quality check multi-IA :**
 ```
 1. Soumettre section Methods + photos à tous les outils :
    "Vérifie cohérence technique décrite vs résultats visuels.
@@ -335,7 +335,7 @@ comme 'idéaux'. Comment gérer biais ethniques ?"
 6. **Partager WhatsApp** : Montage avant/après + abstract
 7. **BONUS** : Mock submission PRS/ASJ online
 
-**Livrables plastie :**
+**Livrables :**
 - Section Methods + Results transformées PRS-ready
 - Grille photos standardisée (6-9 vues)
 - Graphiques scores PROM avec stats
@@ -347,7 +347,7 @@ comme 'idéaux'. Comment gérer biais ethniques ?"
 ### **📖 CLÔTURE SESSION 3**
 
 ✅ **Acquis Session 3 :**
-- Thinking modes pour cas complexes plastie
+- Thinking modes pour cas complexes
 - Workflows PRS/ASJ opérationnels
 - Sécurité photos et éthique mineurs
 - Figures publication-quality maîtrisées

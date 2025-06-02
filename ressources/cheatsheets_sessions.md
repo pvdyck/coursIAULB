@@ -200,7 +200,7 @@ Perplexity Deep Research:
 ```
 PIPELINE INTRODUCTION PRS:
 1. Perplexity: "Top 10 intros rhinoplastie PRS"
-2. Claude: "Restructure selon standards plastie"
+2. Claude: "Restructure selon standards du journal"
 3. ChatGPT: "Hook innovation technique"
 
 PIPELINE ABSTRACT PARFAIT:
@@ -259,14 +259,14 @@ PHASE 2 - TRANSFORMATION (60 min):
 A. Titre/Abstract PLASTIE (15 min)
    - ChatGPT: 10 titres avec technique
    - Claude: Abstract avec PROM scores
-   - Perplexity: Keywords MeSH plastie
+   - Perplexity: Keywords MeSH spécialisés
 
 B. Introduction (15 min)
    - Perplexity: Gap analysis
    - Claude thinking: Restructuration
 
 C. Methods PLASTIE (15 min)
-   - Claude: STROBE/CONSORT plastie
+   - Claude: STROBE/CONSORT adapté
    - ChatGPT: Protocole photos ASPS
    - ChatGPT: Flow diagram patients
 
@@ -356,21 +356,21 @@ Livrable: 5 prompts photos optimisés
 ```
 Win rapide: Outil champion pour photos
 Challenge: Analyse PROM sur 4 outils
-Livrable: Workflow plastie personnel
+Livrable: Workflow personnel optimisé
 ```
 
 ### SESSION 3 - AVANCÉ
 ```
 Win rapide: Grille photos standardisée
 Challenge: Abstract PRS avec PROM
-Livrable: Pipeline plastie complet
+Livrable: Pipeline complet de publication
 ```
 
 ### SESSION 4 - TRANSFORMATION
 ```
 Win rapide: Titre technique innovant
 Challenge: Cover letter PRS
-Livrable: Article plastie prêt soumission
+Livrable: Article prêt pour soumission
 ```
 
 ---

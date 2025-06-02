@@ -78,7 +78,7 @@ psychologiques et professionnelles."
 
 #### **📝 EXERCICE 2.3 : TFE avec Claude (10 min)**
 
-**Application publication plastie :**
+**Application publication médicale :**
 ```
 "Voici la section Méthodes de mon TFE sur [rhinoplastie/DIEP/fente].
 Restructure-la selon les standards de Plastic and Reconstructive Surgery.
@@ -147,7 +147,7 @@ révisions. Cite sources PubMed et PRS."
    - Créer visualisations
    - Générer insights
 
-**Prompt exemple plastie :**
+**Prompt exemple :**
 ```
 "Analyse ces scores FACE-Q pré/post lifting facial (n=50). 
 Identifie facteurs prédictifs satisfaction. Crée graphiques 
@@ -156,7 +156,7 @@ pour publication avec p-values et intervalles confiance."
 
 #### **📝 EXERCICE 2.6 : TFE avec Gemini (10 min)**
 
-**Recherche biblio plastie avancée :**
+**Recherche biblio avancée :**
 ```
 "Mon TFE porte sur [lipostructure mammaire/rhinoplastie ethnique/DIEP]. 
 Trouve via Google Scholar les 10 articles PRS/ASJ les plus cités 2023-2025.
@@ -200,7 +200,7 @@ Intégration Google      |         |
 en Brazilian Butt Lift selon les études récentes 2024 ?"
 ```
 
-**Test 2 : Deep Research plastie**
+**Test 2 : Deep Research**
 ```
 "Utilise Deep Research pour rapport exhaustif sur l'évolution 
 de la lipostructure mammaire 2020-2025 : taux résorption, 
@@ -232,7 +232,7 @@ PROM (FACE-Q/BREAST-Q), taux révision, photos timeline."
 
 #### **📝 EXERCICE 2.9 : TFE avec Perplexity (10 min)**
 
-**Revue littérature plastie automatisée :**
+**Revue littérature automatisée :**
 ```
 "Génère revue systématique sur [technique SMAS lifting/préservation 
 rhinoplastie/DIEP vs TMG] incluant :
@@ -260,7 +260,7 @@ Gain de temps          |         |
 
 **Mission :** Même tâche sur les 4 outils
 
-**Tâche TFE plastie standardisée :**
+**Tâche TFE standardisée :**
 ```
 "Transforme ce paragraphe de ma discussion TFE [rhinoplastie/reconstruction] 
 en version publiable pour PRS/ASJ. Améliore style, ajoute références 
@@ -311,7 +311,7 @@ TFE → Complications       |               |
 ```
 MON PIPELINE TFE → PUBLICATION
 
-1. Revue littérature plastie : _____________ (outil)
+1. Revue littérature : _____________ (outil)
    Raison : _______________________
 
 2. Rédaction technique op : _________ (outil)
@@ -339,7 +339,7 @@ MON PIPELINE TFE → PUBLICATION
 1. **Tester pipeline** sur cas chirurgical réel (anonymisé)
 2. **Analyser 10 photos** avant/après avec chaque outil
 3. **Chronométrer** rédaction compte-rendu opératoire
-4. **Comparer** recherche biblio plastie sur même sujet
+4. **Comparer** recherche biblio sur même sujet
 5. **Identifier champion** pour photos vs texte vs recherche
 6. **Créer workflow** consultation→opération→publication
 7. **Partager sur WhatsApp** : #PlastiePipeline
@@ -348,7 +348,7 @@ MON PIPELINE TFE → PUBLICATION
 - Pipeline chirurgie documenté (Google Sheets)
 - Comparaison analyse photo par outil
 - Template compte-rendu opératoire optimal
-- 3 insights spécifiques plastie
+- 3 insights spécifiques chirurgie plastique
 
 ---
 

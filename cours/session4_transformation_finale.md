@@ -31,7 +31,7 @@ Aujourd'hui : Pas de théorie, 100% pratique sur VOTRE TFE
 
 **EXERCICE 4.1 : Audit complet de votre TFE**
 
-**Upload votre TFE plastie dans Claude :**
+**Upload votre TFE dans Claude :**
 ```
 "Analyse mon TFE [rhinoplastie/DIEP/lipostructure] pour publication 
 dans [PRS/ASJ/JPRAS]. Évalue :
@@ -44,7 +44,7 @@ dans [PRS/ASJ/JPRAS]. Évalue :
 Identifie 3 gaps critiques pour acceptance."
 ```
 
-**Parallel check Perplexity plastie :**
+**Parallel check Perplexity :**
 ```
 "Trouve 5 articles similaires à mon TFE [technique/pathologie]
 publiés dans PRS/ASJ 2024-2025.
@@ -61,7 +61,7 @@ GAP 3 : _____________________________
 JOURNAL CIBLE : _____________________
 ```
 
-**Exemples TFE Plastie Courants :**
+**Exemples TFE Courants :**
 - Aesthetic: "Rhinoplastie ultrasonique : 100 cas"
 - Aesthetic: "Lipostructure mammaire : résultats à 5 ans"
 - Reconstructive: "DIEP vs TMG : étude comparative"
@@ -75,7 +75,7 @@ JOURNAL CIBLE : _____________________
 
 **A. TITRE & ABSTRACT (15 min)**
 
-**Workflow titre/abstract plastie :**
+**Workflow titre/abstract :**
 ```
 1. ChatGPT (5 min) :
    "10 titres pour article [rhinoplastie preservation/DIEP single vs double].
@@ -128,7 +128,7 @@ JOURNAL CIBLE : _____________________
 
 **D. RÉSULTATS & DISCUSSION (15 min)**
 
-**Résultats/Discussion plastie :**
+**Résultats/Discussion :**
 ```
 1. ChatGPT + Code :
    "Transforme data en :
@@ -181,10 +181,10 @@ References   | Perplexity  |        | ✓/✗
 
 #### **🎯 EXERCICE 4.4 : Sélection Journal Optimale (15 min)**
 
-**Sélection journal plastie avec Perplexity :**
+**Sélection journal avec Perplexity :**
 ```
 "Article sur [technique rhinoplastie/reconstruction DIEP/fente].
-Liste 10 journaux plastie appropriés :
+Liste 10 journaux appropriés :
 - Impact factor 2024
 - Scope (aesthetic vs reconstructive)
 - Acceptance rate
@@ -193,7 +193,7 @@ Liste 10 journaux plastie appropriés :
 - Recent similar papers published"
 ```
 
-**Matrice journaux plastie :**
+**Matrice journaux :**
 ```
 JOURNAL         | IF   | Accept% | Review | OA  | Scope | RANK
 ----------------|------|---------|--------|-----|-------|------
@@ -207,7 +207,7 @@ JRM             | 2.4  | 38%     | 40d    | No  | Recon |
 
 #### **📝 EXERCICE 4.5 : Cover Letter Parfaite (15 min)**
 
-**Cover letter plastie multi-IA :**
+**Cover letter multi-IA :**
 ```
 1. Claude - Structure PRS/ASJ :
    "Cover letter pour [PRS/ASJ]. Emphasize :
@@ -253,7 +253,7 @@ Critique mon article sur :
 5. Conclusions vs results overstatement"
 ```
 
-**Template réponses plastie :**
+**Template réponses aux reviewers :**
 ```
 CRITIQUE 1 : "Sample size insufficient for subgroup analysis"
 RÉPONSE : "We appreciate the reviewer's insight. While our 
@@ -298,7 +298,7 @@ ACTION : Re-shot available patients avec protocole ASPS
 4. **Vérifier formatting final**
 5. **NE PAS soumettre** (sauf si prêt !)
 
-**Checklist soumission plastie :**
+**Checklist soumission :**
 ```
 □ Manuscript format journal (Word + PDF)
 □ Photos haute résolution (TIFF 300 DPI)
@@ -319,7 +319,7 @@ ACTION : Re-shot available patients avec protocole ASPS
 ```
 MON PLAN DE PUBLICATION avec IA
 
-Article 1 (TFE plastie) :
+Article 1 (TFE) :
 - Type : □ Aesthetic □ Reconstructive
 - Journal cible : □ PRS □ ASJ □ JPRAS
 - Deadline soumission : _____
@@ -348,7 +348,7 @@ Objectif 6 mois :
 
 #### **Présentation Flash : Transformation Réussie**
 
-**Flash presentation plastie (1 min) :**
+**Flash presentation (1 min) :**
 - Titre final : "[Technique] in [n] patients: A [duration] outcomes study"
 - Journal : PRS/ASJ/JPRAS + rationale
 - Meilleure transformation : □ Photos □ Stats □ Writing
@@ -381,14 +381,14 @@ Date : _________________
 
 ### **📊 RÉSULTATS ATTENDUS SESSION 4**
 
-✅ **Livrables concrets plastie :**
+✅ **Livrables concrets :**
 - TFE transformé pour PRS/ASJ/JPRAS
 - Photos standardisées haute résolution
 - Abstract optimisé avec PROM intégrés
 - Cover letter spécifique journal
 - Anticipation critiques méthodo
 
-🚀 **Compétences acquises plastie :**
+🚀 **Compétences acquises :**
 - Maîtrise pipeline photo-texte-stats
 - Sélection journal selon scope
 - Gestion reviewers techniques op
@@ -405,7 +405,7 @@ Date : _________________
 
 **Accès permanent :**
 - Templates PRS/ASJ/JPRAS
-- Prompts bibliothèque plastie
+- Prompts bibliothèque
 - Protocoles photo ASPS
 - Calculateurs PROM
 

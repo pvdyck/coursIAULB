@@ -130,7 +130,7 @@ Agis comme éditeur senior de [PRS/ASJ/JPRAS].
 
 Transforme ce TFE chirurgie plastique en article publiable :
 1. Structure IMRAD pour chirurgie plastique
-2. Style journal plastie : technique précise, outcomes PROM
+2. Style journal spécialisé : technique précise, outcomes PROM
 3. 3500 mots max (PRS permet plus long)
 4. Focus innovation technique OU large série
 5. Photos standardisées obligatoires
@@ -386,7 +386,7 @@ PHASE 1 : AUDIT PLASTIE (1 jour)
 PHASE 2 : RESTRUCTURATION PLASTIE (3 jours)
 □ IMRAD spécifique chirurgie
 □ Abstract avec PROM scores
-□ Biblio plastie récente (focus 2023-2025)
+□ Biblio récente en chirurgie plastique (focus 2023-2025)
 □ Photos grilles standardisées
 □ Graphiques FACE-Q/BREAST-Q
 □ Tableau complications Clavien
@@ -672,12 +672,12 @@ compte-rendu DIEP complexe"
 GEMINI MOBILE :
 "Assistant, recherche avec Gemini dernières 
 innovations en rhinoplastie preservation"
-→ Meilleur pour : Littérature récente plastie
+→ Meilleur pour : Littérature récente spécialisée
 
 PERPLEXITY MOBILE :
 "Lance Perplexity Labs pour analyser 
 complications post-augmentation mammaire"
-→ Meilleur pour : Revues systématiques plastie
+→ Meilleur pour : Revues systématiques
 
 RACCOURCIS MULTI-IA À CRÉER :
 1. "DDx3" → Même question sur 3 IA
@@ -711,7 +711,7 @@ en compte-rendu opératoire DIEP structuré"
 RACCOURCIS iOS/ANDROID À CRÉER :
 1. "PhotoPlastie" → Analyse photos pré/post
 2. "PROM Score" → Calcul FACE-Q/BREAST-Q
-3. "Biblio PRS" → Recherche plastie
+3. "Biblio PRS" → Recherche spécialisée
 4. "Stats Plastie" → Analyse outcomes
 5. "Consult Esth" → Template consultation
 ```
