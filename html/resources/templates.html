@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Templates et Modèles IA - Formation IA Chirurgie Plastique ULB">
+    <meta name="description" content="Templates et Modèles - Formation IA Chirurgie Plastique ULB">
     <title>Templates - Formation IA ULB Médecine</title>
     
     <!-- CSS -->
@@ -31,7 +31,7 @@
                 <a href="../index.html" class="nav-link">Accueil</a>
                 <a href="../programme.html" class="nav-link">Programme</a>
                 <a href="../sessions/session1.html" class="nav-link">Sessions</a>
-                <a href="glossaire.html" class="nav-link active">Ressources</a>
+                <a href="../resources/glossaire.html" class="nav-link active">Ressources</a>
                 <a href="../evaluation/grilles.html" class="nav-link">Évaluation</a>
             </nav>
         </div>
@@ -55,491 +55,309 @@
                     Ouvrir le menu
                 </button>
                 <nav class="sidebar-nav">
-                    <h3 class="sidebar-title">Catégories</h3>
+                    <h3 class="sidebar-title">Ressources</h3>
                     <ul>
-                        <li><a href="#clinical">Templates Cliniques</a></li>
-                        <li><a href="#research">Templates Recherche</a></li>
-                        <li><a href="#presentation">Templates Présentation</a></li>
-                        <li><a href="#patient">Templates Patient</a></li>
-                        <li><a href="#workflow">Templates Workflow</a></li>
-                        <li><a href="#evaluation">Évaluation des Gains</a></li>
-                    </ul>
-                    
-                    <h3 class="sidebar-title mt-3">Autres Ressources</h3>
-                    <ul>
-                        <li><a href="glossaire.html">Glossaire</a></li>
-                        <li><a href="bibliotheque-prompts.html">Prompts</a></li>
+                        <li><a href="glossaire.html">Glossaire IA</a></li>
+                        <li><a href="bibliotheque-prompts.html">Bibliothèque Prompts</a></li>
+                        <li><a href="templates.html" class="active">Templates</a></li>
+                        <li><a href="photo-protocols.html">Protocoles Photo</a></li>
+                        <li><a href="cheatsheets.html">Cheat Sheets</a></li>
                         <li><a href="guides.html">Guides</a></li>
-                        <li><a href="cheatsheets.html">Cheatsheets</a></li>
+                        <li><a href="securite.html">Sécurité</a></li>
                     </ul>
                 </nav>
             </aside>
             
             <!-- Main Content Area -->
             <div class="main-content">
-                <h1>📋 Templates et Modèles IA</h1>
+                <h1>📱 Templates Pratiques TFE→Publication</h1>
                 
                 <div class="intro-card mb-4">
                     <div class="card-content">
-                        <p class="lead">Templates prêts à l'emploi pour optimiser votre utilisation de l'IA en chirurgie plastique.</p>
-                        <div class="alert alert-info">
-                            <strong>💡 Astuce :</strong> Copiez-collez ces templates directement dans vos outils IA et personnalisez selon vos besoins.
-                        </div>
+                        <p class="lead">Tous les templates prêts à l'emploi pour transformer votre TFE en publication PRS/ASJ. Copiez, personnalisez, publiez !</p>
                     </div>
                 </div>
                 
-                <!-- Clinical Templates -->
-                <section id="clinical" class="template-section">
-                    <h2>🏥 Templates Cliniques</h2>
-                    
-                    <div class="template-card">
-                        <h3>Compte-Rendu Opératoire</h3>
-                        <div class="template-content">
-                            <code>Génère un compte-rendu opératoire détaillé pour :
+                <!-- Template 1: Checklist Sécurité -->
+                <section class="mb-4">
+                    <div class="card">
+                        <h2 class="card-title">✅ Template 1 : Checklist Sécurité Données Patient</h2>
+                        <div class="card-content">
+                            <div class="alert alert-danger">
+                                <strong>⚠️ À vérifier AVANT chaque utilisation d'IA</strong>
+                            </div>
+                            
+                            <pre class="code-block">□ Aucun nom, prénom, initiales de patient
+□ Dates de naissance remplacées par âge
+□ Dates opératoires anonymisées (ex: J0, J+30)
+□ Numéros de dossier supprimés
+□ Localisations géographiques généralisées
+□ Photos recadrées (pas de visage reconnaissable)
+□ Métadonnées EXIF supprimées des images
+□ Consentement IA signé si données sensibles
 
-Patient : [Âge] ans, [Sexe]
-Intervention : [Type d'intervention]
-Date : [Date]
-Durée : [Durée]
-Anesthésie : [Type]
-
-Technique opératoire :
-[Décrire brièvement la technique]
-
-Inclure :
-1. Indication et contexte clinique
-2. Installation et préparation
-3. Temps opératoires détaillés
-4. Incidents/difficultés
-5. Fermeture et pansements
-6. Suites immédiates
-7. Prescriptions post-op
-
-Style : Médical professionnel, précis et concis</code>
-                        </div>
-                        <button class="copy-btn">📋 Copier</button>
-                    </div>
-                    
-                    <div class="template-card">
-                        <h3>Consultation Première</h3>
-                        <div class="template-content">
-                            <code>Crée une fiche de consultation initiale structurée :
-
-Motif : [Demande esthétique/reconstructrice]
-Antécédents : [Médicaux, chirurgicaux, familiaux]
-Examen clinique : [Findings principaux]
-
-Génère :
-1. Synthèse de la demande
-2. Examen clinique détaillé avec mesures
-3. Options thérapeutiques possibles
-4. Plan de traitement recommandé
-5. Informations à donner au patient
-6. Examens complémentaires nécessaires
-7. Devis estimatif
-8. Consentement points clés</code>
-                        </div>
-                        <button class="copy-btn">📋 Copier</button>
-                    </div>
-                    
-                    <div class="template-card">
-                        <h3>Suivi Post-Opératoire</h3>
-                        <div class="template-content">
-                            <code>Template de suivi post-op à [X] jours/semaines/mois :
-
-Patient : [Nom]
-Intervention : [Type] le [Date]
-J+[X] post-op
-
-Évalue et documente :
-1. État général et satisfaction
-2. Examen de la zone opérée
-3. Évolution cicatricielle (échelle)
-4. Complications éventuelles
-5. Photos comparatives
-6. Ajustements traitement
-7. Conseils et recommandations
-8. Prochain RDV
-
-Format : Note de suivi structurée</code>
-                        </div>
-                        <button class="copy-btn">📋 Copier</button>
-                    </div>
-                </section>
-                
-                <!-- Research Templates -->
-                <section id="research" class="template-section">
-                    <h2>🔬 Templates Recherche</h2>
-                    
-                    <div class="template-card">
-                        <h3>Protocole de Recherche</h3>
-                        <div class="template-content">
-                            <code>Développe un protocole de recherche complet :
-
-Titre : [Titre de l'étude]
-Type : [Prospective/Rétrospective/RCT]
-Domaine : [Chirurgie plastique - sous-spécialité]
-
-Structure demandée :
-1. Introduction et rationnel
-2. Objectifs (primaire et secondaires)
-3. Hypothèses
-4. Méthodologie détaillée
-   - Design de l'étude
-   - Population (critères inclusion/exclusion)
-   - Taille échantillon et calcul
-   - Randomisation si applicable
-   - Interventions
-   - Outcomes et mesures
-5. Analyse statistique prévue
-6. Considérations éthiques
-7. Timeline
-8. Budget estimé
-9. Références clés</code>
-                        </div>
-                        <button class="copy-btn">📋 Copier</button>
-                    </div>
-                    
-                    <div class="template-card">
-                        <h3>Abstract Scientifique</h3>
-                        <div class="template-content">
-                            <code>Rédige un abstract structuré (250 mots) :
-
-Titre : [Titre de l'étude]
-Auteurs : [Liste des auteurs]
-
-Sections requises :
-- Background (contexte et objectif)
-- Methods (design, population, intervention)
-- Results (principaux résultats avec stats)
-- Conclusions (implications cliniques)
-
-Données clés :
-[Insérer vos résultats principaux]
-
-Style : Concis, factuel, orienté impact
-Keywords : Suggérer 5 mots-clés MeSH</code>
-                        </div>
-                        <button class="copy-btn">📋 Copier</button>
-                    </div>
-                    
-                    <div class="template-card">
-                        <h3>Revue Systématique</h3>
-                        <div class="template-content">
-                            <code>Lance une revue systématique sur :
-
-Sujet : [Question PICO précise]
-P : [Population]
-I : [Intervention]
-C : [Comparateur]
-O : [Outcome]
-
-Développe :
-1. Stratégie de recherche complète
-   - Bases de données
-   - Équations de recherche
-   - Filtres temporels
-2. Critères de sélection détaillés
-3. Grille d'extraction des données
-4. Évaluation qualité (outil approprié)
-5. Plan d'analyse
-6. PRISMA flowchart structure
-
-Format : Protocole PROSPERO-ready</code>
-                        </div>
-                        <button class="copy-btn">📋 Copier</button>
-                    </div>
-                </section>
-                
-                <!-- Presentation Templates -->
-                <section id="presentation" class="template-section">
-                    <h2>🎨 Templates Présentation</h2>
-                    
-                    <div class="template-card">
-                        <h3>Présentation Cas Clinique</h3>
-                        <div class="template-content">
-                            <code>Crée une présentation de cas clinique (10 slides) :
-
-Cas : [Description brève]
-Format : Présentation congrès 10 minutes
-
-Structure slides :
-1. Titre + photo pré-op marquante
-2. Introduction (contexte, originalité)
-3. Présentation du cas (histoire, exam)
-4. Planification préopératoire
-5. Technique chirurgicale (étapes clés)
-6. Photos peropératoires
-7. Résultats (photos comparatives)
-8. Évolution et complications
-9. Discussion (littérature, innovation)
-10. Conclusions (3 messages clés)
-
-Pour chaque slide : titre + bullet points + suggestion visuelle</code>
-                        </div>
-                        <button class="copy-btn">📋 Copier</button>
-                    </div>
-                    
-                    <div class="template-card">
-                        <h3>Poster Scientifique</h3>
-                        <div class="template-content">
-                            <code>Design un poster scientifique A0 :
-
-Titre : [Titre de l'étude]
-Congrès : [Nom du congrès]
-
-Sections à organiser :
-1. Header (titre, auteurs, institutions, logos)
-2. Introduction (contexte en 3 points)
-3. Objectifs (encadrés)
-4. Méthodes (flowchart + texte minimal)
-5. Résultats (3 graphiques max + tableau)
-6. Discussion (5 points clés)
-7. Conclusions (encadré, 3 messages)
-8. Références (5-8 max)
-9. Contact et QR code
-
-Suggère : couleurs, polices, layout optimal</code>
-                        </div>
-                        <button class="copy-btn">📋 Copier</button>
-                    </div>
-                </section>
-                
-                <!-- Patient Templates -->
-                <section id="patient" class="template-section">
-                    <h2>👥 Templates Patient</h2>
-                    
-                    <div class="template-card">
-                        <h3>Consentement Éclairé</h3>
-                        <div class="template-content">
-                            <code>Génère un consentement éclairé personnalisé :
-
-Intervention : [Type précis]
-Patient : [Mme/M.] [Nom]
-Chirurgien : Dr [Nom]
-
-Inclure obligatoirement :
-1. Description intervention en termes simples
-2. Bénéfices attendus
-3. Risques généraux (infection, saignement, etc.)
-4. Risques spécifiques à l'intervention
-5. Alternatives possibles
-6. Suites opératoires normales
-7. Consignes pré/post-op
-8. Coût et prise en charge
-9. Droit de rétractation
-10. Signatures et date
-
-Ton : Clair, accessible, complet mais pas anxiogène</code>
-                        </div>
-                        <button class="copy-btn">📋 Copier</button>
-                    </div>
-                    
-                    <div class="template-card">
-                        <h3>Fiche Information Patient</h3>
-                        <div class="template-content">
-                            <code>Crée une fiche d'information patient sur :
-
-Procédure : [Nom de l'intervention]
-Public : Patients envisageant cette chirurgie
-
-Structure :
-1. Qu'est-ce que [intervention] ?
-2. Pour qui est-ce indiqué ?
-3. Comment se déroule l'intervention ?
-4. Quelle anesthésie ?
-5. Combien de temps dure l'opération ?
-6. Quelles sont les suites ?
-7. Quand voir les résultats ?
-8. Quels sont les risques ?
-9. Quel est le coût ?
-10. FAQ (5 questions fréquentes)
-
-Style : Vulgarisé, rassurant, avec analogies simples</code>
-                        </div>
-                        <button class="copy-btn">📋 Copier</button>
-                    </div>
-                </section>
-                
-                <!-- Workflow Templates -->
-                <section id="workflow" class="template-section">
-                    <h2>⚡ Templates Workflow</h2>
-                    
-                    <div class="template-card">
-                        <h3>Workflow Article Médical</h3>
-                        <div class="template-content">
-                            <code>WORKFLOW COMPLET RÉDACTION ARTICLE :
-
-ÉTAPE 1 - RECHERCHE (Perplexity)
-"Recent advances in [topic] plastic surgery 2023-2024 
-systematic reviews clinical trials"
-
-ÉTAPE 2 - SYNTHÈSE (NotebookLM)
-Upload top 10 articles
-"Synthétise les avancées principales et identifie les gaps"
-
-ÉTAPE 3 - STRUCTURE (Claude)
-"Crée un plan détaillé pour un article de revue sur [topic]
-Format journal international, 5000 mots"
-
-ÉTAPE 4 - RÉDACTION (ChatGPT)
-"Rédige la section [X] selon ce plan : [plan Claude]
-Style académique, inclure citations (Author, Year)"
-
-ÉTAPE 5 - VISUELS (DALL-E)
-"Medical illustration showing [specific anatomy/technique]
-Professional, labeled diagram, white background"
-
-ÉTAPE 6 - RÉVISION (Grammarly + ChatGPT)
-Check grammar → "Améliore la clarté scientifique"</code>
-                        </div>
-                        <button class="copy-btn">📋 Copier</button>
-                    </div>
-                    
-                    <div class="template-card">
-                        <h3>Automation Email Série</h3>
-                        <div class="template-content">
-                            <code>SETUP AUTOMATISATION SUIVI PATIENT :
-
-TRIGGER : Nouveau patient opéré
-
-EMAIL 1 (J+1) :
-"Génère un email de suivi post-op immédiat personnalisé
-Patient : [Nom], Intervention : [Type]
-Ton : Bienveillant, professionnel
-Inclure : Rappel consignes, numéro urgence"
-
-EMAIL 2 (J+7) :
-"Email check-in première semaine
-Demander : Douleur, évolution, questions
-Rappeler : Prochain RDV"
-
-EMAIL 3 (J+30) :
-"Email suivi 1 mois
-Satisfaction, photos suivi, conseils cicatrices"
-
-EMAIL 4 (J+90) :
-"Email 3 mois
-Résultats, témoignage, rappel contrôle annuel"
-
-PERSONNALISATION : Variables [Nom], [Intervention], [Date]</code>
-                        </div>
-                        <button class="copy-btn">📋 Copier</button>
-                    </div>
-                </section>
-                
-                <!-- Evaluation Templates -->
-                <section id="evaluation" class="template-section">
-                    <h2>📊 Template Évaluation des Gains de Temps</h2>
-                    
-                    <div class="template-card">
-                        <h3>Évaluation Gains de Temps - Multi-IA</h3>
-                        <div class="template-content">
-                            <code>ÉVALUATION GAINS DE TEMPS - CHIRURGIE PLASTIQUE 4 OUTILS
-
-TÂCHE PLASTIE              | Temps SANS IA | ChatGPT | Claude | Gemini | Meilleur
----------------------------|---------------|---------|--------|--------|---------
-Analyse photos pré/post    | ___h         | ___h    | ___h   | ___h   | ___
-Rédaction articles PRS     | ___h         | ___h    | ___h   | ___h   | ___
-Comptes-rendus op détaillés| ___h         | ___h    | ___h   | ___h   | ___
-Analyse PROM (FACE-Q)      | ___h         | ___h    | ___h   | ___h   | ___
-Recherche techniques       | ___h         | ___h    | ___h   | ___h   | ___
-Consultations structurées  | ___h         | ___h    | ___h   | ___h   | ___
-Simulations résultats      | ___h         | ___h    | ___h   | ___h   | ___
-Présentations congrès      | ___h         | ___h    | ___h   | ___h   | ___
-
-MEILLEUR OUTIL PAR TÂCHE PLASTIE :
-- Photos/Vision : ChatGPT (35%)
-- Rédaction PRS : Claude (30%)
-- Recherche : Perplexity (25%)
-- PROM/Stats : ChatGPT Code (10%)
-
-WORKFLOW OPTIMAL PERSONNEL :
-1. ___________________
-2. ___________________
-3. ___________________
-
-COÛT MENSUEL :
-- Si 1 outil : 20€
-- Si 2 outils : 40€
-- Si 3 outils : 60€
-Votre choix : _________
-
-GAIN DE TEMPS TOTAL : _________ heures/mois</code>
-                        </div>
-                        <button class="copy-btn">📋 Copier</button>
-                    </div>
-                    
-                    <div class="template-card">
-                        <h3>Évaluation Efficacité - Chirurgie Plastique IA</h3>
-                        <div class="template-content">
-                            <code>ÉVALUATION EFFICACITÉ - CHIRURGIE PLASTIQUE IA
-
-TÂCHE SPÉCIFIQUE           | Temps SANS IA | Temps AVEC IA | Gain | Freq/mois
----------------------------|---------------|---------------|------|-----------
-Analyse photos série       | ___h         | ___h         | __% | ___
-Rédaction article PRS      | ___h         | ___h         | __% | ___
-Comptes-rendus op DIEP     | ___h         | ___h         | __% | ___
-Analyse FACE-Q patients    | ___h         | ___h         | __% | ___
-Recherche biblio spécia    | ___h         | ___h         | __% | ___
-Prépa congrès complète     | ___h         | ___h         | __% | ___
-Formation résidents        | ___h         | ___h         | __% | ___
-Consultations + CRO        | ___h         | ___h         | __% | ___
-
-GAINS MOYENS OBSERVÉS :
-- Réduction temps tâches répétitives : 60-80%
-- Amélioration qualité outputs : 40-60%
-- Augmentation productivité : 200-400%
-
-INVESTISSEMENT NÉCESSAIRE :
-- Temps formation : 12h (4 sessions × 3h)
-- Coût outils IA : 60€/mois
-- Temps adaptation : 2-4 semaines
-
-GAINS ESTIMÉS ANNUELS :
-- Temps libéré : ___ heures/an
-- Valeur temps (75€/h) : ___€
-- Efficacité nette : ___:1</code>
-                        </div>
-                        <button class="copy-btn">📋 Copier</button>
-                    </div>
-                </section>
-                
-                <!-- Quick Templates -->
-                <section class="quick-templates">
-                    <h2>⚡ Templates Rapides</h2>
-                    
-                    <div class="quick-grid">
-                        <div class="quick-template">
-                            <h4>DDx Rapide</h4>
-                            <code>Top 5 diagnostics différentiels pour : [symptômes]
-Classer par probabilité avec justification</code>
-                            <button class="copy-btn-small">📋</button>
-                        </div>
-                        
-                        <div class="quick-template">
-                            <h4>Complication?</h4>
-                            <code>Patient J+[X] post [intervention] présente [symptômes].
-Évalue urgence et conduite à tenir</code>
-                            <button class="copy-btn-small">📋</button>
-                        </div>
-                        
-                        <div class="quick-template">
-                            <h4>Devis Express</h4>
-                            <code>Génère devis détaillé pour [intervention]
-Inclure : Honoraires, clinique, anesthésie, suivi</code>
-                            <button class="copy-btn-small">📋</button>
-                        </div>
-                        
-                        <div class="quick-template">
-                            <h4>Stats Article</h4>
-                            <code>Extrais et résume les statistiques clés de :
-[coller abstract ou résultats]</code>
-                            <button class="copy-btn-small">📋</button>
+✓ SAFE TO USE = Toutes cases cochées</pre>
+                            
+                            <button class="btn btn-secondary" onclick="navigator.clipboard.writeText(this.previousElementSibling.textContent)">📋 Copier</button>
                         </div>
                     </div>
                 </section>
                 
+                <!-- Template 2: Consentement -->
+                <section class="mb-4">
+                    <div class="card">
+                        <h2 class="card-title">📝 Template 2 : Consentement Utilisation IA</h2>
+                        <div class="card-content">
+                            <pre class="code-block">CONSENTEMENT POUR UTILISATION D'OUTILS IA
+Service de Chirurgie Plastique - [Institution]
+
+Je soussigné(e) _________________, né(e) le _________
+
+Autorise l'utilisation d'outils d'intelligence artificielle pour :
+□ L'analyse anonymisée de mes données médicales
+□ L'optimisation du compte-rendu opératoire
+□ La recherche bibliographique liée à mon cas
+□ L'aide à la rédaction scientifique
+
+Je comprends que :
+- Mes données seront systématiquement anonymisées
+- Aucune donnée identifiable ne sera transmise
+- L'IA est un outil d'aide, les décisions restent médicales
+- Je peux retirer mon consentement à tout moment
+
+Date : ___________
+Signature patient :          Signature médecin :</pre>
+                            
+                            <button class="btn btn-secondary" onclick="navigator.clipboard.writeText(this.previousElementSibling.textContent)">📋 Copier</button>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Template 3: Prompts TFE -->
+                <section class="mb-4">
+                    <div class="card">
+                        <h2 class="card-title">🎯 Template 3 : Prompts Optimisés TFE→Publication</h2>
+                        <div class="card-content">
+                            <h3>3.1 Introduction Percutante</h3>
+                            <pre class="code-block">Tu es reviewer senior pour Plastic and Reconstructive Surgery.
+Transforme cette introduction de TFE en introduction d'article high-impact.
+
+Introduction actuelle :
+[COLLER VOTRE INTRO TFE]
+
+Exigences :
+1. Hook fort en première phrase (statistique ou problème clinique)
+2. Gap dans la littérature clairement identifié
+3. Innovation/contribution mise en valeur
+4. Objectif SMART en dernière phrase
+5. Maximum 300 mots
+6. Style direct, voix active
+7. Références récentes (2020+)
+
+Fournis :
+- Version révisée
+- Justification des changements clés
+- 3 hooks alternatifs à tester</pre>
+                            
+                            <button class="btn btn-secondary" onclick="navigator.clipboard.writeText(this.previousElementSibling.textContent)">📋 Copier</button>
+                            
+                            <h3 class="mt-3">3.2 Abstract IMRAD 250 mots</h3>
+                            <pre class="code-block">Crée un abstract structuré de 250 mots EXACTEMENT pour PRS/ASJ.
+
+Données du TFE :
+- Type étude : [prospective/retrospective/case series]
+- N patients : [nombre]
+- Intervention : [technique chirurgicale]
+- Outcome principal : [mesure]
+- Résultats clés : [chiffres avec p-values]
+- Follow-up : [durée moyenne]
+
+Structure OBLIGATOIRE :
+- Background (50 mots) : Problème + objectif
+- Methods (75 mots) : Design, patients, intervention, outcomes
+- Results (75 mots) : Chiffres principaux avec IC95% et p-values
+- Conclusions (50 mots) : Message principal + implication clinique
+
+Style : Temps passé, voix passive, pas d'abréviations</pre>
+                            
+                            <button class="btn btn-secondary" onclick="navigator.clipboard.writeText(this.previousElementSibling.textContent)">📋 Copier</button>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Template 4: Calculateur ROI -->
+                <section class="mb-4">
+                    <div class="card">
+                        <h2 class="card-title">📊 Template 4 : Calculateur Gains de Temps</h2>
+                        <div class="card-content">
+                            <h3>Mesurer votre efficacité avec l'IA</h3>
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Tâche</th>
+                                        <th>Temps SANS IA</th>
+                                        <th>Temps AVEC IA</th>
+                                        <th>Gain</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Recherche biblio PRISMA</td>
+                                        <td>8-12h</td>
+                                        <td>1-2h</td>
+                                        <td>85%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Rédaction introduction</td>
+                                        <td>4-6h</td>
+                                        <td>45min</td>
+                                        <td>80%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Création abstract</td>
+                                        <td>2-3h</td>
+                                        <td>20min</td>
+                                        <td>85%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Analyse stats + figures</td>
+                                        <td>6-8h</td>
+                                        <td>1h</td>
+                                        <td>85%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Révision linguistique</td>
+                                        <td>3-4h</td>
+                                        <td>30min</td>
+                                        <td>85%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            
+                            <div class="alert alert-success">
+                                <strong>Temps total TFE→Publication :</strong>
+                                <ul>
+                                    <li>Sans IA : 25-35 heures</li>
+                                    <li>Avec IA : 4-6 heures</li>
+                                    <li><strong>Gain moyen : 85% ⚡</strong></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Template 5: Pipeline Complet -->
+                <section class="mb-4">
+                    <div class="card">
+                        <h2 class="card-title">📋 Template 5 : Pipeline Transformation TFE Complet</h2>
+                        <div class="card-content">
+                            <h3>Workflow Jour par Jour</h3>
+                            <pre class="code-block">JOUR 1 : ANALYSE & PLANNING (2h)
+□ Relire TFE en entier
+□ Identifier les 3 messages clés
+□ Choisir journal cible (PRS/ASJ/JHS)
+□ Télécharger guidelines auteurs
+□ Analyser 3 articles similaires récents
+
+JOUR 2 : RESTRUCTURATION (3h)
+□ Abstract (ChatGPT + Claude) - 30min
+□ Introduction réécrite (Claude thinking) - 45min
+□ Methods épurées (ChatGPT) - 30min
+□ Results visuels (ChatGPT Code) - 45min
+□ Discussion focalisée (Claude) - 30min
+
+JOUR 3 : OPTIMISATION (2h)
+□ Bibliographie via Perplexity - 30min
+□ Figures professionnelles - 45min
+□ Tableaux standardisés - 30min
+□ Relecture cohérence - 15min
+
+JOUR 4 : FINALISATION (1h)
+□ Cover letter (template journal)
+□ Highlights/Key points
+□ Checklist soumission
+□ Export format journal
+
+TOTAL : 8h sur 4 jours = Article prêt ✅</pre>
+                            
+                            <button class="btn btn-secondary" onclick="navigator.clipboard.writeText(this.previousElementSibling.textContent)">📋 Copier</button>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Template 6: Commandes Vocales -->
+                <section class="mb-4">
+                    <div class="card">
+                        <h2 class="card-title">🎤 Template 6 : Commandes Vocales par Outil</h2>
+                        <div class="card-content">
+                            <h3>Optimisé pour dictée mobile</h3>
+                            
+                            <h4>ChatGPT Voice</h4>
+                            <pre class="code-block">"Hey ChatGPT, je suis chirurgien plasticien. 
+Patient 45 ans, ptose mammaire grade 3.
+Technique : cure de ptose avec cicatrice en T inversé.
+Rédige le compte-rendu opératoire complet."</pre>
+                            
+                            <h4>Claude (via app)</h4>
+                            <pre class="code-block">"Claude, analyse éthique de cette situation :
+Patiente demande augmentation mammaire 500cc.
+IMC 18, dysmorphophobie suspectée.
+Quels sont les enjeux éthiques ?"</pre>
+                            
+                            <div class="alert alert-info">
+                                <strong>💡 Tips dictée :</strong>
+                                <ul>
+                                    <li>Parler lentement et articuler</li>
+                                    <li>Dire "point" et "virgule"</li>
+                                    <li>Épeler les termes techniques</li>
+                                    <li>Vérifier avant d'envoyer</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Template 7: Protocole Urgence -->
+                <section class="mb-4">
+                    <div class="card">
+                        <h2 class="card-title">🚨 Template 7 : Protocole si Outil IA Down</h2>
+                        <div class="card-content">
+                            <h3>Plan B pour chaque outil</h3>
+                            
+                            <div class="alert alert-warning">
+                                <h4>Si ChatGPT down :</h4>
+                                <p>→ Basculer sur Claude (capacités similaires)<br>
+                                → Ou Microsoft Copilot (gratuit)</p>
+                                
+                                <h4>Si Claude down :</h4>
+                                <p>→ ChatGPT pour rédaction<br>
+                                → Gemini pour analyse documents</p>
+                                
+                                <h4>Si Perplexity down :</h4>
+                                <p>→ Google Scholar directement<br>
+                                → Consensus.app comme alternative</p>
+                                
+                                <h4>Si tous down :</h4>
+                                <p>→ Bing Chat (toujours accessible)<br>
+                                → Version web sans compte<br>
+                                → Reporter à 24h (rare)</p>
+                            </div>
+                            
+                            <pre class="code-block">CONTACTS SUPPORT :
+- ChatGPT : support@openai.com
+- Claude : support@anthropic.com
+- Perplexity : hello@perplexity.ai
+- Status pages : status.[outil].com</pre>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Call to Action -->
+                <div class="alert alert-success text-center">
+                    <h3>🚀 Prêt à transformer votre TFE ?</h3>
+                    <p>Utilisez ces templates dès aujourd'hui et rejoignez la communauté WhatsApp pour partager vos succès !</p>
+                    <a href="../groupes/whatsapp.html" class="btn btn-primary">Rejoindre la Communauté</a>
+                </div>
             </div>
         </div>
     </main>
@@ -547,25 +365,58 @@ Inclure : Honoraires, clinique, anesthésie, suivi</code>
     <!-- Footer -->
     <footer class="footer">
         <div class="footer-content">
-            <p>&copy; 2025 Université Libre de Bruxelles - Formation IA Médicale</p>
-            <p>Contact : <a href="mailto:ai.medical@ulb.be">ai.medical@ulb.be</a></p>
+            <div class="footer-section">
+                <h4>Formation</h4>
+                <ul>
+                    <li><a href="../programme.html">Programme complet</a></li>
+                    <li><a href="../sessions/session1.html">Sessions</a></li>
+                    <li><a href="../exercises/index.html">Exercices</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Ressources</h4>
+                <ul>
+                    <li><a href="glossaire.html">Glossaire</a></li>
+                    <li><a href="bibliotheque-prompts.html">Prompts</a></li>
+                    <li><a href="guides.html">Guides</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Université Libre de Bruxelles<br>
+                formation.ia@ulb.be</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 ULB - Faculté de Médecine</p>
         </div>
     </footer>
     
     <!-- JavaScript -->
     <script src="../assets/js/navigation.js"></script>
-    <script>
-        // Copy button functionality
-        document.querySelectorAll('.copy-btn, .copy-btn-small').forEach(btn => {
-            btn.addEventListener('click', function() {
-                const template = this.parentElement.querySelector('code').textContent;
-                navigator.clipboard.writeText(template);
-                this.textContent = '✅ Copié!';
-                setTimeout(() => {
-                    this.textContent = '📋 Copier';
-                }, 2000);
-            });
-        });
-    </script>
+    
+    <style>
+        .intro-card {
+            background: #f8f9fa;
+            border-radius: 0.375rem;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .code-block {
+            background: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 1rem;
+            overflow-x: auto;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            white-space: pre-wrap;
+        }
+        
+        .btn-secondary {
+            margin-top: 0.5rem;
+        }
+    </style>
 </body>
 </html>

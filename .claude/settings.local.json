@@ -33,7 +33,8 @@
       "Bash(do echo \"=== $file ===\")",
       "Bash(done)",
       "Bash(git merge:*)",
-      "Bash(git reset:*)"
+      "Bash(git reset:*)",
+      "Bash(node:*)"
     ],
     "deny": []
   },

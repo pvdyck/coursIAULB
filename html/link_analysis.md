@@ -31,8 +31,6 @@ These are incorrect relative paths from session files:
 - `grilles.html` - Should be `../evaluation/grilles.html` when referenced from subdirectories
 
 ### 4. Missing Group/Evaluation Files
-- `groupes/travaux.html` - Referenced in `index.html`
-- `evaluation/scores.html` - Referenced in `index.html`
 
 ## Working Links
 
@@ -77,8 +75,6 @@ The following links are correctly implemented and their target files exist:
    - `securite.html`
 
 3. **Create missing group/evaluation files**:
-   - `groupes/travaux.html`
-   - `evaluation/scores.html`
 
 4. **Fix relative path issues** in session navigation:
    - In session files, links between sessions should use relative paths without `../`

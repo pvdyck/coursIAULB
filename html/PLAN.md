@@ -23,11 +23,9 @@ html/
 │   ├── session3-exercises.html    # Exercices Session 3
 │   └── session4-exercises.html    # Exercices Session 4
 ├── groupes/
-│   ├── whatsapp.html              # Guide WhatsApp et Collaboration
-│   └── travaux.html               # Travaux de Groupe
+│   └── whatsapp.html              # Guide WhatsApp et Collaboration
 ├── evaluation/
-│   ├── grilles.html               # Grilles d'Évaluation
-│   └── scores.html                # Tableau des Scores
+│   └── grilles.html               # Grilles d'Évaluation
 └── assets/
     ├── css/
     │   ├── ulb-medical.css        # Style principal ULB Médecine

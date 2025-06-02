@@ -1,51 +1,26 @@
-# 📱 Liens d'Accès aux Groupes WhatsApp
+# 📱 Lien d'Accès au Canal WhatsApp
 
-## 🔗 Liens Directs
+## 🔗 Canal Unique
 
-### Groupe Principal - Annonces
-**🎓 ULB IA Med - Annonces**
+### **🎓 IA Chirurgie Plastique ULB 2025**
 - Lien : [À communiquer par email]
 - Code QR : [À scanner en présentiel]
 - Admin : Dr. Formation IA
 
-### Groupes de Travail
-
-**👥 Groupe A - ChatGPT Focus (1-10)**
-- Lien : [À communiquer après inscription]
-- Modérateur : Assistant A
-- Spécialité : Optimisation ChatGPT
-
-**👥 Groupe B - Claude Focus (11-20)**
-- Lien : [À communiquer après inscription]
-- Modérateur : Assistant B
-- Spécialité : Maîtrise Claude
-
-**👥 Groupe C - Gemini Focus (21-30)**
-- Lien : [À communiquer après inscription]
-- Modérateur : Assistant C
-- Spécialité : Excellence Gemini
-
-### Groupes Spécialisés (Optionnels)
-
-**🤖 Experts ChatGPT**
-- Lien : [Accès sur demande]
-- Prérequis : 3 exercices ChatGPT validés
-
-**🧠 Experts Claude**
-- Lien : [Accès sur demande]
-- Prérequis : 3 exercices Claude validés
-
-**🔮 Experts Gemini**
-- Lien : [Accès sur demande]
-- Prérequis : 3 exercices Gemini validés
+**💡 Avantages du canal unique :**
+- ✅ Communication centralisée
+- ✅ Pas de messages manqués
+- ✅ Partage facilité entre tous
+- ✅ Historique complet accessible
+- ✅ Gestion simplifiée
 
 ## 📋 Règles d'Accès
 
-### Attribution des Groupes
+### Procédure d'Accès
 1. **Inscription** via formulaire
-2. **Attribution automatique** A, B ou C
-3. **Lien envoyé** par email
-4. **24h** pour rejoindre
+2. **Lien du canal** envoyé par email
+3. **24h** pour rejoindre
+4. **Validation** automatique
 
 ### Conditions d'Utilisation
 - ✅ Nom réel obligatoire
@@ -90,9 +65,8 @@
 
 ### Notifications
 ```
-Groupe Principal : ✅ Toutes
-Groupe Travail : ✅ Mentions only
-Groupes Experts : ✅ Silencieux
+Canal Formation : ✅ Mentions + Messages importants
+Suggestion : Activer notifications pour #Urgent et #Annonce
 ```
 
 ### Paramètres WhatsApp
@@ -107,7 +81,7 @@ Groupes Experts : ✅ Silencieux
 2. Email à support avec :
    - Nom complet
    - Numéro étudiant
-   - Groupe initial
+   - Date d'inscription
 3. Nouveau lien sous 24h
 
 ### Archives Disponibles
@@ -119,13 +93,13 @@ Groupes Experts : ✅ Silencieux
 
 ### Avant Formation
 - **J-7** : Email avec instructions
-- **J-3** : Liens groupes envoyés
+- **J-3** : Lien canal envoyé
 - **J-1** : Rappel rejoindre
 
 ### Pendant Formation
 - **Sem 1-4** : Accès complet
 - **Sem 5** : Archive mode
-- **Sem 8** : Fermeture groupes
+- **Sem 8** : Archivage canal
 
 ### Après Formation
 - Alumni group disponible
@@ -144,7 +118,7 @@ Je suis [Prénom] [Nom]
 ```
 
 ### Organisation Efficace
-- 📌 Épingler groupes importants
+- 📌 Épingler le canal formation
 - 🏷️ Utiliser labels WhatsApp
 - 🔍 Maîtriser fonction recherche
 - 📎 Sauvegarder docs importants

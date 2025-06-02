@@ -37,7 +37,6 @@
 ├── 📁 00_Start_Here/ ← VOUS ÊTES ICI
 ├── 📁 01_Ressources_Cours/ ← Templates et guides
 ├── 📁 02_Exercices_Sessions/ ← Pratique guidée
-├── 📁 03_Travaux_Groupes/ ← Collaboration
 ├── 📁 04_Challenges_Hebdo/ ← Défis bonus
 └── 📁 05_Best_Practices/ ← Success stories
 ```

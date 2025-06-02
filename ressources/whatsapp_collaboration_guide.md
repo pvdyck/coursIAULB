@@ -3,27 +3,22 @@
 
 ## 📱 Vue d'Ensemble
 
-La formation utilise exclusivement WhatsApp et Google Drive pour faciliter la collaboration et l'apprentissage entre participants.
+La formation utilise un canal WhatsApp unique et Google Drive pour faciliter la collaboration et l'apprentissage entre participants. Cette approche simplifiée permet une communication centralisée et efficace.
 
-## 🔧 Structure des Groupes WhatsApp
+## 🔧 Canal WhatsApp Unique
 
-### 1. **Groupe Principal - "IA Chirurgie Plastique ULB 2025"**
-- Annonces générales
-- Questions transversales
-- Partage de ressources
-- Challenges inter-sessions
+### **"IA Chirurgie Plastique ULB 2025"**
 
-### 2. **Groupes par Plateforme**
-- **ChatGPT Focus** : Spécialistes ChatGPT
-- **Claude Focus** : Spécialistes Claude
-- **Gemini Focus** : Spécialistes Gemini
-- **Perplexity Focus** : Spécialistes Perplexity
+Un seul canal pour simplifier la communication et centraliser tous les échanges.
 
-### 3. **Groupes de Travail (Carrés de 4)**
-- Formés pendant les sessions
-- 1 expert par plateforme
-- Collaboration sur exercices
-- Durée : limitée aux sessions
+- 📢 Annonces et informations générales
+- ❓ Questions et réponses
+- 📚 Partage de ressources et workflows
+- 🏆 Challenges et exercices inter-sessions
+- 💡 Retours d'expérience et bonnes pratiques
+- 🔧 Support technique
+
+**💡 Conseil :** Utilisez les hashtags pour organiser les conversations et retrouver facilement les informations.
 
 ## 📋 Règles d'Usage
 
@@ -62,7 +57,7 @@ La formation utilise exclusivement WhatsApp et Google Drive pour faciliter la co
 2. **Anonymisation** : Retirer toute info sensible
 3. **Annotation** : Ajouter contexte si nécessaire
 4. **Hashtag** : Taguer correctement
-5. **Partage** : Dans le bon groupe
+5. **Partage** : Sur le canal WhatsApp
 
 ## 📊 Google Drive - Structure
 
@@ -119,8 +114,8 @@ Formation_IA_ULB_2025/
 ## 🆘 Support
 
 Pour toute question technique sur WhatsApp ou Drive :
-- Poster dans groupe principal avec `#Help`
-- Mentionner modérateurs groupe
+- Poster sur le canal avec `#Help`
+- Mentionner les modérateurs
 - Consulter ce guide
 
 ## 📅 Horaires Actifs
