@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session 2 : Découverte des Outils IA - Slides</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            overflow: hidden;
+            height: 100vh;
+        }
+
+        .slide-container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .slide {
+            display: none;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            padding: 3rem;
+            margin: 2rem;
+            max-width: 95vw;
+            max-height: 90vh;
+            overflow-y: auto;
+            animation: slideIn 0.5s ease-in-out;
+        }
+
+        .slide.active {
+            display: block;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .slide h1 {
+            color: #2c3e50;
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            border-bottom: 4px solid #667eea;
+            padding-bottom: 1rem;
+        }
+
+        .slide h2 {
+            color: #34495e;
+            font-size: 2rem;
+            margin: 1.5rem 0 1rem 0;
+            border-left: 6px solid #667eea;
+            padding-left: 1rem;
+        }
+
+        .slide h3 {
+            color: #2c3e50;
+            font-size: 1.5rem;
+            margin: 1rem 0 0.5rem 0;
+        }
+
+        .slide h4 {
+            color: #34495e;
+            font-size: 1.2rem;
+            margin: 0.8rem 0 0.4rem 0;
+        }
+
+        .slide p, .slide li {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 0.8rem;
+        }
+
+        .slide ul, .slide ol {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .slide li {
+            margin-bottom: 0.5rem;
+        }
+
+        .alert {
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin: 1rem 0;
+            border-left: 6px solid;
+        }
+
+        .alert-danger {
+            background-color: #f8d7da;
+            border-color: #dc3545;
+            color: #721c24;
+        }
+
+        .alert-warning {
+            background-color: #fff3cd;
+            border-color: #ffc107;
+            color: #856404;
+        }
+
+        .alert-info {
+            background-color: #d1ecf1;
+            border-color: #17a2b8;
+            color: #0c5460;
+        }
+
+        .alert-success {
+            background-color: #d4edda;
+            border-color: #28a745;
+            color: #155724;
+        }
+
+        .card {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin: 1rem 0;
+        }
+
+        pre {
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin: 1rem 0;
+            font-size: 1rem;
+            overflow-x: auto;
+            white-space: pre-wrap;
+        }
+
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+        }
+
+        .table th, .table td {
+            border: 1px solid #dee2e6;
+            padding: 0.75rem;
+            text-align: left;
+        }
+
+        .table th {
+            background-color: #667eea;
+            color: white;
+            font-weight: bold;
+        }
+
+        .table tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+
+        .navigation {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            display: flex;
+            gap: 1rem;
+            z-index: 1000;
+        }
+
+        .nav-btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .nav-btn:hover {
+            background: #5a67d8;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+
+        .nav-btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            box-shadow: none;
+            transform: none;
+        }
+
+        .slide-counter {
+            position: fixed;
+            top: 2rem;
+            right: 2rem;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-weight: bold;
+            color: #2c3e50;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .progress-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 4px;
+            background: #667eea;
+            transition: width 0.3s ease;
+            z-index: 1000;
+        }
+
+        .logo-mini {
+            position: fixed;
+            top: 2rem;
+            left: 2rem;
+            color: white;
+            font-weight: bold;
+            font-size: 1rem;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-danger {
+            color: #dc3545;
+        }
+
+        .emoji {
+            font-size: 1.5em;
+            margin-right: 0.5rem;
+        }
+
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin: 1rem 0;
+        }
+
+        .three-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 1.5rem;
+            margin: 1rem 0;
+        }
+
+        .tool-card {
+            background: #f8f9fa;
+            border: 2px solid #dee2e6;
+            border-radius: 15px;
+            padding: 1.5rem;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .tool-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+
+        .tool-card h3 {
+            color: #667eea;
+            margin-bottom: 1rem;
+        }
+
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+
+        .feature-badge {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            margin: 0.2rem;
+        }
+
+        .highlight {
+            background: linear-gradient(120deg, #a8e6cf 0%, #dcedc1 100%);
+            padding: 0.2rem 0.5rem;
+            border-radius: 5px;
+        }
+
+        @media (max-width: 1200px) {
+            .slide {
+                padding: 2rem;
+                max-width: 98vw;
+                max-height: 95vh;
+            }
+            
+            .slide h1 {
+                font-size: 2rem;
+            }
+            
+            .slide h2 {
+                font-size: 1.6rem;
+            }
+            
+            .two-column, .three-column {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+            
+            .comparison-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="logo-mini">ULB - Chirurgie Plastique</div>
+    <div class="slide-counter">
+        <span id="current-slide">1</span> / <span id="total-slides">28</span>
+    </div>
+    <div class="progress-bar" id="progress-bar"></div>
+
+    <div class="slide-container">
+        <!-- Slide 1: Title -->
+        <div class="slide active">
+            <h1>SESSION 2</h1>
+            <div class="text-center">
+                <h2>Découverte Individuelle des Outils IA</h2>
+                <div class="card">
+                    <p><strong>Durée :</strong> 3h | <strong>Format :</strong> Maîtrise individuelle + Comparaison stratégique</p>
+                    <h3 class="text-danger">🎯 Objectif : Découvrir les 3 autres outils individuellement avant de comparer</h3>
+                </div>
+                <div class="alert alert-info">
+                    <h3>Formation IA pour Chirurgiens Plasticiens</h3>
+                    <p><strong>DES Chirurgie plastique reconstructrice et esthétique</strong></p>
+                    <p>Université Libre de Bruxelles</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 2: Opening - Review ChatGPT -->
+        <div class="slide">
+            <h1>🎯 OUVERTURE : Retour sur ChatGPT</h1>
+            <h2>Partage d'Expériences (10 min)</h2>
+            <div class="card">
+                <h3>Tour de table rapide :</h3>
+                <ul>
+                    <li>🌟 Meilleure découverte avec ChatGPT ?</li>
+                    <li>🤔 Hallucinations les plus surprenantes ?</li>
+                    <li>💡 Application la plus utile trouvée ?</li>
+                    <li>❓ Questions émergentes ?</li>
+                </ul>
+            </div>
+            <div class="alert alert-warning">
+                <p><strong>Rappel important :</strong> ChatGPT reste notre outil de référence, les autres viennent en complément pour des besoins spécifiques.</p>
+            </div>
+        </div>
+
+        <!-- Slide 3: Tools Overview -->
+        <div class="slide">
+            <h1>Vue d'Ensemble des 4 Outils</h1>
+            <div class="comparison-grid">
+                <div class="tool-card">
+                    <h3>🤖 ChatGPT</h3>
+                    <p>Le polyvalent</p>
+                    <div class="feature-badge">Images</div>
+                    <div class="feature-badge">Code</div>
+                    <div class="feature-badge">Analyse</div>
+                </div>
+                <div class="tool-card">
+                    <h3>🧠 Claude</h3>
+                    <p>Le précis</p>
+                    <div class="feature-badge">Éthique</div>
+                    <div class="feature-badge">Long texte</div>
+                    <div class="feature-badge">Thinking</div>
+                </div>
+                <div class="tool-card">
+                    <h3>🌍 Gemini</h3>
+                    <p>L'intégré</p>
+                    <div class="feature-badge">Google</div>
+                    <div class="feature-badge">Temps réel</div>
+                    <div class="feature-badge">Scholar</div>
+                </div>
+                <div class="tool-card">
+                    <h3>🔍 Perplexity</h3>
+                    <p>Le chercheur</p>
+                    <div class="feature-badge">Sources</div>
+                    <div class="feature-badge">Auto</div>
+                    <div class="feature-badge">Labs</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 4: Claude Introduction -->
+        <div class="slide">
+            <h1>🧠 BLOC 1 : Claude - Le Précis et l'Éthique</h1>
+            <h2>Introduction à Claude</h2>
+            <div class="two-column">
+                <div class="card">
+                    <h3>Identité Claude :</h3>
+                    <ul>
+                        <li>Créé par Anthropic</li>
+                        <li>Focus : Sécurité et précision</li>
+                        <li>Constitutional AI : Éthique intégrée</li>
+                        <li>Fenêtre : 200K tokens (≈150K mots!)</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Forces uniques :</h3>
+                    <ul>
+                        <li>📝 Rédaction longue et structurée</li>
+                        <li>🎯 Précision et nuance</li>
+                        <li>🏛️ Raisonnement éthique</li>
+                        <li>📊 Artifacts visuels</li>
+                        <li>🧠 Thinking mode transparent</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 5: Claude Exercise 2.1 -->
+        <div class="slide">
+            <h1>🔄 EXERCICE 2.1 : Découverte Claude</h1>
+            <h2>Test 1 : Rédaction compte-rendu opératoire</h2>
+            <div class="alert alert-info">
+                <pre>"Je dois rédiger le compte-rendu opératoire d'une reconstruction 
+mammaire par DIEP. Patiente 45 ans, mastectomie droite.
+2 perforantes identifiées. Temps op : 6h30. 
+Structure selon standards hospitaliers avec tous les détails techniques."</pre>
+            </div>
+            <div class="card">
+                <h3>Points d'observation :</h3>
+                <ul>
+                    <li>📋 Structure et organisation</li>
+                    <li>🔍 Profondeur d'analyse</li>
+                    <li>⏱️ Temps de génération</li>
+                    <li>✅ Conformité aux standards</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Slide 6: Claude Exercise 2.1 Part 2 -->
+        <div class="slide">
+            <h1>Test 2 : Analyse article PRS</h1>
+            <div class="card">
+                <h3>Instructions :</h3>
+                <ul>
+                    <li>📄 Uploader un article récent de PRS sur chirurgie reconstructrice</li>
+                    <li>💬 Prompt : "Analyse critique pour publication similaire. Méthodologie, résultats BREAST-Q, limites."</li>
+                </ul>
+            </div>
+            <div class="alert alert-warning">
+                <h3>Comparez avec ChatGPT :</h3>
+                <p>Notez les différences dans la profondeur d'analyse et la structure des critiques.</p>
+            </div>
+        </div>
+
+        <!-- Slide 7: Claude Thinking Mode -->
+        <div class="slide">
+            <h1>🤔 EXERCICE 2.2 : Claude Thinking Mode</h1>
+            <h2>Cas éthique chirurgie plastique :</h2>
+            <div class="alert alert-danger">
+                <pre>"Patiente 18 ans demande rhinoplastie pour 'nez ethnique' qu'elle 
+veut 'européanisé'. Parents poussent pour l'opération.
+Signes possibles de dysmorphophobie. Instagram influence ++.
+
+Utilise ton mode thinking pour explorer les dimensions éthiques, 
+psychologiques et professionnelles."</pre>
+            </div>
+            <div class="two-column">
+                <div class="card">
+                    <h4>Standard Mode</h4>
+                    <p>Réponse directe et structurée</p>
+                </div>
+                <div class="card">
+                    <h4>Thinking Mode</h4>
+                    <p>Réflexion transparente et nuancée</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 8: Claude TFE Application -->
+        <div class="slide">
+            <h1>📝 EXERCICE 2.3 : TFE avec Claude</h1>
+            <h2>Application publication médicale</h2>
+            <div class="alert alert-success">
+                <pre>"Voici la section Méthodes de mon TFE sur [rhinoplastie/DIEP/fente].
+Restructure-la selon les standards de Plastic and Reconstructive Surgery.
+Inclus : flowchart patients, technique détaillée, mesures outcomes (ROE/BREAST-Q)."</pre>
+            </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>CRITÈRE</th>
+                        <th>Score /5</th>
+                        <th>Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Précision restructuration</td>
+                        <td>___</td>
+                        <td>_______</td>
+                    </tr>
+                    <tr>
+                        <td>Respect des guidelines</td>
+                        <td>___</td>
+                        <td>_______</td>
+                    </tr>
+                    <tr>
+                        <td>Clarté améliorée</td>
+                        <td>___</td>
+                        <td>_______</td>
+                    </tr>
+                    <tr>
+                        <td>Suggestions pertinentes</td>
+                        <td>___</td>
+                        <td>_______</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Slide 9: Claude Summary -->
+        <div class="slide">
+            <h1>Bilan Claude</h1>
+            <div class="card">
+                <h2>Points clés à retenir :</h2>
+                <ul>
+                    <li>✅ <strong>Excellent pour :</strong> Rédaction longue, révision éthique, analyse nuancée</li>
+                    <li>⚠️ <strong>Limites :</strong> Pas de browsing web, pas d'images générées</li>
+                    <li>🎯 <strong>Usage optimal :</strong> Phase finale de rédaction, questions éthiques complexes</li>
+                </ul>
+            </div>
+            <div class="alert alert-info">
+                <p><strong>Conseil pro :</strong> Utilisez Claude après ChatGPT pour affiner et améliorer vos textes médicaux.</p>
+            </div>
+        </div>
+
+        <!-- Slide 10: Gemini Introduction -->
+        <div class="slide">
+            <h1>🌍 BLOC 2 : Gemini - L'Intégré Google</h1>
+            <h2>Introduction à Gemini</h2>
+            <div class="two-column">
+                <div class="card">
+                    <h3>Identité Gemini :</h3>
+                    <ul>
+                        <li>Créé par Google DeepMind</li>
+                        <li>Intégration écosystème Google</li>
+                        <li>Multimodal natif</li>
+                        <li>Version : 1.5 Pro</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Forces uniques :</h3>
+                    <ul>
+                        <li>🔍 Recherche Google native</li>
+                        <li>📚 Google Scholar intégré</li>
+                        <li>📊 Google Workspace</li>
+                        <li>🌐 Information temps réel</li>
+                        <li>👥 Collaboration native</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 11: Gemini Exercise 2.4 -->
+        <div class="slide">
+            <h1>🔄 EXERCICE 2.4 : Découverte Gemini</h1>
+            <h2>Test 1 : Recherche chirurgie plastique actualisée</h2>
+            <div class="alert alert-info">
+                <pre>"Recherche les dernières études (2024-2025) sur la rhinoplastie 
+de préservation vs structurelle. Taux satisfaction, complications, 
+révisions. Cite sources PubMed et PRS."</pre>
+            </div>
+            <div class="card">
+                <h3>Observer :</h3>
+                <ul>
+                    <li>🔍 Qualité des sources trouvées</li>
+                    <li>📅 Actualité des informations</li>
+                    <li>📊 Intégration Google Scholar</li>
+                    <li>✅ Fiabilité des citations</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Slide 12: Gemini Collaboration -->
+        <div class="slide">
+            <h1>Test 2 : Collaboration temps réel</h1>
+            <div class="card">
+                <h3>Mission collaborative :</h3>
+                <p>Créez un document Google Docs partagé pour votre groupe et utilisez Gemini pour :</p>
+                <ul>
+                    <li>📝 Co-rédiger un protocole post-opératoire</li>
+                    <li>🔄 Intégrer modifications en temps réel</li>
+                    <li>💬 Commenter et améliorer ensemble</li>
+                </ul>
+            </div>
+            <div class="alert alert-warning">
+                <p><strong>Avantage unique :</strong> Gemini permet la collaboration simultanée contrairement aux autres outils.</p>
+            </div>
+        </div>
+
+        <!-- Slide 13: Gemini Medical Integration -->
+        <div class="slide">
+            <h1>🏥 EXERCICE 2.5 : Gemini pour TFE médical</h1>
+            <div class="alert alert-success">
+                <pre>"Crée tableau comparatif Excel via Google Sheets :
+Techniques reconstruction mammaire (DIEP vs TMG vs Implants).
+Colonnes : technique, indications, complications, satisfaction BREAST-Q, 
+coût moyen, durée op. Sources 2024."</pre>
+            </div>
+            <div class="card">
+                <h3>Points forts Gemini :</h3>
+                <ul>
+                    <li>📊 Création automatique de tableaux</li>
+                    <li>🔗 Liens directs vers sources</li>
+                    <li>🔄 Mise à jour facile</li>
+                    <li>📤 Export multiple formats</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Slide 14: Gemini Summary -->
+        <div class="slide">
+            <h1>Bilan Gemini</h1>
+            <div class="card">
+                <h2>Points clés à retenir :</h2>
+                <ul>
+                    <li>✅ <strong>Excellent pour :</strong> Recherche actualisée, collaboration, intégration données</li>
+                    <li>⚠️ <strong>Limites :</strong> Moins précis en rédaction pure, parfois superficiel</li>
+                    <li>🎯 <strong>Usage optimal :</strong> Recherche biblio, tableaux comparatifs, travail d'équipe</li>
+                </ul>
+            </div>
+            <div class="alert alert-info">
+                <p><strong>Conseil pro :</strong> Utilisez Gemini pour la phase de recherche et documentation de votre TFE.</p>
+            </div>
+        </div>
+
+        <!-- Slide 15: Perplexity Introduction -->
+        <div class="slide">
+            <h1>🔍 BLOC 3 : Perplexity - L'Automatiseur de Recherche</h1>
+            <h2>Introduction à Perplexity</h2>
+            <div class="two-column">
+                <div class="card">
+                    <h3>Identité Perplexity :</h3>
+                    <ul>
+                        <li>Focus : Recherche et automatisation</li>
+                        <li>Sources toujours citées</li>
+                        <li>Perplexity Labs : Apps auto-générées</li>
+                        <li>Deep Research : Rapports exhaustifs</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Forces uniques :</h3>
+                    <ul>
+                        <li>🔬 Recherche approfondie automatique</li>
+                        <li>📑 Citations systématiques</li>
+                        <li>📊 Dashboards générés</li>
+                        <li>🤖 Automatisation poussée</li>
+                        <li>📈 Rapports professionnels</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 16: Perplexity Exercise 2.7 -->
+        <div class="slide">
+            <h1>🔄 EXERCICE 2.7 : Découverte Perplexity</h1>
+            <h2>Test 1 : Recherche simple avec sources</h2>
+            <div class="alert alert-warning">
+                <pre>"Quelle est l'incidence des complications majeures 
+en Brazilian Butt Lift selon les études récentes 2024 ?"</pre>
+            </div>
+            <div class="card">
+                <h3>Observer :</h3>
+                <ul>
+                    <li>📚 Nombre et qualité des sources</li>
+                    <li>🔗 Liens cliquables vers études</li>
+                    <li>📊 Données chiffrées précises</li>
+                    <li>⚡ Vitesse de recherche</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Slide 17: Perplexity Deep Research -->
+        <div class="slide">
+            <h1>Test 2 : Deep Research</h1>
+            <div class="alert alert-info">
+                <pre>"Utilise Deep Research pour rapport exhaustif sur l'évolution 
+des techniques de rhinoplastie preservation 2020-2025. 
+Analyse tendances, innovations, taux satisfaction."</pre>
+            </div>
+            <div class="two-column">
+                <div class="card">
+                    <h4>Processus automatique :</h4>
+                    <ul>
+                        <li>🔍 Recherche multi-sources</li>
+                        <li>📝 Structuration auto</li>
+                        <li>📊 Visualisations</li>
+                        <li>📑 Rapport complet</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4>Temps estimé :</h4>
+                    <ul>
+                        <li>⏱️ 5-10 minutes</li>
+                        <li>🆚 2-3 heures manuellement</li>
+                        <li>💯 Gain : 95% du temps</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 18: Perplexity Labs -->
+        <div class="slide">
+            <h1>🚀 EXERCICE 2.8 : Perplexity Labs</h1>
+            <h2>Création dashboard chirurgie</h2>
+            <div class="alert alert-success">
+                <pre>"Crée dashboard interactif pour suivre mes résultats 
+chirurgicaux : taux complications par procédure, scores 
+PROM (FACE-Q/BREAST-Q), taux révision, photos timeline."</pre>
+            </div>
+            <div class="card">
+                <h3>Capacités Labs :</h3>
+                <ul>
+                    <li>📊 Dashboards automatiques</li>
+                    <li>📈 Graphiques interactifs</li>
+                    <li>🔄 Mise à jour temps réel</li>
+                    <li>📱 Applications web complètes</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Slide 19: Perplexity TFE -->
+        <div class="slide">
+            <h1>📝 EXERCICE 2.9 : TFE avec Perplexity</h1>
+            <h2>Revue littérature automatisée</h2>
+            <div class="alert alert-info">
+                <pre>"Génère revue systématique sur [technique SMAS lifting/préservation 
+rhinoplastie/DIEP vs TMG] incluant :
+- Stratégie recherche PubMed/Embase
+- Tableau comparatif outcomes et complications
+- Analyse niveaux evidence
+- Gaps pour mon TFE"</pre>
+            </div>
+            <div class="card">
+                <h3>Résultat attendu :</h3>
+                <ul>
+                    <li>📚 Revue structurée complète</li>
+                    <li>📊 Tableaux de synthèse</li>
+                    <li>🔍 Identification des gaps</li>
+                    <li>💡 Pistes pour votre TFE</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Slide 20: Perplexity Summary -->
+        <div class="slide">
+            <h1>Bilan Perplexity</h1>
+            <div class="card">
+                <h2>Points clés à retenir :</h2>
+                <ul>
+                    <li>✅ <strong>Excellent pour :</strong> État de l'art, veille scientifique, automatisation rapports</li>
+                    <li>⚠️ <strong>Limites :</strong> Moins créatif, parfois trop synthétique</li>
+                    <li>🎯 <strong>Usage optimal :</strong> Phase initiale de recherche, veille continue, dashboards</li>
+                </ul>
+            </div>
+            <div class="alert alert-info">
+                <p><strong>Conseil pro :</strong> Commencez toujours votre TFE par Perplexity pour l'état de l'art.</p>
+            </div>
+        </div>
+
+        <!-- Slide 21: Grand Comparison Exercise -->
+        <div class="slide">
+            <h1>📊 BLOC 4 : Le Grand Comparatif</h1>
+            <h2>🔄 EXERCICE 2.10 : Même tâche sur les 4 outils</h2>
+            <div class="alert alert-warning">
+                <h3>Tâche TFE standardisée :</h3>
+                <pre>"Transforme ce paragraphe de ma discussion TFE [rhinoplastie/reconstruction] 
+en version publiable pour PRS/ASJ. Améliore style, ajoute références 
+récentes, intègre patient-reported outcomes.
+
+[Insérer même paragraphe de 200 mots sur technique/résultats]"</pre>
+            </div>
+            <p class="text-center"><strong>⏱️ Chronométrez chaque outil !</strong></p>
+        </div>
+
+        <!-- Slide 22: Comparison Grid -->
+        <div class="slide">
+            <h1>Grille Comparative</h1>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>CRITÈRE</th>
+                        <th>ChatGPT</th>
+                        <th>Claude</th>
+                        <th>Gemini</th>
+                        <th>Perplexity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Qualité rédaction</td>
+                        <td>/5</td>
+                        <td>/5</td>
+                        <td>/5</td>
+                        <td>/5</td>
+                    </tr>
+                    <tr>
+                        <td>Structure</td>
+                        <td>/5</td>
+                        <td>/5</td>
+                        <td>/5</td>
+                        <td>/5</td>
+                    </tr>
+                    <tr>
+                        <td>Impact amélioré</td>
+                        <td>/5</td>
+                        <td>/5</td>
+                        <td>/5</td>
+                        <td>/5</td>
+                    </tr>
+                    <tr>
+                        <td>Temps nécessaire</td>
+                        <td>___min</td>
+                        <td>___min</td>
+                        <td>___min</td>
+                        <td>___min</td>
+                    </tr>
+                    <tr style="background-color: #f8f9fa; font-weight: bold;">
+                        <td colspan="5">GAGNANT POUR CETTE TÂCHE : _____________</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Slide 23: Strategic Summary -->
+        <div class="slide">
+            <h1>Synthèse Stratégique</h1>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Outil</th>
+                        <th>Forces principales</th>
+                        <th>Idéal pour</th>
+                        <th>Limites</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>ChatGPT</strong></td>
+                        <td>Polyvalence, images, code</td>
+                        <td>Rédaction initiale, brainstorming</td>
+                        <td>Pas de sources temps réel</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Claude</strong></td>
+                        <td>Précision, éthique, long texte</td>
+                        <td>Rédaction finale, révision</td>
+                        <td>Pas de web browsing</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Gemini</strong></td>
+                        <td>Google integration, actualité</td>
+                        <td>Recherche biblio, données</td>
+                        <td>Moins précis en rédaction</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Perplexity</strong></td>
+                        <td>Sources, automatisation</td>
+                        <td>État de l'art, veille</td>
+                        <td>Moins créatif</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Slide 24: Personal Pipeline -->
+        <div class="slide">
+            <h1>🚀 Votre Pipeline Personnel TFE→Publication</h1>
+            <div class="alert alert-success">
+                <h2>Workflow optimal recommandé :</h2>
+                <ol style="font-size: 1.3rem; line-height: 2;">
+                    <li><strong>Perplexity</strong> : État de l'art initial et veille continue</li>
+                    <li><strong>ChatGPT</strong> : Brainstorming et première rédaction</li>
+                    <li><strong>Claude</strong> : Révision et amélioration éthique</li>
+                    <li><strong>Gemini</strong> : Vérification sources et actualisation</li>
+                </ol>
+            </div>
+            <div class="card">
+                <p><strong>💡 Astuce :</strong> Gardez tous les outils ouverts dans des onglets séparés pour switcher rapidement.</p>
+            </div>
+        </div>
+
+        <!-- Slide 25: Collaboration Exercise -->
+        <div class="slide">
+            <h1>🤝 EXERCICE 2.11 : Collaboration Multi-IA</h1>
+            <h2>Workflow de groupe optimisé</h2>
+            <div class="card">
+                <h3>Mission par groupes de 3 :</h3>
+                <ul>
+                    <li><strong>Personne 1 :</strong> Recherche initiale avec Perplexity</li>
+                    <li><strong>Personne 2 :</strong> Rédaction avec ChatGPT</li>
+                    <li><strong>Personne 3 :</strong> Révision avec Claude</li>
+                    <li><strong>Tous :</strong> Validation finale avec Gemini</li>
+                </ul>
+            </div>
+            <div class="alert alert-info">
+                <p><strong>Objectif :</strong> Produire en 30 minutes une section complète de TFE prête pour publication.</p>
+            </div>
+        </div>
+
+        <!-- Slide 26: Common Pitfalls -->
+        <div class="slide">
+            <h1>⚠️ Pièges à Éviter</h1>
+            <div class="two-column">
+                <div class="alert alert-danger">
+                    <h3>❌ Ne PAS faire :</h3>
+                    <ul>
+                        <li>Utiliser un seul outil pour tout</li>
+                        <li>Copier-coller sans vérifier</li>
+                        <li>Ignorer les forces spécifiques</li>
+                        <li>Oublier de citer les sources IA</li>
+                    </ul>
+                </div>
+                <div class="alert alert-success">
+                    <h3>✅ À faire :</h3>
+                    <ul>
+                        <li>Matcher l'outil à la tâche</li>
+                        <li>Vérifier et croiser les infos</li>
+                        <li>Exploiter les synergies</li>
+                        <li>Documenter votre workflow</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 27: Next Steps -->
+        <div class="slide">
+            <h1>🚀 Actions Post-Session</h1>
+            <div class="card">
+                <h2>Cette semaine :</h2>
+                <ul>
+                    <li>✅ Créer comptes sur tous les outils (versions payantes recommandées)</li>
+                    <li>✅ Tester le pipeline complet sur un cas réel</li>
+                    <li>✅ Identifier VOS préférences personnelles</li>
+                    <li>✅ Partager découvertes dans le groupe WhatsApp</li>
+                </ul>
+            </div>
+            <div class="alert alert-info">
+                <h3>Session 3 - Aperçu :</h3>
+                <p>Comparaison clinique avancée et détection des biais algorithmiques</p>
+            </div>
+        </div>
+
+        <!-- Slide 28: Q&A -->
+        <div class="slide">
+            <h1>❓ Questions & Discussion</h1>
+            <div class="text-center">
+                <h2>Partagez vos découvertes</h2>
+                <div class="card">
+                    <h3>Points de discussion :</h3>
+                    <ul>
+                        <li>🌟 Quel outil vous a le plus surpris ?</li>
+                        <li>🤔 Quelle combinaison semble optimale pour votre TFE ?</li>
+                        <li>💡 Avez-vous découvert des usages inattendus ?</li>
+                        <li>❓ Questions sur l'intégration dans votre pratique ?</li>
+                    </ul>
+                </div>
+                <div class="alert alert-success">
+                    <p><strong>Bravo pour votre exploration !</strong></p>
+                    <p>Vous maîtrisez maintenant 4 outils IA complémentaires</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="navigation">
+        <button class="nav-btn" id="prevBtn" onclick="changeSlide(-1)">← Précédent</button>
+        <button class="nav-btn" id="nextBtn" onclick="changeSlide(1)">Suivant →</button>
+    </div>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+        const totalSlides = slides.length;
+        
+        document.getElementById('total-slides').textContent = totalSlides;
+
+        function showSlide(n) {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (n + totalSlides) % totalSlides;
+            slides[currentSlide].classList.add('active');
+            
+            document.getElementById('current-slide').textContent = currentSlide + 1;
+            document.getElementById('progress-bar').style.width = ((currentSlide + 1) / totalSlides * 100) + '%';
+            
+            // Update navigation buttons
+            document.getElementById('prevBtn').disabled = currentSlide === 0;
+            document.getElementById('nextBtn').disabled = currentSlide === totalSlides - 1;
+        }
+
+        function changeSlide(direction) {
+            if (direction === 1 && currentSlide < totalSlides - 1) {
+                showSlide(currentSlide + 1);
+            } else if (direction === -1 && currentSlide > 0) {
+                showSlide(currentSlide - 1);
+            }
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+                changeSlide(-1);
+            } else if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === ' ') {
+                e.preventDefault();
+                changeSlide(1);
+            } else if (e.key === 'Home') {
+                showSlide(0);
+            } else if (e.key === 'End') {
+                showSlide(totalSlides - 1);
+            }
+        });
+
+        // Initialize
+        showSlide(0);
+
+        // Touch gestures for mobile
+        let touchStartX = 0;
+        let touchEndX = 0;
+
+        document.addEventListener('touchstart', function(e) {
+            touchStartX = e.changedTouches[0].screenX;
+        });
+
+        document.addEventListener('touchend', function(e) {
+            touchEndX = e.changedTouches[0].screenX;
+            handleSwipe();
+        });
+
+        function handleSwipe() {
+            if (touchEndX < touchStartX - 50) {
+                changeSlide(1); // Swipe left - next slide
+            }
+            if (touchEndX > touchStartX + 50) {
+                changeSlide(-1); // Swipe right - previous slide
+            }
+        }
+    </script>
+</body>
+</html>

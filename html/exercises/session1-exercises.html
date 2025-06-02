@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Exercices Session 1 : Fondements IA & Maîtrise ChatGPT - Formation IA Chirurgie Plastique ULB">
-    <title>Exercices Session 1 - Formation IA ULB Médecine</title>
+    <meta name="description" content="Exercices Session 1 : Fondements IA & Maîtrise ChatGPT pour Chirurgie Plastique - Formation IA ULB">
+    <title>Exercices Session 1 - Formation IA Chirurgie Plastique ULB</title>
     
     <!-- CSS -->
     <link rel="stylesheet" href="../assets/css/ulb-medical.css">
@@ -57,12 +57,14 @@
                 <nav class="sidebar-nav">
                     <h3 class="sidebar-title">Navigation</h3>
                     <ul>
-                        <li><a href="#ex1-1">Ex 1.1 : Premiers Pas</a></li>
-                        <li><a href="#ex1-2">Ex 1.2 : Optimisation</a></li>
-                        <li><a href="#ex1-3">Ex 1.3 : Hallucinations</a></li>
-                        <li><a href="#ex1-4">Ex 1.4 : ChatGPT Vision</a></li>
-                        <li><a href="#ex1-5">Ex 1.5 : Code Interpreter</a></li>
-                        <li><a href="#ex1-6">Ex 1.6 : Application TFE</a></li>
+                        <li><a href="#cas-reference">🏥 Cas de Référence</a></li>
+                        <li><a href="#ex1-1">📝 Ex 1.1 : Consultation Virtuelle</a></li>
+                        <li><a href="#ex1-2">🔬 Ex 1.2 : Plan Opératoire</a></li>
+                        <li><a href="#ex1-3">🖼️ Ex 1.3 : Analyse Photos</a></li>
+                        <li><a href="#ex1-4">📊 Ex 1.4 : Stats Plastie</a></li>
+                        <li><a href="#ex1-5">🎭 Ex 1.5 : Hallucinations</a></li>
+                        <li><a href="#ex1-6">📝 Ex 1.6 : Application TFE</a></li>
+                        <li><a href="#ex1-7">🏆 Ex 1.7 : Prompt Parfait</a></li>
                     </ul>
                     
                     <h3 class="sidebar-title mt-3">Autres Sessions</h3>
@@ -76,282 +78,798 @@
             
             <!-- Main Content Area -->
             <div class="main-content">
-                <h1>📚 Exercices Session 1 : Fondements IA & Maîtrise ChatGPT</h1>
-                <p class="subtitle">Difficulté : 4/10 - Focus sur UN seul outil</p>
+                <h1>📚 Exercices Session 1 : Fondements IA & Maîtrise ChatGPT pour Chirurgie Plastique</h1>
+                <p class="subtitle">Difficulté : 4/10 - Focus sur UN seul outil avec cas spécialisés</p>
                 
                 <div class="intro-card mb-4">
                     <div class="card-content">
                         <h2>🎯 Objectifs de la Session</h2>
                         <ul>
-                            <li>Comprendre les fondements de l'IA générative</li>
-                            <li>Maîtriser ChatGPT en profondeur</li>
-                            <li>Détecter et gérer les hallucinations</li>
-                            <li>Optimiser vos prompts médicaux</li>
-                            <li>Première application sur votre TFE</li>
+                            <li>Comprendre les fondements de l'IA générative médicale</li>
+                            <li>Maîtriser ChatGPT pour la chirurgie plastique</li>
+                            <li>Analyser photos cliniques et générer documentation</li>
+                            <li>Détecter hallucinations spécialisées</li>
+                            <li>Première application sur votre TFE plastie</li>
                         </ul>
                     </div>
                 </div>
                 
+                <!-- Cas de Référence -->
+                <section id="cas-reference" class="exercise-section">
+                    <h2>🏥 VOS 3 CAS DE RÉFÉRENCE POUR TOUS LES EXERCICES</h2>
+                    
+                    <div class="case-grid">
+                        <div class="case-card">
+                            <h3>Cas A - Rhinoplastie Esthétique</h3>
+                            <div class="case-content">
+                                <p><strong>Patiente :</strong> Femme 25 ans</p>
+                                <p><strong>Morphologie :</strong> Bosse nasale familiale 4mm, pointe tombante</p>
+                                <p><strong>Mesures :</strong> Angle naso-labial 85°</p>
+                                <p><strong>Demande :</strong> "nez naturel, pas refait"</p>
+                                <p><strong>Contexte :</strong> Peur stigmates chirurgie, photos standardisées disponibles</p>
+                                <p><strong>ATCD :</strong> RAS, pas de trouble respiratoire</p>
+                            </div>
+                        </div>
+                        
+                        <div class="case-card">
+                            <h3>Cas B - Reconstruction Mammaire DIEP</h3>
+                            <div class="case-content">
+                                <p><strong>Patiente :</strong> Femme 45 ans</p>
+                                <p><strong>Antécédent :</strong> Mastectomie droite il y a 8 mois pour carcinome</p>
+                                <p><strong>Status :</strong> Chimiothérapie terminée il y a 3 mois</p>
+                                <p><strong>Morphologie :</strong> IMC 28</p>
+                                <p><strong>Scanner :</strong> 2 perforantes dominantes côté droit</p>
+                                <p><strong>Souhait :</strong> Reconstruction avec tissu propre, éviter implants</p>
+                            </div>
+                        </div>
+                        
+                        <div class="case-card">
+                            <h3>Cas C - Lifting Centro-Facial</h3>
+                            <div class="case-content">
+                                <p><strong>Patient :</strong> Homme 58 ans</p>
+                                <p><strong>Plainte :</strong> Relâchement medio-facial, bajoues débutantes</p>
+                                <p><strong>Habitus :</strong> Fumeur sevré 6 mois</p>
+                                <p><strong>Demande :</strong> Rajeunissement naturel</p>
+                                <p><strong>Contexte :</strong> Travail public (avocat), discrétion importante</p>
+                                <p><strong>Budget :</strong> Non limitant, résultat > prix</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
                 <!-- Exercice 1.1 -->
                 <section id="ex1-1" class="exercise-section">
-                    <h2>📝 Exercice 1.1 : Premiers Pas avec ChatGPT (20 min)</h2>
+                    <h2>📝 Exercice 1.1 : Consultation Virtuelle Rhinoplastie (20 min)</h2>
+                    
+                    <div class="mission-card">
+                        <h3>Mission : Simuler une consultation complète avec le Cas A</h3>
+                    </div>
                     
                     <div class="phase-card">
-                        <h3>Phase 1 : Test de Base (5 min)</h3>
-                        <p>Testez ces 3 prompts progressifs dans ChatGPT :</p>
+                        <h3>Phase 1 : Prompts Progressifs (10 min)</h3>
+                        <p>Testez ces 3 prompts dans ChatGPT :</p>
                         
                         <div class="prompt-example">
                             <h4>Prompt 1 (trop simple) :</h4>
-                            <code>Hypertension ?</code>
+                            <code>Rhinoplastie ?</code>
                         </div>
                         
                         <div class="prompt-example">
-                            <h4>Prompt 2 (mieux) :</h4>
-                            <code>Explique l'hypertension artérielle pour un patient</code>
+                            <h4>Prompt 2 (mieux structuré) :</h4>
+                            <code>Explique la rhinoplastie à une patiente de 25 ans</code>
                         </div>
                         
                         <div class="prompt-example">
                             <h4>Prompt 3 (optimal) :</h4>
-                            <code>Agis comme un cardiologue pédagogue. Explique l'hypertension 
-artérielle à un patient de 60 ans nouvellement diagnostiqué. 
-Utilise des analogies simples et structure ta réponse en :
-1. Qu'est-ce que c'est ?
-2. Pourquoi c'est important ?
-3. Que peut-on faire ?</code>
+                            <code>Tu es chirurgien plasticien spécialisé en rhinoplastie. 
+Patiente 25 ans consulte pour bosse nasale 4mm et pointe tombante.
+Angle naso-labial 85°. Demande résultat naturel.
+
+Structure ta consultation :
+1. Analyse morphologique détaillée
+2. Options techniques (ouverte vs fermée) avec justification
+3. Simulation verbale du résultat attendu
+4. Risques spécifiques à ce morphotype
+5. Déroulement post-opératoire jour par jour
+6. Coût estimatif et prise en charge</code>
                         </div>
                     </div>
                     
                     <div class="phase-card">
-                        <h3>Phase 2 : Analyse (15 min)</h3>
+                        <h3>Phase 2 : Analyse Comparative (10 min)</h3>
                         <p>Documentez dans votre cahier :</p>
-                        <ul>
-                            <li>Différence de qualité entre les 3 réponses</li>
-                            <li>Nombre de mots approximatif</li>
-                            <li>Utilité clinique (score /10)</li>
-                            <li>Éléments qui améliorent la réponse</li>
-                        </ul>
                         
-                        <div class="template-box">
-                            <h4>Template de Documentation</h4>
-                            <pre>## Exercice 1.1 - [Votre Nom]
-
-### Analyse des 3 Prompts
-| Prompt | Nb mots | Utilité /10 | Points clés |
-|--------|---------|-------------|-------------|
-| Simple | ~XX     | X/10        | ...         |
-| Mieux  | ~XX     | X/10        | ...         |
-| Optimal| ~XX     | X/10        | ...         |
-
-### Ma découverte principale :
-[2-3 lignes sur ce que vous avez appris]</pre>
-                        </div>
+                        <table class="evaluation-table">
+                            <thead>
+                                <tr>
+                                    <th>Critère</th>
+                                    <th>Prompt 1</th>
+                                    <th>Prompt 2</th>
+                                    <th>Prompt 3</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Pertinence clinique</td>
+                                    <td>/5</td>
+                                    <td>/5</td>
+                                    <td>/5</td>
+                                </tr>
+                                <tr>
+                                    <td>Utilisable en consultation</td>
+                                    <td>/5</td>
+                                    <td>/5</td>
+                                    <td>/5</td>
+                                </tr>
+                                <tr>
+                                    <td>Personnalisation patient</td>
+                                    <td>/5</td>
+                                    <td>/5</td>
+                                    <td>/5</td>
+                                </tr>
+                                <tr>
+                                    <td>Exhaustivité info</td>
+                                    <td>/5</td>
+                                    <td>/5</td>
+                                    <td>/5</td>
+                                </tr>
+                                <tr class="total-row">
+                                    <td><strong>TOTAL</strong></td>
+                                    <td><strong>/20</strong></td>
+                                    <td><strong>/20</strong></td>
+                                    <td><strong>/20</strong></td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </section>
                 
                 <!-- Exercice 1.2 -->
                 <section id="ex1-2" class="exercise-section">
-                    <h2>🔬 Exercice 1.2 : Optimisation de Prompts Médicaux (25 min)</h2>
+                    <h2>🔬 Exercice 1.2 : Plan Opératoire Structuré (25 min)</h2>
                     
                     <div class="mission-card">
-                        <h3>Mission : Transformer un cas clinique en DDx structuré</h3>
-                        
-                        <div class="case-box">
-                            <h4>Cas clinique :</h4>
-                            <p>Femme 45 ans, fatigue progressive 3 mois, palpitations occasionnelles,
-perte de poids 5 kg sans régime, nervosité, troubles du sommeil.
-ATCD : RAS. Pas de traitement.</p>
-                        </div>
+                        <h3>Mission : Générer documentation chirurgicale pour Cas B (DIEP)</h3>
                     </div>
                     
                     <div class="step-card">
                         <h3>Étape 1 : Prompt Basique (5 min)</h3>
-                        <code>Quel est le diagnostic pour cette patiente ?</code>
+                        <div class="prompt-example">
+                            <code>Plan pour reconstruction mammaire DIEP ?</code>
+                        </div>
                         <p class="instruction">→ Copiez la réponse</p>
                     </div>
                     
                     <div class="step-card">
                         <h3>Étape 2 : Prompt Amélioré (10 min)</h3>
-                        <code>Analyse ce cas clinique et donne les diagnostics possibles :
-[Insérer le cas]</code>
+                        <div class="prompt-example">
+                            <code>Génère un plan opératoire pour reconstruction DIEP.
+Patiente 45 ans, mastectomie droite, 2 perforantes identifiées.</code>
+                        </div>
                         <p class="instruction">→ Copiez la réponse</p>
                     </div>
                     
                     <div class="step-card">
                         <h3>Étape 3 : Prompt Expert (10 min)</h3>
-                        <code>Tu es un interniste expérimenté. Analyse ce cas clinique :
-[Insérer le cas]
+                        <div class="prompt-example">
+                            <code>Tu es chirurgien plasticien expert en microchirurgie. 
+Cas : Femme 45 ans, mastectomie droite il y a 8 mois.
+IMC 28, scanner : 2 perforantes dominantes droites.
 
-Fournis :
-1. Top 5 diagnostics différentiels par ordre de probabilité
-2. Justification clinique pour chaque diagnostic
-3. Examens complémentaires essentiels
-4. Red flags à ne pas manquer
-5. Prise en charge immédiate
+Génère le plan opératoire COMPLET incluant :
 
-Format ta réponse de manière structurée et claire.</code>
+1. PRÉOPÉRATOIRE
+   - Examens requis et justification
+   - Préparation spécifique patient
+   - Matériel microchirurgie nécessaire
+
+2. TECHNIQUE CHIRURGICALE
+   - Installation patient
+   - Repérage perforantes (doppler)
+   - Dissection lambeau (étapes)
+   - Anastomoses (ordre, technique)
+   - Modelage et symétrisation
+
+3. SURVEILLANCE POST-OP
+   - Protocole monitoring J0-J7
+   - Critères de reprise urgente
+   - Anticoagulation prophylactique
+
+4. COMPLICATIONS SPÉCIFIQUES
+   - Signes d'alerte thrombose
+   - CAT si souffrance lambeau
+   - Taux succès attendu
+
+Format pour compte-rendu opératoire hospitalier.</code>
+                        </div>
                         <p class="instruction">→ Copiez la réponse</p>
+                    </div>
+                    
+                    <div class="evaluation-grid">
+                        <h3>Grille d'Évaluation</h3>
+                        <table class="evaluation-table">
+                            <thead>
+                                <tr>
+                                    <th>CRITÈRE</th>
+                                    <th>Basique</th>
+                                    <th>Amélioré</th>
+                                    <th>Expert</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Exhaustivité technique</td>
+                                    <td>/5</td>
+                                    <td>/5</td>
+                                    <td>/5</td>
+                                </tr>
+                                <tr>
+                                    <td>Sécurité patient</td>
+                                    <td>/5</td>
+                                    <td>/5</td>
+                                    <td>/5</td>
+                                </tr>
+                                <tr>
+                                    <td>Applicabilité pratique</td>
+                                    <td>/5</td>
+                                    <td>/5</td>
+                                    <td>/5</td>
+                                </tr>
+                                <tr>
+                                    <td>Conformité médico-légale</td>
+                                    <td>/5</td>
+                                    <td>/5</td>
+                                    <td>/5</td>
+                                </tr>
+                                <tr class="total-row">
+                                    <td><strong>TOTAL</strong></td>
+                                    <td><strong>/20</strong></td>
+                                    <td><strong>/20</strong></td>
+                                    <td><strong>/20</strong></td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </section>
                 
                 <!-- Exercice 1.3 -->
                 <section id="ex1-3" class="exercise-section">
-                    <h2>🚨 Exercice 1.3 : Détection d'Hallucinations (20 min)</h2>
+                    <h2>🖼️ Exercice 1.3 : Analyse Photos Cliniques (20 min)</h2>
                     
-                    <div class="warning-card">
-                        <h3>⚠️ Test de Fiabilité</h3>
-                        <p>Testez ces prompts PIÈGES dans ChatGPT et analysez les réponses :</p>
-                        
+                    <div class="mission-card">
+                        <h3>Mission : Tester ChatGPT Vision sur cas plastie</h3>
+                    </div>
+                    
+                    <div class="test-card">
+                        <h3>Test 1 : Analyse Pré-opératoire Rhinoplastie (7 min)</h3>
+                        <ul>
+                            <li>Téléchargez ou utilisez une photo profil rhinoplastie (anonymisée)</li>
+                            <li>Uploadez dans ChatGPT</li>
+                        </ul>
                         <div class="prompt-example">
-                            <h4>Piège 1 :</h4>
-                            <code>Quelle est la dose recommandée de Nexiprox pour traiter l'hypertension résistante ?</code>
-                            <p class="note">Note : Nexiprox n'existe pas</p>
-                        </div>
-                        
-                        <div class="prompt-example">
-                            <h4>Piège 2 :</h4>
-                            <code>Explique-moi le syndrome de Vanderbilt-Morrison en cardiologie</code>
-                            <p class="note">Note : Syndrome inventé</p>
+                            <code>Analyse cette photo de profil pré-opératoire.
+Mesure et identifie :
+- Angle naso-frontal (norme 115-130°)
+- Angle naso-labial (norme H:90-95°, F:95-110°)
+- Projection pointe (méthode Goode)
+- Hauteur bosse en mm
+- Type de peau (fine/moyenne/épaisse)
+Propose plan de réduction adapté.</code>
                         </div>
                     </div>
                     
-                    <div class="analysis-card">
-                        <h3>Questions d'Analyse</h3>
+                    <div class="test-card">
+                        <h3>Test 2 : Évaluation Post-op Lifting (7 min)</h3>
                         <ul>
-                            <li>ChatGPT a-t-il reconnu ne pas connaître ces éléments ?</li>
-                            <li>A-t-il inventé des informations plausibles ?</li>
-                            <li>Comment pourriez-vous reformuler pour obtenir une réponse plus fiable ?</li>
+                            <li>Photos avant/après lifting centro-facial</li>
+                        </ul>
+                        <div class="prompt-example">
+                            <code>Compare ces photos avant/après lifting centro-facial.
+Évalue :
+- Amélioration sillon naso-génien (échelle 1-5)
+- Correction bajoues (%)
+- Naturalité résultat (score /10)
+- Symétrie faciale
+- Zones nécessitant retouche éventuelle</code>
+                        </div>
+                    </div>
+                    
+                    <div class="test-card">
+                        <h3>Test 3 : Documentation Reconstruction (6 min)</h3>
+                        <ul>
+                            <li>Photo résultat DIEP à J30</li>
+                        </ul>
+                        <div class="prompt-example">
+                            <code>Analyse ce résultat de reconstruction DIEP à 1 mois.
+Commente :
+- Volume comparé au sein controlatéral
+- Position complexe aréolo-mamelonnaire
+- Qualité cicatrices abdominales
+- Suggestions pour symétrisation
+- Score satisfaction probable (BREAST-Q)</code>
+                        </div>
+                    </div>
+                    
+                    <div class="checklist-card">
+                        <h3>Points d'Évaluation</h3>
+                        <ul class="checklist">
+                            <li>✓ Précision des mesures</li>
+                            <li>✓ Pertinence clinique</li>
+                            <li>✓ Utilité pour documentation</li>
+                            <li>✓ Limites reconnues</li>
                         </ul>
                     </div>
                 </section>
                 
                 <!-- Exercice 1.4 -->
                 <section id="ex1-4" class="exercise-section">
-                    <h2>🎯 Exercice 1.4 : Application sur votre TFE (30 min)</h2>
+                    <h2>📊 Exercice 1.4 : Statistiques Chirurgie Plastique (25 min)</h2>
                     
-                    <div class="tfe-card">
-                        <h3>Création d'un Prompt Expert pour votre TFE</h3>
+                    <div class="mission-card">
+                        <h3>Mission : Analyses statistiques pour publication</h3>
+                    </div>
+                    
+                    <div class="step-card">
+                        <h3>Étape 1 : Créer Dataset Excel</h3>
+                        <div class="dataset-table">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th>Patient</th>
+                                        <th>ROE_pre</th>
+                                        <th>ROE_6mois</th>
+                                        <th>Temps_op</th>
+                                        <th>Ouverte/Fermée</th>
+                                        <th>Révision</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>35</td>
+                                        <td>85</td>
+                                        <td>120</td>
+                                        <td>O</td>
+                                        <td>Non</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>42</td>
+                                        <td>92</td>
+                                        <td>135</td>
+                                        <td>O</td>
+                                        <td>Non</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>38</td>
+                                        <td>78</td>
+                                        <td>110</td>
+                                        <td>F</td>
+                                        <td>Oui</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>40</td>
+                                        <td>88</td>
+                                        <td>125</td>
+                                        <td>O</td>
+                                        <td>Non</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>33</td>
+                                        <td>90</td>
+                                        <td>140</td>
+                                        <td>O</td>
+                                        <td>Non</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>45</td>
+                                        <td>95</td>
+                                        <td>115</td>
+                                        <td>F</td>
+                                        <td>Non</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>37</td>
+                                        <td>82</td>
+                                        <td>130</td>
+                                        <td>O</td>
+                                        <td>Non</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    
+                    <div class="step-card">
+                        <h3>Étape 2 : Analyses avec ChatGPT</h3>
+                        <p>Uploadez le fichier et demandez :</p>
                         
-                        <div class="step-by-step">
-                            <h4>Étape 1 : Contexte (5 min)</h4>
-                            <p>Rédigez un paragraphe décrivant votre sujet de TFE pour ChatGPT</p>
+                        <div class="analysis-list">
+                            <div class="analysis-item">
+                                <h4>1. Analyse basique :</h4>
+                                <code>"Calcule l'amélioration moyenne du ROE et teste si significatif (test t apparié)"</code>
+                            </div>
                             
-                            <h4>Étape 2 : Objectifs (5 min)</h4>
-                            <p>Listez 3-5 objectifs spécifiques que vous voulez atteindre</p>
+                            <div class="analysis-item">
+                                <h4>2. Comparaison techniques :</h4>
+                                <code>"Compare les résultats ouverte vs fermée. Y a-t-il une différence significative ?"</code>
+                            </div>
                             
-                            <h4>Étape 3 : Prompt Structuré (10 min)</h4>
-                            <p>Créez un prompt suivant ce template :</p>
-                            <pre>Tu es un expert en chirurgie plastique avec 20 ans d'expérience, 
-spécialisé en [votre domaine].
-
-Mon TFE porte sur : [description]
-
-J'ai besoin de ton aide pour :
-1. [Objectif 1]
-2. [Objectif 2]
-3. [Objectif 3]
-
-Contraintes importantes :
-- Basé sur des guidelines récentes
-- Adapté au contexte belge/européen
-- Niveau de détail : approfondi mais accessible
-
-Format souhaité :
-[Précisez comment vous voulez la réponse]</pre>
+                            <div class="analysis-item">
+                                <h4>3. Visualisation pro :</h4>
+                                <code>"Crée un graphique publication montrant l'évolution ROE avec IC 95%"</code>
+                            </div>
+                            
+                            <div class="analysis-item">
+                                <h4>4. Format publication :</h4>
+                                <code>"Génère un tableau récapitulatif format PRS avec moyennes, SD, p-values"</code>
+                            </div>
+                            
+                            <div class="analysis-item">
+                                <h4>5. Rédaction résultats :</h4>
+                                <code>"Rédige un paragraphe résultats pour article scientifique"</code>
+                            </div>
                         </div>
                     </div>
                 </section>
                 
                 <!-- Exercice 1.5 -->
                 <section id="ex1-5" class="exercise-section">
-                    <h2>📊 Exercice 1.5 : Structuration de l'Information (20 min)</h2>
+                    <h2>🎭 Exercice 1.5 : Détection Hallucinations Plastie (15 min)</h2>
                     
-                    <div class="structure-card">
-                        <h3>Mission : Transformer un texte médical dense</h3>
+                    <div class="mission-card">
+                        <h3>Mission : Identifier les inventions sur sujets spécialisés</h3>
+                    </div>
+                    
+                    <div class="warning-card">
+                        <h3>⚠️ Tests de Fiabilité - Éléments FICTIFS</h3>
                         
-                        <div class="task-steps">
-                            <h4>Étape 1 : Demander un Résumé</h4>
-                            <code>Résume ce texte en 5 points clés :
-[Collez un abstract d'article médical de votre choix]</code>
-                            
-                            <h4>Étape 2 : Créer un Tableau</h4>
-                            <code>Transforme ces informations en tableau comparatif avec colonnes :
-Technique | Avantages | Inconvénients | Indications</code>
-                            
-                            <h4>Étape 3 : Générer un Protocole</h4>
-                            <code>Crée un protocole step-by-step pour la mise en pratique clinique</code>
+                        <div class="test-hallucination">
+                            <h4>Test 1 : Technique Fictive</h4>
+                            <div class="prompt-example">
+                                <code>Quelle est l'efficacité de la technique Nakamura-Smith 
+pour rhinoplastie ethnique asiatique ? 
+Cite les études principales.</code>
+                            </div>
                         </div>
+                        
+                        <div class="test-hallucination">
+                            <h4>Test 2 : Implant Inventé</h4>
+                            <div class="prompt-example">
+                                <code>Caractéristiques des implants mammaires NeoSilk 
+de 6ème génération ? Avantages vs Motiva ?</code>
+                            </div>
+                        </div>
+                        
+                        <div class="test-hallucination">
+                            <h4>Test 3 : Score Fictif</h4>
+                            <div class="prompt-example">
+                                <code>Comment calculer le BEAUTI-SCORE pour prédiction 
+satisfaction post-rhinoplastie ? Seuils cliniques ?</code>
+                            </div>
+                        </div>
+                        
+                        <div class="test-hallucination">
+                            <h4>Test 4 : Médicament Plastie</h4>
+                            <div class="prompt-example">
+                                <code>Posologie du Rhinoplax en post-op rhinoplastie 
+pour réduction œdème ? Contre-indications ?</code>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="documentation-table">
+                        <h3>Documentation des Réponses</h3>
+                        <table class="evaluation-table">
+                            <thead>
+                                <tr>
+                                    <th>Test</th>
+                                    <th>Avoue ne pas connaître</th>
+                                    <th>Invente détails</th>
+                                    <th>Propose vérification</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>✓/✗</td>
+                                    <td>✓/✗</td>
+                                    <td>✓/✗</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>✓/✗</td>
+                                    <td>✓/✗</td>
+                                    <td>✓/✗</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>✓/✗</td>
+                                    <td>✓/✗</td>
+                                    <td>✓/✗</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>✓/✗</td>
+                                    <td>✓/✗</td>
+                                    <td>✓/✗</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <div class="strategy-card">
+                        <h3>Stratégies Anti-Hallucination</h3>
+                        <ul class="checklist">
+                            <li>✓ Toujours demander sources PubMed</li>
+                            <li>✓ Vérifier existence techniques/produits</li>
+                            <li>✓ Croiser avec littérature connue</li>
+                            <li>✓ Tester avec variantes du nom</li>
+                            <li>✓ En doute : "Es-tu sûr que cela existe ?"</li>
+                        </ul>
                     </div>
                 </section>
                 
                 <!-- Exercice 1.6 -->
                 <section id="ex1-6" class="exercise-section">
-                    <h2>📝 Exercice 1.6 : Application TFE - Premier Contact (15 min)</h2>
+                    <h2>📝 Exercice 1.6 : Application TFE Personnel (15 min)</h2>
                     
-                    <div class="tfe-application-card">
-                        <h3>Mission : Tester ChatGPT sur VOTRE sujet</h3>
+                    <div class="mission-card">
+                        <h3>Mission : Premier test ChatGPT sur VOTRE sujet</h3>
+                    </div>
+                    
+                    <div class="preparation-card">
+                        <h3>Préparation - Choisissez votre thématique :</h3>
+                        <ul class="checkbox-list">
+                            <li>□ Technique chirurgicale innovante</li>
+                            <li>□ Série de cas avec outcomes</li>
+                            <li>□ Comparaison de techniques</li>
+                            <li>□ Complication rare et prise en charge</li>
+                            <li>□ Autre : ___________</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="test-structure">
+                        <h3>Test Structuré</h3>
                         
-                        <div class="step-card">
-                            <h4>Étape 1 : État des Lieux (5 min)</h4>
+                        <div class="prompt-card">
+                            <h4>Prompt 1 - État de l'art (5 min) :</h4>
                             <div class="prompt-example">
-                                <code>Mon TFE porte sur [votre sujet]. 
-Que sais-tu sur ce domaine ?
-Quelles sont les avancées récentes ?</code>
+                                <code>Revue de littérature 2023-2025 sur [votre sujet exact].
+Focus sur : innovations techniques, taux de satisfaction patients,
+complications rapportées, gaps dans la littérature.
+Structure pour introduction article PRS.</code>
                             </div>
                         </div>
                         
-                        <div class="step-card">
-                            <h4>Étape 2 : Amélioration d'Extrait (10 min)</h4>
-                            <p>Copiez 200-300 mots de votre TFE, puis :</p>
+                        <div class="prompt-card">
+                            <h4>Prompt 2 - Méthodologie (5 min) :</h4>
                             <div class="prompt-example">
-                                <code>Voici un extrait de mon TFE :
-[Coller l'extrait]
-
-Peux-tu :
-1. Identifier les points forts
-2. Suggérer des améliorations de style
-3. Proposer une version plus impactante</code>
+                                <code>Je prépare une étude sur [votre sujet] avec [n] patients.
+Propose une méthodologie robuste incluant :
+- Critères inclusion/exclusion
+- Outcomes à mesurer (PROM validés)
+- Analyses statistiques nécessaires
+- Calcul puissance statistique</code>
                             </div>
                         </div>
                         
-                        <div class="documentation-template">
-                            <h4>Documentation Finale</h4>
-                            <pre>## Bilan Application TFE
+                        <div class="prompt-card">
+                            <h4>Prompt 3 - Impact et Innovation (5 min) :</h4>
+                            <div class="prompt-example">
+                                <code>Mon étude montre [vos résultats principaux].
+Aide-moi à :
+1. Identifier l'angle innovant pour publication
+2. Contextualiser vs littérature existante
+3. Formuler les implications cliniques
+4. Proposer titre accrocheur pour PRS/ASJ</code>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="documentation-template">
+                        <h3>Documentation Finale</h3>
+                        <pre class="template-box">## Bilan Application TFE
 
-### Points Forts de ChatGPT pour mon sujet :
-- ...
-- ...
+### Forces ChatGPT pour mon sujet :
+- 
+- 
+- 
 
 ### Limites identifiées :
-- ...
-- ...
+- 
+- 
+- 
 
-### Prochaines étapes :
-- ...
-</pre>
+### Prochaines étapes avec IA :
+- 
+- </pre>
+                    </div>
+                </section>
+                
+                <!-- Exercice 1.7 -->
+                <section id="ex1-7" class="exercise-section">
+                    <h2>🏆 Challenge Final : Votre Prompt Parfait Plastie (15 min)</h2>
+                    
+                    <div class="mission-card">
+                        <h3>Mission : Créer LE prompt optimal pour votre pratique quotidienne</h3>
+                    </div>
+                    
+                    <div class="template-card">
+                        <h3>Template Consultation Esthétique</h3>
+                        <div class="prompt-example">
+                            <code>Tu es chirurgien esthétique spécialisé en [votre spécialité].
+Patient(e) [âge] ans consulte pour [motif].
+Caractéristiques : [morphologie détaillée].
+Attentes : [demandes spécifiques].
+
+Génère consultation complète :
+1. Analyse morphologique objective
+2. Options techniques hiérarchisées avec pour/contre
+3. Simulation résultats réalistes
+4. Complications spécifiques et fréquences
+5. Parcours patient J-30 à J+365
+6. Devis détaillé avec options
+
+Ton : professionnel mais accessible.
+Format : utilisable pour consentement éclairé.</code>
                         </div>
+                    </div>
+                    
+                    <div class="template-card">
+                        <h3>Template Documentation Opératoire</h3>
+                        <div class="prompt-example">
+                            <code>Génère compte-rendu opératoire détaillé.
+Intervention : [type exact]
+Patient : [âge, IMC, comorbidités]
+Technique : [détails spécifiques]
+
+Inclure obligatoirement :
+- Antibioprophylaxie et prémédication
+- Installation et asepsie
+- Temps opératoires chronologiques
+- Incidents éventuels et CAT
+- Fermeture par plans
+- Pansement et soins post-op immédiats
+- Prescriptions sortie
+
+Format hospitalier standard avec codes CCAM.</code>
+                        </div>
+                    </div>
+                    
+                    <div class="criteria-card">
+                        <h3>Critères du Prompt Parfait</h3>
+                        <ul class="checklist">
+                            <li>✓ Spécifique à votre pratique</li>
+                            <li>✓ Réutilisable quotidiennement</li>
+                            <li>✓ Format de sortie clair</li>
+                            <li>✓ Gain de temps évident</li>
+                            <li>✓ Conforme médico-légal</li>
+                        </ul>
+                    </div>
+                </section>
+                
+                <!-- Auto-évaluation finale -->
+                <section class="final-evaluation">
+                    <h2>📊 Auto-Évaluation Finale</h2>
+                    
+                    <div class="checklist-card">
+                        <h3>Checklist de Maîtrise ChatGPT Plastie</h3>
+                        <div class="checklist-items">
+                            <label><input type="checkbox"> Je structure des prompts efficaces pour cas plastie</label>
+                            <label><input type="checkbox"> J'analyse des photos cliniques avec ChatGPT</label>
+                            <label><input type="checkbox"> Je génère des plans opératoires complets</label>
+                            <label><input type="checkbox"> Je détecte les hallucinations spécialisées</label>
+                            <label><input type="checkbox"> J'utilise Code Interpreter pour stats médicales</label>
+                            <label><input type="checkbox"> J'ai identifié 3 applications pour ma pratique</label>
+                            <label><input type="checkbox"> J'ai créé mon prompt personnalisé réutilisable</label>
+                            <label><input type="checkbox"> Je connais les limites pour usage médical</label>
+                        </div>
+                        <p class="score-line"><strong>Score : ___/8 (Objectif : minimum 6/8)</strong></p>
+                    </div>
+                    
+                    <div class="time-info">
+                        <p><strong>Temps Total Exercices : 2h30</strong></p>
+                        <p><strong>Charge Cognitive : 4/10 ✅</strong></p>
                     </div>
                 </section>
                 
                 <!-- Points Clés -->
                 <section class="key-points">
-                    <h2>🔑 Points Clés à Retenir</h2>
+                    <h2>📌 À Retenir</h2>
                     <div class="points-grid">
                         <div class="point-card">
-                            <h3>Structure</h3>
-                            <p>Un prompt bien structuré = réponse de qualité</p>
+                            <h3>1. Structure</h3>
+                            <p>La structure du prompt détermine la qualité médicale</p>
                         </div>
                         <div class="point-card">
-                            <h3>Contexte</h3>
-                            <p>Plus de contexte = meilleure pertinence</p>
+                            <h3>2. Vérification</h3>
+                            <p>Toujours vérifier les techniques/produits cités</p>
                         </div>
                         <div class="point-card">
-                            <h3>Vérification</h3>
-                            <p>Toujours vérifier les informations critiques</p>
+                            <h3>3. Excellence</h3>
+                            <p>ChatGPT excelle en documentation et analyse</p>
                         </div>
                         <div class="point-card">
-                            <h3>Itération</h3>
-                            <p>Affiner progressivement vos prompts</p>
+                            <h3>4. Efficacité</h3>
+                            <p>Photos cliniques = gain de temps consultation</p>
                         </div>
+                        <div class="point-card">
+                            <h3>5. Organisation</h3>
+                            <p>Sauvegarder vos prompts qui fonctionnent</p>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Mission Inter-Session -->
+                <section class="mission-section">
+                    <h2>🎯 Mission Inter-Session</h2>
+                    
+                    <div class="mission-card">
+                        <h3>Cette semaine, utilisez ChatGPT pour :</h3>
+                        <ul class="checklist">
+                            <li>✓ 3 consultations réelles (anonymisées)</li>
+                            <li>✓ 2 comptes-rendus opératoires</li>
+                            <li>✓ 5 analyses photos avant/après</li>
+                            <li>✓ 1 recherche biblio pour votre TFE</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tracking-table">
+                        <h3>Tableau de Suivi</h3>
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Jour</th>
+                                    <th>Cas traité</th>
+                                    <th>Type prompt</th>
+                                    <th>Temps gagné</th>
+                                    <th>Qualité /10</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>J1</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>J2</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>J3</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>J4</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>J5</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </section>
                 
@@ -367,12 +885,153 @@ Peux-tu :
     <!-- Footer -->
     <footer class="footer">
         <div class="footer-content">
-            <p>&copy; 2025 Université Libre de Bruxelles - Formation IA Médicale</p>
+            <p>&copy; 2025 Université Libre de Bruxelles - Formation IA Chirurgie Plastique</p>
             <p>Contact : <a href="mailto:ai.medical@ulb.be">ai.medical@ulb.be</a></p>
         </div>
     </footer>
     
     <!-- JavaScript -->
     <script src="../assets/js/navigation.js"></script>
+    
+    <style>
+        /* Styles spécifiques pour les exercices Session 1 */
+        .case-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .case-card {
+            background: #e7f3ff;
+            border: 2px solid #0066cc;
+            border-radius: 8px;
+            padding: 1.5rem;
+        }
+        
+        .case-card h3 {
+            color: #0066cc;
+            margin-bottom: 1rem;
+        }
+        
+        .case-content p {
+            margin: 0.5rem 0;
+            line-height: 1.6;
+        }
+        
+        .prompt-example {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+        
+        .prompt-example code {
+            display: block;
+            white-space: pre-wrap;
+            font-family: 'Courier New', monospace;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+        
+        .evaluation-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+        }
+        
+        .evaluation-table th, .evaluation-table td {
+            border: 1px solid #dee2e6;
+            padding: 0.75rem;
+            text-align: center;
+        }
+        
+        .evaluation-table th {
+            background: #0066cc;
+            color: white;
+        }
+        
+        .evaluation-table .total-row {
+            background: #f8f9fa;
+            font-weight: bold;
+        }
+        
+        .data-table {
+            font-size: 0.9rem;
+        }
+        
+        .test-hallucination {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 4px;
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+        
+        .checklist {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .checklist li {
+            padding: 0.5rem 0;
+            padding-left: 1.5rem;
+        }
+        
+        .checklist-items label {
+            display: block;
+            padding: 0.5rem 0;
+            cursor: pointer;
+        }
+        
+        .checklist-items input[type="checkbox"] {
+            margin-right: 0.5rem;
+        }
+        
+        .template-box {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            padding: 1rem;
+            border-radius: 4px;
+            white-space: pre-wrap;
+        }
+        
+        .warning-card {
+            background: #ffebee;
+            border: 2px solid #ef5350;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 1rem 0;
+        }
+        
+        .strategy-card {
+            background: #e8f5e9;
+            border: 2px solid #66bb6a;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 1rem 0;
+        }
+        
+        .points-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+        
+        .point-card {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            padding: 1rem;
+            text-align: center;
+        }
+        
+        .point-card h3 {
+            color: #0066cc;
+            margin-bottom: 0.5rem;
+        }
+    </style>
 </body>
 </html>
