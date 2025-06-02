@@ -2,7 +2,7 @@
 
 ## 🌟 Top 5 Workflows Multi-IA
 
-### 1. 📚 Revue de Littérature Systématique (Gain: 80% du temps)
+### 1. 📚 Revue de Littérature Systématique
 
 **Champion :** Dr. Marie L. (Groupe B)
 **Temps :** 2h (vs 10h traditionnel)
@@ -51,7 +51,7 @@ STRUCTURE IMPOSÉE :
 FORMAT : Markdown avec tableaux
 ```
 
-### 2. 🔬 Diagnostic Différentiel Consensuel (Précision: +23%)
+### 2. 🔬 Diagnostic Différentiel Consensuel
 
 **Champion :** Dr. Jean P. (Groupe A)
 **Méthode :** Triple validation parallèle
@@ -73,9 +73,9 @@ def diagnostic_consensuel(cas_clinique):
     return validate_with_guidelines(top_3)
 ```
 
-**Résultats :** 89% de concordance avec diagnostic final vs 72% mono-IA
+**Résultats :** Amélioration de la concordance avec diagnostic final
 
-### 3. 📝 Rédaction Article Scientifique (Acceptation: +40%)
+### 3. 📝 Rédaction Article Scientifique
 
 **Champion :** Prof. Sophie M. (Groupe C)
 **Pipeline :** Recherche → Rédaction → Polish → Validation
@@ -109,7 +109,7 @@ Phase 4 (30 min) - VALIDATION FINALE [Gemini]
 └── Score de similarité
 ```
 
-### 4. 🏥 Communication Patient Empathique (Satisfaction: +31%)
+### 4. 🏥 Communication Patient Empathique
 
 **Champion :** Dr. Amir K. (Groupe B)
 **Innovation :** Adaptation multiculturelle
@@ -142,7 +142,7 @@ Claude 2: "Vérifie cette communication patient :
 - Suggère améliorations si nécessaire"
 ```
 
-### 5. 🎯 Protocole de Recherche Clinique (Temps: -70%)
+### 5. 🎯 Protocole de Recherche Clinique
 
 **Champion :** Dr. Clara V. (Groupe C)  
 **Spécialité :** Essais cliniques phase III
@@ -186,19 +186,19 @@ FINALISATION
 
 ## 📊 Métriques de Performance
 
-### Gains de Temps Moyens
+### Gains de Temps Observés
 | Tâche | Sans IA | Avec Workflow | Gain |
 |-------|---------|---------------|------|
-| Revue littérature | 10h | 2h | 80% |
-| Article complet | 40h | 8h | 80% |
-| Protocole étude | 20h | 6h | 70% |
-| DDx complexe | 45min | 10min | 78% |
+| Revue littérature | 10h | 2h | Important |
+| Article complet | 40h | 8h | Important |
+| Protocole étude | 20h | 6h | Significatif |
+| DDx complexe | 45min | 10min | Significatif |
 
-### Qualité Mesurée
-- **Articles acceptés** : 73% → 85% (+12%)
-- **Diagnostics corrects** : 76% → 89% (+13%)
-- **Satisfaction patients** : 72% → 91% (+19%)
-- **Conformité protocoles** : 83% → 96% (+13%)
+### Qualité Observée
+- **Articles acceptés** : Amélioration du taux d'acceptation
+- **Diagnostics corrects** : Amélioration de la précision
+- **Satisfaction patients** : Augmentation notable
+- **Conformité protocoles** : Meilleure conformité
 
 ## 🚀 Conseils d'Implémentation
 

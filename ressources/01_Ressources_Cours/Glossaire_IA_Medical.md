@@ -144,6 +144,6 @@
 
 ---
 
-**Ce glossaire couvre 95% des termes que vous rencontrerez**
+**Ce glossaire couvre la plupart des termes que vous rencontrerez**
 
 *Mise à jour : Juin 2025*

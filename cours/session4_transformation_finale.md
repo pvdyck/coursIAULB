@@ -197,11 +197,11 @@ Liste 10 journaux appropriés :
 ```
 JOURNAL         | IF   | Accept% | Review | OA  | Scope | RANK
 ----------------|------|---------|--------|-----|-------|------
-PRS             | 5.2  | 35%     | 45d    | No  | Both  |
-ASJ             | 4.5  | 30%     | 30d    | Yes | Aesth |
-JPRAS           | 3.0  | 40%     | 35d    | Yes | Both  |
-APS             | 2.8  | 45%     | 25d    | Yes | Aesth |
-JRM             | 2.4  | 38%     | 40d    | No  | Recon |
+PRS             | ~5.2 | Variable| ~45d   | No  | Both  |
+ASJ             | ~4.5 | Variable| ~30d   | Yes | Aesth |
+JPRAS           | ~3.0 | Variable| ~35d   | Yes | Both  |
+APS             | ~2.8 | Variable| ~25d   | Yes | Aesth |
+JRM             | ~2.4 | Variable| ~40d   | No  | Recon |
 [Your targets]  |      |         |        |     |       |
 ```
 

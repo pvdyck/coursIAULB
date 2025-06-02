@@ -64,7 +64,7 @@ FORMAT : Tableau + synthèse narrative
 CONTRAINTES : Focus sur méthodologie et biais
 ```
 
-**Taux de succès : Gemini 96% | ChatGPT 92% | Claude 89%**
+**Efficacité : Très élevée avec Gemini, ChatGPT et Claude**
 
 ### 2. 📝 TRANSFORMATION TFE → ARTICLE - Workflow Multi-IA
 
@@ -99,7 +99,7 @@ Assure-toi qu'il captive dès la première phrase.
 Style Nature Medicine : percutant mais rigoureux."
 ```
 
-**Taux publication avec approche multi-IA : 81% (vs 73% mono-outil)**
+**Efficacité : Meilleure avec approche multi-IA qu'avec un seul outil**
 
 ### 3. 🏥 DIAGNOSTIC DIFFÉRENTIEL - Consensus Building
 
@@ -135,7 +135,7 @@ Compare avec littérature récente.
 Signale tout diagnostic manqué important.
 ```
 
-**Précision combinée (consensus 2/3) : 94%**
+**Précision améliorée avec consensus de plusieurs IA**
 
 ## 🚀 Prompts Perplexity Labs - Automatisation Médicale
 
@@ -430,13 +430,14 @@ RECHERCHE COMPLÈTE:
 
 | Tâche | ChatGPT | Claude | Gemini | Combo 2/3 | Combo 3/3 |
 |-------|---------|--------|--------|-----------|-----------|
-| Diagnostic | 87% | 91% | 83% | 94% | 96% |
-| Rédaction | 92% | 96% | 88% | 97% | 98% |
-| Recherche | 89% | 86% | 95% | 98% | 99% |
-| Communication | 94% | 97% | 91% | 98% | 99% |
-| Analyse data | 96% | 93% | 90% | 98% | 99% |
-| Images | 95% | 82% | 88% | 96% | 97% |
-| Éthique | 88% | 95% | 86% | 97% | 98% |
+| **Note: Les performances varient selon les cas d'usage spécifiques** |
+| Diagnostic | Bon | Très bon | Bon | Excellent | Excellent |
+| Rédaction | Très bon | Excellent | Bon | Excellent | Excellent |
+| Recherche | Bon | Bon | Excellent | Excellent | Excellent |
+| Communication | Excellent | Excellent | Très bon | Excellent | Excellent |
+| Analyse data | Excellent | Très bon | Très bon | Excellent | Excellent |
+| Images | Excellent | Bon | Bon | Excellent | Excellent |
+| Éthique | Bon | Excellent | Bon | Excellent | Excellent |
 
 ### Usage Mensuel Communauté ULB
 

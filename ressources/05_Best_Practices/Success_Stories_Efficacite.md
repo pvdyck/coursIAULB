@@ -12,10 +12,10 @@
 Le Dr. Sarah M. a implémenté un système de pré-triage IA aux urgences. En utilisant ChatGPT pour l'interrogatoire initial, Claude pour la structuration des données et Gemini pour les alertes basées sur guidelines, le temps moyen de triage est passé de 15 à 3 minutes par patient.
 
 **Métriques Détaillées :**
-- Patients traités/jour : +45%
-- Erreurs d'orientation : -67%
-- Satisfaction patients : +38%
-- Burnout équipe : -41%
+- Patients traités/jour : augmentation significative
+- Erreurs d'orientation : réduction importante
+- Satisfaction patients : amélioration notable
+- Burnout équipe : diminution observée
 
 ## 📊 Top 10 Success Stories par Spécialité
 
@@ -53,9 +53,9 @@ Jour 11-14 : Claude → Rédaction finale
 4. **Gemini** : Vérification codes et facturation
 
 **Résultats sur 6 mois :**
-- Temps administratif : -73%
-- Consultations supplémentaires : +4/jour/médecin
-- Revenus additionnels : 48,000€
+- Temps administratif : réduction majeure
+- Consultations supplémentaires : augmentation du nombre de consultations
+- Revenus additionnels : augmentation significative
 - **Efficacité démontrée**
 
 ### 3. 🔬 Laboratoire Analyses - Biologie Médicale
@@ -73,10 +73,10 @@ def analyse_antibiogramme(resultats):
 ```
 
 **Impact Mesuré :**
-- Temps biologiste/analyse : 5min → 1min
-- Erreurs d'interprétation : -89%
-- Alertes resistance rare : +156%
-- **efficacité temps : 5:1**
+- Temps biologiste/analyse : réduction significative
+- Erreurs d'interprétation : forte diminution
+- Alertes resistance rare : augmentation des détections
+- **efficacité temps : amélioration majeure**
 - **efficacité qualité : inestimable**
 
 ### 4. 📝 Rédaction Médicale - Agence Communication
@@ -120,10 +120,10 @@ Produit : 50 cas cliniques complets
 ```
 
 **Résultats Pédagogiques :**
-- Notes étudiants : +18% moyenne
-- Engagement : +67% participation
-- Temps création/cas : 2h vs 8h
-- **efficacité pédagogique : 4:1**
+- Notes étudiants : amélioration de la moyenne
+- Engagement : augmentation de la participation
+- Temps création/cas : réduction importante
+- **efficacité pédagogique démontrée**
 
 ### 6. 💊 Pharmacie Hospitalière - Conciliation
 
@@ -137,10 +137,10 @@ Produit : 50 cas cliniques complets
 4. **Rapport** (Claude) : Document structuré pour validation
 
 **Gains Documentés :**
-- Temps/conciliation : 20min → 5min
-- Erreurs détectées : +34%
-- Interactions graves évitées : 12/mois
-- ETP libérés : 2.5
+- Temps/conciliation : réduction significative
+- Erreurs détectées : augmentation des détections
+- Interactions graves évitées : plusieurs par mois
+- ETP libérés : libération de ressources humaines
 - **Efficacité démontrée**
 
 ### 7. 🧠 Psychiatrie - Notes Évolutives
@@ -155,11 +155,11 @@ Produit : 50 cas cliniques complets
 - Suggestions thérapeutiques
 
 **Statistiques 1 an :**
-- Patients suivis : +40%
-- Qualité notes : scores SOAP +89%
-- Burnout praticien : -60%
-- Satisfaction patients : +44%
-- **efficacité global : 8:1**
+- Patients suivis : augmentation importante
+- Qualité notes : amélioration des scores SOAP
+- Burnout praticien : réduction significative
+- Satisfaction patients : amélioration notable
+- **efficacité globale démontrée**
 
 ### 8. 🚑 SAMU - Régulation Médicale
 
@@ -179,10 +179,10 @@ Aide décision régulateur
 ```
 
 **Performance sur 10,000 appels :**
-- Temps décision : -38%
-- Sur-triage : -45%
-- Sous-triage : -72% (!!)
-- Satisfaction appelants : +29%
+- Temps décision : réduction importante
+- Sur-triage : diminution
+- Sous-triage : forte diminution
+- Satisfaction appelants : amélioration
 - **efficacité sécurité : inestimable**
 
 ### 9. 📊 Épidémiologie - Surveillance Sanitaire

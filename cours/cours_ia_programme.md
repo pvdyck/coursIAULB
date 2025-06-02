@@ -111,7 +111,7 @@ SESSION 4 : APPLICATION RÉELLE
 ### Après la formation :
 - ✅ Article prêt pour PRS/ASJ/JHS
 - ✅ Photos standardisées avec IA
-- ✅ Monitoring AI lambeaux (échecs -40%)
+- ✅ Monitoring AI lambeaux
 - ✅ Simulation morphing systématique
 
 ---

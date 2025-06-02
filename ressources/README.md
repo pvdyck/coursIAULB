@@ -179,11 +179,11 @@
 ## 📈 Métriques de Succès Plastie (Juin 2025)
 
 - **Temps moyen TFE→PRS/ASJ** : 2 semaines (vs 6 mois)
-- **Taux soumission post-formation** : 78%
-- **Outils champions plastie** : ChatGPT 35% (photos) | Claude 30% (rédaction) | Perplexity 25% (biblio) | Gemini 10%
-- **Amélioration photos** : 95% standardisées post-formation
-- **Gain de temps moyen** : 25 heures économisées par mois
-- **Publications** : 2.3/an moyenne post-formation
+- **Amélioration significative** : de la soumission d'articles
+- **Outils préférés** : ChatGPT (photos), Claude (rédaction), Perplexity (biblio), Gemini
+- **Amélioration photos** : standardisation généralisée
+- **Gain de temps** : important par mois
+- **Publications** : augmentation notable post-formation
 
 ## 🌟 Success Stories
 
