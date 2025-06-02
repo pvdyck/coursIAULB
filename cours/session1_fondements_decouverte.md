@@ -419,26 +419,6 @@ Preview des autres outils avec vos cas plastie :
 
 ---
 
-### **🎯 MISSION INTER-SESSION 1**
-**"Semaine d'Immersion ChatGPT Plastie"**
-
-1. **Utiliser ChatGPT quotidiennement** sur cas réels (30 min/jour)
-2. **Tester vos 3 prompts personnalisés** en consultation
-3. **Documenter 1 hallucination** spécifique plastie
-4. **Analyser 10 photos** avant/après avec l'outil
-5. **Générer 3 comptes-rendus** opératoires complets
-6. **Mesurer temps gagné** vs méthode habituelle
-7. **Partager sur WhatsApp** : meilleur prompt créé
-
-**Tableau de Suivi :**
-| Jour | Cas traité | Prompt utilisé | Temps gagné | Qualité /10 |
-|------|------------|----------------|-------------|-------------|
-| J1   |            |                |             |             |
-| J2   |            |                |             |             |
-| J3   |            |                |             |             |
-
----
-
 ### 📌 **POINTS CLÉS SESSION 1**
 
 ✅ **Maîtrise acquise :**

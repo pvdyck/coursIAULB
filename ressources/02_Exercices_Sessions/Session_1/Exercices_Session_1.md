@@ -434,23 +434,6 @@ Score : ___/8 (Objectif : minimum 6/8)
 4. **Photos cliniques = gain de temps consultation**
 5. **Sauvegarder vos prompts qui fonctionnent**
 
-## 🎯 Mission Inter-Session
-
-### Cette semaine, utilisez ChatGPT pour :
-1. ✓ 3 consultations réelles (anonymisées)
-2. ✓ 2 comptes-rendus opératoires
-3. ✓ 5 analyses photos avant/après
-4. ✓ 1 recherche biblio pour votre TFE
-
-### Tableau de Suivi :
-| Jour | Cas traité | Type prompt | Temps gagné | Qualité /10 |
-|------|-----------|-------------|-------------|-------------|
-| J1   |           |             |             |             |
-| J2   |           |             |             |             |
-| J3   |           |             |             |             |
-| J4   |           |             |             |             |
-| J5   |           |             |             |             |
-
 ## 🚀 Pour la Session 2
 
 Préparez 2-3 cas complexes où ChatGPT vous a déçu.
