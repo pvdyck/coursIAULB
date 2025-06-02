@@ -34,7 +34,8 @@
       "Bash(done)",
       "Bash(git merge:*)",
       "Bash(git reset:*)",
-      "Bash(node:*)"
+      "Bash(node:*)",
+      "Bash(echo:*)"
     ],
     "deny": []
   },
