@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Guides Pratiques IA - Formation IA Chirurgie Plastique ULB">
+    <title>Guides IA - Formation IA ULB Médecine</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/css/ulb-medical.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <link rel="stylesheet" href="../assets/css/print.css" media="print">
+</head>
+<body>
+    <!-- Skip to main content -->
+    <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo-container">
+                <div class="logo-text">
+                    <div class="logo-main">Université Libre de Bruxelles</div>
+                    <div class="logo-sub">Faculté de Médecine - Formation Continue</div>
+                </div>
+            </div>
+            <nav class="nav-main" role="navigation" aria-label="Navigation principale">
+                <a href="../index.html" class="nav-link">Accueil</a>
+                <a href="../programme.html" class="nav-link">Programme</a>
+                <a href="../sessions/session1.html" class="nav-link">Sessions</a>
+                <a href="glossaire.html" class="nav-link active">Ressources</a>
+                <a href="../evaluation/grilles.html" class="nav-link">Évaluation</a>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Main Content -->
+    <main id="main-content" class="container">
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Fil d'Ariane">
+            <a href="../index.html" class="breadcrumb-item">Accueil</a>
+            <span class="breadcrumb-separator">›</span>
+            <a href="glossaire.html" class="breadcrumb-item">Ressources</a>
+            <span class="breadcrumb-separator">›</span>
+            <span class="breadcrumb-item active">Guides</span>
+        </nav>
+        
+        <div class="content-wrapper">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <button class="mobile-nav-toggle" aria-expanded="false">
+                    Ouvrir le menu
+                </button>
+                <nav class="sidebar-nav">
+                    <h3 class="sidebar-title">Guides Rapides</h3>
+                    <ul>
+                        <li><a href="#quick-start">Quick Start IA</a></li>
+                        <li><a href="#chatgpt-guide">Guide ChatGPT</a></li>
+                        <li><a href="#claude-guide">Guide Claude</a></li>
+                        <li><a href="#perplexity-guide">Guide Perplexity</a></li>
+                        <li><a href="#workflow-guide">Workflows</a></li>
+                    </ul>
+                    
+                    <h3 class="sidebar-title mt-3">Autres Ressources</h3>
+                    <ul>
+                        <li><a href="glossaire.html">Glossaire</a></li>
+                        <li><a href="bibliotheque-prompts.html">Prompts</a></li>
+                        <li><a href="templates.html">Templates</a></li>
+                        <li><a href="cheatsheets.html">Cheatsheets</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            
+            <!-- Main Content Area -->
+            <div class="main-content">
+                <h1>📖 Guides Pratiques IA Médicale</h1>
+                
+                <div class="intro-card mb-4">
+                    <div class="card-content">
+                        <p class="lead">Guides détaillés pour maîtriser rapidement chaque outil IA dans votre pratique médicale.</p>
+                    </div>
+                </div>
+                
+                <!-- Quick Start Guide -->
+                <section id="quick-start" class="guide-section">
+                    <h2>🚀 Guide Quick Start IA</h2>
+                    
+                    <div class="guide-card">
+                        <h3>Démarrer avec l'IA en 5 étapes</h3>
+                        
+                        <div class="step-guide">
+                            <div class="guide-step">
+                                <span class="step-number">1</span>
+                                <div class="step-content">
+                                    <h4>Créer vos comptes</h4>
+                                    <ul>
+                                        <li>ChatGPT : <a href="https://chat.openai.com" target="_blank">chat.openai.com</a></li>
+                                        <li>Claude : <a href="https://claude.ai" target="_blank">claude.ai</a></li>
+                                        <li>Perplexity : <a href="https://perplexity.ai" target="_blank">perplexity.ai</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="guide-step">
+                                <span class="step-number">2</span>
+                                <div class="step-content">
+                                    <h4>Premier prompt test</h4>
+                                    <code>Explique-moi [votre spécialité] comme si j'étais un étudiant en médecine de 4ème année</code>
+                                </div>
+                            </div>
+                            
+                            <div class="guide-step">
+                                <span class="step-number">3</span>
+                                <div class="step-content">
+                                    <h4>Installer les extensions</h4>
+                                    <ul>
+                                        <li>ChatGPT Sidebar (Chrome/Edge)</li>
+                                        <li>Grammarly pour corrections</li>
+                                        <li>Zotero pour références</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="guide-step">
+                                <span class="step-number">4</span>
+                                <div class="step-content">
+                                    <h4>Sauvegarder vos prompts</h4>
+                                    <p>Créez un document avec vos prompts favoris</p>
+                                </div>
+                            </div>
+                            
+                            <div class="guide-step">
+                                <span class="step-number">5</span>
+                                <div class="step-content">
+                                    <h4>Pratiquer quotidiennement</h4>
+                                    <p>15 min/jour pendant 2 semaines</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- ChatGPT Guide -->
+                <section id="chatgpt-guide" class="guide-section">
+                    <h2>💬 Guide Complet ChatGPT</h2>
+                    
+                    <div class="guide-card">
+                        <h3>Maîtriser ChatGPT pour la médecine</h3>
+                        
+                        <div class="guide-tabs">
+                            <div class="tab-content">
+                                <h4>Fonctionnalités Clés</h4>
+                                <ul>
+                                    <li><strong>GPT-4 :</strong> Raisonnement complexe</li>
+                                    <li><strong>Vision :</strong> Analyse d'images médicales</li>
+                                    <li><strong>Code Interpreter :</strong> Analyse de données</li>
+                                    <li><strong>Custom GPTs :</strong> Assistants spécialisés</li>
+                                    <li><strong>Plugins :</strong> Extensions tierces</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="best-practices">
+                                <h4>Bonnes Pratiques</h4>
+                                <ol>
+                                    <li><strong>Contexte :</strong> Toujours préciser votre rôle médical</li>
+                                    <li><strong>Précision :</strong> Données spécifiques = réponses précises</li>
+                                    <li><strong>Vérification :</strong> Croiser les informations critiques</li>
+                                    <li><strong>Itération :</strong> Affiner par questions successives</li>
+                                    <li><strong>Sauvegarde :</strong> Exporter les conversations importantes</li>
+                                </ol>
+                            </div>
+                            
+                            <div class="use-cases">
+                                <h4>Cas d'Usage Médicaux</h4>
+                                <div class="use-case-grid">
+                                    <div class="use-case">
+                                        <h5>Diagnostic Différentiel</h5>
+                                        <p>Analyse de cas complexes</p>
+                                    </div>
+                                    <div class="use-case">
+                                        <h5>Rédaction Médicale</h5>
+                                        <p>Comptes-rendus, articles</p>
+                                    </div>
+                                    <div class="use-case">
+                                        <h5>Formation Continue</h5>
+                                        <p>Résumés, quiz, cas cliniques</p>
+                                    </div>
+                                    <div class="use-case">
+                                        <h5>Communication Patient</h5>
+                                        <p>Vulgarisation, consentements</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Claude Guide -->
+                <section id="claude-guide" class="guide-section">
+                    <h2>🤖 Guide Claude (Anthropic)</h2>
+                    
+                    <div class="guide-card">
+                        <h3>L'alternative éthique pour la médecine</h3>
+                        
+                        <div class="claude-features">
+                            <h4>Points Forts de Claude</h4>
+                            <ul>
+                                <li>✅ Réponses nuancées et éthiques</li>
+                                <li>✅ Excellent pour cas complexes</li>
+                                <li>✅ Moins d'hallucinations</li>
+                                <li>✅ Meilleur respect de la confidentialité</li>
+                                <li>✅ Analyse de documents longs</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="claude-workflow">
+                            <h4>Workflow Optimal</h4>
+                            <ol>
+                                <li>Utiliser pour les discussions éthiques</li>
+                                <li>Analyses de cas sensibles</li>
+                                <li>Révision de protocoles</li>
+                                <li>Rédaction académique approfondie</li>
+                            </ol>
+                        </div>
+                        
+                        <div class="comparison-table">
+                            <h4>Claude vs ChatGPT</h4>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Critère</th>
+                                        <th>Claude</th>
+                                        <th>ChatGPT</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Éthique</td>
+                                        <td>⭐⭐⭐⭐⭐</td>
+                                        <td>⭐⭐⭐⭐</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Créativité</td>
+                                        <td>⭐⭐⭐⭐</td>
+                                        <td>⭐⭐⭐⭐⭐</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Images</td>
+                                        <td>❌</td>
+                                        <td>✅</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Longueur texte</td>
+                                        <td>⭐⭐⭐⭐⭐</td>
+                                        <td>⭐⭐⭐</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Perplexity Guide -->
+                <section id="perplexity-guide" class="guide-section">
+                    <h2>🔍 Guide Perplexity Pro</h2>
+                    
+                    <div class="guide-card">
+                        <h3>Recherche médicale evidence-based</h3>
+                        
+                        <div class="perplexity-features">
+                            <h4>Fonctionnalités Premium</h4>
+                            <ul>
+                                <li>🔬 Accès sources académiques</li>
+                                <li>📊 Citations automatiques</li>
+                                <li>🌐 Recherche temps réel</li>
+                                <li>📱 Mode focus (Academic)</li>
+                                <li>🎯 Filtres avancés</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="search-strategies">
+                            <h4>Stratégies de Recherche</h4>
+                            
+                            <div class="strategy-example">
+                                <h5>Recherche Simple</h5>
+                                <code>PRP facial rejuvenation efficacy</code>
+                            </div>
+                            
+                            <div class="strategy-example">
+                                <h5>Recherche Avancée</h5>
+                                <code>site:pubmed.ncbi.nlm.nih.gov "platelet rich plasma" AND "facial rejuvenation" AND (RCT OR "systematic review") 2023..2024</code>
+                            </div>
+                            
+                            <div class="strategy-example">
+                                <h5>Recherche Comparative</h5>
+                                <code>Compare efficacy: PRP vs microneedling vs laser for facial rejuvenation clinical trials</code>
+                            </div>
+                        </div>
+                        
+                        <div class="pro-tips">
+                            <h4>Astuces Pro</h4>
+                            <ul>
+                                <li>Activer le mode "Academic" pour sources fiables</li>
+                                <li>Utiliser les opérateurs booléens (AND, OR, NOT)</li>
+                                <li>Filtrer par date pour actualité</li>
+                                <li>Exporter les références en format citation</li>
+                                <li>Créer des collections thématiques</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Workflow Guide -->
+                <section id="workflow-guide" class="guide-section">
+                    <h2>🔄 Guide des Workflows Multi-Outils</h2>
+                    
+                    <div class="guide-card">
+                        <h3>Workflows optimisés par cas d'usage</h3>
+                        
+                        <div class="workflow-examples">
+                            <div class="workflow-item">
+                                <h4>📄 Workflow Rédaction Article</h4>
+                                <div class="workflow-steps">
+                                    <div class="wf-step">
+                                        <strong>1. Perplexity</strong>
+                                        <p>Recherche littérature</p>
+                                    </div>
+                                    <div class="wf-arrow">→</div>
+                                    <div class="wf-step">
+                                        <strong>2. NotebookLM</strong>
+                                        <p>Synthèse sources</p>
+                                    </div>
+                                    <div class="wf-arrow">→</div>
+                                    <div class="wf-step">
+                                        <strong>3. Claude</strong>
+                                        <p>Rédaction</p>
+                                    </div>
+                                    <div class="wf-arrow">→</div>
+                                    <div class="wf-step">
+                                        <strong>4. ChatGPT</strong>
+                                        <p>Visuels</p>
+                                    </div>
+                                    <div class="wf-arrow">→</div>
+                                    <div class="wf-step">
+                                        <strong>5. Grammarly</strong>
+                                        <p>Correction</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="workflow-item">
+                                <h4>🎨 Workflow Présentation</h4>
+                                <div class="workflow-steps">
+                                    <div class="wf-step">
+                                        <strong>1. ChatGPT</strong>
+                                        <p>Structure contenu</p>
+                                    </div>
+                                    <div class="wf-arrow">→</div>
+                                    <div class="wf-step">
+                                        <strong>2. DALL-E</strong>
+                                        <p>Illustrations</p>
+                                    </div>
+                                    <div class="wf-arrow">→</div>
+                                    <div class="wf-step">
+                                        <strong>3. Gamma</strong>
+                                        <p>Design auto</p>
+                                    </div>
+                                    <div class="wf-arrow">→</div>
+                                    <div class="wf-step">
+                                        <strong>4. Beautiful.ai</strong>
+                                        <p>Finition</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="workflow-item">
+                                <h4>📊 Workflow Analyse Données</h4>
+                                <div class="workflow-steps">
+                                    <div class="wf-step">
+                                        <strong>1. Excel/CSV</strong>
+                                        <p>Données brutes</p>
+                                    </div>
+                                    <div class="wf-arrow">→</div>
+                                    <div class="wf-step">
+                                        <strong>2. ChatGPT Code</strong>
+                                        <p>Analyse stats</p>
+                                    </div>
+                                    <div class="wf-arrow">→</div>
+                                    <div class="wf-step">
+                                        <strong>3. Datawrapper</strong>
+                                        <p>Visualisations</p>
+                                    </div>
+                                    <div class="wf-arrow">→</div>
+                                    <div class="wf-step">
+                                        <strong>4. Claude</strong>
+                                        <p>Interprétation</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Tips & Tricks -->
+                <section class="tips-section">
+                    <h2>💡 Tips & Tricks Avancés</h2>
+                    
+                    <div class="tips-grid">
+                        <div class="tip-card">
+                            <h3>🎯 Productivité</h3>
+                            <ul>
+                                <li>Créer des raccourcis clavier</li>
+                                <li>Templates de prompts favoris</li>
+                                <li>Sessions dédiées par projet</li>
+                                <li>Export systématique</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="tip-card">
+                            <h3>🔒 Sécurité</h3>
+                            <ul>
+                                <li>Anonymiser données patients</li>
+                                <li>Éviter infos sensibles</li>
+                                <li>Comptes séparés pro/perso</li>
+                                <li>2FA sur tous comptes</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="tip-card">
+                            <h3>📈 Optimisation</h3>
+                            <ul>
+                                <li>Combiner forces des outils</li>
+                                <li>Automatiser répétitif</li>
+                                <li>Mesurer gains de temps</li>
+                                <li>Itérer workflows</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Download Section -->
+                <section class="download-section">
+                    <h2>📥 Téléchargements</h2>
+                    <div class="download-grid">
+                        <a href="#" class="download-card">
+                            <span class="icon">📄</span>
+                            <h3>Guide Complet</h3>
+                            <p>Tous les outils détaillés</p>
+                        </a>
+                        
+                        <a href="#" class="download-card">
+                            <span class="icon">📱</span>
+                            <h3>App Mobile Guide</h3>
+                            <p>Référence rapide</p>
+                        </a>
+                        
+                        <a href="#" class="download-card">
+                            <span class="icon">🎥</span>
+                            <h3>Tutoriels Vidéo</h3>
+                            <p>10 vidéos pratiques</p>
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Université Libre de Bruxelles - Formation IA Médicale</p>
+            <p>Contact : <a href="mailto:ai.medical@ulb.be">ai.medical@ulb.be</a></p>
+        </div>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script src="../assets/js/navigation.js"></script>
+</body>
+</html>

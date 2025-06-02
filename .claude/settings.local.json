@@ -25,7 +25,10 @@
       "Bash(sed:*)",
       "Bash(git checkout:*)",
       "Bash(git mv:*)",
-      "Bash(rg:*)"
+      "Bash(rg:*)",
+      "WebFetch(domain:www.ulb.be)",
+      "Bash(kill:*)",
+      "Bash(python3:*)"
     ],
     "deny": []
   },

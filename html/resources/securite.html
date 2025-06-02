@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sécurité et Éthique IA - Formation IA Chirurgie Plastique ULB">
+    <title>Sécurité IA - Formation IA ULB Médecine</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/css/ulb-medical.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <link rel="stylesheet" href="../assets/css/print.css" media="print">
+</head>
+<body>
+    <!-- Skip to main content -->
+    <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo-container">
+                <div class="logo-text">
+                    <div class="logo-main">Université Libre de Bruxelles</div>
+                    <div class="logo-sub">Faculté de Médecine - Formation Continue</div>
+                </div>
+            </div>
+            <nav class="nav-main" role="navigation" aria-label="Navigation principale">
+                <a href="../index.html" class="nav-link">Accueil</a>
+                <a href="../programme.html" class="nav-link">Programme</a>
+                <a href="../sessions/session1.html" class="nav-link">Sessions</a>
+                <a href="glossaire.html" class="nav-link active">Ressources</a>
+                <a href="../evaluation/grilles.html" class="nav-link">Évaluation</a>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Main Content -->
+    <main id="main-content" class="container">
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Fil d'Ariane">
+            <a href="../index.html" class="breadcrumb-item">Accueil</a>
+            <span class="breadcrumb-separator">›</span>
+            <a href="glossaire.html" class="breadcrumb-item">Ressources</a>
+            <span class="breadcrumb-separator">›</span>
+            <span class="breadcrumb-item active">Sécurité</span>
+        </nav>
+        
+        <div class="content-wrapper">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <button class="mobile-nav-toggle" aria-expanded="false">
+                    Ouvrir le menu
+                </button>
+                <nav class="sidebar-nav">
+                    <h3 class="sidebar-title">Sections</h3>
+                    <ul>
+                        <li><a href="#rgpd">RGPD & IA</a></li>
+                        <li><a href="#confidentialite">Confidentialité</a></li>
+                        <li><a href="#bonnes-pratiques">Bonnes Pratiques</a></li>
+                        <li><a href="#risques">Risques & Prévention</a></li>
+                        <li><a href="#checklist">Checklist Sécurité</a></li>
+                    </ul>
+                    
+                    <h3 class="sidebar-title mt-3">Autres Ressources</h3>
+                    <ul>
+                        <li><a href="glossaire.html">Glossaire</a></li>
+                        <li><a href="bibliotheque-prompts.html">Prompts</a></li>
+                        <li><a href="guides.html">Guides</a></li>
+                        <li><a href="templates.html">Templates</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            
+            <!-- Main Content Area -->
+            <div class="main-content">
+                <h1>🔒 Sécurité et Éthique IA Médicale</h1>
+                
+                <div class="intro-card mb-4">
+                    <div class="card-content">
+                        <p class="lead">Guide complet pour une utilisation sécurisée et éthique de l'IA en médecine.</p>
+                        <div class="alert alert-danger">
+                            <strong>⚠️ Principe fondamental :</strong> La sécurité des données patients prime sur tout gain de productivité.
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- RGPD Section -->
+                <section id="rgpd" class="security-section">
+                    <h2>📋 RGPD et Intelligence Artificielle</h2>
+                    
+                    <div class="rgpd-card">
+                        <h3>Obligations Légales</h3>
+                        
+                        <div class="legal-requirements">
+                            <h4>Principes RGPD Applicables à l'IA</h4>
+                            
+                            <div class="principle-grid">
+                                <div class="principle">
+                                    <h5>1. Licéité</h5>
+                                    <p>Base légale requise pour tout traitement IA :</p>
+                                    <ul>
+                                        <li>Consentement explicite</li>
+                                        <li>Intérêt légitime documenté</li>
+                                        <li>Obligation légale</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="principle">
+                                    <h5>2. Limitation des Finalités</h5>
+                                    <p>Usage IA strictement défini :</p>
+                                    <ul>
+                                        <li>Finalité précise déclarée</li>
+                                        <li>Pas de réutilisation autre</li>
+                                        <li>Documentation requise</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="principle">
+                                    <h5>3. Minimisation</h5>
+                                    <p>Données minimales nécessaires :</p>
+                                    <ul>
+                                        <li>Anonymisation maximale</li>
+                                        <li>Pseudonymisation si possible</li>
+                                        <li>Suppression après usage</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="principle">
+                                    <h5>4. Transparence</h5>
+                                    <p>Information claire patient :</p>
+                                    <ul>
+                                        <li>Usage IA mentionné</li>
+                                        <li>Droits expliqués</li>
+                                        <li>Risques communiqués</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="consent-template">
+                            <h4>Template Consentement IA</h4>
+                            <div class="template-box">
+                                <code>Je soussigné(e) [Nom Patient] autorise le Dr [Nom] à :
+□ Utiliser des outils d'IA pour analyser mes données médicales
+□ Inclure mes données anonymisées dans des analyses IA
+□ Générer des recommandations assistées par IA
+
+Je comprends que :
+- Mes données seront anonymisées
+- L'IA est un outil d'aide, les décisions restent médicales
+- Je peux retirer mon consentement à tout moment
+- Mes données ne seront pas vendues/partagées
+
+Fait à [Lieu], le [Date]
+Signature :</code>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Confidentiality Section -->
+                <section id="confidentialite" class="security-section">
+                    <h2>🔐 Confidentialité des Données</h2>
+                    
+                    <div class="confidentiality-card">
+                        <h3>Niveaux de Protection</h3>
+                        
+                        <div class="protection-levels">
+                            <div class="level level-red">
+                                <h4>🔴 Données Critiques</h4>
+                                <p><strong>JAMAIS sur IA publique</strong></p>
+                                <ul>
+                                    <li>Nom, prénom patient</li>
+                                    <li>Date de naissance</li>
+                                    <li>Numéro sécu/mutuelle</li>
+                                    <li>Adresse, téléphone</li>
+                                    <li>Photos visage non floutées</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="level level-orange">
+                                <h4>🟠 Données Sensibles</h4>
+                                <p><strong>Anonymiser avant usage</strong></p>
+                                <ul>
+                                    <li>Historique médical détaillé</li>
+                                    <li>Résultats examens</li>
+                                    <li>Comptes-rendus op</li>
+                                    <li>Correspondances médicales</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="level level-green">
+                                <h4>🟢 Données Utilisables</h4>
+                                <p><strong>Après anonymisation</strong></p>
+                                <ul>
+                                    <li>Cas cliniques génériques</li>
+                                    <li>Questions théoriques</li>
+                                    <li>Protocoles standards</li>
+                                    <li>Recherche bibliographique</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="anonymization-guide">
+                            <h4>Guide d'Anonymisation</h4>
+                            <ol>
+                                <li><strong>Remplacer identifiants :</strong> "Patient X", "Mme Y"</li>
+                                <li><strong>Modifier âges :</strong> "Femme 45-50 ans"</li>
+                                <li><strong>Généraliser lieux :</strong> "Centre hospitalier belge"</li>
+                                <li><strong>Arrondir dates :</strong> "Il y a 3 mois"</li>
+                                <li><strong>Flouter visages :</strong> Outils dédiés obligatoires</li>
+                            </ol>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Best Practices Section -->
+                <section id="bonnes-pratiques" class="security-section">
+                    <h2>✅ Bonnes Pratiques IA Médicale</h2>
+                    
+                    <div class="practices-card">
+                        <h3>Recommandations par Contexte</h3>
+                        
+                        <div class="context-grid">
+                            <div class="context-card">
+                                <h4>🏥 En Consultation</h4>
+                                <div class="do-dont">
+                                    <div class="do">
+                                        <h5>✅ À Faire</h5>
+                                        <ul>
+                                            <li>IA sur poste sécurisé</li>
+                                            <li>Écran non visible patient</li>
+                                            <li>Vérifier infos générées</li>
+                                            <li>Documenter usage IA</li>
+                                        </ul>
+                                    </div>
+                                    <div class="dont">
+                                        <h5>❌ À Éviter</h5>
+                                        <ul>
+                                            <li>Copier dossier patient</li>
+                                            <li>Diagnostiquer par IA seule</li>
+                                            <li>Montrer erreurs IA</li>
+                                            <li>Promettre via IA</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="context-card">
+                                <h4>📚 En Recherche</h4>
+                                <div class="do-dont">
+                                    <div class="do">
+                                        <h5>✅ À Faire</h5>
+                                        <ul>
+                                            <li>Comité éthique si données</li>
+                                            <li>Citer usage IA</li>
+                                            <li>Vérifier sources</li>
+                                            <li>Garder données locales</li>
+                                        </ul>
+                                    </div>
+                                    <div class="dont">
+                                        <h5>❌ À Éviter</h5>
+                                        <ul>
+                                            <li>Données patients cloud</li>
+                                            <li>Générer fausses data</li>
+                                            <li>Plagiat via IA</li>
+                                            <li>Stats non vérifiées</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="context-card">
+                                <h4>📱 En Communication</h4>
+                                <div class="do-dont">
+                                    <div class="do">
+                                        <h5>✅ À Faire</h5>
+                                        <ul>
+                                            <li>Contenu éducatif général</li>
+                                            <li>Réviser avant publier</li>
+                                            <li>Mentionner aide IA</li>
+                                            <li>Respecter déontologie</li>
+                                        </ul>
+                                    </div>
+                                    <div class="dont">
+                                        <h5>❌ À Éviter</h5>
+                                        <ul>
+                                            <li>Conseils personnalisés</li>
+                                            <li>Promesses résultats</li>
+                                            <li>Photos patients</li>
+                                            <li>Diagnostics publics</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Risks Section -->
+                <section id="risques" class="security-section">
+                    <h2>⚠️ Risques et Prévention</h2>
+                    
+                    <div class="risks-card">
+                        <h3>Principaux Risques IA Médicale</h3>
+                        
+                        <div class="risk-matrix">
+                            <table class="risk-table">
+                                <thead>
+                                    <tr>
+                                        <th>Risque</th>
+                                        <th>Impact</th>
+                                        <th>Prévention</th>
+                                        <th>Action si incident</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="risk-high">
+                                        <td><strong>Fuite données patient</strong></td>
+                                        <td>Légal, confiance</td>
+                                        <td>Anonymisation systématique</td>
+                                        <td>AIPD, notification CNIL</td>
+                                    </tr>
+                                    <tr class="risk-medium">
+                                        <td><strong>Hallucination IA</strong></td>
+                                        <td>Erreur médicale</td>
+                                        <td>Vérification sources</td>
+                                        <td>Correction, documentation</td>
+                                    </tr>
+                                    <tr class="risk-medium">
+                                        <td><strong>Dépendance IA</strong></td>
+                                        <td>Perte compétences</td>
+                                        <td>Usage complémentaire</td>
+                                        <td>Formation continue</td>
+                                    </tr>
+                                    <tr class="risk-low">
+                                        <td><strong>Biais algorithmes</strong></td>
+                                        <td>Discrimination</td>
+                                        <td>Sources diverses</td>
+                                        <td>Audit, ajustement</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                        <div class="incident-protocol">
+                            <h4>🚨 Protocole en Cas d'Incident</h4>
+                            <ol>
+                                <li><strong>Stopper</strong> immédiatement l'usage</li>
+                                <li><strong>Documenter</strong> précisément l'incident</li>
+                                <li><strong>Notifier</strong> DPO et responsables</li>
+                                <li><strong>Évaluer</strong> impact sur patients</li>
+                                <li><strong>Corriger</strong> et prévenir récurrence</li>
+                                <li><strong>Communiquer</strong> si nécessaire</li>
+                            </ol>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Security Checklist -->
+                <section id="checklist" class="security-section">
+                    <h2>✅ Checklist Sécurité IA</h2>
+                    
+                    <div class="checklist-card printable">
+                        <h3>Avant Chaque Usage IA</h3>
+                        
+                        <div class="checklist-columns">
+                            <div class="checklist-section">
+                                <h4>🔍 Vérifications Données</h4>
+                                <label><input type="checkbox"> Aucune donnée identifiante</label>
+                                <label><input type="checkbox"> Anonymisation complète</label>
+                                <label><input type="checkbox"> Pas de photos reconnaissables</label>
+                                <label><input type="checkbox"> Contexte généralisé</label>
+                                <label><input type="checkbox"> Dates approximatives</label>
+                            </div>
+                            
+                            <div class="checklist-section">
+                                <h4>🛡️ Sécurité Technique</h4>
+                                <label><input type="checkbox"> Connexion sécurisée (HTTPS)</label>
+                                <label><input type="checkbox"> Compte pro (pas perso)</label>
+                                <label><input type="checkbox"> Poste de travail sécurisé</label>
+                                <label><input type="checkbox"> Pas de WiFi public</label>
+                                <label><input type="checkbox"> Historique effacé après</label>
+                            </div>
+                            
+                            <div class="checklist-section">
+                                <h4>📋 Conformité</h4>
+                                <label><input type="checkbox"> Usage conforme politique établissement</label>
+                                <label><input type="checkbox"> Consentement patient si applicable</label>
+                                <label><input type="checkbox"> Documentation usage</label>
+                                <label><input type="checkbox"> Respect secret médical</label>
+                                <label><input type="checkbox"> Vérification output IA</label>
+                            </div>
+                        </div>
+                        
+                        <div class="emergency-contacts">
+                            <h4>📞 Contacts Urgence Sécurité</h4>
+                            <table class="contacts-table">
+                                <tr>
+                                    <td>DPO Hôpital :</td>
+                                    <td>________________</td>
+                                </tr>
+                                <tr>
+                                    <td>IT Security :</td>
+                                    <td>________________</td>
+                                </tr>
+                                <tr>
+                                    <td>Responsable IA :</td>
+                                    <td>________________</td>
+                                </tr>
+                                <tr>
+                                    <td>Hotline CNIL :</td>
+                                    <td>+33 1 53 73 22 22</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Resources -->
+                <section class="resources-section">
+                    <h2>📚 Ressources Complémentaires</h2>
+                    
+                    <div class="resource-grid">
+                        <div class="resource-card">
+                            <h3>📖 Guides Officiels</h3>
+                            <ul>
+                                <li><a href="#">Guide CNIL IA Santé</a></li>
+                                <li><a href="#">Recommandations Ordre Médecins</a></li>
+                                <li><a href="#">Ethics Guidelines EU AI</a></li>
+                                <li><a href="#">ISO/IEC 23053:2022</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="resource-card">
+                            <h3>🎓 Formations</h3>
+                            <ul>
+                                <li><a href="#">MOOC Éthique IA Médicale</a></li>
+                                <li><a href="#">Certification DPO Santé</a></li>
+                                <li><a href="#">Webinaires Sécurité IA</a></li>
+                                <li><a href="#">Workshop RGPD & IA</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="resource-card">
+                            <h3>🛠️ Outils</h3>
+                            <ul>
+                                <li><a href="#">Anonymizer Tool</a></li>
+                                <li><a href="#">AIPD Template Santé</a></li>
+                                <li><a href="#">Audit Checklist IA</a></li>
+                                <li><a href="#">Consent Generator</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                
+            </div>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Université Libre de Bruxelles - Formation IA Médicale</p>
+            <p>Contact : <a href="mailto:ai.medical@ulb.be">ai.medical@ulb.be</a></p>
+        </div>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script src="../assets/js/navigation.js"></script>
+</body>
+</html>
