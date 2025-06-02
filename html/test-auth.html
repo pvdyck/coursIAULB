@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Authentication - Formation IA ULB</title>
+    
+    <!-- Authentication Script -->
+    <script src="assets/js/simple-auth.js"></script>
+    
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            line-height: 1.6;
+        }
+        
+        h1 {
+            color: #003f7f;
+            margin-bottom: 2rem;
+        }
+        
+        .info-box {
+            background: #e3f2fd;
+            border: 1px solid #1976d2;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+        
+        .logout-btn {
+            background: #dc3545;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        
+        .logout-btn:hover {
+            background: #c82333;
+        }
+        
+        code {
+            background: #f4f4f4;
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Test d'Authentification</h1>
+    
+    <div class="info-box">
+        <h2>✅ Authentification Réussie!</h2>
+        <p>Si vous voyez cette page, cela signifie que vous avez entré le bon mot de passe.</p>
+        <p>Le mot de passe est : <code>ILOVEIA</code></p>
+        <p>Votre session restera active pendant 24 heures.</p>
+    </div>
+    
+    <h2>Informations de Session</h2>
+    <p>Cette page de test vérifie que le système d'authentification fonctionne correctement.</p>
+    
+    <h3>Fonctionnalités :</h3>
+    <ul>
+        <li>Protection par mot de passe de toutes les pages</li>
+        <li>Session persistante (24 heures)</li>
+        <li>Interface de connexion élégante</li>
+        <li>Stockage sécurisé du mot de passe (hashé)</li>
+    </ul>
+    
+    <h3>Actions disponibles :</h3>
+    <button class="logout-btn" onclick="logoutAuth()">Se déconnecter</button>
+    
+    <p style="margin-top: 2rem;">
+        <a href="index.html">← Retour à la page d'accueil</a>
+    </p>
+</body>
+</html>
