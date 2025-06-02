@@ -1,6 +1,6 @@
 # 📚 Ressources IA Chirurgie Plastique ULB - Guide d'Utilisation
 ## 🎯 Édition TFE→Publication PRS/ASJ (ChatGPT, Claude, Gemini, Perplexity)
-### 🎨 Esthétique & 🏥 Reconstructive
+### 🎨 Esthétique & 🏥 Reconstructrice
 
 ## 🆕 Approche Pédagogique Optimisée 
 

@@ -1,4 +1,4 @@
-# 📚 Bibliothèque de Prompts - Chirurgie Plastique Esthétique & Reconstructive
+# 📚 Bibliothèque de Prompts - Chirurgie Plastique Esthétique & Reconstructrice
 ## Prompts Optimisés pour ChatGPT, Claude, Gemini et Perplexity
 
 ---

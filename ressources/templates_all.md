@@ -1,6 +1,6 @@
 # 📱 Templates IA Chirurgie Plastique - Programme ULB 
 ## 🔄 Version Comparative Multi-IA (ChatGPT, Claude, Gemini, Perplexity Labs)
-### 🎨 Focus Esthétique & 🏥 Reconstructive
+### 🎨 Focus Esthétique & 🏥 Reconstructrice
 
 ## 📋 1. Checklist Sécurité des Données - Spéciale Chirurgie Plastique
 
@@ -174,7 +174,7 @@ Inclure :
 ```
 Recherche littérature spécialisée sur :
 TECHNIQUE : [preservation rhinoplasty/DIEP/fat grafting]
-INDICATION : [esthétique/reconstructive]
+INDICATION : [esthétique/reconstructrice]
 PÉRIODE : 2022-2025
 JOURNAUX : PRS, ASJ, JPRAS, APS prioritaires
 
@@ -636,7 +636,7 @@ Délai : 10 minutes
 ### E. PROTOCOLE ÉTUDE PLASTIQUE CLÉ-EN-MAIN
 ```
 Génère protocole complet pour :
-"Comparer [technique A vs B] en chirurgie [esthétique/reconstructive]"
+"Comparer [technique A vs B] en chirurgie [esthétique/reconstructrice]"
 
 SECTIONS OBLIGATOIRES :
 1. Rationnel scientifique + gap analysis

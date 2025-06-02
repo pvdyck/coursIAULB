@@ -1,5 +1,5 @@
 # 📚 Exercices Session 2 : Découverte Individuelle Multi-Outils
-## *Niveau : 6/10 - Exploration méthodique de 3 nouveaux outils*
+## *Difficulté : 6/10 - Exploration méthodique de 3 nouveaux outils*
 
 ## 🎯 Objectifs de la Session
 - Découvrir Claude, Gemini et Perplexity INDIVIDUELLEMENT
