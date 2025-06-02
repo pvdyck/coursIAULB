@@ -108,7 +108,7 @@ class SearchEngine {
             {
                 title: 'Grilles d\'Évaluation',
                 url: '/evaluation/grilles.html',
-                content: 'grilles évaluation comparaison outils ROI business éthique',
+                content: 'grilles évaluation comparaison outils éthique',
                 category: 'Évaluation'
             },
             {
