@@ -338,6 +338,6 @@ Vous êtes sur le point de transformer radicalement votre approche de la publica
 
 ---
 
-*Guide optimisé selon les principes de charge cognitive*  
+*Guide optimisé pour un apprentissage progressif*  
 *Un outil à la fois, puis tous ensemble pour publier*  
 *Dernière mise à jour : Juin 2025*

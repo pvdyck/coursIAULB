@@ -5,7 +5,7 @@
 
 **Durée totale :** 4 semaines (1 session/semaine)
 **Format :** Présentiel/Hybride + exercices pratiques
-**Charge progressive :** 4/10 → 6/10 → 7/10 → 8/10
+**Progression :** 4/10 → 6/10 → 7/10 → 8/10
 **Objectif final :** Transformer votre TFE en article publiable
 
 ## 📊 Planning Hebdomadaire Type
@@ -29,7 +29,7 @@
 
 ## 📚 SESSION 1 : Fondements IA & Maîtrise ChatGPT (Semaine 1)
 
-### Objectifs - Charge Cognitive : 4/10
+### Objectifs - Niveau : 4/10
 - ✅ Comprendre les fondements de l'IA sans jargon
 - ✅ Maîtriser ChatGPT en profondeur
 - ✅ Détecter et gérer les hallucinations
@@ -83,7 +83,7 @@
 
 ## 📚 SESSION 2 : Découverte Individuelle Multi-Outils (Semaine 2)
 
-### Objectifs - Charge Cognitive : 6/10
+### Objectifs - Niveau : 6/10
 - ✅ Découvrir Claude, Gemini, Perplexity individuellement
 - ✅ Identifier forces uniques de chaque outil
 - ✅ Éviter la confusion par comparaison prématurée
@@ -130,7 +130,7 @@
 
 ## 📚 SESSION 3 : Features Avancées & Workflows Publication (Semaine 3)
 
-### Objectifs - Charge Cognitive : 7/10
+### Objectifs - Niveau : 7/10
 - ✅ Maîtriser thinking modes avancés
 - ✅ Créer workflows publication pro
 - ✅ Générer figures niveau Nature
@@ -177,7 +177,7 @@
 
 ## 📚 SESSION 4 : Transformation TFE → Publication (Semaine 4)
 
-### Objectifs - Charge Cognitive : 8/10
+### Objectifs - Niveau : 8/10
 - ✅ Transformer VOTRE TFE complet
 - ✅ Sélectionner journal cible
 - ✅ Préparer soumission réelle
@@ -277,5 +277,5 @@
 
 **💡 "Un outil à la fois, puis tous ensemble pour publier"**
 
-*Planning optimisé selon principes de charge cognitive*
+*Planning optimisé pour un apprentissage progressif*
 *Dernière mise à jour : Juin 2025*

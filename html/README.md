@@ -125,4 +125,4 @@ python -m http.server 8000
 ---
 
 *Site développé selon les standards web modernes et les guidelines ULB*
-*Formation conçue selon les principes de charge cognitive optimale - Juin 2025*
+*Formation conçue pour un apprentissage progressif optimal - Juin 2025*

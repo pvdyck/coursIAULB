@@ -152,7 +152,7 @@
 ## 💡 Tips Pratiques
 
 ### Organisation Optimale
-- **Desktop** : 2 outils ouverts max (charge cognitive)
+- **Desktop** : 2 outils ouverts max (pour rester focusé)
 - **Mobile** : 1 app IA + Google Docs
 - **Workflow** : Timer 25 min par section
 - **Sauvegarde** : Google Drive après chaque session
@@ -207,7 +207,7 @@
 ## 📢 Philosophie du Programme
 
 **Nos principes :**
-1. **Progression contrôlée** - Pas de surcharge cognitive
+1. **Progression contrôlée** - Apprentissage étape par étape
 2. **Objectif concret** - TFE→Publication, pas de théorie inutile
 3. **Pratique immédiate** - Votre vrai TFE, pas d'exercices artificiels
 4. **Mesure constante** - Progression et bénéfices trackés
@@ -230,5 +230,5 @@
 **💡 "Votre TFE de rhinoplastie ou reconstruction mammaire contient déjà une publication PRS. L'IA est le révélateur."**
 
 ---
-*Programme optimisé selon principes de charge cognitive*
+*Programme optimisé pour un apprentissage progressif*
 *Mise à jour : Juin 2025*

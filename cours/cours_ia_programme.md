@@ -9,7 +9,7 @@
 > **"Maîtrisez progressivement ChatGPT, Claude, Gemini et Perplexity pour transformer votre TFE en publication dans Plastic and Reconstructive Surgery. De la rhinoplastie à la microchirurgie reconstructive, optimisez avec l'IA."**
 
 ### 🆕 **Approche Pédagogique Optimisée (Juin 2025)**
-- 🧠 **Charge cognitive contrôlée** - Un outil par session, maîtrise avant expansion
+- 🧠 **Progression maîtrisée** - Un outil par session, maîtrise avant expansion
 - 🎯 **Focus TFE→Publication** - PRS, ASJ, JHS comme cibles
 - 📸 **Forte composante visuelle** - Photos, monitoring, planning 3D
 - ✅ **Pratique mixte** - Cas esthétiques ET reconstructifs
@@ -119,7 +119,7 @@ SESSION 4 : APPLICATION RÉELLE
 ## 💡 **PHILOSOPHIE PÉDAGOGIQUE**
 
 ### Principes fondamentaux :
-1. **Progression contrôlée** : Jamais plus de 2 points de charge cognitive entre sessions
+1. **Progression contrôlée** : Difficulté progressive et adaptée
 2. **Pratique immédiate** : Chaque concept appliqué sur cas réels
 3. **Objectif concret** : TFE→Publication comme fil rouge
 4. **Comparaison tardive** : Maîtriser avant de comparer
@@ -136,5 +136,5 @@ SESSION 4 : APPLICATION RÉELLE
 
 **🚀 "Votre TFE de rhinoplastie, reconstruction mammaire ou microchirurgie contient déjà une publication PRS. L'IA est le révélateur qui la fait apparaître."**
 
-*Programme conçu selon les principes de charge cognitive optimale - Juin 2025*
+*Programme conçu pour un apprentissage progressif optimal - Juin 2025*
 *Adapté pour la chirurgie plastique esthétique et reconstructive*

@@ -364,7 +364,7 @@ comme 'idéaux'. Comment gérer biais ethniques ?"
 
 ---
 
-*Session conçue selon les principes de charge cognitive optimale*
+*Session conçue pour un apprentissage progressif optimal*
 *Prochaine session : [Date] - Transformation Finale TFE → Publication*
 
 ---
