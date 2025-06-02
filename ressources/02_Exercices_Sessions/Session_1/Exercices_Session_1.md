@@ -1,5 +1,5 @@
 # 📚 Exercices Session 1 : Fondements IA & Maîtrise ChatGPT
-## *Niveau : 4/10 - Focus sur UN seul outil*
+## *Difficulté : 4/10 - Focus sur UN seul outil*
 
 ## 🎯 Objectifs de la Session
 - Comprendre les fondements de l'IA générative

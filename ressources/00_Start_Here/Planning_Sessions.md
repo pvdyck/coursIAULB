@@ -29,7 +29,7 @@
 
 ## 📚 SESSION 1 : Fondements IA & Maîtrise ChatGPT (Semaine 1)
 
-### Objectifs - Niveau : 4/10
+### Objectifs - Difficulté : 4/10
 - ✅ Comprendre les fondements de l'IA sans jargon
 - ✅ Maîtriser ChatGPT en profondeur
 - ✅ Détecter et gérer les hallucinations
@@ -83,7 +83,7 @@
 
 ## 📚 SESSION 2 : Découverte Individuelle Multi-Outils (Semaine 2)
 
-### Objectifs - Niveau : 6/10
+### Objectifs - Difficulté : 6/10
 - ✅ Découvrir Claude, Gemini, Perplexity individuellement
 - ✅ Identifier forces uniques de chaque outil
 - ✅ Éviter la confusion par comparaison prématurée
@@ -130,7 +130,7 @@
 
 ## 📚 SESSION 3 : Features Avancées & Workflows Publication (Semaine 3)
 
-### Objectifs - Niveau : 7/10
+### Objectifs - Difficulté : 7/10
 - ✅ Maîtriser thinking modes avancés
 - ✅ Créer workflows publication pro
 - ✅ Générer figures niveau Nature
@@ -177,7 +177,7 @@
 
 ## 📚 SESSION 4 : Transformation TFE → Publication (Semaine 4)
 
-### Objectifs - Niveau : 8/10
+### Objectifs - Difficulté : 8/10
 - ✅ Transformer VOTRE TFE complet
 - ✅ Sélectionner journal cible
 - ✅ Préparer soumission réelle
