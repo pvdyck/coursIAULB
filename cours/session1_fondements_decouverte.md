@@ -129,12 +129,10 @@ Structure ta consultation :
 
 **Phase 2 : Analyse Comparative (10 min)**
 
-| Critère | Prompt 1 | Prompt 2 | Prompt 3 |
-|---------|----------|----------|----------|
-| Pertinence clinique | /5 | /5 | /5 |
-| Utilisable en consultation | /5 | /5 | /5 |
-| Personnalisation | /5 | /5 | /5 |
-| Exhaustivité | /5 | /5 | /5 |
+💡 **Comparez simplement :**
+- Quelle réponse est la plus utile cliniquement ?
+- Laquelle pourriez-vous vraiment utiliser avec un patient ?
+- Notez 1-2 différences majeures entre les réponses
 
 #### **📋 EXERCICE 1.2 : Plan Opératoire Structuré (25 min)**
 

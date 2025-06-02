@@ -69,15 +69,11 @@ Structure ta consultation :
 ```
 
 ### Phase 2 : Analyse Comparative (10 min)
-Documentez dans votre cahier :
 
-| Critère | Prompt 1 | Prompt 2 | Prompt 3 |
-|---------|----------|----------|----------|
-| Pertinence clinique | /5 | /5 | /5 |
-| Utilisable en consultation | /5 | /5 | /5 |
-| Personnalisation patient | /5 | /5 | /5 |
-| Exhaustivité info | /5 | /5 | /5 |
-| **TOTAL** | /20 | /20 | /20 |
+💡 **Comparez simplement :**
+- Quelle réponse est la plus utile cliniquement ?
+- Laquelle pourriez-vous vraiment utiliser avec un patient ?
+- Notez 1-2 différences majeures entre les réponses
 
 ### Ma découverte principale :
 ```markdown

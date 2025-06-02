@@ -177,50 +177,20 @@ Structure ta consultation :
                     
                     <div class="phase-card">
                         <h3>Phase 2 : Analyse Comparative (10 min)</h3>
-                        <p>Documentez dans votre cahier :</p>
                         
-                        <table class="evaluation-table">
-                            <thead>
-                                <tr>
-                                    <th>Critère</th>
-                                    <th>Prompt 1</th>
-                                    <th>Prompt 2</th>
-                                    <th>Prompt 3</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Pertinence clinique</td>
-                                    <td>/5</td>
-                                    <td>/5</td>
-                                    <td>/5</td>
-                                </tr>
-                                <tr>
-                                    <td>Utilisable en consultation</td>
-                                    <td>/5</td>
-                                    <td>/5</td>
-                                    <td>/5</td>
-                                </tr>
-                                <tr>
-                                    <td>Personnalisation patient</td>
-                                    <td>/5</td>
-                                    <td>/5</td>
-                                    <td>/5</td>
-                                </tr>
-                                <tr>
-                                    <td>Exhaustivité info</td>
-                                    <td>/5</td>
-                                    <td>/5</td>
-                                    <td>/5</td>
-                                </tr>
-                                <tr class="total-row">
-                                    <td><strong>TOTAL</strong></td>
-                                    <td><strong>/20</strong></td>
-                                    <td><strong>/20</strong></td>
-                                    <td><strong>/20</strong></td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div class="comparison-guide">
+                            <h4>💡 Comparez simplement :</h4>
+                            <ul>
+                                <li>Quelle réponse est la plus utile cliniquement ?</li>
+                                <li>Laquelle pourriez-vous vraiment utiliser avec un patient ?</li>
+                                <li>Notez 1-2 différences majeures entre les réponses</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="discovery-box">
+                            <h4>Ma découverte principale :</h4>
+                            <p><em>[Notez ici votre apprentissage clé sur l'impact du prompting]</em></p>
+                        </div>
                     </div>
                 </section>
                 
@@ -965,6 +935,34 @@ Format hospitalier standard avec codes CCAM.</code>
         .point-card h3 {
             color: #0066cc;
             margin-bottom: 0.5rem;
+        }
+        
+        .comparison-guide {
+            background: #e7f3ff;
+            border-left: 4px solid #0066cc;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 4px;
+        }
+        
+        .discovery-box {
+            background: #f8f9fa;
+            border: 2px dashed #6c757d;
+            padding: 1.5rem;
+            margin-top: 1rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .discovery-box h4 {
+            color: #495057;
+            margin-bottom: 0.5rem;
+        }
+        
+        .discovery-box p {
+            font-style: italic;
+            color: #6c757d;
+            margin: 0;
         }
     </style>
 </body>
