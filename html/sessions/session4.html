@@ -60,7 +60,7 @@
                         <li><a href="#ouverture">🎯 Ouverture</a></li>
                         <li><a href="#bloc1-transformation">📄 Bloc 1 : Transformation TFE</a></li>
                         <li><a href="#bloc2-soumission">📮 Bloc 2 : Stratégie Soumission</a></li>
-                        <li><a href="#bloc3-reviewers">🎯 Bloc 3 : Anticipation Reviewers</a></li>
+                        <li><a href="#bloc3-peer-review">👥 Bloc 3 : Peer Review & Finalisation</a></li>
                         <li><a href="#cloture">🏆 Clôture & Plan d'Action</a></li>
                     </ul>
                     
@@ -168,7 +168,7 @@ PROM utilisés, qualité photos. Qu'est-ce qui manque ?"</code></pre>
                                 </tbody>
                             </table>
                             
-                            <h4>Exemples TFE Plastie Courants :</h4>
+                            <h4>Exemples TFE Courants :</h4>
                             <ul>
                                 <li><strong>Aesthetic:</strong> "Rhinoplastie ultrasonique : 100 cas"</li>
                                 <li><strong>Aesthetic:</strong> "Lipostructure mammaire : résultats à 5 ans"</li>
@@ -378,38 +378,47 @@ Liste 10 journaux appropriés :
                                 <tbody>
                                     <tr>
                                         <td>PRS</td>
-                                        <td>5.2</td>
+                                        <td>~5.2</td>
                                         <td>Variable</td>
-                                        <td>45d</td>
+                                        <td>~45d</td>
                                         <td>No</td>
                                         <td>Both</td>
                                         <td></td>
                                     </tr>
                                     <tr>
                                         <td>ASJ</td>
-                                        <td>4.8</td>
+                                        <td>~4.5</td>
                                         <td>Variable</td>
-                                        <td>30d</td>
+                                        <td>~30d</td>
                                         <td>Yes</td>
-                                        <td>Aesthetic</td>
+                                        <td>Aesth</td>
                                         <td></td>
                                     </tr>
                                     <tr>
                                         <td>JPRAS</td>
-                                        <td>3.2</td>
+                                        <td>~3.0</td>
                                         <td>Variable</td>
-                                        <td>60d</td>
-                                        <td>Option</td>
+                                        <td>~35d</td>
+                                        <td>Yes</td>
                                         <td>Both</td>
                                         <td></td>
                                     </tr>
                                     <tr>
-                                        <td>JHS</td>
-                                        <td>2.5</td>
+                                        <td>APS</td>
+                                        <td>~2.8</td>
                                         <td>Variable</td>
-                                        <td>40d</td>
+                                        <td>~25d</td>
                                         <td>Yes</td>
-                                        <td>Hand</td>
+                                        <td>Aesth</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>JRM</td>
+                                        <td>~2.4</td>
+                                        <td>Variable</td>
+                                        <td>~40d</td>
+                                        <td>No</td>
+                                        <td>Recon</td>
                                         <td></td>
                                     </tr>
                                 </tbody>
@@ -420,104 +429,288 @@ Liste 10 journaux appropriés :
                     <div class="card">
                         <h3 class="card-title">📋 EXERCICE 4.5 : Cover Letter Parfaite (15 min)</h3>
                         <div class="card-content">
-                            <h4>Template Cover Letter PRS/ASJ :</h4>
-                            <pre><code>"Rédige cover letter pour [Editor PRS/ASJ] pour mon article
-[titre]. Souligne :
-1. Innovation technique (première fois, amélioration %)
-2. Large série (n=X) avec follow-up long (Y ans)
-3. Impact clinique (réduction complications/coûts)
-4. Fit avec scope journal (recent papers similaires)
-5. Déclaration éthique et conflits d'intérêts"</code></pre>
+                            <h4>Cover letter multi-IA :</h4>
+                            <ol>
+                                <li>
+                                    <strong>Claude - Structure PRS/ASJ :</strong>
+                                    <pre><code>"Cover letter pour [PRS/ASJ]. Emphasize :
+- Innovation technique OU large series
+- Patient-reported outcomes inclus
+- Implications for plastic surgeons
+- Why this journal specifically"</code></pre>
+                                </li>
+                                <li>
+                                    <strong>ChatGPT - Persuasion :</strong>
+                                    <pre><code>"Renforce impact clinique. Mentionne expertise
+centre/auteurs. Chiffres clés marquants."</code></pre>
+                                </li>
+                                <li>
+                                    <strong>Perplexity - Editors check :</strong>
+                                    <pre><code>"Qui est l'editor de [journal] ? Ses publications
+récentes ? Adapter ton si nécessaire."</code></pre>
+                                </li>
+                            </ol>
+                            
+                            <h4>Template gagnant :</h4>
+                            <pre><code>Dear Editors of [Journal],
+
+[Hook - Pourquoi maintenant ?]
+[Contribution unique en 2 phrases]
+[Fit parfait avec scope journal]
+[Impact attendu]
+[Expertise auteurs]
+
+Looking forward...</code></pre>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <h3 class="card-title">🚀 EXERCICE 4.6 : Réponses aux Reviewers (15 min)</h3>
+                        <div class="card-content">
+                            <h4>Anticiper les critiques - Simulation :</h4>
+                            
+                            <h5>Claude (reviewer PRS exigeant) :</h5>
+                            <pre><code>"Agis comme reviewer senior PRS spécialisé [aesthetic/reconstructrice].
+Critique mon article sur :
+1. Methodology (sample size, bias, follow-up)
+2. Innovation réelle vs incremental
+3. Documentation photo (standardisation, qualité)
+4. Statistical analysis et PROM validity
+5. Conclusions vs results overstatement"</code></pre>
+                            
+                            <h4>Template réponses aux reviewers :</h4>
+                            <pre><code>CRITIQUE 1 : "Sample size insufficient for subgroup analysis"
+RÉPONSE : "We appreciate the reviewer's insight. While our 
+n=80 limits subgroup analysis, it represents the largest 
+single-center series of [technique] to date..."
+ACTION : Added post-hoc power calculation (Table S1)
+
+CRITIQUE 2 : "Photos lack standardization"
+RÉPONSE : "We acknowledge this limitation and have now..."
+ACTION : Re-shot available patients avec protocole ASPS</code></pre>
                         </div>
                     </div>
                 </section>
                 
-                <!-- Bloc 3 : Reviewers -->
-                <section id="bloc3-reviewers" class="mb-4">
-                    <h2>🎯 BLOC 3 : Anticipation Reviewers et Révisions (30 min)</h2>
+                <!-- Bloc 3 : Peer Review et Finalisation -->
+                <section id="bloc3-peer-review" class="mb-4">
+                    <h2>👥 BLOC 3 : Peer Review et Finalisation (45 min)</h2>
                     
+                    <!-- Exercice 4.7 -->
                     <div class="card">
-                        <h3 class="card-title">EXERCICE 4.6 : Simulation Peer Review</h3>
+                        <h3 class="card-title">🔄 EXERCICE 4.7 : Peer Review Croisé (25 min)</h3>
                         <div class="card-content">
-                            <h4>Anticiper les critiques avec Claude thinking :</h4>
-                            <pre><code>"Agis comme reviewer hostile pour PRS. Critique mon article
-[technique/pathologie] sur :
-1. Sample size et power analysis
-2. Biais de sélection patients
-3. Manque groupe contrôle
-4. Follow-up insuffisant
-5. PROM non validés
-6. Photos non standardisées
-7. Stats inappropriées
-8. Conclusions exagérées"</code></pre>
+                            <h4>Speed peer review en binômes :</h4>
                             
-                            <h4>Préparation réponses aux reviewers :</h4>
+                            <div class="alert alert-info">
+                                <h5>Round 1 (10 min) :</h5>
+                                <ul>
+                                    <li>Échanger articles transformés</li>
+                                    <li>Review rapide avec checklist journal</li>
+                                    <li>3 forces, 3 améliorations</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="alert alert-info">
+                                <h5>Round 2 (10 min) :</h5>
+                                <ul>
+                                    <li>Nouveau binôme</li>
+                                    <li>Focus différent aspect</li>
+                                    <li>Suggestions concrètes</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="alert alert-warning">
+                                <h5>Synthèse (5 min) :</h5>
+                                <ul>
+                                    <li>Compiler feedback reçu</li>
+                                    <li>Prioriser corrections</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Exercice 4.8 -->
+                    <div class="card">
+                        <h3 class="card-title">✅ EXERCICE 4.8 : Soumission Test (10 min)</h3>
+                        <div class="card-content">
+                            <h4>Simulation soumission réelle :</h4>
+                            
                             <ol>
-                                <li>Identifier 5 critiques majeures probables</li>
-                                <li>Préparer réponses détaillées</li>
-                                <li>Identifier données supplémentaires nécessaires</li>
-                                <li>Planifier révisions possibles</li>
+                                <li><strong>Créer compte journal</strong> (si pas déjà fait)</li>
+                                <li><strong>Naviguer système soumission</strong></li>
+                                <li><strong>Uploader tous documents</strong></li>
+                                <li><strong>Vérifier formatting final</strong></li>
+                                <li><strong>NE PAS soumettre</strong> (sauf si prêt !)</li>
                             </ol>
+                            
+                            <h4>Checklist soumission :</h4>
+                            <div class="alert alert-danger">
+                                <ul style="list-style: none;">
+                                    <li>☐ Manuscript format journal (Word + PDF)</li>
+                                    <li>☐ Photos haute résolution (TIFF 300 DPI)</li>
+                                    <li>☐ Consent photos publication signé</li>
+                                    <li>☐ Tables outcomes + complications</li>
+                                    <li>☐ Cover letter personnalisée</li>
+                                    <li>☐ Video technique (si innovative)</li>
+                                    <li>☐ CONSORT/STROBE checklist</li>
+                                    <li>☐ Ethical approval + trial registration</li>
+                                    <li>☐ Patient consent forms statement</li>
+                                    <li>☐ Conflict of interest (implants? lasers?)</li>
+                                    <li>☐ ORCID tous auteurs</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Exercice 4.9 -->
+                    <div class="card">
+                        <h3 class="card-title">🎯 EXERCICE 4.9 : Plan Post-Formation (10 min)</h3>
+                        <div class="card-content">
+                            <h4>Engagement personnel :</h4>
+                            
+                            <div class="alert alert-success">
+                                <h5>MON PLAN DE PUBLICATION avec IA</h5>
+                                
+                                <h6>Article 1 (TFE) :</h6>
+                                <ul>
+                                    <li>Type : ☐ Aesthetic ☐ Reconstructive</li>
+                                    <li>Journal cible : ☐ PRS ☐ ASJ ☐ JPRAS</li>
+                                    <li>Deadline soumission : _____</li>
+                                    <li>Outils IA : Photos___ / Stats___ / Writing___</li>
+                                </ul>
+                                
+                                <h6>Article 2 (Series expansion) :</h6>
+                                <ul>
+                                    <li>Technique améliorée : ________________</li>
+                                    <li>Target n patients : ____</li>
+                                    <li>PROM à intégrer : ☐ FACE-Q ☐ BREAST-Q</li>
+                                </ul>
+                                
+                                <h6>Routine hebdo IA :</h6>
+                                <ul>
+                                    <li>Lundi : _________________</li>
+                                    <li>Mercredi : ______________</li>
+                                    <li>Vendredi : ______________</li>
+                                </ul>
+                                
+                                <h6>Objectif 6 mois :</h6>
+                                <ul>
+                                    <li>☐ 1 article soumis</li>
+                                    <li>☐ 1 article en préparation</li>
+                                    <li>☐ Pipeline IA optimisé</li>
+                                    <li>☐ Temps rédaction ÷2</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </section>
                 
                 <!-- Clôture -->
                 <section id="cloture" class="mb-4">
-                    <h2>🏆 CLÔTURE : Votre Plan d'Action Post-Formation (15 min)</h2>
+                    <h2>🏆 CLÔTURE : Célébration et Engagement (15 min)</h2>
+                    
+                    <!-- Présentation Flash -->
+                    <div class="card">
+                        <h3 class="card-title">Présentation Flash : Transformation Réussie</h3>
+                        <div class="card-content">
+                            <h4>Flash presentation (1 min) :</h4>
+                            <ul>
+                                <li>Titre final : "[Technique] in [n] patients: A [duration] outcomes study"</li>
+                                <li>Journal : PRS/ASJ/JPRAS + rationale</li>
+                                <li>Meilleure transformation : ☐ Photos ☐ Stats ☐ Writing</li>
+                                <li>Submission prévue : _____ 2025</li>
+                                <li>Innovation clé pour la spécialité</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Metrics de Succès -->
+                    <div class="card">
+                        <h3 class="card-title">Metrics de Succès Collectif</h3>
+                        <div class="card-content">
+                            <pre><code>GROUPE STATS:
+- Articles transformés : ___
+- Journals visés (IF moyen) : ___
+- Temps moyen gagné : ___ heures
+- Confidence publication (/10) : ___</code></pre>
+                        </div>
+                    </div>
+                    
+                    <!-- Engagement Final -->
+                    <div class="card">
+                        <h3 class="card-title">Engagement Final</h3>
+                        <div class="card-content">
+                            <div class="alert alert-info">
+                                <p><strong>"Je m'engage à :</strong></p>
+                                <ul style="list-style: none;">
+                                    <li>☐ Soumettre mon article dans les 30 jours</li>
+                                    <li>☐ Partager mon expérience sur WhatsApp</li>
+                                    <li>☐ Aider un collègue avec l'IA</li>
+                                    <li>☐ Continuer apprentissage quotidien</li>
+                                    <li>☐ Rester éthique et rigoureux</li>
+                                </ul>
+                                <p class="mt-3">
+                                    <strong>Signature :</strong> _____________<br>
+                                    <strong>Date :</strong> _________________
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Résultats Attendus -->
+                <section class="mb-4">
+                    <h2>📊 RÉSULTATS ATTENDUS SESSION 4</h2>
                     
                     <div class="card">
-                        <h3 class="card-title">Plan de Publication Personnel</h3>
+                        <h3 class="card-title">✅ Livrables concrets :</h3>
                         <div class="card-content">
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th>Action</th>
-                                        <th>Deadline</th>
-                                        <th>Outil IA</th>
-                                        <th>Status</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Finaliser figures</td>
-                                        <td>J+7</td>
-                                        <td>ChatGPT</td>
-                                        <td>☐</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Révision finale texte</td>
-                                        <td>J+14</td>
-                                        <td>Claude</td>
-                                        <td>☐</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Vérification références</td>
-                                        <td>J+21</td>
-                                        <td>Perplexity</td>
-                                        <td>☐</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Soumission journal</td>
-                                        <td>J+30</td>
-                                        <td>-</td>
-                                        <td>☐</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                            <ul>
+                                <li>TFE transformé pour PRS/ASJ/JPRAS</li>
+                                <li>Photos standardisées haute résolution</li>
+                                <li>Abstract optimisé avec PROM intégrés</li>
+                                <li>Cover letter spécifique journal</li>
+                                <li>Anticipation critiques méthodo</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <h3 class="card-title">🚀 Compétences acquises :</h3>
+                        <div class="card-content">
+                            <ul>
+                                <li>Maîtrise pipeline photo-texte-stats</li>
+                                <li>Sélection journal selon scope</li>
+                                <li>Gestion reviewers techniques op</li>
+                                <li>Intégration PROM standards</li>
+                                <li>Confiance soumission internationale</li>
+                            </ul>
                         </div>
                     </div>
                     
                     <div class="alert alert-success">
-                        <h3>🎯 Félicitations !</h3>
-                        <p>Vous avez maintenant :</p>
-                        <ul>
-                            <li>✅ Un TFE transformé en article publication-ready</li>
-                            <li>✅ Une stratégie de soumission claire</li>
-                            <li>✅ Des outils IA maîtrisés pour vos futures publications</li>
-                            <li>✅ Un pipeline reproductible TFE→Publication</li>
-                        </ul>
-                        <p class="text-center mt-3"><strong>🚀 "Votre première publication PRS/ASJ commence aujourd'hui !"</strong></p>
+                        <h3>💡 Remember :</h3>
+                        <blockquote>
+                            <p>"La différence entre un TFE de rhinoplastie et une publication PRS n'est plus que quelques prompts bien placés et des photos standardisées."</p>
+                        </blockquote>
+                    </div>
+                </section>
+                
+                <!-- Ressources Post-Formation -->
+                <section class="mb-4">
+                    <h2>RESSOURCES POST-FORMATION</h2>
+                    
+                    <div class="card">
+                        <h3 class="card-title">Accès permanent :</h3>
+                        <div class="card-content">
+                            <ul>
+                                <li>Templates PRS/ASJ/JPRAS</li>
+                                <li>Prompts bibliothèque</li>
+                                <li>Protocoles photo ASPS</li>
+                                <li>Calculateurs PROM</li>
+                            </ul>
+                        </div>
                     </div>
                 </section>
                 

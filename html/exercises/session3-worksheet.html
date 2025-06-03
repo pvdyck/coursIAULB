@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Feuille de travail Session 3 : Workflows Avancés pour Publication - Formation IA Chirurgie Plastique ULB">
+    <title>Worksheet Session 3 - Formation IA ULB Médecine</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/css/ulb-medical.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <link rel="stylesheet" href="../assets/css/print.css" media="print">
+    
+    <style>
+        @media print {
+            .no-print {
+                display: none !important;
+            }
+            
+            body {
+                font-size: 11pt;
+                line-height: 1.4;
+            }
+            
+            .page-break {
+                page-break-before: always;
+            }
+            
+            .worksheet-header {
+                text-align: center;
+                margin-bottom: 2rem;
+                border-bottom: 2px solid #000;
+                padding-bottom: 1rem;
+            }
+            
+            .fill-in {
+                border-bottom: 1px solid #333;
+                display: inline-block;
+                min-width: 200px;
+                margin: 0 0.5rem;
+            }
+            
+            .exercise-box {
+                border: 1px solid #000;
+                padding: 1rem;
+                margin: 1rem 0;
+                min-height: 150px;
+            }
+            
+            .comparison-grid {
+                width: 100%;
+                border-collapse: collapse;
+                margin: 1rem 0;
+            }
+            
+            .comparison-grid th,
+            .comparison-grid td {
+                border: 1px solid #000;
+                padding: 0.5rem;
+                text-align: left;
+            }
+            
+            .comparison-grid th {
+                background-color: #f0f0f0;
+                font-weight: bold;
+            }
+            
+            .notes-section {
+                border: 1px solid #000;
+                min-height: 200px;
+                padding: 1rem;
+                margin: 1rem 0;
+            }
+            
+            .workflow-builder {
+                margin: 2rem 0;
+            }
+            
+            .workflow-step {
+                border: 1px solid #000;
+                padding: 1rem;
+                margin: 0.5rem 0;
+                min-height: 100px;
+            }
+            
+            h1 {
+                font-size: 20pt;
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+            
+            h2 {
+                font-size: 14pt;
+                border-bottom: 1px solid #000;
+                padding-bottom: 0.5rem;
+                margin: 1.5rem 0 1rem 0;
+            }
+            
+            h3 {
+                font-size: 12pt;
+                margin: 1rem 0 0.5rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header (no-print for screen only) -->
+    <header class="header no-print">
+        <div class="header-content">
+            <div class="logo-container">
+                <div class="logo-text">
+                    <div class="logo-main">Université Libre de Bruxelles</div>
+                    <div class="logo-sub">DES Chirurgie plastique reconstructrice et esthétique</div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Print Instructions (no-print) -->
+    <div class="container no-print" style="margin-top: 2rem;">
+        <div class="alert alert-info">
+            <h3>Instructions d'impression</h3>
+            <p>Cette feuille de travail est optimisée pour l'impression. Cliquez sur <strong>Fichier → Imprimer</strong> ou utilisez <strong>Ctrl+P</strong> (Cmd+P sur Mac).</p>
+            <p>Format recommandé : A4, orientation portrait</p>
+        </div>
+        
+        <div class="text-center mt-4">
+            <button onclick="window.print()" class="btn btn-primary">Imprimer la feuille de travail</button>
+            <a href="session3-exercises.html" class="btn btn-secondary">Retour aux exercices</a>
+        </div>
+    </div>
+    
+    <!-- Printable Content -->
+    <div class="worksheet-content">
+        <div class="worksheet-header">
+            <h1>Feuille de Travail - Session 3</h1>
+            <h2>Workflows Avancés pour Publication</h2>
+            <p>Nom : <span class="fill-in"></span> Date : <span class="fill-in"></span></p>
+        </div>
+        
+        <!-- Section 1: Extended Thinking -->
+        <section>
+            <h2>1. Extended Thinking - Comparaison des Modes</h2>
+            
+            <h3>Exercice 3.1 : Claude Thinking pour TFE Discussion</h3>
+            <p><strong>Sujet TFE choisi :</strong> <span class="fill-in" style="min-width: 400px;"></span></p>
+            
+            <div class="comparison-grid">
+                <table class="comparison-grid">
+                    <thead>
+                        <tr>
+                            <th>CRITÈRE</th>
+                            <th>Mode Standard</th>
+                            <th>Thinking Mode</th>
+                            <th>Différence observée</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Profondeur analyse</td>
+                            <td>/5</td>
+                            <td>/5</td>
+                            <td style="min-height: 40px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Nouvelles perspectives</td>
+                            <td>/5</td>
+                            <td>/5</td>
+                            <td style="min-height: 40px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Qualité argumentation</td>
+                            <td>/5</td>
+                            <td>/5</td>
+                            <td style="min-height: 40px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Publication-ready ?</td>
+                            <td>Oui / Non</td>
+                            <td>Oui / Non</td>
+                            <td style="min-height: 40px;"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="exercise-box">
+                <h4>Insight principal du thinking mode :</h4>
+                <p style="min-height: 80px;"></p>
+            </div>
+        </section>
+        
+        <!-- Section 2: Workflow Publication -->
+        <section>
+            <h2>2. Pipeline Publication Multi-IA</h2>
+            
+            <h3>Exercice 3.5 : Transformation Introduction TFE</h3>
+            
+            <div class="workflow-builder">
+                <div class="workflow-step">
+                    <h4>Étape 1 - Perplexity (Recherche)</h4>
+                    <p><strong>Éléments clés trouvés :</strong></p>
+                    <p style="min-height: 60px;"></p>
+                </div>
+                
+                <div class="workflow-step">
+                    <h4>Étape 2 - Claude (Restructuration)</h4>
+                    <p><strong>Améliorations apportées :</strong></p>
+                    <p style="min-height: 60px;"></p>
+                </div>
+                
+                <div class="workflow-step">
+                    <h4>Étape 3 - ChatGPT (Optimisation)</h4>
+                    <p><strong>Éléments finalisés :</strong></p>
+                    <p style="min-height: 60px;"></p>
+                </div>
+            </div>
+            
+            <table class="comparison-grid">
+                <thead>
+                    <tr>
+                        <th>ÉLÉMENT</th>
+                        <th>Score Avant</th>
+                        <th>Score Après</th>
+                        <th>Amélioration clé</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Hook d'ouverture</td>
+                        <td>/10</td>
+                        <td>/10</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Clarté problème</td>
+                        <td>/10</td>
+                        <td>/10</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Nouveau/unique</td>
+                        <td>/10</td>
+                        <td>/10</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Flow narratif</td>
+                        <td>/10</td>
+                        <td>/10</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <div class="page-break"></div>
+        
+        <!-- Section 3: Abstract Creation -->
+        <section>
+            <h2>3. Abstract Publication-Ready</h2>
+            
+            <h3>Exercice 3.7 : Pipeline Abstract 250 mots</h3>
+            
+            <div class="exercise-box">
+                <h4>Titre de l'article :</h4>
+                <p style="min-height: 40px;"></p>
+            </div>
+            
+            <div class="notes-section">
+                <h4>Abstract final (250 mots) :</h4>
+                <p><em>Background:</em></p>
+                <br><br>
+                <p><em>Methods:</em></p>
+                <br><br>
+                <p><em>Results:</em></p>
+                <br><br>
+                <p><em>Conclusions:</em></p>
+                <br><br>
+            </div>
+            
+            <div class="exercise-box">
+                <h4>Keywords (5-8 mots MeSH) :</h4>
+                <p style="min-height: 40px;"></p>
+            </div>
+        </section>
+        
+        <!-- Section 4: Security Checklist -->
+        <section>
+            <h2>4. Checklist Sécurité et Éthique</h2>
+            
+            <h3>Exercice 3.8 : Audit Sécurité Données</h3>
+            
+            <table class="comparison-grid">
+                <thead>
+                    <tr>
+                        <th>SÉCURITÉ DONNÉES</th>
+                        <th>ChatGPT</th>
+                        <th>Claude</th>
+                        <th>Gemini</th>
+                        <th>Perplexity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Chiffrement photos</td>
+                        <td>✓ / ✗</td>
+                        <td>✓ / ✗</td>
+                        <td>✓ / ✗</td>
+                        <td>✓ / ✗</td>
+                    </tr>
+                    <tr>
+                        <td>Anonymisation auto</td>
+                        <td>✓ / ✗</td>
+                        <td>✓ / ✗</td>
+                        <td>✓ / ✗</td>
+                        <td>✓ / ✗</td>
+                    </tr>
+                    <tr>
+                        <td>Métadata EXIF strip</td>
+                        <td>✓ / ✗</td>
+                        <td>✓ / ✗</td>
+                        <td>✓ / ✗</td>
+                        <td>✓ / ✗</td>
+                    </tr>
+                    <tr>
+                        <td>Stockage temporaire</td>
+                        <td>✓ / ✗</td>
+                        <td>✓ / ✗</td>
+                        <td>✓ / ✗</td>
+                        <td>✓ / ✗</td>
+                    </tr>
+                    <tr>
+                        <td>RGPD/HIPAA</td>
+                        <td>✓ / ✗</td>
+                        <td>✓ / ✗</td>
+                        <td>✓ / ✗</td>
+                        <td>✓ / ✗</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <div class="exercise-box">
+                <h4>Mesures de sécurité supplémentaires identifiées :</h4>
+                <ol>
+                    <li style="margin-bottom: 1rem;"></li>
+                    <li style="margin-bottom: 1rem;"></li>
+                    <li style="margin-bottom: 1rem;"></li>
+                </ol>
+            </div>
+        </section>
+        
+        <div class="page-break"></div>
+        
+        <!-- Section 5: Challenge Final -->
+        <section>
+            <h2>5. Challenge Final : TFE → Article PRS</h2>
+            
+            <h3>Pipeline Complet en 25 minutes</h3>
+            
+            <table class="comparison-grid">
+                <thead>
+                    <tr>
+                        <th>Étape</th>
+                        <th>Temps prévu</th>
+                        <th>Temps réel</th>
+                        <th>Output obtenu</th>
+                        <th>Qualité /10</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>État de l'art (Perplexity)</td>
+                        <td>5 min</td>
+                        <td></td>
+                        <td></td>
+                        <td>/10</td>
+                    </tr>
+                    <tr>
+                        <td>Restructuration (Claude)</td>
+                        <td>5 min</td>
+                        <td></td>
+                        <td></td>
+                        <td>/10</td>
+                    </tr>
+                    <tr>
+                        <td>Visualisations (ChatGPT)</td>
+                        <td>5 min</td>
+                        <td></td>
+                        <td></td>
+                        <td>/10</td>
+                    </tr>
+                    <tr>
+                        <td>Optimisation (Gemini)</td>
+                        <td>5 min</td>
+                        <td></td>
+                        <td></td>
+                        <td>/10</td>
+                    </tr>
+                    <tr>
+                        <td>Finalisation (Multi-IA)</td>
+                        <td>5 min</td>
+                        <td></td>
+                        <td></td>
+                        <td>/10</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <div class="exercise-box">
+                <h4>Checklist finale article :</h4>
+                <p>□ Abstract structuré 250 mots</p>
+                <p>□ Introduction avec hook fort</p>
+                <p>□ Méthodes reproductibles</p>
+                <p>□ Résultats avec statistiques</p>
+                <p>□ Discussion nuancée</p>
+                <p>□ Figures professionnelles (nombre : ___)</p>
+                <p>□ Références actualisées (nombre : ___)</p>
+                <p>□ Déclaration usage IA incluse</p>
+            </div>
+        </section>
+        
+        <!-- Section 6: Personal Workflow -->
+        <section>
+            <h2>6. Mon Workflow Personnel Optimisé</h2>
+            
+            <div class="notes-section">
+                <h4>Workflow qui fonctionne le mieux pour mon TFE :</h4>
+                <p style="min-height: 150px;"></p>
+            </div>
+            
+            <div class="exercise-box">
+                <h4>Outils préférés par tâche :</h4>
+                <ul>
+                    <li>Recherche bibliographique : _________________________</li>
+                    <li>Rédaction première version : _________________________</li>
+                    <li>Analyse complexe : _________________________</li>
+                    <li>Figures et visualisations : _________________________</li>
+                    <li>Révision finale : _________________________</li>
+                </ul>
+            </div>
+            
+            <div class="exercise-box">
+                <h4>Temps estimé transformation complète TFE → Publication :</h4>
+                <p>__________ heures (vs __________ heures sans IA)</p>
+            </div>
+        </section>
+        
+        <!-- Mission Inter-Session -->
+        <section>
+            <h2>Mission Inter-Session 3 : "Publication Sprint Week"</h2>
+            
+            <div class="exercise-box">
+                <h4>Checklist de la semaine :</h4>
+                <p>□ Pipeline complet appliqué sur 1 section TFE</p>
+                <p>□ 3 figures publication-quality créées</p>
+                <p>□ Abstract 250 mots parfait rédigé</p>
+                <p>□ Thinking modes testés sur cas complexes</p>
+                <p>□ Workflow personnel documenté</p>
+                <p>□ Journal cible identifié : _________________________</p>
+                <p>□ Résultats partagés sur WhatsApp #PublicationReady</p>
+            </div>
+            
+            <div class="notes-section">
+                <h4>Notes et réflexions personnelles :</h4>
+                <p style="min-height: 100px;"></p>
+            </div>
+        </section>
+    </div>
+    
+    <!-- Footer (no-print) -->
+    <footer class="footer no-print">
+        <div class="footer-content">
+            <p>&copy; 2025 Université Libre de Bruxelles - Formation IA Médicale</p>
+        </div>
+    </footer>
+</body>
+</html>
