@@ -35,41 +35,6 @@ Un seul canal pour simplifier la communication et centraliser tous les échanges
 - Messages après 22h
 - Promesses résultats irréalistes
 
-## 🔄 Workflow de Partage
-
-1. **Capture** : Screenshot ou enregistrement
-2. **Anonymisation** : Retirer toute info sensible
-3. **Annotation** : Ajouter contexte si nécessaire
-4. **Partage** : Sur le canal WhatsApp
-
-## 📊 Partage de Documents
-
-```
-Formation_IA_ULB_2025/
-├── Sessions/
-│   ├── Session1/
-│   ├── Session2/
-│   ├── Session3/
-│   └── Session4/
-├── Missions/
-│   ├── Inter_S1/
-│   ├── Inter_S2/
-│   ├── Inter_S3/
-│   └── Final/
-├── Challenges/
-│   ├── Battle_S1.xlsx
-│   ├── Battle_S2.xlsx
-│   └── Results/
-├── Templates/
-│   ├── Grilles_Evaluation/
-│   ├── Workflows/
-│   └── Prompts/
-└── Ressources/
-    ├── Guides/
-    ├── Best_Practices/
-    └── Archives/
-```
-
 ## 💡 Bonnes Pratiques
 
 ### Pour les Questions
@@ -86,27 +51,13 @@ Formation_IA_ULB_2025/
 4. Résultat obtenu
 5. Leçons apprises
 
-## 🚀 Astuces Avancées
-
-- **Sondages rapides** : Utiliser fonction sondage WhatsApp
-- **Listes de diffusion** : Pour annonces par rôle
-- **Épingles** : Messages importants en haut
-- **Recherche** : Utiliser mots-clés et hashtags
-- **Archives** : Exporter chats importants
-
 ## 🆘 Support
 
-Pour toute question technique sur WhatsApp ou le partage de documents :
-- Poster sur le canal avec `#Help`
+Pour toute question technique sur WhatsApp :
+- Poster sur le canal WhatsApp
 - Mentionner les modérateurs
 - Consulter ce guide
 
-## 📅 Horaires Actifs
-
-- **Semaine** : 9h-21h
-- **Weekend** : 10h-18h
-- **Urgences** : Tag avec `#Urgent`
-
 ---
 
-**Note** : Ce guide est évolutif. Suggestions bienvenues via `#Feedback`
+**Note** : Ce guide est évolutif. Vos suggestions sont bienvenues !
