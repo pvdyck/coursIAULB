@@ -240,7 +240,7 @@ Aide décision régulateur
 - Itérer prompts chaque semaine
 - Partager apprentissages équipe
 
-### 2. Erreurs Évitées par les Champions
+### 2. Erreurs Évitées par les Experts
 
 ❌ **NE PAS :** Implémenter partout en même temps
 ✅ **FAIRE :** Pilote sur 1 process → Mesurer → Étendre

@@ -11,7 +11,7 @@
 #### **Check-in TFE Chirurgie Plastique**
 - Tour de table : Type (esthétique/reconstructif) et titre TFE
 - Problème principal : photos, stats PROM, ou rédaction ?
-- Outil champion pour votre spécificité
+- Outil optimal pour votre spécificité
 - Journal cible : PRS, ASJ, JPRAS, JHS ?
 
 #### **Objectif Session 4**

@@ -312,7 +312,7 @@ GAGNANT POUR CETTE TÂCHE : _____________
 - Gemini : ___/10
 - Perplexity : ___/10
 
-## Mes 2 Outils Champions
+## Mes 2 Outils Préférés
 1. ___________ pour ___________
 2. ___________ pour ___________
 

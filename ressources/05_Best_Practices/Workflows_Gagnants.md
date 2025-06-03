@@ -4,7 +4,7 @@
 
 ### 1. 📚 Revue de Littérature Systématique
 
-**Champion :** Dr. Marie L. (Groupe B)
+**Expert :** Dr. Marie L. (Groupe B)
 **Temps :** 2h (vs 10h traditionnel)
 
 ```mermaid
@@ -53,7 +53,7 @@ FORMAT : Markdown avec tableaux
 
 ### 2. 🔬 Diagnostic Différentiel Consensuel
 
-**Champion :** Dr. Jean P. (Groupe A)
+**Expert :** Dr. Jean P. (Groupe A)
 **Méthode :** Triple validation parallèle
 
 ```python
@@ -77,7 +77,7 @@ def diagnostic_consensuel(cas_clinique):
 
 ### 3. 📝 Rédaction Article Scientifique
 
-**Champion :** Prof. Sophie M. (Groupe C)
+**Expert :** Prof. Sophie M. (Groupe C)
 **Pipeline :** Recherche → Rédaction → Polish → Validation
 
 **Workflow Détaillé :**
@@ -111,7 +111,7 @@ Phase 4 (30 min) - VALIDATION FINALE [Gemini]
 
 ### 4. 🏥 Communication Patient Empathique
 
-**Champion :** Dr. Amir K. (Groupe B)
+**Expert :** Dr. Amir K. (Groupe B)
 **Innovation :** Adaptation multiculturelle
 
 **Le Workflow 3C :**
@@ -144,7 +144,7 @@ Claude 2: "Vérifie cette communication patient :
 
 ### 5. 🎯 Protocole de Recherche Clinique
 
-**Champion :** Dr. Clara V. (Groupe C)  
+**Expert :** Dr. Clara V. (Groupe C)  
 **Spécialité :** Essais cliniques phase III
 
 **Architecture Multi-IA :**
@@ -253,7 +253,7 @@ FINALISATION
 
 ---
 
-**🔄 Mise à jour :** Chaque semaine avec nouveaux champions
+**🔄 Mise à jour :** Chaque semaine avec nouveaux experts
 **📤 Soumission :** workflows-ia@ulb.ac.be
 **🏆 Récompense :** Meilleur workflow mensuel = 3 mois IA gratuits
 

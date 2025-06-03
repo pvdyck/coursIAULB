@@ -11,7 +11,7 @@
 #### **Partage d'Expériences Pipeline**
 - Présentation rapide : 2-3 pipelines TFE réussis
 - Obstacles rencontrés et solutions
-- Outil champion identifié
+- Outil le plus performant identifié
 
 #### **Objectif Session 3**
 ```

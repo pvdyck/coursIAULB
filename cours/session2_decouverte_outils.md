@@ -340,7 +340,7 @@ MON PIPELINE TFE → PUBLICATION
 2. **Analyser 10 photos** avant/après avec chaque outil
 3. **Chronométrer** rédaction compte-rendu opératoire
 4. **Comparer** recherche biblio sur même sujet
-5. **Identifier champion** pour photos vs texte vs recherche
+5. **Identifier l'outil optimal** pour photos vs texte vs recherche
 6. **Créer workflow** consultation→opération→publication
 7. **Partager sur WhatsApp** : #PlastiePipeline
 

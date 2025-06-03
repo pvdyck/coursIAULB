@@ -354,7 +354,7 @@ Livrable: 5 prompts photos optimisés
 
 ### SESSION 2 - MULTI-OUTILS
 ```
-Win rapide: Outil champion pour photos
+Win rapide: Outil optimal pour photos
 Challenge: Analyse PROM sur 4 outils
 Livrable: Workflow personnel optimisé
 ```

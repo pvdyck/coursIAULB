@@ -204,7 +204,7 @@ Consultation esthétique|         |       |
 Analyse PROM scores   |         |       |
 Gestion complications |         |       |
 
-CHAMPION GLOBAL SESSION : _____________
+OUTIL LE PLUS PERFORMANT : _____________
 MEILLEUR RAPPORT QUALITÉ/PRIX : _______
 PLUS FIABLE MÉDICALEMENT : ____________
 ```

@@ -29,7 +29,7 @@
 - ✅ Optimal pour dashboards et visualisations
 - ❌ Éviter micro-tâches simples
 
-## 🏆 Prompts Champions Multi-Plateformes (Testés sur 4 outils)
+## 🏆 Prompts Haute Performance Multi-Plateformes (Testés sur 4 outils)
 
 ### 1. 🔬 RECHERCHE BIBLIOGRAPHIQUE SYSTÉMATIQUE - Version Comparative
 
