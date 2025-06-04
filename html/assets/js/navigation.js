@@ -1,5 +1,19 @@
 // ULB Medical - Navigation JavaScript
 
+// Vercel Analytics Integration
+// This will be auto-injected when deployed on Vercel, but we add it for completeness
+if (typeof window !== 'undefined' && !window.vaScriptLoaded) {
+    window.vaScriptLoaded = true;
+    
+    // Only load in production (not on localhost)
+    if (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
+        const script = document.createElement('script');
+        script.defer = true;
+        script.src = '/_vercel/insights/script.js';
+        document.head.appendChild(script);
+    }
+}
+
 document.addEventListener('DOMContentLoaded', function() {
     // Mobile Navigation Toggle
     const mobileToggle = document.querySelector('.mobile-nav-toggle');
