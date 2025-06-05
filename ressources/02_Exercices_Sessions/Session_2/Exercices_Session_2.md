@@ -8,21 +8,22 @@
 - Construire votre matrice de décision personnelle
 - Définir votre pipeline TFE optimal
 
-## ⏱️ Structure : 45 minutes par outil
+## ⏱️ Structure : 35 minutes par outil
 
 ---
 
-## 🧩 BLOC 1 : CLAUDE - Le Précis et l'Éthique (45 min)
+## 🧩 BLOC 1 : CLAUDE - Le Précis et l'Éthique (35 min)
 
 ### Exercice 2.1 : Découverte Claude (15 min)
 
-**Test 1 : Rédaction Médicale Structurée**
+**Test 1 : Rédaction Compte-Rendu Opératoire**
 ```
-Je dois rédiger le protocole d'une étude clinique sur [choisir : diabète, HTA, ou votre sujet].
-Aide-moi à structurer selon les standards SPIRIT 2013.
-Inclus tous les éléments essentiels.
+Je dois rédiger le compte-rendu opératoire d'une reconstruction 
+mammaire par DIEP. Patiente 45 ans, mastectomie droite.
+2 perforantes identifiées. Temps op : 6h30. 
+Structure selon standards hospitaliers avec tous les détails techniques.
 ```
-→ Notez : Structure, exhaustivité, précision
+→ Notez : Structure, exhaustivité, précision médicale
 
 **Test 2 : Analyse de Document Long**
 Copiez un article scientifique (ou 2-3 pages de votre TFE) :
@@ -36,8 +37,8 @@ Suggère des améliorations concrètes.
 **Test 3 : Création d'Artifact**
 ```
 Crée un algorithme décisionnel visuel pour la prise en charge 
-de l'hypertension selon les dernières recommandations ESC.
-Format : diagramme clair avec codes couleur.
+de la reconstruction mammaire post-mastectomie selon les dernières recommandations.
+Format : diagramme clair avec codes couleur (DIEP, TRAM, implants, etc.).
 ```
 → Notez : Qualité visuelle, utilité pratique
 
@@ -45,11 +46,12 @@ Format : diagramme clair avec codes couleur.
 
 **Cas Éthique Complexe :**
 ```
-Un patient de 16 ans demande la contraception sans que ses parents 
-soient informés. La mère, que je connais bien, me demande directement 
-si sa fille est venue me voir. Comment gérer cette situation ?
+Patiente 18 ans demande rhinoplastie pour 'nez ethnique' qu'elle 
+veut 'européanisé'. Parents poussent pour l'opération.
+Signes possibles de dysmorphophobie. Instagram influence ++.
 
-Utilise ton mode de réflexion approfondie pour explorer toutes les dimensions.
+Utilise ton mode thinking pour explorer les dimensions éthiques, 
+psychologiques et professionnelles.
 ```
 
 **Comparer :**
@@ -61,8 +63,9 @@ Utilise ton mode de réflexion approfondie pour explorer toutes les dimensions.
 
 ```
 Voici la section Méthodes de mon TFE [coller 500 mots].
-Restructure-la selon les standards STROBE/CONSORT.
-Assure-toi que chaque élément est clair et reproductible.
+Restructure-la selon les standards STROBE/CONSORT pour publication dans PRS/ASJ.
+Améliore la structure pour maximiser l'impact et la reproductibilité.
+Objectif final : TFE → Article publiable.
 ```
 
 ### Évaluation Claude (10 min)
@@ -86,46 +89,47 @@ Assure-toi que chaque élément est clair et reproductible.
 
 ---
 
-## 🌍 BLOC 2 : GEMINI - L'Intégré Google (45 min)
+## 🌍 BLOC 2 : GEMINI - L'Intégré Google (35 min)
 
 ### Exercice 2.4 : Découverte Gemini (15 min)
 
 **Test 1 : Recherche Médicale Actualisée**
 ```
 Recherche les dernières études (2024-2025) sur l'efficacité 
-des inhibiteurs SGLT2 dans l'insuffisance cardiaque à FE préservée.
-Résume les findings principaux avec sources.
+de la preservation rhinoplasty vs structural rhinoplasty.
+Résume les findings principaux avec sources, notamment les taux de révision.
 ```
 → Notez : Actualité des infos, qualité des sources
 
 **Test 2 : Intégration Google (si vous avez Google Workspace)**
 - Créez un Google Doc
 - Activez Gemini dans le document
-- Testez : "Génère une introduction d'article sur [votre sujet TFE]"
+- Testez : "Génère une introduction d'article sur [votre sujet TFE en chirurgie plastique]"
 → Notez : Fluidité d'intégration, praticité
 
 **Test 3 : Analyse Multimodale**
-- Uploadez une image médicale + description textuelle
-- Demandez : "Analyse cette image en lien avec le texte fourni"
+- Uploadez une photo pré/post-opératoire + description technique
+- Demandez : "Analyse ces photos avant/après en lien avec la technique chirurgicale décrite"
 → Notez : Cohérence analyse image-texte
 
 ### Exercice 2.5 : Gemini pour Données (10 min)
 
 **Avec Google Sheets (ou données fictives) :**
 ```
-Voici des données de survie à 5 ans [créer tableau simple].
-Identifie les facteurs prédictifs principaux.
+Voici des données de satisfaction BREAST-Q à 1 an post-reconstruction [créer tableau simple].
+Identifie les facteurs prédictifs principaux de satisfaction.
 Crée les visualisations appropriées.
-Explique les tendances observées.
+Explique les tendances observées (DIEP vs implants).
 ```
 
 ### Exercice 2.6 : TFE avec Gemini (10 min)
 
 ```
 Mon TFE porte sur [votre sujet]. Trouve les 10 articles 
-les plus cités de 2023-2025 sur ce thème.
+les plus cités de 2023-2025 sur ce thème pour publication PRS/ASJ.
 Compare leurs méthodologies et conclusions principales.
-Identifie les gaps de recherche.
+Identifie les gaps de recherche pour positionner mon TFE.
+Focus : Comment transformer mon TFE en article à impact élevé ?
 ```
 
 ### Évaluation Gemini (10 min)
@@ -149,14 +153,14 @@ Identifie les gaps de recherche.
 
 ---
 
-## 🔍 BLOC 3 : PERPLEXITY - L'Automatiseur de Recherche (45 min)
+## 🔍 BLOC 3 : PERPLEXITY - L'Automatiseur de Recherche (35 min)
 
 ### Exercice 2.7 : Découverte Perplexity (15 min)
 
 **Test 1 : Recherche Simple avec Sources**
 ```
-Quelle est l'incidence actuelle du diabète type 2 
-chez les adolescents en Europe ?
+Quelle est l'incidence actuelle des complications 
+du Brazilian Butt Lift (BBL) en Europe ?
 Données 2024-2025 uniquement.
 ```
 → Notez : Nombre de sources, fiabilité, actualité
@@ -164,7 +168,7 @@ Données 2024-2025 uniquement.
 **Test 2 : Deep Research (Pro uniquement)**
 ```
 Utilise Deep Research pour créer un rapport complet sur 
-les nouveaux biomarqueurs du cancer du pancréas en 2025.
+les nouvelles techniques de lifting facial SMAS en 2025.
 Include : méthodologie de recherche, tableau comparatif, analyse critique.
 ```
 → Notez : Exhaustivité, structure automatique, gain de temps
@@ -178,23 +182,26 @@ Trouve les sources primaires qui confirment ou infirment.
 
 ### Exercice 2.8 : Perplexity Labs (10 min)
 
-**Création Dashboard (si disponible) :**
+**Note** : Perplexity Labs permet de créer des applications auto-générées et des dashboards interactifs.
+
+**Création Dashboard avec Perplexity Labs :**
 ```
-Crée un dashboard interactif pour suivre les indicateurs 
-clés de mon étude clinique : recrutement, compliance, 
-effets secondaires, endpoints primaires et secondaires.
+Utilise Perplexity Labs pour créer un dashboard interactif pour suivre les indicateurs 
+clés de mon étude sur la reconstruction mammaire : scores BREAST-Q, 
+complications (sérome, nécrose), révisions, satisfaction globale.
 ```
-→ Évaluez : Automatisation, interactivité, utilité
+→ Évaluez : Automatisation via Labs, interactivité générée, utilité pratique
 
 ### Exercice 2.9 : TFE avec Perplexity (10 min)
 
 ```
-Génère une revue systématique sur [votre sujet TFE] incluant :
+Génère une revue systématique sur [votre sujet TFE] pour valoriser mon travail :
 - Stratégie de recherche PRISMA
 - Tableau comparatif des études (minimum 10)
 - Analyse des gaps identifiés
-- Recommandations pour recherches futures
-Format : rapport structuré avec références
+- Comment mon TFE comble ces gaps
+- Recommandations pour transformer mon TFE en publication impactante
+Format : rapport structuré avec références pour PRS/ASJ
 ```
 
 ### Évaluation Perplexity (10 min)
@@ -218,19 +225,22 @@ Format : rapport structuré avec références
 
 ---
 
-## 🎯 BLOC 4 : Comparaison Stratégique et Sélection (45 min)
+## 🎯 BLOC 4 : Comparaison Stratégique et Sélection (40 min)
 
 ### Exercice 2.10 : Le Grand Comparatif (20 min)
 
 **MAINTENANT, comparez sur la MÊME tâche :**
 
-**Tâche TFE Standardisée :**
+**Tâche TFE→Publication Standardisée :**
 ```
-Transforme ce paragraphe de ma discussion TFE en version 
-publiable pour journal international. Améliore le style, 
-la structure et l'impact scientifique.
+Mission : Transformer mon TFE en article publiable PRS/ASJ
 
-[Insérer même paragraphe de 200 mots pour TOUS]
+Transforme ce paragraphe de ma discussion TFE sur la reconstruction 
+mammaire par DIEP en version publiable pour Plastic and Reconstructive Surgery. 
+Améliore le style, la structure et l'impact scientifique.
+Focus : Comment maximiser les chances d'acceptation en revue à comité de lecture ?
+
+[Insérer même paragraphe de 200 mots pour TOUS les 4 outils]
 ```
 
 ### Grille Comparative
@@ -254,38 +264,45 @@ GAGNANT POUR CETTE TÂCHE : _____________
 ```markdown
 | Tâche Médicale             | Outil Optimal | Pourquoi ?               |
 |----------------------------|---------------|--------------------------|
-| Diagnostic différentiel    |               |                          |
-| Rédaction compte-rendu     |               |                          |
-| Recherche bibliographique  |               |                          |
-| Analyse statistique        |               |                          |
-| Communication patient      |               |                          |
-| Révision article           |               |                          |
-| Analyse éthique            |               |                          |
-| Création de visuels        |               |                          |
+| Planification préopératoire|               |                          |
+| Rédaction compte-rendu opératoire |         |                          |
+| Recherche techniques chirurgicales |        |                          |
+| Analyse scores PRO (BREAST-Q, FACE-Q) |     |                          |
+| Consultation esthétique    |               |                          |
+| Révision article PRS/JPRAS |               |                          |
+| Consentement éclairé       |               |                          |
+| Photos pré/post-op standardisées |          |                          |
 | TFE → Introduction         |               |                          |
 | TFE → Méthodes             |               |                          |
 | TFE → Discussion           |               |                          |
 | TFE → Revue littérature    |               |                          |
 ```
 
-### Exercice 2.12 : Pipeline TFE Personnel (10 min)
+### Exercice 2.12 : Pipeline TFE→Publication Personnel (10 min)
 
-**Définissez VOTRE workflow optimal :**
+**Définissez VOTRE workflow TFE→Publication optimal :**
 
 ```markdown
-## Mon Pipeline TFE → Publication
+## Mon Pipeline TFE → Publication PRS/ASJ
 
-### 1. Revue littérature : ___________ (outil)
+### 1. Revue littérature systématique : ___________ (outil)
    Raison : _______________________
+   Impact sur publication : ________
    Temps estimé : _________________
 
-### 2. Restructuration IMRAD : _______ (outil)
+### 2. Restructuration pour revue internationale : _______ (outil)
    Raison : _______________________
+   Standards ciblés : STROBE/CONSORT/PRS
    Temps estimé : _________________
 
-### 3. Amélioration style : __________ (outil)
+### 3. Optimisation impact scientifique : __________ (outil)
    Raison : _______________________
+   Objectif : Maximiser chances acceptation
    Temps estimé : _________________
+
+### 4. Finalisation publication-ready : __________ (outil)
+   Raison : _______________________
+   Vérifications finales : Éthique + Citations + Format
 
 ### 4. Création figures : ____________ (outil)
    Raison : _______________________
@@ -298,6 +315,33 @@ GAGNANT POUR CETTE TÂCHE : _____________
 ### Temps total estimé : _____ heures
 ### (vs _____ heures méthode traditionnelle)
 ### Gain estimé : _____ %
+```
+
+
+### 🧪 Exercice 2.12 (Complément) : Application Théorie LLM (10 min)
+
+**Test de compréhension des concepts théoriques :**
+
+#### 1. Hallucination Detection Challenge
+```
+Examinez cette réponse IA sur la rhinoplastie :
+"La technique de préservation utilise toujours l'approche 
+endonasale avec un taux de révision de 3.7% selon l'étude 
+multicentriques de Chen et al. 2024 dans PRS."
+
+Identifiez les éléments suspects : ________________
+```
+
+#### 2. Mode Selection
+- Cas complexe de reconstruction mammaire post-radiothérapie → Mode : _______
+- Rédaction consentement patient simple → Mode : _______
+- Génération hypothèses nouvelles techniques → Temperature : _______
+
+#### 3. Prompt Engineering
+**Améliorez ce prompt :**
+```
+AVANT : "Aide-moi avec mon article sur la liposuccion"
+APRÈS : _________________________________
 ```
 
 ---
@@ -326,7 +370,7 @@ _________________________________
 ```
 
 
-### Temps Total Session : ~3h
+### Temps Total Session : ~3h30
 ### Charge Cognitive : 6/10 ✅
 
 ---
@@ -343,6 +387,6 @@ _________________________________
 
 - Features avancées (thinking modes)
 - Workflows publication complexes
-- Apportez 2 sections complètes de TFE
+- Apportez 2 sections complètes de TFE en chirurgie plastique
 
 **#UnOutilPourChaqueBesoin**

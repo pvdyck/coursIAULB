@@ -88,26 +88,27 @@
                             <li>Construire votre matrice de décision personnelle</li>
                             <li>Définir votre pipeline TFE optimal</li>
                         </ul>
-                        <p class="text-info mt-3"><strong>⏱️ Structure : 45 minutes par outil</strong></p>
+                        <p class="text-info mt-3"><strong>⏱️ Structure : 35 minutes par outil</strong></p>
                     </div>
                 </div>
                 
                 <!-- BLOC 1 : CLAUDE -->
                 <section id="bloc1" class="exercise-section">
-                    <h2>🧩 BLOC 1 : CLAUDE - Le Précis et l'Éthique (45 min)</h2>
+                    <h2>🧩 BLOC 1 : CLAUDE - Le Précis et l'Éthique (35 min)</h2>
                     
                     <!-- Exercice 2.1 -->
                     <div class="exercise-card mb-4">
                         <h3>Exercice 2.1 : Découverte Claude (15 min)</h3>
                         
                         <div class="test-section">
-                            <h4>Test 1 : Rédaction Médicale Structurée</h4>
+                            <h4>Test 1 : Rédaction Compte-Rendu Opératoire</h4>
                             <div class="prompt-example">
-                                <pre><code>Je dois rédiger le protocole d'une étude clinique sur [choisir : diabète, HTA, ou votre sujet].
-Aide-moi à structurer selon les standards SPIRIT 2013.
-Inclus tous les éléments essentiels.</code></pre>
+                                <pre><code>Je dois rédiger le compte-rendu opératoire d'une reconstruction 
+mammaire par DIEP. Patiente 45 ans, mastectomie droite.
+2 perforantes identifiées. Temps op : 6h30. 
+Structure selon standards hospitaliers avec tous les détails techniques.</code></pre>
                             </div>
-                            <p class="evaluation-note">→ Notez : Structure, exhaustivité, précision</p>
+                            <p class="evaluation-note">→ Notez : Structure, exhaustivité, précision médicale</p>
                         </div>
                         
                         <div class="test-section">
@@ -125,8 +126,8 @@ Suggère des améliorations concrètes.</code></pre>
                             <h4>Test 3 : Création d'Artifact</h4>
                             <div class="prompt-example">
                                 <pre><code>Crée un algorithme décisionnel visuel pour la prise en charge 
-de l'hypertension selon les dernières recommandations ESC.
-Format : diagramme clair avec codes couleur.</code></pre>
+de la reconstruction mammaire post-mastectomie selon les dernières recommandations.
+Format : diagramme clair avec codes couleur (DIEP, TRAM, implants, etc.).</code></pre>
                             </div>
                             <p class="evaluation-note">→ Notez : Qualité visuelle, utilité pratique</p>
                         </div>
@@ -138,11 +139,12 @@ Format : diagramme clair avec codes couleur.</code></pre>
                         
                         <h4>Cas Éthique Complexe :</h4>
                         <div class="prompt-example">
-                            <pre><code>Un patient de 16 ans demande la contraception sans que ses parents 
-soient informés. La mère, que je connais bien, me demande directement 
-si sa fille est venue me voir. Comment gérer cette situation ?
+                            <pre><code>Patiente 18 ans demande rhinoplastie pour 'nez ethnique' qu'elle 
+veut 'européanisé'. Parents poussent pour l'opération.
+Signes possibles de dysmorphophobie. Instagram influence ++.
 
-Utilise ton mode de réflexion approfondie pour explorer toutes les dimensions.</code></pre>
+Utilise ton mode thinking pour explorer les dimensions éthiques, 
+psychologiques et professionnelles.</code></pre>
                         </div>
                         
                         <div class="comparison-box">
@@ -191,7 +193,7 @@ Assure-toi que chaque élément est clair et reproductible.</code></pre>
                 
                 <!-- BLOC 2 : GEMINI -->
                 <section id="bloc2" class="exercise-section">
-                    <h2>🌍 BLOC 2 : GEMINI - L'Intégré Google (45 min)</h2>
+                    <h2>🌍 BLOC 2 : GEMINI - L'Intégré Google (35 min)</h2>
                     
                     <!-- Exercice 2.4 -->
                     <div class="exercise-card mb-4">
@@ -201,8 +203,8 @@ Assure-toi que chaque élément est clair et reproductible.</code></pre>
                             <h4>Test 1 : Recherche Médicale Actualisée</h4>
                             <div class="prompt-example">
                                 <pre><code>Recherche les dernières études (2024-2025) sur l'efficacité 
-des inhibiteurs SGLT2 dans l'insuffisance cardiaque à FE préservée.
-Résume les findings principaux avec sources.</code></pre>
+de la preservation rhinoplasty vs structural rhinoplasty.
+Résume les findings principaux avec sources, notamment les taux de révision.</code></pre>
                             </div>
                             <p class="evaluation-note">→ Notez : Actualité des infos, qualité des sources</p>
                         </div>
@@ -212,7 +214,7 @@ Résume les findings principaux avec sources.</code></pre>
                             <ul>
                                 <li>Créez un Google Doc</li>
                                 <li>Activez Gemini dans le document</li>
-                                <li>Testez : "Génère une introduction d'article sur [votre sujet TFE]"</li>
+                                <li>Testez : "Génère une introduction d'article sur [votre sujet TFE en chirurgie plastique]"</li>
                             </ul>
                             <p class="evaluation-note">→ Notez : Fluidité d'intégration, praticité</p>
                         </div>
@@ -220,8 +222,8 @@ Résume les findings principaux avec sources.</code></pre>
                         <div class="test-section">
                             <h4>Test 3 : Analyse Multimodale</h4>
                             <ul>
-                                <li>Uploadez une image médicale + description textuelle</li>
-                                <li>Demandez : "Analyse cette image en lien avec le texte fourni"</li>
+                                <li>Uploadez une photo pré/post-opératoire + description technique</li>
+                                <li>Demandez : "Analyse ces photos avant/après en lien avec la technique chirurgicale décrite"</li>
                             </ul>
                             <p class="evaluation-note">→ Notez : Cohérence analyse image-texte</p>
                         </div>
@@ -233,10 +235,10 @@ Résume les findings principaux avec sources.</code></pre>
                         
                         <h4>Avec Google Sheets (ou données fictives) :</h4>
                         <div class="prompt-example">
-                            <pre><code>Voici des données de survie à 5 ans [créer tableau simple].
-Identifie les facteurs prédictifs principaux.
+                            <pre><code>Voici des données de satisfaction BREAST-Q à 1 an post-reconstruction [créer tableau simple].
+Identifie les facteurs prédictifs principaux de satisfaction.
 Crée les visualisations appropriées.
-Explique les tendances observées.</code></pre>
+Explique les tendances observées (DIEP vs implants).</code></pre>
                         </div>
                     </div>
                     
@@ -277,7 +279,7 @@ Identifie les gaps de recherche.</code></pre>
                 
                 <!-- BLOC 3 : PERPLEXITY -->
                 <section id="bloc3" class="exercise-section">
-                    <h2>🔍 BLOC 3 : PERPLEXITY - L'Automatiseur de Recherche (45 min)</h2>
+                    <h2>🔍 BLOC 3 : PERPLEXITY - L'Automatiseur de Recherche (35 min)</h2>
                     
                     <!-- Exercice 2.7 -->
                     <div class="exercise-card mb-4">
@@ -286,8 +288,8 @@ Identifie les gaps de recherche.</code></pre>
                         <div class="test-section">
                             <h4>Test 1 : Recherche Simple avec Sources</h4>
                             <div class="prompt-example">
-                                <pre><code>Quelle est l'incidence actuelle du diabète type 2 
-chez les adolescents en Europe ?
+                                <pre><code>Quelle est l'incidence actuelle des complications 
+du Brazilian Butt Lift (BBL) en Europe ?
 Données 2024-2025 uniquement.</code></pre>
                             </div>
                             <p class="evaluation-note">→ Notez : Nombre de sources, fiabilité, actualité</p>
@@ -297,7 +299,7 @@ Données 2024-2025 uniquement.</code></pre>
                             <h4>Test 2 : Deep Research (Pro uniquement)</h4>
                             <div class="prompt-example">
                                 <pre><code>Utilise Deep Research pour créer un rapport complet sur 
-les nouveaux biomarqueurs du cancer du pancréas en 2025.
+les nouvelles techniques de lifting facial SMAS en 2025.
 Include : méthodologie de recherche, tableau comparatif, analyse critique.</code></pre>
                             </div>
                             <p class="evaluation-note">→ Notez : Exhaustivité, structure automatique, gain de temps</p>
@@ -320,8 +322,8 @@ Trouve les sources primaires qui confirment ou infirment.</code></pre>
                         <h4>Création Dashboard (si disponible) :</h4>
                         <div class="prompt-example">
                             <pre><code>Crée un dashboard interactif pour suivre les indicateurs 
-clés de mon étude clinique : recrutement, compliance, 
-effets secondaires, endpoints primaires et secondaires.</code></pre>
+clés de mon étude sur la reconstruction mammaire : scores BREAST-Q, 
+complications (sérome, nécrose), révisions, satisfaction globale.</code></pre>
                         </div>
                         <p class="evaluation-note">→ Évaluez : Automatisation, interactivité, utilité</p>
                     </div>
@@ -365,7 +367,7 @@ Format : rapport structuré avec références</code></pre>
                 
                 <!-- BLOC 4 : COMPARAISON -->
                 <section id="bloc4" class="exercise-section">
-                    <h2>🎯 BLOC 4 : Comparaison Stratégique et Sélection (45 min)</h2>
+                    <h2>🎯 BLOC 4 : Comparaison Stratégique et Sélection (40 min)</h2>
                     
                     <!-- Exercice 2.10 -->
                     <div class="exercise-card mb-4">
@@ -376,9 +378,9 @@ Format : rapport structuré avec références</code></pre>
                         <div class="standardized-task">
                             <h5>Tâche TFE Standardisée :</h5>
                             <div class="prompt-example">
-                                <pre><code>Transforme ce paragraphe de ma discussion TFE en version 
-publiable pour journal international. Améliore le style, 
-la structure et l'impact scientifique.
+                                <pre><code>Transforme ce paragraphe de ma discussion TFE sur la reconstruction 
+mammaire par DIEP en version publiable pour Plastic and Reconstructive Surgery. 
+Améliore le style, la structure et l'impact scientifique.
 
 [Insérer même paragraphe de 200 mots pour TOUS]</code></pre>
                             </div>
@@ -460,42 +462,42 @@ la structure et l'impact scientifique.
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Diagnostic différentiel</td>
+                                    <td>Planification préopératoire</td>
                                     <td></td>
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td>Rédaction compte-rendu</td>
+                                    <td>Rédaction compte-rendu opératoire</td>
                                     <td></td>
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td>Recherche bibliographique</td>
+                                    <td>Recherche techniques chirurgicales</td>
                                     <td></td>
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td>Analyse statistique</td>
+                                    <td>Analyse scores PRO (BREAST-Q, FACE-Q)</td>
                                     <td></td>
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td>Communication patient</td>
+                                    <td>Consultation esthétique</td>
                                     <td></td>
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td>Révision article</td>
+                                    <td>Révision article PRS/JPRAS</td>
                                     <td></td>
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td>Analyse éthique</td>
+                                    <td>Consentement éclairé</td>
                                     <td></td>
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td>Création de visuels</td>
+                                    <td>Photos pré/post-op standardisées</td>
                                     <td></td>
                                     <td></td>
                                 </tr>
@@ -558,6 +560,84 @@ la structure et l'impact scientifique.
                     </div>
                 </section>
                 
+                <!-- Exercice 2.11 -->
+                <div class="exercise-card mb-4">
+                    <h3>🔄 Exercice 2.11 : Plan Personnel TFE-Publication (10 min)</h3>
+                    
+                    <h4>Définir votre pipeline optimal :</h4>
+                    
+                    <div class="alert alert-info">
+                        <h4>MON PIPELINE TFE → PUBLICATION</h4>
+                        
+                        <div class="pipeline-form">
+                            <div class="pipeline-step">
+                                <strong>1. Revue littérature :</strong> ___________ (outil)<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;Raison : _______________________
+                            </div>
+                            
+                            <div class="pipeline-step">
+                                <strong>2. Rédaction technique op :</strong> _________ (outil)<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;Raison : _______________________
+                            </div>
+                            
+                            <div class="pipeline-step">
+                                <strong>3. Analyse photos/résultats :</strong> ____________ (outil)<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;Raison : _______________________
+                            </div>
+                            
+                            <div class="pipeline-step">
+                                <strong>4. Statistiques PROM (BREAST-Q/FACE-Q) :</strong> ______________ (outil)<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;Raison : _______________________
+                            </div>
+                            
+                            <div class="pipeline-step">
+                                <strong>5. Mise en forme PRS :</strong> ___________ (outil)<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;Raison : _______________________
+                            </div>
+                            
+                            <div class="pipeline-step">
+                                <strong>6. Vérification éthique photos :</strong> ___________ (outil)<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;Raison : _______________________
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Exercice 2.12 -->
+                <div class="exercise-card mb-4">
+                    <h3>🧪 Exercice 2.12 : Application Théorie LLM (10 min)</h3>
+                    
+                    <h4>Test de compréhension des concepts théoriques :</h4>
+                    
+                    <div class="theory-test">
+                        <h5>1. Hallucination Detection Challenge</h5>
+                        <div class="prompt-example">
+                            <pre><code>Examinez cette réponse IA sur la rhinoplastie :
+"La technique de préservation utilise toujours l'approche 
+endonasale avec un taux de révision de 3.7% selon l'étude 
+multicentriques de Chen et al. 2024 dans PRS."
+
+Identifiez les éléments suspects : ________________</code></pre>
+                        </div>
+                        
+                        <h5>2. Mode Selection</h5>
+                        <div class="mode-selection">
+                            <ul>
+                                <li>Cas complexe de reconstruction mammaire post-radiothérapie → Mode : _______</li>
+                                <li>Rédaction consentement patient simple → Mode : _______</li>
+                                <li>Génération hypothèses nouvelles techniques → Temperature : _______</li>
+                            </ul>
+                        </div>
+                        
+                        <h5>3. Prompt Engineering</h5>
+                        <div class="prompt-improvement">
+                            <p><strong>Améliorez ce prompt :</strong></p>
+                            <pre><code>AVANT : "Aide-moi avec mon article sur la liposuccion"
+APRÈS : _________________________________</code></pre>
+                        </div>
+                    </div>
+                </div>
+                
                 <!-- SYNTHÈSE FINALE -->
                 <section id="synthese" class="session-recap">
                     <h2>📊 Synthèse Finale Session 2</h2>
@@ -587,7 +667,7 @@ _________________________________
                     
                     
                     <div class="session-info">
-                        <p><strong>Temps Total Session : ~3h</strong></p>
+                        <p><strong>Temps Total Session : ~3h30</strong></p>
                         <p><strong>Charge Cognitive : 6/10 ✅</strong></p>
                     </div>
                 </section>
@@ -610,7 +690,7 @@ _________________________________
                     <ul>
                         <li>Features avancées (thinking modes)</li>
                         <li>Workflows publication complexes</li>
-                        <li>Apportez 2 sections complètes de TFE</li>
+                        <li>Apportez 2 sections complètes de TFE en chirurgie plastique</li>
                     </ul>
                     <p class="text-center mt-3"><strong>#UnOutilPourChaqueBesoin</strong></p>
                 </div>

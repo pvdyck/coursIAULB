@@ -1,8 +1,8 @@
 ⬅️ **[Retour Session 1](./session1_fondements_decouverte.md)**
 
 # SESSION 2 : Découverte Individuelle des Outils IA
-## *Durée : 3h | Format : Maîtrise individuelle + Comparaison stratégique*
-### **🎯 Objectif : Découvrir les 3 autres outils individuellement avant de comparer**
+## *Durée : 3h30 | Format : Théorie fondamentale + Maîtrise individuelle + Comparaison stratégique*
+### **🎯 Objectif : Comprendre les LLM puis découvrir les 3 autres outils individuellement avant de comparer**
 
 ---
 
@@ -24,7 +24,7 @@ Aujourd'hui : Maîtrise individuelle de Claude, Gemini et Perplexity
 
 ---
 
-## 🧠 COMPRENDRE LES LLM : THÉORIE FONDAMENTALE
+## 🧠 COMPRENDRE LES LLM : THÉORIE FONDAMENTALE (20 min)
 
 ### Comment fonctionne un LLM ?
 
@@ -107,7 +107,7 @@ LLM ≠ Médecin + Oracle + Source de vérité
 
 ---
 
-## 🤔 MODES DE PENSÉE ET FONCTIONNALITÉS AVANCÉES
+## 🤔 MODES DE PENSÉE ET FONCTIONNALITÉS AVANCÉES (15 min)
 
 ### Les différents "modes cognitifs" des LLM
 
@@ -269,7 +269,7 @@ Observer :
 
 ---
 
-### **🧠 BLOC 1 : Claude - Le Précis et l'Éthique (45 min)**
+### **🧠 BLOC 1 : Claude - Le Précis et l'Éthique (35 min)**
 
 #### **Introduction à Claude (10 min)**
 
@@ -342,7 +342,7 @@ Suggestions pertinentes   |      |
 
 ---
 
-### **🌍 BLOC 2 : Gemini - L'Intégré Google (45 min)**
+### **🌍 BLOC 2 : Gemini - L'Intégré Google (35 min)**
 
 #### **Introduction à Gemini (10 min)**
 
@@ -420,7 +420,7 @@ Intégration Google      |         |
 
 ---
 
-### **🔍 BLOC 3 : Perplexity - L'Automatiseur de Recherche (45 min)**
+### **🔍 BLOC 3 : Perplexity - L'Automatiseur de Recherche (35 min)**
 
 #### **Introduction à Perplexity (10 min)**
 
@@ -467,7 +467,7 @@ imagerie, oncological safety."
 ```
 "Crée dashboard interactif pour suivre mes résultats 
 chirurgicaux : taux complications par procédure, scores 
-PROM (FACE-Q/BREAST-Q), taux révision, photos timeline."
+patient-reported outcomes (FACE-Q/BREAST-Q), taux révision, photos timeline."
 ```
 
 **Évaluation :**
@@ -499,7 +499,7 @@ Gain de temps          |         |
 
 ---
 
-### **🎯 BLOC 4 : Comparaison Stratégique et Sélection (45 min)**
+### **🎯 BLOC 4 : Comparaison Stratégique et Sélection (40 min)**
 
 #### **🔄 EXERCICE 2.10 : Le Grand Comparatif (20 min)**
 
@@ -549,7 +549,7 @@ TFE → Résultats visuels   |               |
 TFE → Complications       |               |
 ```
 
-#### **🎯 Plan Personnel TFE-Publication (10 min)**
+#### **🔄 EXERCICE 2.11 : Plan Personnel TFE-Publication (10 min)**
 
 **Définir votre pipeline optimal :**
 
@@ -565,7 +565,7 @@ MON PIPELINE TFE → PUBLICATION
 3. Analyse photos/résultats : ____________ (outil)
    Raison : _______________________
 
-4. Statistiques PROM : ______________ (outil)
+4. Statistiques patient-reported outcomes : ______________ (outil)
    Raison : _______________________
 
 5. Mise en forme PRS : ___________ (outil)
@@ -576,7 +576,51 @@ MON PIPELINE TFE → PUBLICATION
 
 ```
 
+#### **🧪 EXERCICE 2.12 : Application Théorie LLM (10 min)**
+
+**Test de compréhension des concepts théoriques :**
+
+1. **Hallucination Detection Challenge**
+   ```
+   Examinez cette réponse IA sur la rhinoplastie :
+   "La technique de préservation utilise toujours l'approche 
+   endonasale avec un taux de révision de 3.7% selon l'étude 
+   multicentriques de Chen et al. 2024 dans PRS."
+   
+   Identifiez les éléments suspects : ________________
+   ```
+
+2. **Mode Selection (basé sur théorie vue)**
+   - Cas complexe de reconstruction mammaire post-radiothérapie → Mode : _______ (💡 Thinking mode)
+   - Rédaction consentement patient simple → Mode : _______ (💡 Standard)
+   - Génération hypothèses nouvelles techniques → Temperature : _______ (💡 1.0+)
+
+3. **Prompt Engineering avec techniques vues**
+   Améliorez ce prompt en utilisant Role/Constraint/Few-shot :
+   ```
+   AVANT : "Aide-moi avec mon article"
+   APRÈS : _________________________________
+   ```
+   
+4. **Application Multimodalité**
+   - Photo pré/post-op à analyser → Quel outil optimal ? _______
+   - Pourquoi selon la théorie vue ? _______
+
 ---
+
+### 📊 **RÉPARTITION DU TEMPS - SESSION 2 (3h30)**
+
+| Section | Durée | Cumul |
+|---------|-------|-------|
+| Ouverture : Retour ChatGPT | 10 min | 10 min |
+| Théorie : Comprendre les LLM | 20 min | 30 min |
+| Théorie : Modes de pensée | 15 min | 45 min |
+| BLOC 1 : Claude | 35 min | 1h20 |
+| BLOC 2 : Gemini | 35 min | 1h55 |
+| *Pause* | 10 min | 2h05 |
+| BLOC 3 : Perplexity | 35 min | 2h40 |
+| BLOC 4 : Comparaison | 40 min | 3h20 |
+| Clôture & Questions | 10 min | 3h30 |
 
 ---
 
