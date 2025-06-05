@@ -333,20 +333,6 @@ MON PIPELINE TFE → PUBLICATION
 
 ---
 
-### **🎯 MISSION INTER-SESSION 2**
-**"Semaine d'Exploration Comparative"**
-
-1. **Tester pipeline** sur cas chirurgical réel (anonymisé)
-2. **Analyser 10 photos** avant/après avec chaque outil
-3. **Chronométrer** rédaction compte-rendu opératoire
-4. **Comparer** recherche biblio sur même sujet
-5. **Identifier l'outil optimal** pour photos vs texte vs recherche
-6. **Créer workflow** consultation→opération→publication
-7. **Partager sur WhatsApp** : #PlastiePipeline
-
-**Livrables :** 
-- Pipeline chirurgie documenté (Google Sheets)
-- Comparaison analyse photo par outil
 - Template compte-rendu opératoire optimal
 - 3 insights spécifiques chirurgie plastique
 

@@ -325,11 +325,6 @@ _________________________________
 2. _____________________________
 ```
 
-### Mission Inter-Session
-1. **Tester votre pipeline** sur 1000 mots de TFE
-2. **Chronométrer précisément** chaque étape
-3. **Documenter les problèmes** rencontrés
-4. **Partager sur WhatsApp** : #MonPipeline
 
 ### Temps Total Session : ~3h
 ### Charge Cognitive : 6/10 ✅

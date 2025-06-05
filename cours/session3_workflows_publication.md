@@ -324,23 +324,6 @@ comme 'idéaux'. Comment gérer biais ethniques ?"
 
 ---
 
-### **🎯 MISSION INTER-SESSION 3**
-**"Semaine Publication Intensive"**
-
-1. **Transformer 2 sections** : Technique op + Résultats visuels
-2. **Générer figures PRS** : Photos grid + graphiques PROM
-3. **Tester thinking** sur complications non prévues
-4. **Créer tableau** comparatif votre technique vs littérature
-5. **Mesurer temps** : transformation complète article
-6. **Partager WhatsApp** : Montage avant/après + abstract
-7. **BONUS** : Mock submission PRS/ASJ online
-
-**Livrables :**
-- Section Methods + Results transformées PRS-ready
-- Grille photos standardisée (6-9 vues)
-- Graphiques scores PROM avec stats
-- Abstract 250 mots validé
-- Checklist éthique photos remplie
 
 ---
 

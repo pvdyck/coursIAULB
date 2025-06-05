@@ -9,7 +9,6 @@
 
 ### Activités
 - **Exercice** - Activité structurée avec grille d'évaluation
-- **Mission Inter-session** - Travail entre sessions
 - **Mega-Exercice/Mega-Projet** - Activité longue de synthèse
 - **Challenge** - Compétition entre groupes
 
@@ -63,7 +62,6 @@
 "Challenge suivant : [Nom]"
 
 ### Clôture
-"Mission Inter-session [X] : [Description]"
 "Soumission via : Ressources/Missions/Inter_S[X]/"
 
 ## 🔄 Processus Standard
