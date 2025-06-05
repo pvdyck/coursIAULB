@@ -24,6 +24,251 @@ Aujourd'hui : Maîtrise individuelle de Claude, Gemini et Perplexity
 
 ---
 
+## 🧠 COMPRENDRE LES LLM : THÉORIE FONDAMENTALE
+
+### Comment fonctionne un LLM ?
+
+**Analogie médicale** : Imaginez un LLM comme un "super-résident" qui a lu tous les textes médicaux existants, mais qui n'a jamais examiné un patient.
+
+#### 1. **Architecture neuronale**
+- **Réseaux de neurones** : Similaires aux neurones biologiques, mais mathématiques
+- **Couches profondes** : Comme les couches corticales, chaque niveau extrait des caractéristiques plus complexes
+- **Attention mechanism** : Comme l'attention sélective humaine - le modèle "focus" sur les éléments pertinents du contexte
+
+#### 2. **Représentation vectorielle**
+```
+Mot "pénicilline" → [0.2, -0.5, 0.8, ...] (vecteur à ~1500 dimensions)
+```
+- Chaque concept médical devient un point dans un espace multidimensionnel
+- Concepts similaires = vecteurs proches (pénicilline ≈ amoxicilline)
+- Relations préservées : "pénicilline - antibiotique + antifongique ≈ fluconazole"
+
+#### 3. **Base de données vectorielle**
+**Analogie** : Comme une bibliothèque où les livres sont rangés par similarité conceptuelle plutôt qu'alphabétiquement
+- Recherche par proximité sémantique
+- Retrouve les informations contextuellement pertinentes
+- Plus rapide que la recherche textuelle classique
+
+### Pourquoi les hallucinations ?
+
+#### **Mécanisme des hallucinations**
+1. **Interpolation statistique** : Le modèle "invente" en combinant des patterns connus
+   - Comme un étudiant qui improvise une réponse plausible mais fausse
+   
+2. **Absence de vérité fondamentale** : 
+   - Pas de connexion aux données factuelles en temps réel
+   - Génère du texte "probable" pas nécessairement "vrai"
+
+3. **Biais d'entraînement** :
+   - Si 90% des textes disent X, le modèle favorisera X même si incorrect
+
+#### **Types d'hallucinations en médecine**
+- **Dosages inventés** : "Amoxicilline 850mg" (dose non-standard)
+- **Études fictives** : Citations d'articles qui n'existent pas
+- **Statistiques fabriquées** : "73.2% des patients..." sans source
+- **Protocoles mélangés** : Fusion de guidelines différentes
+
+### Implications pratiques
+
+#### **Forces du LLM** ✅
+- **Pattern recognition** : Excellent pour identifier des motifs complexes
+- **Synthèse** : Combine efficacement des informations disparates
+- **Reformulation** : Adapte le langage au contexte
+- **Rapidité** : Traite l'information 1000x plus vite qu'un humain
+
+#### **Limitations critiques** ❌
+- **Pas de raisonnement causal** : Corrélation ≠ causation
+- **Pas de jugement clinique** : Ne peut évaluer un patient réel
+- **Pas de mise à jour continue** : Connaissance figée à la date d'entraînement
+- **Pas de responsabilité** : Ne peut être tenu responsable médicalement
+
+### Utilisation optimale en médecine
+
+#### **Modèle mental correct**
+```
+LLM = Assistant de rédaction + Bibliothécaire + Traducteur
+LLM ≠ Médecin + Oracle + Source de vérité
+```
+
+#### **Workflow sécurisé**
+1. **Input** : Question précise avec contexte
+2. **Processing** : LLM génère une réponse basée sur patterns
+3. **Validation** : TOUJOURS vérifier avec sources primaires
+4. **Application** : Utiliser comme point de départ, pas comme conclusion
+
+### Points clés à retenir
+
+1. **Probabiliste, pas déterministe** : Chaque réponse est un "lancer de dés pondéré"
+2. **Contextuel** : La qualité dépend énormément du prompt
+3. **Amplificateur** : Amplifie votre expertise, ne la remplace pas
+4. **Outil** : Comme un stéthoscope - utile mais nécessite expertise pour interpréter
+
+> 💡 **Règle d'or** : Un LLM est un excellent assistant mais un terrible médecin. Utilisez-le pour augmenter vos capacités, jamais pour les remplacer.
+
+---
+
+## 🤔 MODES DE PENSÉE ET FONCTIONNALITÉS AVANCÉES
+
+### Les différents "modes cognitifs" des LLM
+
+**Analogie médicale** : Comme un médecin peut adopter différentes approches cognitives (diagnostic différentiel, raisonnement physiopathologique, thinking aloud), les LLM modernes ont différents modes de traitement.
+
+### 1. **Mode Thinking (Réflexion approfondie)**
+
+#### Comment ça fonctionne ?
+```
+Input → [Phase de réflexion interne] → Réponse structurée
+         ↓
+    - Analyse du problème
+    - Exploration des angles
+    - Vérification cohérence
+    - Structuration réponse
+```
+
+#### Analogie clinique
+- **Sans thinking** : Comme un diagnostic rapide aux urgences
+- **Avec thinking** : Comme une RCP multidisciplinaire où on explore toutes les options
+
+#### Cas d'usage médical
+```markdown
+❌ Sans thinking : "Prescrivez amoxicilline 1g x3/j"
+✅ Avec thinking : "Considérant l'allergie pénicilline, les alternatives sont..."
+                   → Analyse contrindications
+                   → Évalue alternatives
+                   → Propose protocole adapté
+```
+
+### 2. **Chain of Thought (Raisonnement étape par étape)**
+
+#### Mécanisme
+- Force le modèle à expliciter chaque étape de raisonnement
+- Réduit les erreurs de "saut logique"
+- Similaire au raisonnement clinique structuré
+
+#### Exemple médical
+```
+Prompt : "Patient 65 ans, dyspnée progressive + œdèmes MI. Raisonnez étape par étape."
+
+Réponse avec CoT :
+1. Symptômes cardinaux → suggèrent insuffisance cardiaque
+2. Âge + présentation → IC probable d'origine ischémique ou HTA
+3. Examens prioritaires → ECG, RX thorax, BNP, écho
+4. Traitement initial → diurétiques, position, O2 si besoin
+```
+
+### 3. **Modes de personnalité et expertise**
+
+#### Principe : Activer différents "profils cognitifs"
+
+| Mode | Utilisation | Exemple prompt |
+|------|-------------|----------------|
+| **Expert** | Contenu technique | "En tant que cardiologue interventionnel..." |
+| **Pédagogue** | Explication patient | "Expliquez simplement l'angioplastie..." |
+| **Critique** | Revue article | "Analysez critiquement cette étude..." |
+| **Synthétique** | Résumés | "Résumez en 5 points clés..." |
+
+### 4. **Temperature et créativité**
+
+#### Concept technique
+- **Temperature = 0** : Réponses déterministes, toujours les mêmes
+- **Temperature = 1** : Réponses variées, plus créatives
+- **Temperature = 2** : Réponses imprévisibles, potentiellement incohérentes
+
+#### Application médicale
+```
+🧊 T=0 : Protocoles, guidelines, dosages
+🌡️ T=0.7 : Rédaction articles, cas cliniques
+🔥 T=1+ : Brainstorming, hypothèses recherche
+```
+
+### 5. **Mémoire et contexte**
+
+#### Fenêtre de contexte
+- **GPT-4** : ~8,000 mots
+- **Claude** : ~100,000 mots
+- **Gemini** : ~1 million mots (expérimental)
+
+#### Implications pratiques
+```
+Petit contexte : "Résumez cet abstract"
+Grand contexte : "Analysez ces 50 pages de dossier médical"
+```
+
+### 6. **Multimodalité**
+
+#### Capacités actuelles
+- **Texte → Texte** : Classique
+- **Image → Texte** : Analyse radiographies, photos cliniques
+- **Texte → Image** : Génération schémas, illustrations
+- **Documents → Analyse** : PDF, tableaux, graphiques
+
+#### Workflow multimodal type
+```
+1. Upload photo lésion cutanée
+2. "Décrivez selon critères ABCDE"
+3. Génère rapport structuré
+4. Suggère diagnostic différentiel
+```
+
+### 7. **Prompting avancé : techniques essentielles**
+
+#### Few-shot learning
+```markdown
+"Voici 3 exemples de comptes-rendus opératoires bien formatés :
+[Exemple 1]
+[Exemple 2]
+[Exemple 3]
+Maintenant, rédigez pour cette intervention :"
+```
+
+#### Role prompting
+```markdown
+"Vous êtes un anatomopathologiste senior analysant cette biopsie.
+Considérez particulièrement les critères de malignité..."
+```
+
+#### Constraint prompting
+```markdown
+"Générez un abstract de 250 mots MAXIMUM incluant OBLIGATOIREMENT :
+- Background (50 mots)
+- Methods (75 mots)
+- Results (75 mots)
+- Conclusion (50 mots)"
+```
+
+### Points critiques pour la pratique médicale
+
+#### ✅ **Quand utiliser thinking/CoT**
+- Cas complexes multi-systèmes
+- Diagnostic différentiel large
+- Calculs de doses en situation complexe
+- Analyse d'interactions médicamenteuses
+
+#### ❌ **Quand éviter**
+- Urgences vitales (trop lent)
+- Questions simples directes
+- Protocoles standardisés établis
+
+### Exercice pratique : Comparer les modes
+
+```markdown
+Même cas clinique, 3 approches :
+
+1. **Standard** : "Homme 55 ans, douleur thoracique. Diagnostic ?"
+2. **Avec CoT** : "...raisonnez étape par étape"
+3. **Avec thinking** : "...analysez en profondeur toutes les possibilités"
+
+Observer :
+- Profondeur d'analyse
+- Pertinence clinique
+- Temps de réponse
+- Exhaustivité
+```
+
+> 🔬 **Concept clé** : Ces modes ne rendent pas l'IA "plus intelligente" - ils structurent mieux l'utilisation de ses capacités existantes, comme un protocole structure votre raisonnement clinique.
+
+---
+
 ### **🧠 BLOC 1 : Claude - Le Précis et l'Éthique (45 min)**
 
 #### **Introduction à Claude (10 min)**
@@ -332,9 +577,6 @@ MON PIPELINE TFE → PUBLICATION
 ```
 
 ---
-
-- Template compte-rendu opératoire optimal
-- 3 insights spécifiques chirurgie plastique
 
 ---
 
