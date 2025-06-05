@@ -58,6 +58,8 @@
                     <h3 class="sidebar-title">Navigation Session</h3>
                     <ul>
                         <li><a href="#ouverture">🎯 Ouverture</a></li>
+                        <li><a href="#theorie-llm">🧠 Théorie LLM</a></li>
+                        <li><a href="#modes-pensee">🤔 Modes de Pensée</a></li>
                         <li><a href="#bloc1-claude">🧠 Bloc 1 : Claude</a></li>
                         <li><a href="#bloc2-gemini">🌍 Bloc 2 : Gemini</a></li>
                         <li><a href="#bloc3-perplexity">🔍 Bloc 3 : Perplexity</a></li>
@@ -108,6 +110,339 @@
 → 45 minutes par outil pour vraie compréhension
 → Comparaison uniquement après maîtrise
 → Focus TFE : Quel outil pour quelle partie de publication ?</code></pre>
+                    </div>
+                </section>
+                
+                <!-- Théorie Fondamentale -->
+                <section id="theorie-llm" class="mb-4">
+                    <h2>🧠 COMPRENDRE LES LLM : THÉORIE FONDAMENTALE</h2>
+                    
+                    <div class="card">
+                        <h3 class="card-title">Comment fonctionne un LLM ?</h3>
+                        <div class="card-content">
+                            <p><strong>Analogie médicale</strong> : Imaginez un LLM comme un "super-résident" qui a lu tous les textes médicaux existants, mais qui n'a jamais examiné un patient.</p>
+                            
+                            <h4>1. Architecture neuronale</h4>
+                            <ul>
+                                <li><strong>Réseaux de neurones</strong> : Similaires aux neurones biologiques, mais mathématiques</li>
+                                <li><strong>Couches profondes</strong> : Comme les couches corticales, chaque niveau extrait des caractéristiques plus complexes</li>
+                                <li><strong>Attention mechanism</strong> : Comme l'attention sélective humaine - le modèle "focus" sur les éléments pertinents du contexte</li>
+                            </ul>
+                            
+                            <h4>2. Représentation vectorielle</h4>
+                            <pre><code>Mot "pénicilline" → [0.2, -0.5, 0.8, ...] (vecteur à ~1500 dimensions)</code></pre>
+                            <ul>
+                                <li>Chaque concept médical devient un point dans un espace multidimensionnel</li>
+                                <li>Concepts similaires = vecteurs proches (pénicilline ≈ amoxicilline)</li>
+                                <li>Relations préservées : "pénicilline - antibiotique + antifongique ≈ fluconazole"</li>
+                            </ul>
+                            
+                            <h4>3. Base de données vectorielle</h4>
+                            <p><strong>Analogie</strong> : Comme une bibliothèque où les livres sont rangés par similarité conceptuelle plutôt qu'alphabétiquement</p>
+                            <ul>
+                                <li>Recherche par proximité sémantique</li>
+                                <li>Retrouve les informations contextuellement pertinentes</li>
+                                <li>Plus rapide que la recherche textuelle classique</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <h3 class="card-title">Pourquoi les hallucinations ?</h3>
+                        <div class="card-content">
+                            <h4>Mécanisme des hallucinations</h4>
+                            <ol>
+                                <li><strong>Interpolation statistique</strong> : Le modèle "invente" en combinant des patterns connus
+                                    <ul><li>Comme un étudiant qui improvise une réponse plausible mais fausse</li></ul>
+                                </li>
+                                <li><strong>Absence de vérité fondamentale</strong> : 
+                                    <ul>
+                                        <li>Pas de connexion aux données factuelles en temps réel</li>
+                                        <li>Génère du texte "probable" pas nécessairement "vrai"</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Biais d'entraînement</strong> :
+                                    <ul><li>Si 90% des textes disent X, le modèle favorisera X même si incorrect</li></ul>
+                                </li>
+                            </ol>
+                            
+                            <h4>Types d'hallucinations en médecine</h4>
+                            <ul>
+                                <li><strong>Dosages inventés</strong> : "Amoxicilline 850mg" (dose non-standard)</li>
+                                <li><strong>Études fictives</strong> : Citations d'articles qui n'existent pas</li>
+                                <li><strong>Statistiques fabriquées</strong> : "73.2% des patients..." sans source</li>
+                                <li><strong>Protocoles mélangés</strong> : Fusion de guidelines différentes</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <h3 class="card-title">Implications pratiques</h3>
+                        <div class="card-content">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4>Forces du LLM ✅</h4>
+                                    <ul>
+                                        <li><strong>Pattern recognition</strong> : Excellent pour identifier des motifs complexes</li>
+                                        <li><strong>Synthèse</strong> : Combine efficacement des informations disparates</li>
+                                        <li><strong>Reformulation</strong> : Adapte le langage au contexte</li>
+                                        <li><strong>Rapidité</strong> : Traite l'information 1000x plus vite qu'un humain</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <h4>Limitations critiques ❌</h4>
+                                    <ul>
+                                        <li><strong>Pas de raisonnement causal</strong> : Corrélation ≠ causation</li>
+                                        <li><strong>Pas de jugement clinique</strong> : Ne peut évaluer un patient réel</li>
+                                        <li><strong>Pas de mise à jour continue</strong> : Connaissance figée à la date d'entraînement</li>
+                                        <li><strong>Pas de responsabilité</strong> : Ne peut être tenu responsable médicalement</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <h3 class="card-title">Utilisation optimale en médecine</h3>
+                        <div class="card-content">
+                            <h4>Modèle mental correct</h4>
+                            <pre><code>LLM = Assistant de rédaction + Bibliothécaire + Traducteur
+LLM ≠ Médecin + Oracle + Source de vérité</code></pre>
+                            
+                            <h4>Workflow sécurisé</h4>
+                            <ol>
+                                <li><strong>Input</strong> : Question précise avec contexte</li>
+                                <li><strong>Processing</strong> : LLM génère une réponse basée sur patterns</li>
+                                <li><strong>Validation</strong> : TOUJOURS vérifier avec sources primaires</li>
+                                <li><strong>Application</strong> : Utiliser comme point de départ, pas comme conclusion</li>
+                            </ol>
+                            
+                            <h4>Points clés à retenir</h4>
+                            <ol>
+                                <li><strong>Probabiliste, pas déterministe</strong> : Chaque réponse est un "lancer de dés pondéré"</li>
+                                <li><strong>Contextuel</strong> : La qualité dépend énormément du prompt</li>
+                                <li><strong>Amplificateur</strong> : Amplifie votre expertise, ne la remplace pas</li>
+                                <li><strong>Outil</strong> : Comme un stéthoscope - utile mais nécessite expertise pour interpréter</li>
+                            </ol>
+                            
+                            <div class="alert alert-primary mt-3">
+                                💡 <strong>Règle d'or</strong> : Un LLM est un excellent assistant mais un terrible médecin. Utilisez-le pour augmenter vos capacités, jamais pour les remplacer.
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Modes de Pensée -->
+                <section id="modes-pensee" class="mb-4">
+                    <h2>🤔 MODES DE PENSÉE ET FONCTIONNALITÉS AVANCÉES</h2>
+                    
+                    <div class="card">
+                        <h3 class="card-title">Les différents "modes cognitifs" des LLM</h3>
+                        <div class="card-content">
+                            <p><strong>Analogie médicale</strong> : Comme un médecin peut adopter différentes approches cognitives (diagnostic différentiel, raisonnement physiopathologique, thinking aloud), les LLM modernes ont différents modes de traitement.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <h3 class="card-title">1. Mode Thinking (Réflexion approfondie)</h3>
+                        <div class="card-content">
+                            <h4>Comment ça fonctionne ?</h4>
+                            <pre><code>Input → [Phase de réflexion interne] → Réponse structurée
+         ↓
+    - Analyse du problème
+    - Exploration des angles
+    - Vérification cohérence
+    - Structuration réponse</code></pre>
+                            
+                            <h4>Analogie clinique</h4>
+                            <ul>
+                                <li><strong>Sans thinking</strong> : Comme un diagnostic rapide aux urgences</li>
+                                <li><strong>Avec thinking</strong> : Comme une RCP multidisciplinaire où on explore toutes les options</li>
+                            </ul>
+                            
+                            <h4>Cas d'usage médical</h4>
+                            <pre><code>❌ Sans thinking : "Prescrivez amoxicilline 1g x3/j"
+✅ Avec thinking : "Considérant l'allergie pénicilline, les alternatives sont..."
+                   → Analyse contrindications
+                   → Évalue alternatives
+                   → Propose protocole adapté</code></pre>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <h3 class="card-title">2. Chain of Thought (Raisonnement étape par étape)</h3>
+                        <div class="card-content">
+                            <h4>Mécanisme</h4>
+                            <ul>
+                                <li>Force le modèle à expliciter chaque étape de raisonnement</li>
+                                <li>Réduit les erreurs de "saut logique"</li>
+                                <li>Similaire au raisonnement clinique structuré</li>
+                            </ul>
+                            
+                            <h4>Exemple médical</h4>
+                            <pre><code>Prompt : "Patient 65 ans, dyspnée progressive + œdèmes MI. Raisonnez étape par étape."
+
+Réponse avec CoT :
+1. Symptômes cardinaux → suggèrent insuffisance cardiaque
+2. Âge + présentation → IC probable d'origine ischémique ou HTA
+3. Examens prioritaires → ECG, RX thorax, BNP, écho
+4. Traitement initial → diurétiques, position, O2 si besoin</code></pre>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <h3 class="card-title">3. Modes de personnalité et expertise</h3>
+                        <div class="card-content">
+                            <h4>Principe : Activer différents "profils cognitifs"</h4>
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Mode</th>
+                                        <th>Utilisation</th>
+                                        <th>Exemple prompt</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Expert</strong></td>
+                                        <td>Contenu technique</td>
+                                        <td>"En tant que cardiologue interventionnel..."</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Pédagogue</strong></td>
+                                        <td>Explication patient</td>
+                                        <td>"Expliquez simplement l'angioplastie..."</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Critique</strong></td>
+                                        <td>Revue article</td>
+                                        <td>"Analysez critiquement cette étude..."</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Synthétique</strong></td>
+                                        <td>Résumés</td>
+                                        <td>"Résumez en 5 points clés..."</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <h3 class="card-title">4. Temperature et créativité</h3>
+                        <div class="card-content">
+                            <h4>Concept technique</h4>
+                            <ul>
+                                <li><strong>Temperature = 0</strong> : Réponses déterministes, toujours les mêmes</li>
+                                <li><strong>Temperature = 1</strong> : Réponses variées, plus créatives</li>
+                                <li><strong>Temperature = 2</strong> : Réponses imprévisibles, potentiellement incohérentes</li>
+                            </ul>
+                            
+                            <h4>Application médicale</h4>
+                            <pre><code>🧊 T=0 : Protocoles, guidelines, dosages
+🌡️ T=0.7 : Rédaction articles, cas cliniques
+🔥 T=1+ : Brainstorming, hypothèses recherche</code></pre>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <h3 class="card-title">5. Mémoire et contexte</h3>
+                        <div class="card-content">
+                            <h4>Fenêtre de contexte</h4>
+                            <ul>
+                                <li><strong>GPT-4</strong> : ~8,000 mots</li>
+                                <li><strong>Claude</strong> : ~100,000 mots</li>
+                                <li><strong>Gemini</strong> : ~1 million mots (expérimental)</li>
+                            </ul>
+                            
+                            <h4>Implications pratiques</h4>
+                            <pre><code>Petit contexte : "Résumez cet abstract"
+Grand contexte : "Analysez ces 50 pages de dossier médical"</code></pre>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <h3 class="card-title">6. Multimodalité</h3>
+                        <div class="card-content">
+                            <h4>Capacités actuelles</h4>
+                            <ul>
+                                <li><strong>Texte → Texte</strong> : Classique</li>
+                                <li><strong>Image → Texte</strong> : Analyse radiographies, photos cliniques</li>
+                                <li><strong>Texte → Image</strong> : Génération schémas, illustrations</li>
+                                <li><strong>Documents → Analyse</strong> : PDF, tableaux, graphiques</li>
+                            </ul>
+                            
+                            <h4>Workflow multimodal type</h4>
+                            <pre><code>1. Upload photo lésion cutanée
+2. "Décrivez selon critères ABCDE"
+3. Génère rapport structuré
+4. Suggère diagnostic différentiel</code></pre>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <h3 class="card-title">7. Prompting avancé : techniques essentielles</h3>
+                        <div class="card-content">
+                            <h4>Few-shot learning</h4>
+                            <pre><code>"Voici 3 exemples de comptes-rendus opératoires bien formatés :
+[Exemple 1]
+[Exemple 2]
+[Exemple 3]
+Maintenant, rédigez pour cette intervention :"</code></pre>
+                            
+                            <h4>Role prompting</h4>
+                            <pre><code>"Vous êtes un anatomopathologiste senior analysant cette biopsie.
+Considérez particulièrement les critères de malignité..."</code></pre>
+                            
+                            <h4>Constraint prompting</h4>
+                            <pre><code>"Générez un abstract de 250 mots MAXIMUM incluant OBLIGATOIREMENT :
+- Background (50 mots)
+- Methods (75 mots)
+- Results (75 mots)
+- Conclusion (50 mots)"</code></pre>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <h3 class="card-title">Points critiques pour la pratique médicale</h3>
+                        <div class="card-content">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4>✅ Quand utiliser thinking/CoT</h4>
+                                    <ul>
+                                        <li>Cas complexes multi-systèmes</li>
+                                        <li>Diagnostic différentiel large</li>
+                                        <li>Calculs de doses en situation complexe</li>
+                                        <li>Analyse d'interactions médicamenteuses</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <h4>❌ Quand éviter</h4>
+                                    <ul>
+                                        <li>Urgences vitales (trop lent)</li>
+                                        <li>Questions simples directes</li>
+                                        <li>Protocoles standardisés établis</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <h4 class="mt-3">Exercice pratique : Comparer les modes</h4>
+                            <pre><code>Même cas clinique, 3 approches :
+
+1. **Standard** : "Homme 55 ans, douleur thoracique. Diagnostic ?"
+2. **Avec CoT** : "...raisonnez étape par étape"
+3. **Avec thinking** : "...analysez en profondeur toutes les possibilités"
+
+Observer :
+- Profondeur d'analyse
+- Pertinence clinique
+- Temps de réponse
+- Exhaustivité</code></pre>
+                            
+                            <div class="alert alert-info mt-3">
+                                🔬 <strong>Concept clé</strong> : Ces modes ne rendent pas l'IA "plus intelligente" - ils structurent mieux l'utilisation de ses capacités existantes, comme un protocole structure votre raisonnement clinique.
+                            </div>
+                        </div>
                     </div>
                 </section>
                 
