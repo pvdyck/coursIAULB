@@ -183,16 +183,18 @@ Réponse avec CoT :
 
 ### 5. **Mémoire et contexte**
 
-#### Fenêtre de contexte (janvier 2025)
-- **GPT-4 Turbo/4o** : 128,000 tokens (~96,000 mots)
-- **Claude 3.5 Sonnet** : 200,000 tokens (~150,000 mots)
-- **Gemini 1.5 Pro** : 2,000,000 tokens (~1,5 million mots)
+#### Fenêtre de contexte (juin 2025)
+- **GPT-4.1** : 1,000,000 tokens (~750,000 mots) - Sorti en avril 2025
+- **GPT-4o** : 128,000 tokens (~96,000 mots) - Modèle précédent
+- **Claude 4 Opus** : 200,000 tokens (~150,000 mots) - Sorti en mai 2025
+- **Claude 4 Sonnet** : 200,000 tokens (~150,000 mots) - Sorti en mai 2025
+- **Gemini 2.5 Pro** : 1,000,000 tokens (~750,000 mots) - 2M tokens bientôt
 
 #### Implications pratiques
 ```
-GPT-4 Turbo : "Analysez ces 20-30 pages de dossier médical"
-Claude : "Comparez ces 3 articles complets de PRS (40-50 pages)"
-Gemini : "Analysez cette thèse complète de 200 pages"
+GPT-4o : "Analysez ces 20-30 pages de dossier médical"
+Claude 4 : "Comparez ces 3 articles complets de PRS (40-50 pages)"
+GPT-4.1/Gemini 2.5 : "Analysez cette thèse complète de 150 pages"
 ```
 
 ### 6. **Multimodalité**
