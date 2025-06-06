@@ -4,7 +4,7 @@
 
 ### Template Standard (Anglais)
 ```
-"AI tools (ChatGPT-4, Claude 3.5, Gemini 1.5, and/or Perplexity) 
+"AI tools (GPT-4.1/GPT-4o, Claude 4, Gemini 2.5, and/or Perplexity) 
 were used for literature search, writing assistance, statistical 
 analysis, and/or figure generation. All AI-generated content was 
 verified, validated, and edited by the authors, who take full 
@@ -13,7 +13,7 @@ responsibility for the publication's content."
 
 ### Template Français
 ```
-"Des outils d'IA (ChatGPT-4, Claude 3.5, Gemini 1.5, et/ou Perplexity) 
+"Des outils d'IA (GPT-4.1/GPT-4o, Claude 4, Gemini 2.5, et/ou Perplexity) 
 ont été utilisés pour la recherche bibliographique, l'aide à la 
 rédaction, l'analyse statistique et/ou la génération de figures. 
 Tout contenu généré par IA a été vérifié, validé et édité par les 
@@ -38,7 +38,7 @@ Requirements:
 ✓ Pas de co-auteur IA
 
 Example:
-"ChatGPT-4 was used to improve English language clarity. 
+"GPT-4.1 was used to improve English language clarity. 
 Perplexity aided literature search. All content was 
 independently verified against primary sources."
 ```

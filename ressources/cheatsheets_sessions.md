@@ -96,7 +96,7 @@ RÈGLES D'OR PHOTOS CHIRURGIE:
 ### 🌟 DÉCOUVERTE PROGRESSIVE (45 min chacun)
 ```
 CLAUDE (Anthropic)     GEMINI (Google)      PERPLEXITY
-Claude 3.5             Gemini 1.5 Pro       Multi-modèles
+Claude 4 Opus/Sonnet   Gemini 2.5 Pro       Multi-modèles
 20€/mois              20€/mois              20€/mois
 
 SESSION 2 = Découvrir chaque outil INDIVIDUELLEMENT

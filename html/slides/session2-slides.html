@@ -695,49 +695,84 @@ Réponse avec CoT :
             <h1>Mémoire et Contexte (Juin 2025)</h1>
             <div class="two-column">
                 <div>
-                    <h3>Modèles récents (2025)</h3>
+                    <h3>Fenêtre de contexte</h3>
                     <div class="tool-card">
-                        <h4>GPT-4.1 (Avril 2025)</h4>
-                        <p>1,000,000 tokens (~750k mots)</p>
+                        <h4>GPT-4.1</h4>
+                        <p>1M tokens - $2/$8</p>
                     </div>
                     <div class="tool-card">
-                        <h4>Claude 4 Opus/Sonnet (Mai 2025)</h4>
-                        <p>200,000 tokens (~150k mots)</p>
+                        <h4>Claude 4</h4>
+                        <p>200k tokens - $3-75/million</p>
                     </div>
                     <div class="tool-card">
                         <h4>Gemini 2.5 Pro</h4>
-                        <p>1,000,000 tokens (2M bientôt)</p>
+                        <p>1M (2M preview) - $1.25/$10</p>
                     </div>
                 </div>
                 <div>
-                    <h3>Implications pratiques</h3>
-                    <p><strong>GPT-4o :</strong> "20-30 pages de dossier"</p>
-                    <p><strong>Claude 4 :</strong> "3 articles PRS (40-50 pages)"</p>
-                    <p><strong>GPT-4.1/Gemini 2.5 :</strong> "Thèse de 150 pages"</p>
+                    <h3>Performances</h3>
+                    <p><strong>Coding:</strong> Claude > Gemini > GPT</p>
+                    <p><strong>Vitesse:</strong> Gemini > Claude > GPT</p>
+                    <p><strong>Multimodal:</strong> Gemini seul</p>
+                    <div class="highlight">
+                        <p><strong>Choix par cas d'usage:</strong></p>
+                        <p>• Rédaction: Claude 4</p>
+                        <p>• Analyse large: Gemini</p>
+                        <p>• Équilibré: GPT-4.1</p>
+                    </div>
                 </div>
             </div>
         </div>
 
         <div class="slide">
-            <h1>Multimodalité</h1>
+            <h1>Comparaison critique des modèles (Juin 2025)</h1>
+            <table style="width: 100%; font-size: 0.9em;">
+                <tr>
+                    <th></th>
+                    <th>GPT-4.1</th>
+                    <th>Claude 4</th>
+                    <th>Gemini 2.5</th>
+                </tr>
+                <tr>
+                    <td><strong>Points forts</strong></td>
+                    <td>• Contexte 1M<br>• Prix équilibré<br>• Fiable</td>
+                    <td>• Meilleur coding<br>• Écriture supérieure<br>• Mode réflexion</td>
+                    <td>• Vraiment multimodal<br>• Meilleur rapport qualité/prix<br>• 2M tokens</td>
+                </tr>
+                <tr>
+                    <td><strong>Limites</strong></td>
+                    <td>• Performances moyennes<br>• Pas audio/vidéo</td>
+                    <td>• Plus cher<br>• Contexte limité (200k)<br>• Pas audio/vidéo</td>
+                    <td>• Moins précis en coding<br>• Nouveauté (moins testé)</td>
+                </tr>
+                <tr>
+                    <td><strong>Cas d'usage idéal</strong></td>
+                    <td>Usage général équilibré</td>
+                    <td>Rédaction médicale, code complexe</td>
+                    <td>Analyse multimédia, gros volumes</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="slide">
+            <h1>Multimodalité (Juin 2025)</h1>
             <div class="two-column">
                 <div class="card">
-                    <h3>Capacités actuelles</h3>
+                    <h3>Capacités par modèle</h3>
                     <ul>
-                        <li>Texte → Texte : Classique</li>
-                        <li>Image → Texte : Analyse radiographies</li>
-                        <li>Texte → Image : Génération schémas</li>
-                        <li>Documents → Analyse : PDF, tableaux</li>
+                        <li><strong>Tous:</strong> Texte + Images</li>
+                        <li><strong>Gemini seul:</strong> + Audio + Vidéo</li>
+                        <li><strong>Génération:</strong> DALL-E 3, Midjourney</li>
                     </ul>
                 </div>
                 <div class="card">
-                    <h3>Workflow type</h3>
-                    <ol>
-                        <li>Upload photo lésion cutanée</li>
-                        <li>"Décrivez selon critères ABCDE"</li>
-                        <li>Génère rapport structuré</li>
-                        <li>Suggère diagnostic différentiel</li>
-                    </ol>
+                    <h3>Applications médicales</h3>
+                    <ul>
+                        <li>Analyse radiographies (tous)</li>
+                        <li>Vidéos chirurgicales (Gemini)</li>
+                        <li>Dictée audio (Gemini)</li>
+                        <li>Photos cliniques (tous)</li>
+                    </ul>
                 </div>
             </div>
         </div>

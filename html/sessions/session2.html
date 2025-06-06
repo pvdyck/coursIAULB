@@ -350,29 +350,35 @@ Réponse avec CoT :
                         <div class="card-content">
                             <h4>Fenêtre de contexte (juin 2025)</h4>
                             <ul>
-                                <li><strong>GPT-4.1</strong> : 1,000,000 tokens (~750,000 mots) - Sorti en avril 2025</li>
+                                <li><strong>GPT-4.1</strong> : 1,000,000 tokens (~750,000 mots) - $2/$8 par million</li>
                                 <li><strong>GPT-4o</strong> : 128,000 tokens (~96,000 mots) - Modèle précédent</li>
-                                <li><strong>Claude 4 Opus</strong> : 200,000 tokens (~150,000 mots) - Sorti en mai 2025</li>
-                                <li><strong>Claude 4 Sonnet</strong> : 200,000 tokens (~150,000 mots) - Sorti en mai 2025</li>
-                                <li><strong>Gemini 2.5 Pro</strong> : 1,000,000 tokens (~750,000 mots) - 2M tokens bientôt</li>
+                                <li><strong>Claude 4 Opus/Sonnet</strong> : 200,000 tokens (~150,000 mots) - $15/$75 (Opus), $3/$15 (Sonnet)</li>
+                                <li><strong>Gemini 2.5 Pro</strong> : 1,000,000 tokens standard, 2M en preview - $1.25/$10 (≤200k)</li>
+                            </ul>
+                            
+                            <h4>Comparaison des performances</h4>
+                            <ul>
+                                <li><strong>Coding (SWE-bench)</strong> : Claude 4 (72.5%) > Gemini 2.5 (63.8%) > GPT-4.1 (54.6%)</li>
+                                <li><strong>Vitesse</strong> : Gemini Flash (401 TPS) > Claude Sonnet (170 TPS) > GPT-4o (131 TPS)</li>
+                                <li><strong>Multimodal</strong> : Seul Gemini supporte texte + images + audio + vidéo</li>
                             </ul>
                             
                             <h4>Implications pratiques</h4>
-                            <pre><code>GPT-4o : "Analysez ces 20-30 pages de dossier médical"
-Claude 4 : "Comparez ces 3 articles complets de PRS (40-50 pages)"
-GPT-4.1/Gemini 2.5 : "Analysez cette thèse complète de 150 pages"</code></pre>
+                            <pre><code>GPT-4o : "Analysez ces 20-30 pages de dossier médical" (rapide, fiable)
+Claude 4 : "Rédigez ce rapport clinique détaillé" (meilleur pour l'écriture)
+Gemini 2.5 : "Analysez ces 150 pages avec images médicales" (multimodal + grand contexte)</code></pre>
                         </div>
                     </div>
                     
                     <div class="card">
                         <h3 class="card-title">6. Multimodalité</h3>
                         <div class="card-content">
-                            <h4>Capacités actuelles</h4>
+                            <h4>Capacités actuelles (juin 2025)</h4>
                             <ul>
-                                <li><strong>Texte → Texte</strong> : Classique</li>
-                                <li><strong>Image → Texte</strong> : Analyse radiographies, photos cliniques</li>
-                                <li><strong>Texte → Image</strong> : Génération schémas, illustrations</li>
-                                <li><strong>Documents → Analyse</strong> : PDF, tableaux, graphiques</li>
+                                <li><strong>Texte + Images</strong> : Tous les modèles (GPT-4.1, Claude 4, Gemini 2.5)</li>
+                                <li><strong>Texte + Images + Audio + Vidéo</strong> : Seulement Gemini 2.5 Pro</li>
+                                <li><strong>Génération d'images</strong> : DALL-E 3, Midjourney, Stable Diffusion</li>
+                                <li><strong>Analyse documents</strong> : PDF, tableaux, graphiques (tous modèles)</li>
                             </ul>
                             
                             <h4>Workflow multimodal type</h4>

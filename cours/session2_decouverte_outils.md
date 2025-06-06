@@ -184,26 +184,30 @@ Réponse avec CoT :
 ### 5. **Mémoire et contexte**
 
 #### Fenêtre de contexte (juin 2025)
-- **GPT-4.1** : 1,000,000 tokens (~750,000 mots) - Sorti en avril 2025
+- **GPT-4.1** : 1,000,000 tokens (~750,000 mots) - $2/$8 par million
 - **GPT-4o** : 128,000 tokens (~96,000 mots) - Modèle précédent
-- **Claude 4 Opus** : 200,000 tokens (~150,000 mots) - Sorti en mai 2025
-- **Claude 4 Sonnet** : 200,000 tokens (~150,000 mots) - Sorti en mai 2025
-- **Gemini 2.5 Pro** : 1,000,000 tokens (~750,000 mots) - 2M tokens bientôt
+- **Claude 4 Opus/Sonnet** : 200,000 tokens (~150,000 mots) - $15/$75 (Opus), $3/$15 (Sonnet)
+- **Gemini 2.5 Pro** : 1,000,000 tokens standard, 2M en preview - $1.25/$10 (≤200k)
+
+#### Comparaison des performances
+- **Coding (SWE-bench)** : Claude 4 (72.5%) > Gemini 2.5 (63.8%) > GPT-4.1 (54.6%)
+- **Vitesse** : Gemini Flash (401 TPS) > Claude Sonnet (170 TPS) > GPT-4o (131 TPS)
+- **Multimodal** : Seul Gemini supporte texte + images + audio + vidéo
 
 #### Implications pratiques
 ```
-GPT-4o : "Analysez ces 20-30 pages de dossier médical"
-Claude 4 : "Comparez ces 3 articles complets de PRS (40-50 pages)"
-GPT-4.1/Gemini 2.5 : "Analysez cette thèse complète de 150 pages"
+GPT-4o : "Analysez ces 20-30 pages de dossier médical" (rapide, fiable)
+Claude 4 : "Rédigez ce rapport clinique détaillé" (meilleur pour l'écriture)
+Gemini 2.5 : "Analysez ces 150 pages avec images médicales" (multimodal + grand contexte)
 ```
 
 ### 6. **Multimodalité**
 
-#### Capacités actuelles
-- **Texte → Texte** : Classique
-- **Image → Texte** : Analyse radiographies, photos cliniques
-- **Texte → Image** : Génération schémas, illustrations
-- **Documents → Analyse** : PDF, tableaux, graphiques
+#### Capacités actuelles (juin 2025)
+- **Texte + Images** : Tous les modèles (GPT-4.1, Claude 4, Gemini 2.5)
+- **Texte + Images + Audio + Vidéo** : Seulement Gemini 2.5 Pro
+- **Génération d'images** : DALL-E 3, Midjourney, Stable Diffusion
+- **Analyse documents** : PDF, tableaux, graphiques (tous modèles)
 
 #### Workflow multimodal type
 ```
