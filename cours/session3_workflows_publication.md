@@ -16,6 +16,7 @@
 #### **Objectif Session 3**
 ```
 Aujourd'hui : Features avancées pour publication scientifique
+→ NotebookLM pour synthèse recherche intelligente
 → Extended thinking pour complexité
 → Workflows publication pro
 → Sécurité et éthique renforcées
@@ -24,7 +25,145 @@ Aujourd'hui : Features avancées pour publication scientifique
 
 ---
 
-### **🤖 BLOC 1 : Extended Thinking et Raisonnement Complexe (60 min)**
+### **📚 BLOC 1 : NotebookLM - Votre Compagnon de Recherche Intelligent (45 min)**
+
+#### **Introduction à NotebookLM (5 min)**
+
+**Qu'est-ce que NotebookLM ?**
+```
+Outil Google gratuit qui transforme vos documents en :
+✓ Base de connaissances interactive
+✓ Synthèses multi-sources avec citations
+✓ Podcasts audio personnalisés (!)
+✓ Assistant de recherche privé
+
+Parfait pour : Revues de littérature TFE
+```
+
+**Capacités uniques :**
+- **50 sources max** (articles, PDF, notes) jusqu'à 500k mots chacune
+- **Synthèse transversale** : pose des questions sur TOUS tes documents
+- **Citations inline** : chaque réponse sourcée précisément
+- **Audio Overview** : transforme ta recherche en podcast de 10 min
+- **NOUVEAU** : Interrompre le podcast pour poser des questions !
+
+#### **🎯 EXERCICE 3.1 : Setup NotebookLM pour TFE Plastie (10 min)**
+
+**Mission :** Créer votre notebook de recherche TFE
+
+**Étape 1 : Préparation documents (3 min)**
+```
+Rassemblez 5-10 documents clés :
+□ 3-5 articles fondamentaux de votre domaine
+□ 1-2 guidelines récentes (ASPS, ISAPS)
+□ Votre draft TFE actuel
+□ 1-2 meta-analyses si disponibles
+```
+
+**Étape 2 : Création Notebook (2 min)**
+1. Aller sur notebooklm.google.com
+2. "New Notebook" → Nommer "TFE [votre sujet]"
+3. Upload documents (drag & drop)
+4. Attendre processing (30s-2min selon taille)
+
+**Étape 3 : Premier test (5 min)**
+```
+Prompts de découverte :
+"Quels sont les points de consensus entre mes sources ?"
+"Identifie les contradictions majeures"
+"Quelle est l'évolution chronologique des techniques ?"
+"Quels gaps de recherche sont mentionnés ?"
+```
+
+#### **🔬 EXERCICE 3.2 : Synthèse Multi-Sources Avancée (15 min)**
+
+**Mission :** Extraire insights transversaux pour votre discussion TFE
+
+**Test 1 : Analyse comparative (5 min)**
+```
+"Compare les taux de complications rapportés pour 
+[votre technique] à travers toutes mes sources.
+Crée un tableau avec : étude, n, taux, type complications."
+```
+
+**Test 2 : Identification patterns (5 min)**
+```
+"Analyse l'évolution des critères de sélection patients
+pour [votre intervention] entre 2020 et 2025.
+Quelles tendances émergent ?"
+```
+
+**Test 3 : Gaps et opportunités (5 min)**
+```
+"Basé sur tous les articles, quels aspects de [votre sujet]
+manquent de données ? Quelles futures recherches sont suggérées ?
+Cela valide-t-il l'originalité de mon TFE ?"
+```
+
+#### **🎙️ EXERCICE 3.3 : Création et Interaction avec Audio Overview (15 min)**
+
+**Mission :** Transformer votre recherche en podcast interactif
+
+**Étape 1 : Génération Audio (2 min)**
+1. Cliquer "Generate Audio Overview"
+2. Optionnel : donner un focus "Concentre-toi sur les innovations techniques"
+3. Attendre génération (1-2 min)
+4. **Résultat** : Podcast de ~10 min avec 2 hosts IA discutant vos sources
+
+**Étape 2 : Écoute active et interruption (10 min)**
+
+**NOUVELLE FONCTIONNALITÉ - Comment interrompre :**
+```
+1. Pendant l'écoute, cliquer "Join conversation" 🎤
+2. Les hosts s'arrêtent et demandent "Yes?"
+3. Poser votre question vocalement ou par texte
+4. Ils répondent en contexte puis reprennent
+
+Exemples d'interruptions utiles :
+- "Pouvez-vous détailler ce point sur les complications ?"
+- "Comment cela s'applique aux patients âgés ?"
+- "Avez-vous des données sur le coût-efficacité ?"
+- "Quelle est la source de cette statistique ?"
+```
+
+**Étape 3 : Documentation insights (3 min)**
+```
+Pendant/après écoute, notez :
+□ 3 connections nouvelles entre vos sources
+□ 2 angles inattendus pour votre discussion
+□ 1 question critique à explorer
+□ Sources à ajouter pour combler les gaps
+```
+
+#### **💡 Tips Pro NotebookLM**
+
+**Optimisation sources :**
+```
+✓ PDF avec OCR de qualité (éviter scans flous)
+✓ Nommer fichiers clairement : "2024_Chen_Rhinoplasty_Outcomes.pdf"
+✓ Inclure 1-2 sources contradictoires pour équilibre
+✓ Ajouter vos propres notes/observations
+```
+
+**Limites à connaître :**
+```
+⚠️ Pas de connexion internet (que vos sources)
+⚠️ Peut manquer nuances très techniques
+⚠️ Audio en anglais principalement
+⚠️ Beta : occasionnels bugs interruption
+```
+
+**Workflow optimal TFE :**
+```
+1. NotebookLM : Synthèse initiale littérature
+2. Perplexity : Combler gaps identifiés
+3. Claude : Rédaction approfondie
+4. ChatGPT : Figures et mise en forme
+```
+
+---
+
+### **🤖 BLOC 2 : Extended Thinking et Raisonnement Complexe (45 min)**
 
 #### **Introduction aux Modes Thinking (10 min)**
 
@@ -47,7 +186,7 @@ Quand utiliser le thinking :
 - **Gemini Deep Think** : Beta test
 - **Perplexity Deep Research** : Recherche itérative
 
-#### **🧠 EXERCICE 3.1 : Claude Thinking pour TFE Discussion (15 min)**
+#### **🧠 EXERCICE 3.4 : Claude Thinking pour TFE Discussion (15 min)**
 
 **Mission :** Transformer la discussion de votre TFE avec thinking mode
 
@@ -78,7 +217,7 @@ Qualité argumentation     | /5       | /5
 Publication-ready ?       | Oui/Non  | Oui/Non
 ```
 
-#### **🤖 EXERCICE 3.2 : ChatGPT o1 pour Méthodologie Complexe (15 min)**
+#### **🤖 EXERCICE 3.5 : ChatGPT o1 pour Méthodologie Complexe (10 min)**
 
 **Mission :** Améliorer votre méthodologie avec raisonnement avancé
 
@@ -105,7 +244,7 @@ Propose des solutions statistiques robustes pour :
 - Faisabilité pratique
 - Références aux guidelines
 
-#### **🔍 EXERCICE 3.3 : Perplexity Deep Research pour Revue Exhaustive (15 min)**
+#### **🔍 EXERCICE 3.6 : Perplexity Deep Research pour Revue Exhaustive (10 min)**
 
 **Mission :** Générer revue littérature complète pour votre TFE
 
@@ -128,7 +267,7 @@ Inclus :
 
 **Livrable :** Rapport téléchargeable pour intégration TFE
 
-#### **🌍 EXERCICE 3.4 : Gemini + Scholar pour Actualisation (15 min)**
+#### **🌍 EXERCICE 3.7 : Gemini + Scholar pour Actualisation (10 min)**
 
 **Mission :** Actualiser votre revue biblio avec les toutes dernières publications
 
@@ -153,9 +292,9 @@ Inclus :
 
 ---
 
-### **📝 BLOC 2 : Workflows Publication Professionnels (60 min)**
+### **📝 BLOC 3 : Workflows Publication Professionnels (45 min)**
 
-#### **📊 EXERCICE 3.5 : Pipeline Complet Introduction (20 min)**
+#### **📊 EXERCICE 3.8 : Pipeline Complet Introduction (15 min)**
 
 **Mission :** Transformer l'intro de votre TFE en version Nature/Science
 
@@ -185,7 +324,7 @@ Nouveau/unique     | /10   | /10
 Flow narratif      | /10   | /10
 ```
 
-#### **📈 EXERCICE 3.6 : Figures et Visualisations Pro (20 min)**
+#### **📈 EXERCICE 3.9 : Figures et Visualisations Pro (15 min)**
 
 **Mission :** Créer figures publication-quality pour votre TFE
 
@@ -211,7 +350,7 @@ Flow narratif      | /10   | /10
 - [ ] Accessibilité couleurs
 - [ ] Export formats multiples
 
-#### **📑 EXERCICE 3.7 : Abstract Parfait Multi-IA (20 min)**
+#### **📑 EXERCICE 3.10 : Abstract Parfait Multi-IA (15 min)**
 
 **Mission :** Créer abstract 250 mots impact maximum
 
@@ -249,9 +388,9 @@ TOTAL             | /25      |
 
 ---
 
-### **🔒 BLOC 3 : Éthique, Sécurité et Validation (40 min)**
+### **🔒 BLOC 4 : Éthique, Sécurité et Validation (30 min)**
 
-#### **🔒 EXERCICE 3.8 : Sécurité des Données TFE (15 min)**
+#### **🔒 EXERCICE 3.11 : Sécurité des Données TFE (10 min)**
 
 **Audit sécurité pour données sensibles TFE :**
 
@@ -274,7 +413,7 @@ RGPD/HIPAA         | ✓/✗     | ✓/✗    | ✓/✗    | ✓/✗
 5. Watermark "AI Analysis - Not for diagnosis"
 6. Backup local avant upload IA
 
-#### **⚖️ EXERCICE 3.9 : Éthique de Publication IA-Assistée (15 min)**
+#### **⚖️ EXERCICE 3.12 : Éthique de Publication IA-Assistée (10 min)**
 
 **Débats éthiques critiques :**
 
@@ -303,7 +442,7 @@ comme 'idéaux'. Comment gérer biais ethniques ?"
 - Responsabilité finale = auteur
 - Respect propriété intellectuelle
 
-#### **✓ EXERCICE 3.10 : Validation Croisée Finale (10 min)**
+#### **✓ EXERCICE 3.13 : Validation Croisée Finale (10 min)**
 
 **Quality check multi-IA :**
 ```
