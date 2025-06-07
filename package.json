@@ -1,0 +1,21 @@
+{
+  "name": "coursia-ulb",
+  "version": "1.0.0",
+  "description": "Formation IA pour Chirurgiens Plasticiens - ULB",
+  "private": true,
+  "scripts": {
+    "dev": "python -m http.server 8000 --directory html",
+    "build": "echo 'Static site - no build required'",
+    "test": "echo 'No tests configured'",
+    "check-links": "cd html && ./check_links.sh"
+  },
+  "keywords": [
+    "AI",
+    "medical",
+    "education",
+    "ULB",
+    "plastic surgery"
+  ],
+  "author": "Université Libre de Bruxelles",
+  "license": "UNLICENSED"
+}

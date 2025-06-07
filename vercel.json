@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "public": true,
+  "builds": [
+    {
+      "src": "html/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/html/$1"
+    },
+    {
+      "src": "/",
+      "dest": "/html/index.html"
+    }
+  ],
+  "analytics": {
+    "enable": true
+  },
+  "speed-insights": {
+    "enable": true
+  },
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ]
+    }
+  ]
+}

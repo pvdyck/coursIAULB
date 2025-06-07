@@ -36,7 +36,9 @@
       "Bash(git reset:*)",
       "Bash(node:*)",
       "Bash(echo:*)",
-      "WebFetch(domain:openai.com)"
+      "WebFetch(domain:openai.com)",
+      "Bash(chmod:*)",
+      "Bash(./update_speed_insights.sh:*)"
     ],
     "deny": []
   },
