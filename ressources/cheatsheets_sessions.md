@@ -7,7 +7,7 @@
 ### 🤖 FOCUS : CHATGPT UNIQUEMENT
 ```
 ChatGPT (OpenAI) - L'outil à maîtriser d'abord
-GPT-4o - 20€/mois
+GPT-4.1 - 20€/mois
 
 FORCES:
 • Polyvalent et intuitif

@@ -351,7 +351,7 @@ Réponse avec CoT :
                             <h4>Fenêtre de contexte (juin 2025)</h4>
                             <ul>
                                 <li><strong>GPT-4.1</strong> : 1,000,000 tokens (~750,000 mots) - $2/$8 par million</li>
-                                <li><strong>GPT-4o</strong> : 128,000 tokens (~96,000 mots) - Modèle précédent</li>
+                                <li><strong>GPT-4.1</strong> : 1,000,000 tokens (~750,000 mots) - Dernière version avec thinking intégré</li>
                                 <li><strong>Claude 4 Opus/Sonnet</strong> : 200,000 tokens (~150,000 mots) - $15/$75 (Opus), $3/$15 (Sonnet)</li>
                                 <li><strong>Gemini 2.5 Pro</strong> : 1,000,000 tokens standard, 2M en preview - $1.25/$10 (≤200k)</li>
                             </ul>
@@ -359,12 +359,12 @@ Réponse avec CoT :
                             <h4>Comparaison des performances</h4>
                             <ul>
                                 <li><strong>Coding (SWE-bench)</strong> : Claude 4 (72.5%) > Gemini 2.5 (63.8%) > GPT-4.1 (54.6%)</li>
-                                <li><strong>Vitesse</strong> : Gemini Flash (401 TPS) > Claude Sonnet (170 TPS) > GPT-4o (131 TPS)</li>
+                                <li><strong>Vitesse</strong> : Gemini Flash (401 TPS) > Claude Sonnet (170 TPS) > GPT-4.1 (131 TPS)</li>
                                 <li><strong>Multimodal</strong> : Seul Gemini supporte texte + images + audio + vidéo</li>
                             </ul>
                             
                             <h4>Implications pratiques</h4>
-                            <pre><code>GPT-4o : "Analysez ces 20-30 pages de dossier médical" (rapide, fiable)
+                            <pre><code>GPT-4.1 : "Analysez ces 20-30 pages de dossier médical" (1M tokens, thinking mode)
 Claude 4 : "Rédigez ce rapport clinique détaillé" (meilleur pour l'écriture)
 Gemini 2.5 : "Analysez ces 150 pages avec images médicales" (multimodal + grand contexte)</code></pre>
                         </div>
@@ -583,7 +583,7 @@ Inclus : flowchart patients, technique détaillée, mesures outcomes (ROE/BREAST
                                 <li>Créé par Google DeepMind</li>
                                 <li>Intégration écosystème Google</li>
                                 <li>Multimodal natif</li>
-                                <li>Version : 1.5 Pro</li>
+                                <li>Version : 2.5 Pro</li>
                             </ul>
                             
                             <h4>Forces uniques :</h4>

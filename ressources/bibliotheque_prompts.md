@@ -5,7 +5,7 @@
 
 **Règles d'Or pour Chaque IA :**
 
-**ChatGPT (GPT-4o)**
+**ChatGPT (GPT-4.1)**
 - ✅ Aime les instructions conversationnelles
 - ✅ Excelle avec "Agis comme..."
 - ✅ Apprécie le contexte détaillé

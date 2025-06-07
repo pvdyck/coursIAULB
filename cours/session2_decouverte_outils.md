@@ -185,18 +185,18 @@ Réponse avec CoT :
 
 #### Fenêtre de contexte (juin 2025)
 - **GPT-4.1** : 1,000,000 tokens (~750,000 mots) - $2/$8 par million
-- **GPT-4o** : 128,000 tokens (~96,000 mots) - Modèle précédent
+- **GPT-4.1** : 1,000,000 tokens (~750,000 mots) - Dernière version avec thinking intégré
 - **Claude 4 Opus/Sonnet** : 200,000 tokens (~150,000 mots) - $15/$75 (Opus), $3/$15 (Sonnet)
 - **Gemini 2.5 Pro** : 1,000,000 tokens standard, 2M en preview - $1.25/$10 (≤200k)
 
 #### Comparaison des performances
 - **Coding (SWE-bench)** : Claude 4 (72.5%) > Gemini 2.5 (63.8%) > GPT-4.1 (54.6%)
-- **Vitesse** : Gemini Flash (401 TPS) > Claude Sonnet (170 TPS) > GPT-4o (131 TPS)
+- **Vitesse** : Gemini Flash (401 TPS) > Claude Sonnet (170 TPS) > GPT-4.1 (131 TPS)
 - **Multimodal** : Seul Gemini supporte texte + images + audio + vidéo
 
 #### Implications pratiques
 ```
-GPT-4o : "Analysez ces 20-30 pages de dossier médical" (rapide, fiable)
+GPT-4.1 : "Analysez ces 20-30 pages de dossier médical" (1M tokens, thinking mode)
 Claude 4 : "Rédigez ce rapport clinique détaillé" (meilleur pour l'écriture)
 Gemini 2.5 : "Analysez ces 150 pages avec images médicales" (multimodal + grand contexte)
 ```
@@ -357,7 +357,7 @@ Suggestions pertinentes   |      |
 - Créé par Google DeepMind
 - Intégration écosystème Google
 - Multimodal natif
-- Version : 1.5 Pro
+- Version : 2.5 Pro
 
 **Forces uniques :**
 - 🔍 Recherche Google native

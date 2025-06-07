@@ -229,7 +229,7 @@ Différence baseline : âge moyen et sévérité déformation.
 Comment gérer pour publication PRS ?"
 ```
 
-**Test o1 (si disponible) ou ChatGPT-4 :**
+**Test o1 (si disponible) ou ChatGPT-4.1 :**
 ```
 "Analyse cette situation méthodologique complexe.
 Propose des solutions statistiques robustes pour :

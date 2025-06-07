@@ -57,7 +57,7 @@ L'IA générative = Résident ultra-expérimenté qui :
 #### **Introduction à ChatGPT (5 min)**
 
 **Qu'est-ce que ChatGPT ?**
-- Modèle : GPT-4o (le plus avancé)
+- Modèle : GPT-4.1 (le plus avancé)
 - Capacités : Texte, images, code, analyse
 - Prix : Gratuit (3.5) ou 20€/mois (Plus)
 
