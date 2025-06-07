@@ -17,9 +17,6 @@
       "dest": "/html/index.html"
     }
   ],
-  "speed-insights": {
-    "enable": true
-  },
   "headers": [
     {
       "source": "/(.*)",
