@@ -17,9 +17,6 @@
       "dest": "/html/index.html"
     }
   ],
-  "analytics": {
-    "enable": true
-  },
   "speed-insights": {
     "enable": true
   },
