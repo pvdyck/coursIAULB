@@ -6,7 +6,7 @@
 
 ---
 
-### **🎯 OUVERTURE : État des Lieux Personnel (15 min)**
+### **🎯 OUVERTURE : État des Lieux Personnel (5 min)**
 
 #### **Check-in TFE Chirurgie Plastique**
 - Tour de table : Type (esthétique/reconstructif) et titre TFE
@@ -19,7 +19,8 @@
 Aujourd'hui : Pas de théorie, 100% pratique sur VOTRE TFE
 → 90 minutes de transformation intensive
 → 45 minutes stratégie soumission journal
-→ 45 minutes peer review et finalisation
+→ 20 minutes peer review et finalisation
+→ 20 minutes auto-évaluation et réflexion
 → Résultat : TFE prêt pour soumission réelle
 ```
 
@@ -41,23 +42,23 @@ dans [PRS/ASJ/JPRAS]. Évalue :
 4. Impact pour la spécialité (/10)
 5. Conformité guidelines journal (/10)
 
-Identifie 3 gaps critiques pour acceptance."
+Identifie 3 lacunes critiques pour acceptation."
 ```
 
 **Parallel check Perplexity :**
 ```
 "Trouve 5 articles similaires à mon TFE [technique/pathologie]
 publiés dans PRS/ASJ 2024-2025.
-Compare : sample size, follow-up, complications reportées,
+Compare : taille échantillon, suivi, complications reportées,
 PROM utilisés, qualité photos. Qu'est-ce qui manque ?"
 ```
 
 **Documentation immédiate :**
 ```
 DIAGNOSTIC TFE : _____________________
-GAP 1 : _____________________________
-GAP 2 : _____________________________
-GAP 3 : _____________________________
+LACUNE 1 : _____________________________
+LACUNE 2 : _____________________________
+LACUNE 3 : _____________________________
 JOURNAL CIBLE : _____________________
 ```
 
@@ -71,18 +72,18 @@ JOURNAL CIBLE : _____________________
 
 #### **🔄 Phase 2 : Transformation Section par Section (60 min)**
 
-**EXERCICE 4.2 : Pipeline de transformation personnalisé**
+**EXERCICE 4.2 : Processus de transformation personnalisé**
 
 **A. TITRE & ABSTRACT (15 min)**
 
-**Workflow titre/abstract :**
+**Flux de travail titre/résumé :**
 ```
 1. ChatGPT (5 min) :
    "10 titres pour article [rhinoplastie preservation/DIEP single vs double].
-   Include : technique, outcome measure, population."
+   Include : technique, mesure de résultat, population."
 
 2. Claude (5 min) :
-   "Abstract 250 mots PRS : Background (gap), Methods (n patients,
+   "Abstract 250 mots PRS : Contexte (lacune), Methods (n patients,
    technique, PROM), Results (complications %, satisfaction %),
    Conclusions (clinical relevance)."
 
@@ -93,7 +94,7 @@ JOURNAL CIBLE : _____________________
 
 **B. INTRODUCTION (15 min)**
 
-**Pipeline intro PRS/ASJ :**
+**Processus intro PRS/ASJ :**
 ```
 1. Perplexity Deep Research :
    "Problème majeur non résolu en [lipostructure mammaire/
@@ -103,7 +104,7 @@ JOURNAL CIBLE : _____________________
    "Introduction PRS 500 mots :
    - Hook : statistique ASPS ou problème clinique
    - Current techniques limitations (paragraphe 1)
-   - Gap in literature (paragraphe 2)
+   - Lacune dans la littérature (paragraphe 2)
    - Our innovation/approach (paragraphe 3)
    - Study aim + hypothesis"
 ```
@@ -114,8 +115,8 @@ JOURNAL CIBLE : _____________________
 ```
 1. Claude :
    "Methods section PRS : Study design, patients (inclusion/
-   exclusion), surgical technique (step-by-step), outcome
-   measures (PROM + complications), follow-up protocol,
+   exclusion), surgical technique (step-by-step), mesures de résultats
+   measures (PROM + complications), protocole de suivi,
    statistical analysis. Add CONSORT diagram."
 
 2. ChatGPT Vision + Code :
@@ -142,7 +143,7 @@ JOURNAL CIBLE : _____________________
    - Key findings vs hypothesis
    - Compare nos résultats vs lit (tableau)
    - Innovations techniques apportées
-   - Limites : follow-up, bias sélection
+   - Limites : suivi, biais sélection
    - Clinical implications pour chirurgiens
    - Future : RCT ? Multicentric ?"
 
@@ -187,7 +188,7 @@ References   | Perplexity  |        | ✓/✗
 Liste 10 journaux appropriés :
 - Impact factor 2024
 - Scope (aesthetic vs reconstructrice)
-- Acceptance rate
+- Taux d'acceptation
 - Time to first decision
 - OA fees
 - Recent similar papers published"
@@ -195,7 +196,7 @@ Liste 10 journaux appropriés :
 
 **Matrice journaux :**
 ```
-JOURNAL         | IF   | Accept% | Review | OA  | Scope | RANK
+JOURNAL         | IF   | Accept.% | Review | OA  | Champ | RANK
 ----------------|------|---------|--------|-----|-------|------
 PRS             | ~5.2 | Variable| ~45d   | No  | Both  |
 ASJ             | ~4.5 | Variable| ~30d   | Yes | Aesth |
@@ -212,7 +213,7 @@ JRM             | ~2.4 | Variable| ~40d   | No  | Recon |
 1. Claude - Structure PRS/ASJ :
    "Cover letter pour [PRS/ASJ]. Emphasize :
    - Innovation technique OU large series
-   - Patient-reported outcomes inclus
+   - Résultats rapportés par les patients inclus
    - Implications for plastic surgeons
    - Why this journal specifically"
 
@@ -222,7 +223,7 @@ JRM             | ~2.4 | Variable| ~40d   | No  | Recon |
 
 3. Perplexity - Editors check :
    "Qui est l'editor de [journal] ? Ses publications
-   récentes ? Adapter ton si nécessaire."
+   récentes ? Adapter le ton si nécessaire."
 ```
 
 **Template gagnant :**
@@ -238,7 +239,7 @@ Dear Editors of [Journal],
 Looking forward...
 ```
 
-#### **🚀 EXERCICE 4.6 : Réponses aux Reviewers (15 min)**
+#### **🚀 EXERCICE 4.6 : Réponses aux Relecteurs (15 min)**
 
 **Anticiper les critiques - Simulation :**
 
@@ -253,7 +254,7 @@ Critique mon article sur :
 5. Conclusions vs results overstatement"
 ```
 
-**Template réponses aux reviewers :**
+**Template réponses aux relecteurs :**
 ```
 CRITIQUE 1 : "Sample size insufficient for subgroup analysis"
 RÉPONSE : "We appreciate the reviewer's insight. While our 
@@ -268,18 +269,18 @@ ACTION : Re-shot available patients avec protocole ASPS
 
 ---
 
-### **👥 BLOC 3 : Peer Review et Finalisation (45 min)**
+### **👥 BLOC 3 : Peer Review et Finalisation (20 min)**
 
-#### **🔄 EXERCICE 4.7 : Peer Review Croisé (25 min)**
+#### **🔄 EXERCICE 4.7 : Peer Review Croisé (15 min)**
 
 **Speed peer review en binômes :**
 
-**Round 1 (10 min) :**
+**Round 1 (5 min) :**
 - Échanger articles transformés
 - Review rapide avec checklist journal
 - 3 forces, 3 améliorations
 
-**Round 2 (10 min) :**
+**Round 2 (5 min) :**
 - Nouveau binôme
 - Focus différent aspect
 - Suggestions concrètes
@@ -288,7 +289,7 @@ ACTION : Re-shot available patients avec protocole ASPS
 - Compiler feedback reçu
 - Prioriser corrections
 
-#### **✅ EXERCICE 4.8 : Soumission Test (10 min)**
+#### **✅ EXERCICE 4.8 : Soumission Test (5 min)**
 
 **Simulation soumission réelle :**
 
@@ -303,7 +304,7 @@ ACTION : Re-shot available patients avec protocole ASPS
 □ Manuscript format journal (Word + PDF)
 □ Photos haute résolution (TIFF 300 DPI)
 □ Consent photos publication signé
-□ Tables outcomes + complications
+□ Tableaux résultats + complications
 □ Cover letter personnalisée
 □ Video technique (si innovative)
 □ CONSORT/STROBE checklist
@@ -313,68 +314,100 @@ ACTION : Re-shot available patients avec protocole ASPS
 □ ORCID tous auteurs
 ```
 
-#### **🎯 EXERCICE 4.9 : Plan Post-Formation (10 min)**
-
-**Engagement personnel :**
-```
-MON PLAN DE PUBLICATION avec IA
-
-Article 1 (TFE) :
-- Type : □ Aesthetic □ Reconstructive
-- Journal cible : □ PRS □ ASJ □ JPRAS
-- Deadline soumission : _____
-- Outils IA : Photos___ / Stats___ / Writing___
-
-Article 2 (Series expansion) :
-- Technique améliorée : ________________
-- Target n patients : ____
-- PROM à intégrer : □ FACE-Q □ BREAST-Q
-
-Routine hebdo IA :
-- Lundi : _________________
-- Mercredi : ______________
-- Vendredi : ______________
-
-Objectif 6 mois :
-□ 1 article soumis
-□ 1 article en préparation
-□ Pipeline IA optimisé
-□ Temps rédaction ÷2
-```
 
 ---
 
-### **🏆 CLÔTURE : Célébration et Engagement (15 min)**
+### **🔍 BLOC 4 : Auto-Évaluation et Réflexion Profonde (20 min)**
 
-#### **Présentation Flash : Transformation Réussie**
+#### **💭 EXERCICE 4.10 : Évaluation Avant/Après (10 min)**
 
-**Flash presentation (1 min) :**
-- Titre final : "[Technique] in [n] patients: A [duration] outcomes study"
-- Journal : PRS/ASJ/JPRAS + rationale
-- Meilleure transformation : □ Photos □ Stats □ Writing
-- Submission prévue : _____ 2025
-- Innovation clé pour la spécialité
+**A. Compétences AI - Échelle de Progression**
 
-#### **Metrics de Succès Collectif**
 ```
-GROUPE STATS:
-- Articles transformés : ___
-- Journals visés (IF moyen) : ___
-- Temps moyen gagné : ___ heures
-- Confidence publication (/10) : ___
+Évaluez votre niveau AVANT et APRÈS la formation (1-5)
+1=Novice, 2=Débutant, 3=Compétent, 4=Avancé, 5=Expert
+
+                                        AVANT | APRÈS | GAIN
+Compétences Techniques                    ↓       ↓      ↓
+─────────────────────────────────────────────────────────────
+Formulation de prompts efficaces         [__]   [__]   [__]
+Utilisation ChatGPT pour rédaction       [__]   [__]   [__]
+Analyse photos cliniques avec AI         [__]   [__]   [__]
+Détection hallucinations/erreurs AI      [__]   [__]   [__]
+Flux de travail multi-IA coordonné      [__]   [__]   [__]
+Transformation données → publication     [__]   [__]   [__]
+Réponse aux relecteurs avec IA          [__]   [__]   [__]
+
+Compétences Publication                    
+─────────────────────────────────────────────────────────────
+Structuration article PRS/ASJ            [__]   [__]   [__]
+Rédaction abstract avec PROM             [__]   [__]   [__]
+Sélection journal approprié              [__]   [__]   [__]
+Préparation photos haute qualité         [__]   [__]   [__]
+Anticipation critiques méthodologiques   [__]   [__]   [__]
+
+Confiance & Autonomie
+─────────────────────────────────────────────────────────────
+Confiance utilisation AI quotidienne     [__]   [__]   [__]
+Capacité travail autonome avec AI        [__]   [__]   [__]
+Vitesse transformation TFE→Article       [__]   [__]   [__]
+
+SCORE TOTAL:                            [__]/80 [__]/80 +[__]
 ```
 
-#### **Engagement Final**
-```
-"Je m'engage à :
-□ Soumettre mon article dans les 30 jours
-□ Partager mon expérience sur WhatsApp
-□ Aider un collègue avec l'IA
-□ Continuer apprentissage quotidien
-□ Rester éthique et rigoureux"
+**B. Découvertes Importantes**
 
-Signature : _____________
-Date : _________________
+```
+Identifiez vos 3 principales découvertes:
+
+1. "Ma découverte la plus marquante..." ___________________
+   → Impact sur ma pratique: _____________________________
+
+2. "Ce que j'ignorais..." _______________________________
+   → Ce que ça change: ___________________________________
+
+3. "Ce qui m'a le plus surpris..." ________________________
+   → Application immédiate: ______________________________
+```
+
+#### **🎯 EXERCICE 4.11 : Réflexion Guidée - Cycle de Gibbs (10 min)**
+
+**Réflexion structurée sur votre transformation TFE:**
+
+```
+1. DESCRIPTION - Qu'est-ce qui s'est passé?
+   "Mon TFE initial était..."
+   "Après transformation AI, il est devenu..."
+   _____________________________________________________
+
+2. RESSENTI - Comment je me sens?
+   "Au début, j'étais ___ face à l'AI"
+   "Maintenant, je ressens ___"
+   "Ma plus grande fierté: ___"
+   _____________________________________________________
+
+3. ÉVALUATION - Qu'est-ce qui a bien/mal fonctionné?
+   ✓ Mes 3 réussites principales:
+     • _______________________________________________
+     • _______________________________________________
+     • _______________________________________________
+   
+   ⚠ Mes 2 difficultés persistantes:
+     • _______________________________________________
+     • _______________________________________________
+
+4. ANALYSE - Pourquoi ces résultats?
+   "L'AI a été particulièrement efficace pour ___ parce que..."
+   "J'ai eu des difficultés avec ___ car..."
+   _____________________________________________________
+
+5. CONCLUSION - Qu'ai-je vraiment appris?
+   "La leçon principale pour moi:"
+   _____________________________________________________
+   
+   "Ce que je ferai différemment:"
+   _____________________________________________________
+
 ```
 
 ---
@@ -389,25 +422,12 @@ Date : _________________
 - Anticipation critiques méthodo
 
 🚀 **Compétences acquises :**
-- Maîtrise pipeline photo-texte-stats
+- Maîtrise processus photo-texte-stats
 - Sélection journal selon scope
-- Gestion reviewers techniques op
+- Gestion relecteurs techniques op
 - Intégration PROM standards
 - Confiance soumission internationale
 
-💡 **Remember :**
-> "La différence entre un TFE de rhinoplastie et une publication PRS 
-> n'est plus que quelques prompts bien placés et des photos standardisées."
-
----
-
-### **RESSOURCES POST-FORMATION**
-
-**Accès permanent :**
-- Templates PRS/ASJ/JPRAS
-- Prompts bibliothèque
-- Protocoles photo ASPS
-- Calculateurs PROM
 
 ---
 

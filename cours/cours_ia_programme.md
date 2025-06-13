@@ -50,14 +50,14 @@
    - Gemini : 45 min (Google integration, recherche)
    - Perplexity : 45 min (automatisation, Deep Research)
    - Comparaison sur tâche TFE identique
-   - Pipeline personnel TFE→Publication
+   - Processus personnel TFE→Publication
 
 3. **[SESSION 3 : Workflows Avancés pour Publication](./session3_workflows_publication.md)**
    - *Durée : 3h | Format : Features avancées + Intégration publication*
    - 🎯 **Objectif : Maîtriser les fonctions avancées pour transformer votre TFE**
    - Extended thinking modes (o1, Claude thinking, Deep Research)
    - Workflows publication professionnels
-   - Pipeline complet : intro→abstract→figures
+   - Processus complet : intro→abstract→figures
    - Éthique et sécurité renforcées
 
 4. **[SESSION 4 : Transformation Finale TFE → Publication](./session4_transformation_finale.md)**

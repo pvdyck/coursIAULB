@@ -1,15 +1,15 @@
 ⬅️ **[Retour Session 2](./session2_decouverte_outils.md)**
 
-# SESSION 3 : Workflows Avancés pour Publication
+# SESSION 3 : Flux de travail Avancés pour Publication
 ## *Durée : 3h | Format : Features avancées + Intégration publication*
-### **🎯 Objectif : Maîtriser les workflows avancés pour publier votre TFE**
+### **🎯 Objectif : Maîtriser les flux de travail avancés pour publier votre TFE**
 
 ---
 
-### **🎯 OUVERTURE : Retour sur Pipelines Personnels (15 min)**
+### **🎯 OUVERTURE : Retour sur Processus Personnels (15 min)**
 
-#### **Partage d'Expériences Pipeline**
-- Présentation rapide : 2-3 pipelines TFE réussis
+#### **Partage d'Expériences Processus**
+- Présentation rapide : 2-3 processus TFE réussis
 - Obstacles rencontrés et solutions
 - Outil le plus performant identifié
 
@@ -18,7 +18,7 @@
 Aujourd'hui : Features avancées pour publication scientifique
 → NotebookLM pour synthèse recherche intelligente
 → Extended thinking pour complexité
-→ Workflows publication pro
+→ Flux de travail publication pro
 → Sécurité et éthique renforcées
 → Focus : Votre TFE publication-ready
 ```
@@ -55,7 +55,7 @@ Parfait pour : Revues de littérature TFE
 ```
 Rassemblez 5-10 documents clés :
 □ 3-5 articles fondamentaux de votre domaine
-□ 1-2 guidelines récentes (ASPS, ISAPS)
+□ 1-2 directives récentes (ASPS, ISAPS)
 □ Votre draft TFE actuel
 □ 1-2 meta-analyses si disponibles
 ```
@@ -72,12 +72,12 @@ Prompts de découverte :
 "Quels sont les points de consensus entre mes sources ?"
 "Identifie les contradictions majeures"
 "Quelle est l'évolution chronologique des techniques ?"
-"Quels gaps de recherche sont mentionnés ?"
+"Quelles lacunes de recherche sont mentionnées ?"
 ```
 
 #### **🔬 EXERCICE 3.2 : Synthèse Multi-Sources Avancée (15 min)**
 
-**Mission :** Extraire insights transversaux pour votre discussion TFE
+**Mission :** Extraire perspectives transversales pour votre discussion TFE
 
 **Test 1 : Analyse comparative (5 min)**
 ```
@@ -93,7 +93,7 @@ pour [votre intervention] entre 2020 et 2025.
 Quelles tendances émergent ?"
 ```
 
-**Test 3 : Gaps et opportunités (5 min)**
+**Test 3 : Lacunes et opportunités (5 min)**
 ```
 "Basé sur tous les articles, quels aspects de [votre sujet]
 manquent de données ? Quelles futures recherches sont suggérées ?
@@ -126,13 +126,13 @@ Exemples d'interruptions utiles :
 - "Quelle est la source de cette statistique ?"
 ```
 
-**Étape 3 : Documentation insights (3 min)**
+**Étape 3 : Documentation perspectives (3 min)**
 ```
 Pendant/après écoute, notez :
 □ 3 connections nouvelles entre vos sources
 □ 2 angles inattendus pour votre discussion
 □ 1 question critique à explorer
-□ Sources à ajouter pour combler les gaps
+□ Sources à ajouter pour combler les lacunes
 ```
 
 #### **💡 Tips Pro NotebookLM**
@@ -153,10 +153,10 @@ Pendant/après écoute, notez :
 ⚠️ Beta : occasionnels bugs interruption
 ```
 
-**Workflow optimal TFE :**
+**Flux de travail optimal TFE :**
 ```
 1. NotebookLM : Synthèse initiale littérature
-2. Perplexity : Combler gaps identifiés
+2. Perplexity : Combler lacunes identifiées
 3. Claude : Rédaction approfondie
 4. ChatGPT : Figures et mise en forme
 ```
@@ -242,7 +242,7 @@ Propose des solutions statistiques robustes pour :
 **Points d'évaluation :**
 - Sophistication des solutions
 - Faisabilité pratique
-- Références aux guidelines
+- Références aux directives
 
 #### **🔍 EXERCICE 3.6 : Perplexity Deep Research pour Revue Exhaustive (10 min)**
 
@@ -257,7 +257,7 @@ Inclus :
 - PRISMA spécifique chirurgie plastique
 - Tableau : technique, n patients, complications, PROM utilisés
 - Focus taux révision et satisfaction patient
-- Niveaux evidence selon ASPS guidelines"
+- Niveaux evidence selon directives ASPS"
 ```
 
 **Comparaison temps :**
@@ -271,7 +271,7 @@ Inclus :
 
 **Mission :** Actualiser votre revue biblio avec les toutes dernières publications
 
-**Workflow Gemini-Scholar :**
+**Flux de travail Gemini-Scholar :**
 ```
 1. "Trouve via Google Scholar les 10 articles les plus récents 
    (2025) sur [votre sujet TFE] avec impact factor >5"
@@ -282,7 +282,7 @@ Inclus :
 3. "Intègre ces nouveaux éléments dans ma discussion"
 ```
 
-**Template intégration :**
+**Modèle intégration :**
 ```
 ÉTUDE RÉCENTE      | FINDING CLÉ | IMPACT TFE
 -------------------|--------------|------------
@@ -292,13 +292,13 @@ Inclus :
 
 ---
 
-### **📝 BLOC 3 : Workflows Publication Professionnels (45 min)**
+### **📝 BLOC 3 : Flux de travail Publication Professionnels (45 min)**
 
-#### **📊 EXERCICE 3.8 : Pipeline Complet Introduction (15 min)**
+#### **📊 EXERCICE 3.8 : Processus Complet Introduction (15 min)**
 
 **Mission :** Transformer l'intro de votre TFE en version Nature/Science
 
-**Pipeline multi-IA :**
+**Processus multi-IA :**
 ```
 Étape 1 - Perplexity (5 min) :
 "Analyse les 10 meilleures intros sur [rhinoplastie/reconstruction] 
@@ -306,7 +306,7 @@ dans PRS/ASJ 2023-2025. Identifie structure et hooks."
 
 Étape 2 - Claude (10 min) :
 "Restructure mon intro TFE selon standards PRS.
-Hook : problème clinique, gap technique, innovation.
+Hook : problème clinique, lacune technique, innovation.
 [Coller intro actuelle]"
 
 Étape 3 - ChatGPT (5 min) :
@@ -316,7 +316,7 @@ ASPS récentes. Vérifie terminologie standardisée."
 
 **Mesure d'impact :**
 ```
-ÉLÉMENT           | Avant | Après Pipeline
+ÉLÉMENT           | Avant | Après Processus
 -------------------|-------|---------------
 Hook d'ouverture   | /10   | /10
 Clarté problème    | /10   | /10
@@ -328,13 +328,13 @@ Flow narratif      | /10   | /10
 
 **Mission :** Créer figures publication-quality pour votre TFE
 
-**Workflow figures :**
+**Flux de travail figures :**
 ```
 1. ChatGPT + Code Interpreter (10 min) :
    "Données [CSV scores FACE-Q/BREAST-Q]. Crée :
    - Figure 1 : Évolution scores pré/post avec IC 95%
    - Figure 2 : Montage photos standardisé (grille 3x3)
-   - Figure 3 : Flowchart patients selon guidelines
+   - Figure 3 : Organigramme patients selon directives
    - Style PRS : police Arial, couleurs sobres"
 
 2. Perplexity Labs (5 min) :
@@ -344,7 +344,7 @@ Flow narratif      | /10   | /10
    "Schéma anatomique technique opératoire (vue 3D)"
 ```
 
-**Checklist qualité :**
+**Liste de contrôle qualité :**
 - [ ] Résolution 300 DPI minimum
 - [ ] Légendes complètes
 - [ ] Accessibilité couleurs
@@ -354,10 +354,10 @@ Flow narratif      | /10   | /10
 
 **Mission :** Créer abstract 250 mots impact maximum
 
-**Pipeline abstract PRS/ASJ :**
+**Processus abstract PRS/ASJ :**
 ```
 1. Claude - Structure spécifique (5 min) :
-   "Abstract structuré 250 mots pour PRS. Background, 
+   "Abstract structuré 250 mots pour PRS. Contexte, 
    Methods (technique, patients, outcomes mesurés), 
    Results (chiffres clés, p-values), Conclusions."
 
@@ -394,7 +394,7 @@ TOTAL             | /25      |
 
 **Audit sécurité pour données sensibles TFE :**
 
-**Checklist sécurité :**
+**Liste de contrôle sécurité :**
 ```
 SÉCURITÉ DONNÉES     | ChatGPT | Claude | Gemini | Perplexity
 --------------------|---------|--------|--------|------------
@@ -436,7 +436,7 @@ Responsabilité si résultat différent ? Consentement spécial ?"
 comme 'idéaux'. Comment gérer biais ethniques ?"
 ```
 
-**Guidelines éthiques :**
+**Directives éthiques :**
 - Déclaration transparente usage IA
 - Vérification humaine obligatoire
 - Responsabilité finale = auteur
@@ -469,8 +469,8 @@ comme 'idéaux'. Comment gérer biais ethniques ?"
 ### **📖 CLÔTURE SESSION 3**
 
 ✅ **Acquis Session 3 :**
-- Thinking modes pour cas complexes
-- Workflows PRS/ASJ opérationnels
+- Modes de réflexion pour cas complexes
+- Flux de travail PRS/ASJ opérationnels
 - Sécurité photos et éthique mineurs
 - Figures publication-quality maîtrisées
 - Abstract et keywords optimisés

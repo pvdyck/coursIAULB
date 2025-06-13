@@ -8,7 +8,7 @@
 
 #### **Avant d'utiliser TOUT outil IA :**
 
-**📋 Checklist de Sécurité des Données Patient**
+**📋 Liste de contrôle de Sécurité des Données Patient**
 ```
 □ Vérifier la politique de confidentialité de l'outil
 □ Anonymiser TOUTES les données :
@@ -348,7 +348,7 @@ Aide-moi à :
 
 **Mission :** Créer LE prompt réutilisable pour votre pratique quotidienne
 
-**Template Personnalisable :**
+**Modèle Personnalisable :**
 
 **Pour Consultation Esthétique :**
 ```
@@ -394,7 +394,7 @@ Format hospitalier standard avec codes CCAM."
 
 #### **Auto-évaluation de Maîtrise ChatGPT**
 
-**Checklist de compétences acquises :**
+**Liste de contrôle de compétences acquises :
 ```
 □ Je structure des prompts efficaces pour cas plastie
 □ J'analyse des photos cliniques avec ChatGPT

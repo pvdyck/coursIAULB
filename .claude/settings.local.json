@@ -38,7 +38,8 @@
       "Bash(echo:*)",
       "WebFetch(domain:openai.com)",
       "Bash(chmod:*)",
-      "Bash(./update_speed_insights.sh:*)"
+      "Bash(./update_speed_insights.sh:*)",
+      "WebFetch(domain:vercel.com)"
     ],
     "deny": []
   },

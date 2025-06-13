@@ -66,12 +66,12 @@ Mot "pénicilline" → [0.2, -0.5, 0.8, ...] (vecteur à ~1500 dimensions)
 - **Dosages inventés** : "Amoxicilline 850mg" (dose non-standard)
 - **Études fictives** : Citations d'articles qui n'existent pas
 - **Statistiques fabriquées** : "73.2% des patients..." sans source
-- **Protocoles mélangés** : Fusion de guidelines différentes
+- **Protocoles mélangés** : Fusion de directives différentes
 
 ### Implications pratiques
 
 #### **Forces du LLM** ✅
-- **Pattern recognition** : Excellent pour identifier des motifs complexes
+- **Reconnaissance de modèles** : Excellent pour identifier des motifs complexes
 - **Synthèse** : Combine efficacement des informations disparates
 - **Reformulation** : Adapte le langage au contexte
 - **Rapidité** : Traite l'information 1000x plus vite qu'un humain
@@ -90,7 +90,7 @@ LLM = Assistant de rédaction + Bibliothécaire + Traducteur
 LLM ≠ Médecin + Oracle + Source de vérité
 ```
 
-#### **Workflow sécurisé**
+#### **Flux de travail sécurisé**
 1. **Input** : Question précise avec contexte
 2. **Processing** : LLM génère une réponse basée sur patterns
 3. **Validation** : TOUJOURS vérifier avec sources primaires
@@ -176,7 +176,7 @@ Réponse avec CoT :
 
 #### Application médicale
 ```
-🧊 T=0 : Protocoles, guidelines, dosages
+🧊 T=0 : Protocoles, directives, dosages
 🌡️ T=0.7 : Rédaction articles, cas cliniques
 🔥 T=1+ : Brainstorming, hypothèses recherche
 ```
@@ -209,7 +209,7 @@ Gemini 2.5 : "Analysez ces 150 pages avec images médicales" (multimodal + grand
 - **Génération d'images** : DALL-E 3, Midjourney, Stable Diffusion
 - **Analyse documents** : PDF, tableaux, graphiques (tous modèles)
 
-#### Workflow multimodal type
+#### Flux de travail multimodal type
 ```
 1. Upload photo lésion cutanée
 2. "Décrivez selon critères ABCDE"
@@ -237,7 +237,7 @@ Considérez particulièrement les critères de malignité..."
 #### Constraint prompting
 ```markdown
 "Générez un abstract de 250 mots MAXIMUM incluant OBLIGATOIREMENT :
-- Background (50 mots)
+- Contexte (50 mots)
 - Methods (75 mots)
 - Results (75 mots)
 - Conclusion (50 mots)"
@@ -342,7 +342,7 @@ Inclus : flowchart patients, technique détaillée, mesures outcomes (ROE/BREAST
 CRITÈRE                | Score /5 | Notes
 -----------------------|----------|-------
 Précision restructuration |      |
-Respect des guidelines    |      |
+Respect des directives    |      |
 Clarté améliorée         |      |
 Suggestions pertinentes   |      |
 ```
@@ -397,7 +397,7 @@ révisions. Cite sources PubMed et PRS."
 2. Utiliser Gemini pour :
    - Analyser tendances
    - Créer visualisations
-   - Générer insights
+   - Générer perspectives
 
 **Prompt exemple :**
 ```
@@ -558,10 +558,10 @@ TFE → Complications       |               |
 
 #### **🔄 EXERCICE 2.11 : Plan Personnel TFE-Publication (10 min)**
 
-**Définir votre pipeline optimal :**
+**Définir votre processus optimal :**
 
 ```
-MON PIPELINE TFE → PUBLICATION
+MON PROCESSUS TFE → PUBLICATION
 
 1. Revue littérature : _____________ (outil)
    Raison : _______________________
@@ -637,7 +637,7 @@ MON PIPELINE TFE → PUBLICATION
 - Maîtrise individuelle des 4 outils
 - Comparaison basée sur l'expérience
 - Matrice de décision personnelle
-- Pipeline TFE-Publication défini
+- Processus TFE-Publication défini
 
 ❌ **Évités :**
 - Confusion par comparaison prématurée

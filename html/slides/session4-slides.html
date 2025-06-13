@@ -63,7 +63,7 @@
             font-size: 2.5rem;
             margin-bottom: 1.5rem;
             text-align: center;
-            border-bottom: 4px solid #667eea;
+            border-bottom: 4px solid #e22017;
             padding-bottom: 1rem;
         }
 
@@ -71,7 +71,7 @@
             color: #34495e;
             font-size: 2rem;
             margin: 1.5rem 0 1rem 0;
-            border-left: 6px solid #667eea;
+            border-left: 6px solid #e22017;
             padding-left: 1rem;
         }
 
@@ -165,7 +165,7 @@
         }
 
         .table th {
-            background-color: #667eea;
+            background-color: #e22017;
             color: white;
             font-weight: bold;
         }
@@ -184,7 +184,7 @@
         }
 
         .nav-btn {
-            background: #667eea;
+            background: #e22017;
             color: white;
             border: none;
             padding: 1rem 2rem;
@@ -192,13 +192,13 @@
             font-size: 1.1rem;
             cursor: pointer;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+            box-shadow: 0 4px 15px rgba(226, 32, 23, 0.4);
         }
 
         .nav-btn:hover {
-            background: #5a67d8;
+            background: #c41e3a;
             transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+            box-shadow: 0 6px 20px rgba(226, 32, 23, 0.6);
         }
 
         .nav-btn:disabled {
@@ -225,7 +225,7 @@
             top: 0;
             left: 0;
             height: 4px;
-            background: #667eea;
+            background: #e22017;
             transition: width 0.3s ease;
             z-index: 1000;
         }
@@ -265,41 +265,30 @@
             margin: 1rem 0;
         }
 
-        .before-after {
+        .four-column {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 2rem;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 1rem;
             margin: 1rem 0;
         }
 
-        .before-box, .after-box {
-            padding: 1.5rem;
-            border-radius: 10px;
+        .timing-box {
+            background: #e22017;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            display: inline-block;
+            font-weight: bold;
+            margin: 0.5rem 0;
         }
 
-        .before-box {
-            background: #ffe5e5;
-            border: 2px solid #ff9999;
-        }
-
-        .after-box {
-            background: #e5ffe5;
-            border: 2px solid #99ff99;
-        }
-
-        .pipeline-step {
+        .prompt-box {
             background: #f0f8ff;
             border-left: 4px solid #2196f3;
-            padding: 1rem;
-            margin: 0.5rem 0;
-            border-radius: 0 10px 10px 0;
-        }
-
-        .transformation-arrow {
-            text-align: center;
-            font-size: 2rem;
-            color: #667eea;
+            padding: 1.5rem;
             margin: 1rem 0;
+            border-radius: 0 10px 10px 0;
+            font-family: 'Courier New', monospace;
         }
 
         .journal-card {
@@ -308,39 +297,6 @@
             border-radius: 15px;
             padding: 2rem;
             margin: 1rem 0;
-        }
-
-        .checklist-item {
-            display: flex;
-            align-items: center;
-            margin: 0.5rem 0;
-        }
-
-        .checklist-item input[type="checkbox"] {
-            margin-right: 1rem;
-            transform: scale(1.5);
-        }
-
-        .submission-timeline {
-            background: #f5f5f5;
-            border: 2px solid #333;
-            border-radius: 10px;
-            padding: 1.5rem;
-            margin: 1rem 0;
-        }
-
-        .timeline-item {
-            display: flex;
-            align-items: center;
-            margin: 1rem 0;
-        }
-
-        .timeline-dot {
-            width: 20px;
-            height: 20px;
-            background: #667eea;
-            border-radius: 50%;
-            margin-right: 1rem;
         }
 
         .final-card {
@@ -352,10 +308,12 @@
             text-align: center;
         }
 
-        .highlight {
-            background: linear-gradient(120deg, #a8e6cf 0%, #dcedc1 100%);
-            padding: 0.2rem 0.5rem;
-            border-radius: 5px;
+        .exercise-card {
+            background: linear-gradient(135deg, #e3f2fd 0%, #f3e5f5 100%);
+            border: 2px solid #9c27b0;
+            border-radius: 15px;
+            padding: 2rem;
+            margin: 1rem 0;
         }
 
         .success-badge {
@@ -383,7 +341,7 @@
                 font-size: 1.6rem;
             }
             
-            .two-column, .three-column, .before-after {
+            .two-column, .three-column, .four-column {
                 grid-template-columns: 1fr;
                 gap: 1rem;
             }
@@ -393,7 +351,7 @@
 <body>
     <div class="logo-mini">ULB - Chirurgie Plastique</div>
     <div class="slide-counter">
-        <span id="current-slide">1</span> / <span id="total-slides">30</span>
+        <span id="current-slide">1</span> / <span id="total-slides">21</span>
     </div>
     <div class="progress-bar" id="progress-bar"></div>
 
@@ -404,778 +362,759 @@
             <div class="text-center">
                 <h2>Transformation Finale TFE → Publication</h2>
                 <div class="card">
-                    <p><strong>Durée :</strong> 3h | <strong>Format :</strong> Workshop intensif + Publication réelle</p>
-                    <h3 class="text-danger">🎯 Objectif : Transformer VOTRE TFE en article publiable aujourd'hui</h3>
+                    <p><strong>Durée :</strong> 3h | <strong>Format :</strong> Travail sur VOTRE vrai TFE</p>
+                    <h3 class="text-danger">🎯 Objectif : Transformer concrètement votre TFE en article publiable</h3>
                 </div>
                 <div class="alert alert-info">
-                    <h3>Formation IA pour Chirurgiens Plasticiens</h3>
-                    <p><strong>DES Chirurgie plastique reconstructrice et esthétique</strong></p>
-                    <p>Université Libre de Bruxelles</p>
+                    <h3>100% pratique - 0% théorie</h3>
+                    <p><strong>Formation IA pour Chirurgiens Plasticiens</strong></p>
+                    <p>Université Libre de Bruxelles - Faculté de Médecine</p>
                 </div>
             </div>
         </div>
 
-        <!-- Slide 2: Opening Success -->
+        <!-- Slide 2: Overview -->
         <div class="slide">
-            <h1>🎯 OUVERTURE : Célébration des Réussites</h1>
-            <h2>Partage des Transformations (15 min)</h2>
-            <div class="card">
-                <h3>Tour de table - Vos succès :</h3>
-                <ul>
-                    <li>🏆 Section TFE la mieux transformée</li>
-                    <li>📈 Amélioration la plus spectaculaire</li>
-                    <li>💡 Découverte thinking mode la plus utile</li>
-                    <li>🔄 Workflow personnel développé</li>
-                </ul>
-            </div>
-            <div class="alert alert-success">
-                <h3>Aujourd'hui : Le Grand Saut</h3>
-                <p>De votre TFE universitaire → Article PRS/ASJ prêt à soumettre</p>
-            </div>
-        </div>
-
-        <!-- Slide 3: Session Overview -->
-        <div class="slide">
-            <h1>Vue d'Ensemble Session 4</h1>
-            <div class="three-column">
+            <h1>📋 Vue d'Ensemble - 3 Heures</h1>
+            <div class="four-column">
                 <div class="card">
-                    <h3>📋 Bloc 1</h3>
-                    <h4>État des Lieux</h4>
-                    <ul>
-                        <li>Analyse TFE actuel</li>
-                        <li>Choix du journal</li>
-                        <li>Gap analysis</li>
-                    </ul>
+                    <h3>🎯 OUVERTURE</h3>
+                    <div class="timing-box">5 min</div>
+                    <p>État des lieux TFE</p>
                 </div>
                 <div class="card">
-                    <h3>🔄 Bloc 2</h3>
-                    <h4>Transformation</h4>
+                    <h3>📄 BLOC 1</h3>
+                    <div class="timing-box">90 min</div>
+                    <p>Transformation intensive</p>
                     <ul>
-                        <li>Pipeline complet</li>
+                        <li>Audit TFE</li>
                         <li>Section par section</li>
-                        <li>Figures pro</li>
+                        <li>Quality check</li>
                     </ul>
                 </div>
                 <div class="card">
-                    <h3>✅ Bloc 3</h3>
-                    <h4>Finalisation</h4>
+                    <h3>📮 BLOC 2</h3>
+                    <div class="timing-box">45 min</div>
+                    <p>Stratégie soumission</p>
                     <ul>
-                        <li>Checklist finale</li>
+                        <li>Journal cible</li>
                         <li>Cover letter</li>
-                        <li>Soumission</li>
+                        <li>Réponses relecteurs</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>👥 BLOC 3</h3>
+                    <div class="timing-box">20 min</div>
+                    <p>Peer review</p>
+                    <ul>
+                        <li>Review croisé</li>
+                        <li>Test soumission</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="final-card">
+                <h3>🔍 BLOC 4 : Auto-évaluation (20 min)</h3>
+                <p>Réflexion sur votre transformation</p>
+            </div>
+        </div>
+
+        <!-- Slide 3: OUVERTURE -->
+        <div class="slide">
+            <h1>🎯 OUVERTURE : État des Lieux Personnel</h1>
+            <div class="timing-box">5 minutes</div>
+            
+            <div class="card">
+                <h3>Check-in TFE Chirurgie Plastique</h3>
+                <ul>
+                    <li><strong>Type :</strong> □ Esthétique □ Reconstructif</li>
+                    <li><strong>Titre TFE :</strong> _____________________</li>
+                    <li><strong>Problème principal :</strong> □ Photos □ Stats PROM □ Rédaction</li>
+                    <li><strong>Journal cible :</strong> □ PRS □ ASJ □ JPRAS □ JHS</li>
+                </ul>
+            </div>
+
+            <div class="alert alert-success">
+                <h3>Aujourd'hui : 100% pratique sur VOTRE TFE</h3>
+                <p><strong>Résultat attendu :</strong> TFE prêt pour soumission réelle</p>
+            </div>
+        </div>
+
+        <!-- Slide 4: BLOC 1 Overview -->
+        <div class="slide">
+            <h1>📄 BLOC 1 : Transformation Intensive</h1>
+            <div class="timing-box">90 minutes</div>
+
+            <div class="three-column">
+                <div class="card">
+                    <h3>⚡ Phase 1</h3>
+                    <div class="timing-box">15 min</div>
+                    <h4>Diagnostic Publication-Readiness</h4>
+                    <p><strong>Exercice 4.1 :</strong> Audit complet de votre TFE</p>
+                </div>
+                <div class="card">
+                    <h3>🔄 Phase 2</h3>
+                    <div class="timing-box">60 min</div>
+                    <h4>Transformation Section par Section</h4>
+                    <p><strong>Exercice 4.2 :</strong> Processus personnalisé</p>
+                    <ul>
+                        <li>A. Titre & Abstract (15 min)</li>
+                        <li>B. Introduction (15 min)</li>
+                        <li>C. Méthodes (15 min)</li>
+                        <li>D. Résultats & Discussion (15 min)</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>✅ Phase 3</h3>
+                    <div class="timing-box">15 min</div>
+                    <h4>Quality Check Multi-IA</h4>
+                    <p><strong>Exercice 4.3 :</strong> Validation croisée finale</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 5: Exercise 4.1 -->
+        <div class="slide">
+            <h1>🏷️ EXERCICE 4.1 : Audit Complet TFE</h1>
+            <div class="timing-box">15 minutes</div>
+
+            <div class="exercise-card">
+                <h3>Upload votre TFE dans Claude :</h3>
+                <div class="prompt-box">
+"Analyse mon TFE [rhinoplastie/DIEP/lipostructure] pour publication 
+dans [PRS/ASJ/JPRAS]. Évalue :
+1. Innovation technique ou résultats (/10)
+2. Méthodologie et stats PROM (/10)
+3. Qualité documentation photographique (/10)
+4. Impact pour la spécialité (/10)
+5. Conformité directives journal (/10)
+
+Identifie 3 lacunes critiques pour acceptation."
+                </div>
+            </div>
+
+            <div class="two-column">
+                <div class="card">
+                    <h4>Parallel check Perplexity :</h4>
+                    <div class="prompt-box">
+"Trouve 5 articles similaires à mon TFE 
+publiés dans PRS/ASJ 2024-2025.
+Compare : taille échantillon, suivi, 
+complications, PROM utilisés, qualité photos."
+                    </div>
+                </div>
+                <div class="card">
+                    <h4>Documentation immédiate :</h4>
+                    <ul>
+                        <li>DIAGNOSTIC TFE : ___________</li>
+                        <li>LACUNE 1 : ______________</li>
+                        <li>LACUNE 2 : ______________</li>
+                        <li>LACUNE 3 : ______________</li>
+                        <li>JOURNAL CIBLE : ___________</li>
                     </ul>
                 </div>
             </div>
         </div>
 
-        <!-- Slide 4: Real Impact -->
+        <!-- Slide 6: Exercise 4.2A -->
         <div class="slide">
-            <h1>Impact Réel de la Formation</h1>
-            <div class="journal-card">
-                <h2>Témoignages Alumni</h2>
-                <div class="card">
-                    <p><strong>"J'ai transformé mon TFE rhinoplastie en article PRS en 2 semaines au lieu de 6 mois."</strong></p>
-                    <p>- Dr. Sarah M., DES 2024</p>
-                </div>
-                <div class="card">
-                    <p><strong>"Les workflows IA m'ont fait gagner 80% du temps sur la revue biblio."</strong></p>
-                    <p>- Dr. Pierre L., DES 2024</p>
-                </div>
-                <div class="card">
-                    <p><strong>"Premier article accepté du premier coup grâce aux révisions Claude."</strong></p>
-                    <p>- Dr. Marie D., DES 2024</p>
+            <h1>📄 EXERCICE 4.2A : Titre & Abstract</h1>
+            <div class="timing-box">15 minutes</div>
+
+            <div class="exercise-card">
+                <h3>Flux de travail titre/résumé :</h3>
+                
+                <div class="three-column">
+                    <div class="card">
+                        <h4>1. ChatGPT (5 min)</h4>
+                        <div class="prompt-box">
+"10 titres pour article [rhinoplastie preservation/DIEP single vs double].
+Include : technique, mesure de résultat, population."
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4>2. Claude (5 min)</h4>
+                        <div class="prompt-box">
+"Abstract 250 mots PRS : Contexte (lacune), Methods (n patients, technique, PROM), Results (complications %, satisfaction %), Conclusions (clinical relevance)."
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4>3. Perplexity (5 min)</h4>
+                        <div class="prompt-box">
+"Vérifie titre unique. Keywords MeSH : [technique] AND Reconstructive Surgical Procedures AND Patient Satisfaction."
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- Slide 5: TFE Audit -->
+        <!-- Slide 7: Exercise 4.2B -->
         <div class="slide">
-            <h1>📋 BLOC 1 : Audit de Votre TFE</h1>
-            <h2>État des Lieux Rapide</h2>
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th>SECTION TFE</th>
-                        <th>État Actuel</th>
-                        <th>PRS-Ready?</th>
-                        <th>Effort Nécessaire</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Titre</td>
-                        <td>___/10</td>
-                        <td>Oui/Non</td>
-                        <td>Min/Moy/Max</td>
-                    </tr>
-                    <tr>
-                        <td>Abstract</td>
-                        <td>___/10</td>
-                        <td>Oui/Non</td>
-                        <td>Min/Moy/Max</td>
-                    </tr>
-                    <tr>
-                        <td>Introduction</td>
-                        <td>___/10</td>
-                        <td>Oui/Non</td>
-                        <td>Min/Moy/Max</td>
-                    </tr>
-                    <tr>
-                        <td>Méthodes</td>
-                        <td>___/10</td>
-                        <td>Oui/Non</td>
-                        <td>Min/Moy/Max</td>
-                    </tr>
-                    <tr>
-                        <td>Résultats</td>
-                        <td>___/10</td>
-                        <td>Oui/Non</td>
-                        <td>Min/Moy/Max</td>
-                    </tr>
-                    <tr>
-                        <td>Discussion</td>
-                        <td>___/10</td>
-                        <td>Oui/Non</td>
-                        <td>Min/Moy/Max</td>
-                    </tr>
-                    <tr>
-                        <td>Figures</td>
-                        <td>___/10</td>
-                        <td>Oui/Non</td>
-                        <td>Min/Moy/Max</td>
-                    </tr>
-                </tbody>
-            </table>
+            <h1>✍️ EXERCICE 4.2B : Introduction</h1>
+            <div class="timing-box">15 minutes</div>
+
+            <div class="exercise-card">
+                <h3>Processus intro PRS/ASJ :</h3>
+                
+                <div class="two-column">
+                    <div class="card">
+                        <h4>1. Perplexity Deep Research</h4>
+                        <div class="prompt-box">
+"Problème majeur non résolu en [lipostructure mammaire/rhinoplastie ethnique] ? 
+Taux échec/insatisfaction actuels ?"
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4>2. Claude Thinking</h4>
+                        <div class="prompt-box">
+"Introduction PRS 500 mots :
+- Hook : statistique ASPS ou problème clinique
+- Current techniques limitations (paragraphe 1)
+- Lacune dans la littérature (paragraphe 2)
+- Our innovation/approach (paragraphe 3)
+- Study aim + hypothesis"
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="alert alert-warning">
+                <h4>Structure parfaite Introduction :</h4>
+                <p>Hook → Limitations actuelles → Lacune littérature → Notre approche → Objectif & hypothèse</p>
+            </div>
         </div>
 
-        <!-- Slide 6: Journal Selection -->
+        <!-- Slide 8: Exercise 4.2C -->
         <div class="slide">
-            <h1>Choix Stratégique du Journal</h1>
-            <div class="card">
-                <h3>Top Journaux Chirurgie Plastique :</h3>
+            <h1>🔬 EXERCICE 4.2C : Méthodes</h1>
+            <div class="timing-box">15 minutes</div>
+
+            <div class="exercise-card">
+                <h3>Méthodes chirurgie plastique :</h3>
+                
+                <div class="two-column">
+                    <div class="card">
+                        <h4>1. Claude</h4>
+                        <div class="prompt-box">
+"Methods section PRS : Study design, patients (inclusion/exclusion), surgical technique (step-by-step), mesures de résultats (PROM + complications), protocole de suivi, statistical analysis. Add CONSORT diagram."
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4>2. ChatGPT Vision + Code</h4>
+                        <div class="prompt-box">
+"Crée :
+- Figure 1: Surgical technique illustrated
+- Figure 2: CONSORT flow diagram
+- Figure 3: Photo grid standardized views
+- Table 1: Demographics and baseline"
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="alert alert-info">
+                <h4>Standards PRS Methods :</h4>
+                <ul>
+                    <li>IRB approval + patient consent</li>
+                    <li>CONSORT/STROBE compliance</li>
+                    <li>Validated PROM (FACE-Q, BREAST-Q)</li>
+                    <li>Standardized photography protocol</li>
+                    <li>Clear inclusion/exclusion criteria</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Slide 9: Exercise 4.2D -->
+        <div class="slide">
+            <h1>📊 EXERCICE 4.2D : Résultats & Discussion</h1>
+            <div class="timing-box">15 minutes</div>
+
+            <div class="exercise-card">
+                <h3>Résultats/Discussion pipeline :</h3>
+                
+                <div class="three-column">
+                    <div class="card">
+                        <h4>1. ChatGPT + Code</h4>
+                        <div class="prompt-box">
+"Transforme data en :
+- Figure complications timeline
+- Graphiques FACE-Q/BREAST-Q pré vs post (p-values)
+- Photo montage standardisé (3x3 grid)
+- Table complications selon Clavien-Dindo"
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4>2. Claude Thinking</h4>
+                        <div class="prompt-box">
+"Discussion PRS :
+- Key findings vs hypothesis
+- Compare nos résultats vs lit (tableau)
+- Innovations techniques apportées
+- Limites : suivi, biais sélection
+- Clinical implications pour chirurgiens"
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4>3. Gemini Scholar</h4>
+                        <div class="prompt-box">
+"Vérifie citations récentes 2024-2025.
+Ajoute études manquées haute importance."
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 10: Exercise 4.3 -->
+        <div class="slide">
+            <h1>✅ EXERCICE 4.3 : Quality Check Multi-IA</h1>
+            <div class="timing-box">15 minutes</div>
+
+            <div class="exercise-card">
+                <h3>Round-robin verification :</h3>
+                
                 <table class="table">
                     <thead>
                         <tr>
-                            <th>Journal</th>
-                            <th>Impact Factor</th>
-                            <th>Délai Publication</th>
-                            <th>Taux Acceptation</th>
+                            <th>Section</th>
+                            <th>Vérifié par</th>
+                            <th>Issues</th>
+                            <th>Fixed?</th>
                         </tr>
                     </thead>
                     <tbody>
+                        <tr><td>Titre</td><td>Gemini</td><td>________</td><td>✓/✗</td></tr>
+                        <tr><td>Abstract</td><td>ChatGPT</td><td>________</td><td>✓/✗</td></tr>
+                        <tr><td>Intro</td><td>Claude</td><td>________</td><td>✓/✗</td></tr>
+                        <tr><td>Methods</td><td>Perplexity</td><td>________</td><td>✓/✗</td></tr>
+                        <tr><td>Results</td><td>ChatGPT</td><td>________</td><td>✓/✗</td></tr>
+                        <tr><td>Discussion</td><td>Claude</td><td>________</td><td>✓/✗</td></tr>
+                        <tr><td>References</td><td>Perplexity</td><td>________</td><td>✓/✗</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="alert alert-success">
+                <h4>Liste de contrôle finale :</h4>
+                <ul>
+                    <li>□ Pas de données patient identifiables</li>
+                    <li>□ Toutes figures haute résolution</li>
+                    <li>□ Références complètes et actuelles</li>
+                    <li>□ Word count respecté</li>
+                    <li>□ Supplementary prêt</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Slide 11: BLOC 2 Overview -->
+        <div class="slide">
+            <h1>📮 BLOC 2 : Stratégie de Soumission</h1>
+            <div class="timing-box">45 minutes</div>
+
+            <div class="three-column">
+                <div class="card">
+                    <h3>🎯 Exercice 4.4</h3>
+                    <div class="timing-box">15 min</div>
+                    <h4>Sélection Journal Optimale</h4>
+                    <ul>
+                        <li>Impact factor 2024</li>
+                        <li>Scope approprié</li>
+                        <li>Taux d'acceptation</li>
+                        <li>Time to decision</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>📝 Exercice 4.5</h3>
+                    <div class="timing-box">15 min</div>
+                    <h4>Cover Letter Parfaite</h4>
+                    <ul>
+                        <li>Structure PRS/ASJ</li>
+                        <li>Innovation emphasis</li>
+                        <li>Impact clinique</li>
+                        <li>Fit journal specifique</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>🚀 Exercice 4.6</h3>
+                    <div class="timing-box">15 min</div>
+                    <h4>Réponses aux Relecteurs</h4>
+                    <ul>
+                        <li>Simulation critiques</li>
+                        <li>Template réponses</li>
+                        <li>Anticipation révisions</li>
+                        <li>Diplomatic tone</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 12: Exercise 4.4 -->
+        <div class="slide">
+            <h1>🎯 EXERCICE 4.4 : Sélection Journal</h1>
+            <div class="timing-box">15 minutes</div>
+
+            <div class="exercise-card">
+                <h3>Sélection journal avec Perplexity :</h3>
+                <div class="prompt-box">
+"Article sur [technique rhinoplastie/reconstruction DIEP/fente].
+Liste 10 journaux appropriés :
+- Impact factor 2024
+- Champ d'application (aesthetic vs reconstructive)
+- Taux d'acceptation
+- Time to first decision
+- OA fees
+- Recent similar papers published"
+                </div>
+            </div>
+
+            <div class="journal-card">
+                <h3>Matrice de sélection :</h3>
+                <table class="table">
+                    <thead>
                         <tr>
-                            <td>PRS</td>
-                            <td>5.2</td>
-                            <td>3-6 mois</td>
-                            <td>~25%</td>
+                            <th>JOURNAL</th>
+                            <th>IF</th>
+                            <th>Accept.%</th>
+                            <th>Review</th>
+                            <th>OA</th>
+                            <th>Champ</th>
+                            <th>RANK</th>
                         </tr>
-                        <tr>
-                            <td>ASJ</td>
-                            <td>4.8</td>
-                            <td>2-4 mois</td>
-                            <td>~30%</td>
-                        </tr>
-                        <tr>
-                            <td>JPRAS</td>
-                            <td>2.7</td>
-                            <td>2-3 mois</td>
-                            <td>~40%</td>
-                        </tr>
-                        <tr>
-                            <td>Annals</td>
-                            <td>2.1</td>
-                            <td>1-3 mois</td>
-                            <td>~45%</td>
-                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>PRS</td><td>~5.2</td><td>Variable</td><td>~45d</td><td>No</td><td>Both</td><td>___</td></tr>
+                        <tr><td>ASJ</td><td>~4.5</td><td>Variable</td><td>~30d</td><td>Yes</td><td>Aesth</td><td>___</td></tr>
+                        <tr><td>JPRAS</td><td>~3.0</td><td>Variable</td><td>~35d</td><td>Yes</td><td>Both</td><td>___</td></tr>
                     </tbody>
                 </table>
             </div>
         </div>
 
-        <!-- Slide 7: Exercise 4.1 Title Transformation -->
+        <!-- Slide 13: Exercise 4.5 -->
         <div class="slide">
-            <h1>🏷️ EXERCICE 4.1 : Titre Impactant</h1>
-            <h2>Transformer votre titre TFE</h2>
-            <div class="before-after">
-                <div class="before-box">
-                    <h3>❌ Titre TFE Typique :</h3>
-                    <p>"Étude comparative de la rhinoplastie ouverte versus fermée : analyse rétrospective de 80 cas"</p>
-                </div>
-                <div class="after-box">
-                    <h3>✅ Titre PRS :</h3>
-                    <p>"Open Versus Closed Rhinoplasty: A Matched Cohort Analysis of Patient-Reported Outcomes and 3D Photogrammetric Results"</p>
+            <h1>📝 EXERCICE 4.5 : Cover Letter Parfaite</h1>
+            <div class="timing-box">15 minutes</div>
+
+            <div class="exercise-card">
+                <h3>Cover letter multi-IA :</h3>
+                
+                <div class="two-column">
+                    <div class="card">
+                        <h4>1. Claude - Structure PRS/ASJ</h4>
+                        <div class="prompt-box">
+"Cover letter pour [PRS/ASJ]. Emphasize :
+- Innovation technique OU large series
+- Résultats rapportés par les patients inclus
+- Implications for plastic surgeons
+- Why this journal specifically"
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4>2. ChatGPT - Persuasion</h4>
+                        <div class="prompt-box">
+"Renforce impact clinique. Mentionne expertise centre/auteurs. Chiffres clés marquants."
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="alert alert-info">
-                <h4>Prompt Perplexity :</h4>
-                <pre>"Analyse les 20 titres d'articles rhinoplastie dans PRS 2024-2025. 
-Identifie patterns gagnants et mots-clés fréquents."</pre>
+
+            <div class="final-card">
+                <h3>Modèle gagnant :</h3>
+                <p>Dear Editors of [Journal],</p>
+                <p>[Hook - Pourquoi maintenant ?]<br>
+                [Contribution unique en 2 phrases]<br>
+                [Fit parfait avec scope journal]<br>
+                [Impact attendu]<br>
+                [Expertise auteurs]</p>
+                <p>Looking forward...</p>
             </div>
         </div>
 
-        <!-- Slide 8: Exercise 4.2 Abstract -->
+        <!-- Slide 14: Exercise 4.6 -->
         <div class="slide">
-            <h1>📄 EXERCICE 4.2 : Abstract 250 Mots</h1>
-            <h2>Pipeline Abstract Parfait</h2>
-            <div class="pipeline-step">
-                <h4>1. Perplexity (5 min)</h4>
-                <p>"Analyse structure abstracts PRS reconstruction mammaire 2025"</p>
-            </div>
-            <div class="pipeline-step">
-                <h4>2. ChatGPT (10 min)</h4>
-                <p>"Transforme mon résumé TFE en abstract structuré PRS 250 mots"</p>
-            </div>
-            <div class="pipeline-step">
-                <h4>3. Claude (5 min)</h4>
-                <p>"Optimise précision chiffres et p-values. Vérifie cohérence."</p>
-            </div>
-            <div class="pipeline-step">
-                <h4>4. Validation (5 min)</h4>
-                <p>Compte mots + Check guidelines journal</p>
-            </div>
-        </div>
+            <h1>🚀 EXERCICE 4.6 : Réponses aux Relecteurs</h1>
+            <div class="timing-box">15 minutes</div>
 
-        <!-- Slide 9: Introduction Formula -->
-        <div class="slide">
-            <h1>🎯 La Formule Introduction PRS</h1>
-            <div class="card">
-                <h2>Structure en 4 paragraphes :</h2>
-                <ol style="font-size: 1.3rem; line-height: 2;">
-                    <li><strong>Hook (3-4 phrases)</strong> : Problème clinique + Statistiques impactantes</li>
-                    <li><strong>État actuel (4-5 phrases)</strong> : Ce qu'on sait + Limites actuelles</li>
-                    <li><strong>Gap (2-3 phrases)</strong> : Ce qui manque + Pourquoi c'est important</li>
-                    <li><strong>Objectif (1-2 phrases)</strong> : "The purpose of this study was to..."</li>
-                </ol>
+            <div class="exercise-card">
+                <h3>Anticiper les critiques - Simulation :</h3>
+                
+                <div class="card">
+                    <h4>Claude (relecteur PRS exigeant) :</h4>
+                    <div class="prompt-box">
+"Agis comme relecteur senior PRS spécialisé [aesthetic/reconstructive].
+Critique mon article sur :
+1. Methodology (taille échantillon, biais, suivi)
+2. Innovation réelle vs incremental
+3. Documentation photo (standardisation, qualité)
+4. Statistical analysis et PROM validity
+5. Conclusions vs results overstatement"
+                    </div>
+                </div>
             </div>
+
             <div class="alert alert-warning">
-                <p><strong>Longueur idéale :</strong> 400-500 mots (1 page manuscrit)</p>
+                <h3>Modèle réponses aux relecteurs :</h3>
+                <p><strong>CRITIQUE 1 :</strong> "Sample size insufficient for subgroup analysis"</p>
+                <p><strong>RÉPONSE :</strong> "We appreciate the relecteur's insight. While our n=80 limits subgroup analysis, it represents the largest single-center series of [technique] to date..."</p>
+                <p><strong>ACTION :</strong> Added post-hoc power calculation (Table S1)</p>
             </div>
         </div>
 
-        <!-- Slide 10: Exercise 4.3 Introduction -->
+        <!-- Slide 15: BLOC 3 Overview -->
         <div class="slide">
-            <h1>✍️ EXERCICE 4.3 : Introduction Pro</h1>
-            <div class="alert alert-success">
-                <h4>Mission complète (20 min) :</h4>
-                <pre>Pipeline:
-1. Perplexity : "Stats ASPS 2024 sur [votre sujet]"
-2. ChatGPT : "Hook percutant problème clinique"  
-3. Claude : "Restructure intro selon formule 4 paragraphes"
-4. Gemini : "Vérifie actualité références et ajoute 2025"</pre>
-            </div>
-            <div class="card">
-                <h3>Checklist qualité :</h3>
-                <div class="checklist-item">
-                    <input type="checkbox"> Hook accrocheur première phrase
-                </div>
-                <div class="checklist-item">
-                    <input type="checkbox"> Statistiques récentes (2024-2025)
-                </div>
-                <div class="checklist-item">
-                    <input type="checkbox"> Gap clairement identifié
-                </div>
-                <div class="checklist-item">
-                    <input type="checkbox"> Objectif précis et mesurable
-                </div>
-            </div>
-        </div>
+            <h1>👥 BLOC 3 : Peer Review et Finalisation</h1>
+            <div class="timing-box">20 minutes</div>
 
-        <!-- Slide 11: Methods Excellence -->
-        <div class="slide">
-            <h1>🔬 Méthodes : Le Cœur Technique</h1>
-            <h2>Standards PRS Methods</h2>
-            <div class="card">
-                <h3>Structure obligatoire :</h3>
-                <ul>
-                    <li><strong>Study Design</strong> : Type, période, approbation éthique</li>
-                    <li><strong>Patient Selection</strong> : Critères inclusion/exclusion clairs</li>
-                    <li><strong>Surgical Technique</strong> : Détails reproductibles + schémas</li>
-                    <li><strong>Outcome Measures</strong> : PROM validés (FACE-Q, BREAST-Q)</li>
-                    <li><strong>Statistical Analysis</strong> : Tests utilisés, logiciel, p-value</li>
-                </ul>
-            </div>
-            <div class="alert alert-danger">
-                <p><strong>Erreur fatale :</strong> Oublier le numéro d'approbation éthique = Rejet automatique</p>
-            </div>
-        </div>
-
-        <!-- Slide 12: Exercise 4.4 Methods -->
-        <div class="slide">
-            <h1>📊 EXERCICE 4.4 : Methods Publication-Ready</h1>
             <div class="two-column">
                 <div class="card">
-                    <h3>Prompt Claude :</h3>
-                    <pre>"Restructure ma section Méthodes 
-selon standards PRS. Ajoute :
-- IRB approval statement
-- CONSORT flow diagram prompts
-- Power calculation
-- Missing data handling"</pre>
+                    <h3>🔄 Exercice 4.7</h3>
+                    <div class="timing-box">15 min</div>
+                    <h4>Peer Review Croisé</h4>
+                    <ul>
+                        <li>Speed review en binômes</li>
+                        <li>Round 1 (5 min)</li>
+                        <li>Round 2 (5 min)</li>
+                        <li>Synthèse (5 min)</li>
+                    </ul>
                 </div>
                 <div class="card">
-                    <h3>Prompt ChatGPT :</h3>
-                    <pre>"Crée figure CONSORT flow 
-diagram avec mes données :
-- Screened: n=120
-- Excluded: n=40
-- Randomized: n=80
-- Lost follow-up: n=5"</pre>
+                    <h3>✅ Exercice 4.8</h3>
+                    <div class="timing-box">5 min</div>
+                    <h4>Soumission Test</h4>
+                    <ul>
+                        <li>Simulation soumission</li>
+                        <li>Upload documents</li>
+                        <li>Vérifier formatting</li>
+                        <li>NE PAS soumettre!</li>
+                    </ul>
                 </div>
             </div>
         </div>
 
-        <!-- Slide 13: Results Visual Impact -->
+        <!-- Slide 16: Exercise 4.7 -->
         <div class="slide">
-            <h1>📈 Résultats : L'Impact Visuel</h1>
-            <h2>La règle des 3T</h2>
-            <div class="three-column">
-                <div class="card">
-                    <h3>Text</h3>
-                    <p>Narratif clair des findings principaux</p>
-                </div>
-                <div class="card">
-                    <h3>Tables</h3>
-                    <p>Données démographiques et outcomes</p>
-                </div>
-                <div class="card">
-                    <h3>Figures</h3>
-                    <p>Photos avant/après + graphiques</p>
+            <h1>🔄 EXERCICE 4.7 : Peer Review Croisé</h1>
+            <div class="timing-box">15 minutes</div>
+
+            <div class="exercise-card">
+                <h3>Speed peer review en binômes :</h3>
+                
+                <div class="three-column">
+                    <div class="card">
+                        <h4>Round 1 (5 min)</h4>
+                        <ul>
+                            <li>Échanger articles transformés</li>
+                            <li>Review rapide avec liste de contrôle journal</li>
+                            <li>3 forces, 3 améliorations</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4>Round 2 (5 min)</h4>
+                        <ul>
+                            <li>Nouveau binôme</li>
+                            <li>Focus différent aspect</li>
+                            <li>Suggestions concrètes</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4>Synthèse (5 min)</h4>
+                        <ul>
+                            <li>Compiler retours reçus</li>
+                            <li>Prioriser corrections</li>
+                            <li>Actions immédiates</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+
             <div class="alert alert-info">
-                <p><strong>Règle d'or :</strong> Chaque figure/table doit pouvoir être comprise indépendamment du texte</p>
-            </div>
-        </div>
-
-        <!-- Slide 14: Exercise 4.5 Figures -->
-        <div class="slide">
-            <h1>🖼️ EXERCICE 4.5 : Figures Professionnelles</h1>
-            <h2>Pipeline création figures PRS</h2>
-            <div class="alert alert-warning">
-                <h4>Mission ChatGPT + Code :</h4>
-                <pre>"Avec mes données CSV [PROM scores], crée :
-1. Figure 1: Box plots pré/post op avec p-values
-2. Figure 2: Timeline recovery avec IC 95%
-3. Figure 3: Montage photos standardisé 3x3
-Style: Arial 12pt, résolution 300 DPI, fond blanc"</pre>
-            </div>
-            <div class="card">
-                <h3>Standards photos chirurgie plastique :</h3>
+                <h4>Points d'évaluation peer review :</h4>
                 <ul>
-                    <li>📐 Angles standardisés (0°, 45°, 90°, oblique)</li>
-                    <li>🔲 Background uniforme bleu medical</li>
-                    <li>📏 Règle dans le champ</li>
-                    <li>🔒 Yeux masqués barre noire</li>
+                    <li>Clarté titre et abstract</li>
+                    <li>Innovation mise en avant</li>
+                    <li>Méthodologie rigoureuse</li>
+                    <li>Figures et tableaux professionnels</li>
+                    <li>Discussion équilibrée</li>
                 </ul>
             </div>
         </div>
 
-        <!-- Slide 15: Discussion Mastery -->
+        <!-- Slide 17: Exercise 4.8 -->
         <div class="slide">
-            <h1>💭 Discussion : L'Art de l'Interprétation</h1>
-            <div class="card">
-                <h2>Structure en 5 parties :</h2>
-                <ol>
-                    <li><strong>Résumé findings clés</strong> (1 paragraphe)</li>
-                    <li><strong>Comparaison littérature</strong> (2-3 paragraphes)</li>
-                    <li><strong>Implications cliniques</strong> (1-2 paragraphes)</li>
-                    <li><strong>Limites</strong> (1 paragraphe honnête)</li>
-                    <li><strong>Futures directions</strong> (1 paragraphe visionnaire)</li>
-                </ol>
+            <h1>✅ EXERCICE 4.8 : Soumission Test</h1>
+            <div class="timing-box">5 minutes</div>
+
+            <div class="exercise-card">
+                <h3>Simulation soumission réelle :</h3>
+                
+                <div class="card">
+                    <ol>
+                        <li><strong>Créer compte journal</strong> (si pas déjà fait)</li>
+                        <li><strong>Naviguer système soumission</strong></li>
+                        <li><strong>Uploader tous documents</strong></li>
+                        <li><strong>Vérifier formatting final</strong></li>
+                        <li><strong>NE PAS soumettre</strong> (sauf si prêt !)</li>
+                    </ol>
+                </div>
             </div>
-            <div class="alert alert-success">
-                <p><strong>Longueur idéale :</strong> 1000-1500 mots (éviter le roman!)</p>
+
+            <div class="alert alert-warning">
+                <h3>Liste de contrôle soumission :</h3>
+                <div class="two-column">
+                    <ul>
+                        <li>□ Manuscript format journal (Word + PDF)</li>
+                        <li>□ Photos haute résolution (TIFF 300 DPI)</li>
+                        <li>□ Consent photos publication signé</li>
+                        <li>□ Tableaux résultats + complications</li>
+                        <li>□ Cover letter personnalisée</li>
+                        <li>□ Video technique (si innovative)</li>
+                    </ul>
+                    <ul>
+                        <li>□ CONSORT/STROBE liste de contrôle</li>
+                        <li>□ Ethical approval + trial registration</li>
+                        <li>□ Patient consent forms statement</li>
+                        <li>□ Conflict of interest (implants? lasers?)</li>
+                        <li>□ ORCID tous auteurs</li>
+                    </ul>
+                </div>
             </div>
         </div>
 
-        <!-- Slide 16: Exercise 4.6 Discussion -->
+        <!-- Slide 18: BLOC 4 Overview -->
         <div class="slide">
-            <h1>🎯 EXERCICE 4.6 : Discussion Nuancée</h1>
-            <div class="pipeline-step">
-                <h4>Claude Thinking Mode (15 min) :</h4>
-                <pre>"Utilise thinking mode pour enrichir ma discussion TFE.
-Explore implications non évidentes, biais potentiels,
-et applications futures en chirurgie régénérative."</pre>
-            </div>
+            <h1>🔍 BLOC 4 : Auto-Évaluation et Réflexion Profonde</h1>
+            <div class="timing-box">20 minutes</div>
+
             <div class="two-column">
                 <div class="card">
-                    <h3>Avant :</h3>
-                    <p>"Nos résultats montrent que la technique A est meilleure que B."</p>
+                    <h3>💭 Exercice 4.10</h3>
+                    <div class="timing-box">10 min</div>
+                    <h4>Évaluation Avant/Après</h4>
+                    <ul>
+                        <li>Compétences AI - Échelle progression</li>
+                        <li>Score total /80</li>
+                        <li>Moments de révélation</li>
+                        <li>Gains quantifiables</li>
+                    </ul>
                 </div>
                 <div class="card">
-                    <h3>Après :</h3>
-                    <p>"While our findings suggest superiority of technique A in terms of patient-reported satisfaction (p<0.001), the clinical significance must be interpreted within the context of..."</p>
+                    <h3>🎯 Exercice 4.11</h3>
+                    <div class="timing-box">10 min</div>
+                    <h4>Réflexion Guidée - Cycle de Gibbs</h4>
+                    <ul>
+                        <li>Description transformation</li>
+                        <li>Ressenti personnel</li>
+                        <li>Évaluation succès/difficultés</li>
+                        <li>Analyse pourquoi</li>
+                        <li>Conclusion apprentissages</li>
+                    </ul>
                 </div>
             </div>
+
         </div>
 
-        <!-- Slide 17: References Management -->
+        <!-- Slide 19: Exercise 4.10 -->
         <div class="slide">
-            <h1>📚 Références : La Crédibilité</h1>
-            <h2>Standards 2025</h2>
-            <div class="card">
-                <h3>Règles d'or :</h3>
-                <ul>
-                    <li>📅 50% références < 5 ans</li>
-                    <li>🌟 Inclure articles fondateurs ET récents</li>
-                    <li>🎯 30-50 références pour article original</li>
-                    <li>✅ Vérifier CHAQUE citation</li>
-                    <li>🔄 Style Vancouver ou journal spécifique</li>
-                </ul>
-            </div>
-            <div class="alert alert-danger">
-                <h3>⚠️ Piège mortel :</h3>
-                <p>Les "phantom references" générées par IA = Rejet + Blacklist</p>
-            </div>
-        </div>
+            <h1>💭 EXERCICE 4.10 : Évaluation Avant/Après</h1>
+            <div class="timing-box">10 minutes</div>
 
-        <!-- Slide 18: Exercise 4.7 References -->
-        <div class="slide">
-            <h1>📖 EXERCICE 4.7 : Références Parfaites</h1>
-            <div class="alert alert-info">
-                <h4>Workflow sécurisé :</h4>
-                <pre>1. Perplexity : "Trouve 10 références clés [technique] 2023-2025"
-2. Vérification manuelle PubMed (OBLIGATOIRE)
-3. Zotero/Mendeley : Import et formatting auto
-4. ChatGPT : "Vérifie cohérence style Vancouver"</pre>
-            </div>
-            <div class="card">
-                <h3>Checklist finale :</h3>
-                <div class="checklist-item">
-                    <input type="checkbox"> Chaque référence existe vraiment
-                </div>
-                <div class="checklist-item">
-                    <input type="checkbox"> Années de publication correctes
-                </div>
-                <div class="checklist-item">
-                    <input type="checkbox"> Formatting uniforme
-                </div>
-                <div class="checklist-item">
-                    <input type="checkbox"> Ordre numérique/alphabétique correct
-                </div>
-            </div>
-        </div>
-
-        <!-- Slide 19: Cover Letter Magic -->
-        <div class="slide">
-            <h1>✉️ La Cover Letter Qui Ouvre les Portes</h1>
-            <h2>Template gagnant</h2>
-            <div class="card">
-                <h3>Structure en 4 paragraphes :</h3>
-                <ol>
-                    <li><strong>Présentation</strong> : Titre + pourquoi ce journal</li>
-                    <li><strong>Innovation</strong> : Ce qui est nouveau/unique</li>
-                    <li><strong>Impact</strong> : Pourquoi c'est important MAINTENANT</li>
-                    <li><strong>Fit</strong> : Alignement avec scope du journal</li>
-                </ol>
-            </div>
-            <div class="alert alert-warning">
-                <p><strong>Longueur :</strong> 1 page maximum, personnalisée pour l'éditeur</p>
-            </div>
-        </div>
-
-        <!-- Slide 20: Exercise 4.8 Cover Letter -->
-        <div class="slide">
-            <h1>📮 EXERCICE 4.8 : Cover Letter Persuasive</h1>
-            <div class="alert alert-success">
-                <h4>Prompt Claude optimal :</h4>
-                <pre>"Rédige cover letter pour PRS. Mon article porte sur [sujet].
-Points uniques : [innovation]. Cible : Editor-in-Chief Rod Rohrich.
-Ton : professionnel mais engageant. Maximum 300 mots."</pre>
-            </div>
-            <div class="card">
-                <h3>Phrases d'accroche testées :</h3>
-                <ul>
-                    <li>"This manuscript presents the first comparative analysis of..."</li>
-                    <li>"We believe this work addresses a critical gap in..."</li>
-                    <li>"Our findings challenge the current paradigm of..."</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- Slide 21: Final Checklist -->
-        <div class="slide">
-            <h1>✅ BLOC 3 : Checklist Finale Pré-Soumission</h1>
-            <div class="submission-timeline">
-                <h2>Les 10 Commandements</h2>
-                <div class="checklist-item">
-                    <input type="checkbox"> 1. Guidelines journal relues 3 fois
-                </div>
-                <div class="checklist-item">
-                    <input type="checkbox"> 2. Word count respecté (±5%)
-                </div>
-                <div class="checklist-item">
-                    <input type="checkbox"> 3. Figures haute résolution (300 DPI)
-                </div>
-                <div class="checklist-item">
-                    <input type="checkbox"> 4. Supplementary materials prêts
-                </div>
-                <div class="checklist-item">
-                    <input type="checkbox"> 5. Auteurs et affiliations vérifiés
-                </div>
-                <div class="checklist-item">
-                    <input type="checkbox"> 6. Conflits d'intérêts déclarés
-                </div>
-                <div class="checklist-item">
-                    <input type="checkbox"> 7. Funding statement inclus
-                </div>
-                <div class="checklist-item">
-                    <input type="checkbox"> 8. Ethical approval mentionné
-                </div>
-                <div class="checklist-item">
-                    <input type="checkbox"> 9. ICMJE forms signés
-                </div>
-                <div class="checklist-item">
-                    <input type="checkbox"> 10. Suggested reviewers (3-5)
-                </div>
-            </div>
-        </div>
-
-        <!-- Slide 22: Submission Timeline -->
-        <div class="slide">
-            <h1>📅 Timeline Post-Soumission</h1>
-            <div class="submission-timeline">
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div>
-                        <strong>Jour 0 :</strong> Soumission
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div>
-                        <strong>Jour 7-14 :</strong> Accusé réception
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div>
-                        <strong>Semaine 4-8 :</strong> Première décision (desk reject ou reviewers)
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div>
-                        <strong>Semaine 8-12 :</strong> Reviews retour
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div>
-                        <strong>+2 semaines :</strong> Révisions soumises
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div>
-                        <strong>+4 semaines :</strong> Décision finale
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Slide 23: Reviewer Response -->
-        <div class="slide">
-            <h1>💬 Répondre aux Reviewers avec IA</h1>
-            <div class="card">
-                <h2>Template réponse gagnante :</h2>
-                <pre>"Dear Editor and Reviewers,
-
-We thank the reviewers for their constructive comments. 
-We have addressed all concerns point-by-point below.
-
-**Reviewer 1:**
-Comment: [copier commentaire]
-Response: We agree with the reviewer and have [action taken].
-This can be found on page X, lines Y-Z.
-
-[Répéter pour chaque commentaire]"</pre>
-            </div>
-            <div class="alert alert-info">
-                <p><strong>Astuce Claude :</strong> "Aide-moi à répondre professionnellement à ce commentaire négatif tout en défendant notre méthodologie"</p>
-            </div>
-        </div>
-
-        <!-- Slide 24: Success Metrics -->
-        <div class="slide">
-            <h1>📊 Mesurer Votre Succès</h1>
-            <div class="journal-card">
-                <h2>KPIs de Publication</h2>
+            <div class="exercise-card">
+                <h3>Compétences AI - Échelle de Progression (1-5)</h3>
+                
                 <table class="table">
                     <thead>
                         <tr>
-                            <th>Métrique</th>
-                            <th>Avant IA</th>
-                            <th>Avec IA</th>
-                            <th>Gain</th>
+                            <th>Compétences</th>
+                            <th>AVANT</th>
+                            <th>APRÈS</th>
+                            <th>GAIN</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>Temps TFE→Article</td>
-                            <td>6 mois</td>
-                            <td>2 semaines</td>
-                            <td>92%</td>
-                        </tr>
-                        <tr>
-                            <td>Taux acceptation</td>
-                            <td>25%</td>
-                            <td>65%</td>
-                            <td>+40%</td>
-                        </tr>
-                        <tr>
-                            <td>Révisions majeures</td>
-                            <td>80%</td>
-                            <td>30%</td>
-                            <td>-50%</td>
-                        </tr>
-                        <tr>
-                            <td>Impact factor moyen</td>
-                            <td>2.5</td>
-                            <td>4.8</td>
-                            <td>+92%</td>
-                        </tr>
+                        <tr><td>Formulation prompts efficaces</td><td>[ ]</td><td>[ ]</td><td>[ ]</td></tr>
+                        <tr><td>Utilisation ChatGPT rédaction</td><td>[ ]</td><td>[ ]</td><td>[ ]</td></tr>
+                        <tr><td>Analyse photos cliniques avec AI</td><td>[ ]</td><td>[ ]</td><td>[ ]</td></tr>
+                        <tr><td>Détection hallucinations/erreurs</td><td>[ ]</td><td>[ ]</td><td>[ ]</td></tr>
+                        <tr><td>Flux de travail multi-IA</td><td>[ ]</td><td>[ ]</td><td>[ ]</td></tr>
+                        <tr><td>Transformation TFE→Publication</td><td>[ ]</td><td>[ ]</td><td>[ ]</td></tr>
+                        <tr><td>Confiance utilisation quotidienne</td><td>[ ]</td><td>[ ]</td><td>[ ]</td></tr>
                     </tbody>
                 </table>
             </div>
-        </div>
 
-        <!-- Slide 25: Your Transformation -->
-        <div class="slide">
-            <h1>🎯 VOTRE Transformation Aujourd'hui</h1>
-            <h2>Checklist personnelle</h2>
-            <div class="final-card">
-                <h3>À la fin de cette session, j'aurai :</h3>
-                <div class="checklist-item">
-                    <input type="checkbox"> Transformé mon titre en version impactante
-                </div>
-                <div class="checklist-item">
-                    <input type="checkbox"> Créé un abstract 250 mots PRS-ready
-                </div>
-                <div class="checklist-item">
-                    <input type="checkbox"> Réécrit mon introduction avec hook puissant
-                </div>
-                <div class="checklist-item">
-                    <input type="checkbox"> Optimisé mes méthodes avec tous les standards
-                </div>
-                <div class="checklist-item">
-                    <input type="checkbox"> Généré au moins 3 figures professionnelles
-                </div>
-                <div class="checklist-item">
-                    <input type="checkbox"> Enrichi ma discussion avec thinking mode
-                </div>
-                <div class="checklist-item">
-                    <input type="checkbox"> Préparé ma cover letter persuasive
-                </div>
-            </div>
-        </div>
-
-        <!-- Slide 26: Integration in Practice -->
-        <div class="slide">
-            <h1>🏥 Intégration dans Votre Pratique</h1>
-            <h2>Au-delà du TFE</h2>
-            <div class="three-column">
-                <div class="card">
-                    <h3>Quotidien Clinique</h3>
-                    <ul>
-                        <li>Comptes-rendus op</li>
-                        <li>Lettres confrères</li>
-                        <li>Protocoles</li>
-                        <li>Consentements</li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <h3>Recherche Continue</h3>
-                    <ul>
-                        <li>Case reports</li>
-                        <li>Séries de cas</li>
-                        <li>Revues systématiques</li>
-                        <li>Méta-analyses</li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <h3>Carrière</h3>
-                    <ul>
-                        <li>CV optimisé</li>
-                        <li>Présentations</li>
-                        <li>Grants/bourses</li>
-                        <li>Réseautage</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <!-- Slide 27: Community -->
-        <div class="slide">
-            <h1>🤝 Votre Communauté IA Continue</h1>
-            <div class="card">
-                <h2>Restez connectés :</h2>
-                <ul>
-                    <li>📱 <strong>WhatsApp Groupe</strong> : Partage continu de workflows</li>
-                    <li>📧 <strong>Newsletter mensuelle</strong> : Nouveautés IA médicale</li>
-                    <li>🎯 <strong>Sessions avancées</strong> : Workshops spécialisés</li>
-                    <li>🏆 <strong>Success stories</strong> : Célébrer vos publications</li>
-                </ul>
-            </div>
             <div class="alert alert-success">
-                <p><strong>Engagement :</strong> Partager votre première publication IA-assistée avec le groupe!</p>
-            </div>
-        </div>
-
-        <!-- Slide 28: Final Challenge -->
-        <div class="slide">
-            <h1>🏆 Challenge Final : Mock Submission</h1>
-            <h2>Les 30 dernières minutes</h2>
-            <div class="journal-card">
-                <h3>Mission ultime :</h3>
-                <ol style="font-size: 1.3rem; line-height: 2;">
-                    <li>Choisir UNE section de votre TFE</li>
-                    <li>Appliquer le pipeline complet de transformation</li>
-                    <li>Comparer avant/après</li>
-                    <li>Présenter au groupe (2 min chacun)</li>
-                    <li>Voter pour la meilleure transformation</li>
+                <h3>Mes 3 principales découvertes :</h3>
+                <ol>
+                    <li>"Ma découverte la plus marquante..." → Impact sur ma pratique: _____</li>
+                    <li>"Ce que j'ignorais..." → Ce que ça change: _____</li>
+                    <li>"Ce qui m'a le plus surpris..." → Application immédiate: _____</li>
                 </ol>
             </div>
-            <div class="text-center">
-                <div class="success-badge">🥇 Prix : Mention dans la newsletter</div>
+        </div>
+
+        <!-- Slide 20: Exercise 4.11 -->
+        <div class="slide">
+            <h1>🎯 EXERCICE 4.11 : Réflexion Gibbs</h1>
+            <div class="timing-box">10 minutes</div>
+
+            <div class="exercise-card">
+                <h3>Réflexion structurée sur votre transformation TFE :</h3>
+                
+                <div class="card">
+                    <h4>1. DESCRIPTION - Qu'est-ce qui s'est passé?</h4>
+                    <p>"Mon TFE initial était..." / "Après transformation AI, il est devenu..."</p>
+                    
+                    <h4>2. RESSENTI - Comment je me sens?</h4>
+                    <p>"Au début, j'étais ___ face à l'AI" / "Maintenant, je ressens ___"</p>
+                    
+                    <h4>3. ÉVALUATION - Qu'est-ce qui a bien/mal fonctionné?</h4>
+                    <p>✓ Mes 3 réussites principales : ___</p>
+                    <p>⚠ Mes 2 difficultés persistantes : ___</p>
+                    
+                    <h4>4. ANALYSE - Pourquoi ces résultats?</h4>
+                    <p>"L'AI a été particulièrement efficace pour ___ parce que..."</p>
+                    
+                    <h4>5. CONCLUSION - Qu'ai-je vraiment appris?</h4>
+                    <p>"La leçon principale pour moi:" / "Ce que je ferai différemment:"</p>
+                </div>
             </div>
         </div>
 
-        <!-- Slide 29: Key Takeaways -->
+        <!-- Slide 21: Conclusion -->
         <div class="slide">
-            <h1>🎯 Les 10 Clés de Votre Succès</h1>
+            <h1>🎊 Votre TFE est Transformé!</h1>
+            
             <div class="final-card">
-                <ol style="font-size: 1.2rem; line-height: 2;">
-                    <li>L'IA est un <strong>multiplicateur</strong>, pas un remplaçant</li>
-                    <li>Combinez les <strong>4 outils</strong> selon leurs forces</li>
-                    <li><strong>Vérifiez</strong> toujours les sources et données</li>
-                    <li>Gardez votre <strong>voix</strong> et expertise</li>
-                    <li>Respectez l'<strong>éthique</strong> et la transparence</li>
-                    <li>Documentez vos <strong>workflows</strong> gagnants</li>
-                    <li>Partagez avec la <strong>communauté</strong></li>
-                    <li>Itérez et <strong>améliorez</strong> continuellement</li>
-                    <li>Célébrez chaque <strong>publication</strong></li>
-                    <li>Restez <strong>curieux</strong> des nouveautés</li>
-                </ol>
+                <h2>Mission Accomplie ?</h2>
+                <p>Vous avez maintenant un article prêt pour soumission PRS/ASJ/JPRAS</p>
+                <div class="success-badge">✅ TFE → Article Publication-Ready</div>
             </div>
-        </div>
 
-        <!-- Slide 30: Closing -->
-        <div class="slide">
-            <h1>🎊 Félicitations!</h1>
-            <div class="text-center">
-                <h2>Vous êtes maintenant des Chirurgiens-Chercheurs Augmentés</h2>
-                <div class="final-card">
-                    <h3>Votre mission continue :</h3>
-                    <p style="font-size: 1.3rem;">Transformer l'excellence chirurgicale en publications d'impact</p>
-                    <div class="transformation-arrow">⬇️</div>
-                    <p style="font-size: 1.5rem; font-weight: bold;">Go forth and publish! 🚀</p>
-                </div>
-                <div class="alert alert-info">
-                    <p><strong>Contact support :</strong> Formation Continue ULB</p>
-                    <p><strong>Prochaine cohorte :</strong> Inscriptions ouvertes</p>
+            <div class="alert alert-info">
+                <h3>📊 Résultats Session 4 :</h3>
+                <div class="two-column">
+                    <div>
+                        <h4>✅ Livrables concrets :</h4>
+                        <ul>
+                            <li>TFE transformé pour PRS/ASJ/JPRAS</li>
+                            <li>Photos standardisées haute résolution</li>
+                            <li>Abstract optimisé avec PROM intégrés</li>
+                            <li>Cover letter spécifique journal</li>
+                            <li>Anticipation critiques méthodo</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>🚀 Compétences acquises :</h4>
+                        <ul>
+                            <li>Maîtrise processus photo-texte-stats</li>
+                            <li>Sélection journal selon scope</li>
+                            <li>Gestion relecteurs techniques</li>
+                            <li>Intégration PROM standards</li>
+                            <li>Confiance soumission internationale</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+
         </div>
     </div>
 
